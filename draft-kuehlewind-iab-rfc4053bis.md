@@ -273,10 +273,6 @@ This document describes the procedure for generating and handling
    statements, the IETF will offer three electronically accessible
    facilities: a form for submission of liaison statements, a mechanism
    organizing their contents and making them accessible, and a tracking
-
-Trowbridge, et al.       Best Current Practice                  [Page 7]
-RFC 4053             Handling of Liaison Statements           April 2005
-
    system.  Initially, the tracking system will be a manual procedure
    used by the liaison manager; in the future, this should be automated.
 
