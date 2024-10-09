@@ -587,7 +587,6 @@ This document has no IANA actions.
 --- back
 
 # Implementation Road Map
-<!---{:numbered="false"}--->
 
    This section documents the development program as of the time of the
    writing of this document.  It is not normative.
