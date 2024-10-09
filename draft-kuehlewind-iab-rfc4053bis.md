@@ -52,7 +52,7 @@ This document describes the procedure for generating and handling
    whether or not a formal liaison arrangement is in place between the
    SDO and the IETF.  The IETF is not obligated to respond to the
    liaison statement where there is no formal liaison arrangement.
-
+   
    The implementation of the procedure and supporting tools is occurring
    in a minimum of three phases.  The initial phase has been the
    development of a prototype (in the best tradition of "rough consensus
@@ -587,7 +587,7 @@ This document has no IANA actions.
 --- back
 
 # Implementation Road Map
-{:numbered="false"}
+<!---{:numbered="false"}--->
 
    This section documents the development program as of the time of the
    writing of this document.  It is not normative.
