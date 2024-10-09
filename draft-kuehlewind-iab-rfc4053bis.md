@@ -566,10 +566,6 @@ RFC 4053             Handling of Liaison Statements           April 2005
 
 This document has no IANA actions.
 
-
-
---- back
-
 # Acknowledgments
 {:numbered="false"}
 
@@ -587,6 +583,8 @@ This document has no IANA actions.
    Barbara Fuller, Sunny Lee, and Michael Lee developed a prototype and
    commented in detail on the document.  Their inputs directly resulted
    in the appendices describing the implementation road map.
+
+--- back
 
 # Implementation Road Map
 {:numbered="false"}
