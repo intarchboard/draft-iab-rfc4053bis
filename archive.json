@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-08T00:42:50.309630+00:00",
+  "timestamp": "2024-10-10T00:42:50.096994+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -49,6 +49,71 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOMUjnl86ZidYQ",
+      "title": "Remove tool specification from RFC",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/1",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "RFC4053 goes overly into details about the tooling which makes it hard to adjust the tool. Therefore these parts should be removed. This is mainly section 2.2, some parts of 3 and the appendix. Instead I proposed to put some high-level tooling requirements into the appendix, e.g. like it must be possible to upload attachments...",
+      "createdAt": "2024-10-09T13:29:08Z",
+      "updatedAt": "2024-10-09T13:55:50Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOMUjnl86ZieZM",
+      "title": "IETF is not obligated to reply",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/2",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "The RFC says that the IETF is not obligated to reply, except there is an official liaison relationship. I think we are never obligated to reply; the relationship doesn't change that. however if we have a liaison manager, the liaison manager is expected to handle the LS in some way and e.g. communicate back if no reply will be sent.",
+      "createdAt": "2024-10-09T13:30:48Z",
+      "updatedAt": "2024-10-09T13:30:48Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOMUjnl86ZifKA",
+      "title": "Respond contact and technical contact are unclear",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/3",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Propose is to only have the \"from\" contact. Currently the tooling also has CC. Do we need that? might be useful because it should map to email?",
+      "createdAt": "2024-10-09T13:32:03Z",
+      "updatedAt": "2024-10-09T13:32:03Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOMUjnl86ZihHk",
+      "title": "What are the requirements on recording LS?",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/4",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Currently the RFC says: \"A liaison statement is a temporary document\". however, it is probably important to keep a record and we might want to revise this section",
+      "createdAt": "2024-10-09T13:35:22Z",
+      "updatedAt": "2024-10-09T13:35:22Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
