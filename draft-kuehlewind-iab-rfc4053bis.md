@@ -91,12 +91,10 @@ and needs to carry some information of the sender for context and
 to send a reply. This document furher assumes that liaison statements are
 send by email in some form. Therefor the following envolope information
 are expected as part of any liaison statement:
-   
 From: The statement will indicate from what body it originates; for
   example, it may be from, an IETF WG or Area, an ITU-T Study Group,
   Working Party, or Question, etc.  In this document, this body is the
   "sender".
-  
 To: The statement will indicate to which body it is.  In this document,
   this body is the "addressee".
 
