@@ -55,30 +55,9 @@ This document describes the procedure for generating and handling
    SDO and the IETF.  The IETF is not obligated to respond to the
    liaison statement where there is no formal liaison arrangement.
 
-   The implementation of the procedure and supporting tools is occurring
-   in a minimum of three phases.  The initial phase has been the
-   development of a prototype (in the best tradition of "rough consensus
-   and running code"), by Sunny Lee of Foretec, in parallel with the
-   development of this specification.  The second phase is the
-   conversion of that prototype to an operational tool.  This
-   operational tool lacks an automated tracking tool; rather, the
-   liaison manager implements it in his or her own way.  The third phase
-   will include that tracking tool.
 
-   The specific supporting tools and their functionality described in
-   this document are one possible way of providing automated support for
-   the processes described in this document.  Because specific tools and
-   their functionality will change over time, the descriptions in this
-   document are to be considered examples only and are not a normative
-   part of this specification.
 
-# Liaison Statements and Their Handling
-
-   Let us first define what a liaison statement is (and is not), and set
-   reasonable expectations.  The expectations in this section are
-   normative for a liaison statement sent by any SDO to the IETF.
-
-##  Definitions
+#  Definitions
 
    For purposes of clarity, we use the following definitions:
 
@@ -97,102 +76,71 @@ This document describes the procedure for generating and handling
       defined by sections 2.2 and 3 in [RFC4052].
 
    Liaison statement: A letter as described in this document, exchanged
-      between organizations.
+      between organizations. These organizations may be at any level
+      (WG, Area, etc.)   Generally, the sender and receiver are peer
+      organizations.  A liaison statement may have any purpose, but
+      generally the purpose is to solicit information, make a comment or
+      request an action.
 
-##  Liaison Statements
+#  Contents of a Liaison Statement
 
-   A Liaison Statement is a business letter sent by one standards
-   organization to another.  These organizations may be at any level
-   (WG, Area, etc.)   Generally, the sender and receiver are peer
-   organizations.  A liaison statement may have any purpose, but
-   generally the purpose is to solicit information, make a comment or
-   request an action.
+Liaison statements may be very formal or informal, depending on the
+rules of the body generating them. However, any kind of business
+letter needs to be transmitted in some form to the addressed body
+and needs to carry some information of the sender for context and
+to send a reply. This document furher assumes that liaison statements are
+send by email in some form. Therefor the following envolope information
+are expected as part of any liaison statement:
+   
+From: The statement will indicate from what body it originates; for
+  example, it may be from, an IETF WG or Area, an ITU-T Study Group,
+  Working Party, or Question, etc.  In this document, this body is the
+  "sender".
+  
+To: The statement will indicate to which body it is.  In this document,
+  this body is the "addressee".
 
-###  Contents of a Liaison Statement
+Further liaison statement often contain the following information
+in some form that should be recorded:
 
-   Liaison statements may be very formal or informal, depending on the
-   rules of the body generating them.  Any liaison statement, however,
-   will always contain certain information, much as an business letter
-   does.  This information will include the following:
-
-####  Envelope Information
-
-   The following fields detail properties of the liaison statement.
-
-#####  From:
-
-   The statement will indicate from what body it originates; for
-   example, it may be from, an IETF WG or Area, an ITU-T Study Group,
-   Working Party, or Question, etc.  In this document, this body is the
-   "sender".
-
-##### To:
-
-   The statement will indicate to which body it is.  In this document,
-   this body is the "addressee".
-
-##### Title:
-
-   The statement will contain a short (usually single line) statement of
+Title: The statement will contain a short (usually single line) statement of
    its context and content.
 
-##### Response Contact:
-
-   The sender will indicate the electronic mail address to which any
+Response Contact: The sender will indicate the electronic mail address to which any
    response should be sent.
 
-##### Technical Contact:
-
-   The sender will indicate one or more electronic mail addresses
+Technical Contact: The sender will indicate one or more electronic mail addresses
    (persons or lists) that may be contacted for clarification of the
    liaison statement.
 
-##### Purpose:
-
-   A liaison statement generally has one of three purposes and will
+Purpose: A liaison statement generally has one of three purposes and will
    clearly state its purpose using one of the following labels:
 
-   For Information: The liaison statement is to inform the addressee of
+- For Information: The liaison statement is to inform the addressee of
       something, and expects no response.
-
-   For Comment: The liaison statement requests commentary from the
+- For Comment: The liaison statement requests commentary from the
       addressee, usually within a stated time frame.
-
-   For Action: The liaison statement requests that the addressee do
+- For Action: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
       frame.
 
-   In Response: The liaison statement includes a response to a liaison
+In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
-##### Deadline:
-
-   Liaison statements that request comment or action will indicate when
+Deadline: Liaison statements that request comment or action will indicate when
    the comment or action is required.  If the addressee cannot
    accomplish the request within the stated period, courtesy calls for a
    response offering a more doable deadline or an alternative course of
    action.
 
-##### Liaison Content
+Body: As with any business letter, the liaison statement contains
+   appropriate content explaining the issues or questions at hand. The
+   body itself may be empty if a liaison statement from another organisation
+   as attachement. Liaison statments sent from the IETF are encouraged
+   to send text directly in the body.
 
-   The following fields are the substance of the liaison statement.
-   IETF participants use a wide variety of systems, thus document
-   formats that are not universally readable are problematic.  As a
-   result, documents enclosed with the body or attachments should be in
-   PDF, W3C HTML (without proprietary extensions), or ASCII text format.
-   If they were originally in a proprietary format such as Microsoft
-   Word, the file may be sent, but should be accompanied by a generally
-   readable file.
-
-##### Body:
-
-   As with any business letter, the liaison statement contains
-   appropriate content explaining the issues or questions at hand.
-
-##### Attachments:
-
-   Attachments, if enclosed, may be in the form of documents sent with
+Attachments: Attachments, if enclosed, may be in the form of documents sent with
    the liaison statement or may be URLs to similar documents including
    Internet Drafts.
 
@@ -261,101 +209,19 @@ This document describes the procedure for generating and handling
    relevant, but do so in a manner obviously distinct from current
    liaison statements.
 
-#  Tools for Handling Liaison Statements
-
-   Some tools have been developed for the IETF.  Development is expected
-   to continue.  This section describes the basic tool and its intended
-   use.
+#  Handling Liaison Statements
 
 ##  Liaison Statements from Other SDOs, Consortia, and Fora to IETF
 
-   The process of handling a liaison statement is more weighty than
-   handling a business letter because it is important to a relationship
-   with another SDO established by the IAB.  To manage liaison
-   statements, the IETF will offer three electronically accessible
-   facilities: a form for submission of liaison statements, a mechanism
-   organizing their contents and making them accessible, and a tracking
-   system.  Initially, the tracking system will be a manual procedure
-   used by the liaison manager; in the future, this should be automated.
-
-###  Liaison Statement Submission
-
-   The IETF Secretariat will provide an electronic method for submission
-   of liaison statements.
-
-   The liaison statement submission mechanism is a form that requests
-   the information listed in Section 2.2.1 from the user.
-
-   Submission of that information results in the following actions:
-
-   o  creation of a display mechanism containing the envelope data in
-      Section 2.2.1.1 and URLs pointing to the items from
-      Section 2.2.1.2, an indication whether the liaison statement has
-      been replied to, and if so, on what date,
-
-   o  the addition of a URL to the "outstanding liaison statements"
-      summary mechanism,
-
-   o  when an automated tracking system has been implemented, a tickler/
-      status entry in the tracking system, assigned to the relevant
-      chair or AD,
-
-   o  an email to the assignee copying
-
-      *  the liaison statement's technical contacts
-
-      *  The supervisor of the assignee (if it is to a WG, the relevant
-         ADs; if to an AD, the IETF Chair),
-
-      *  The liaison manager for the sending SDO,
-
-      *  an alias associated with the assignee (WG/BOF or other open
-         mailing list, Area Directorate, IESG, IAB, etc.)
-
-      This email should contain the URL to the liaison statement
-      mechanism, text indicating that the liaison statement has arrived,
-      requests appropriate consideration, and if a deadline is
-      specified, a reply by the deadline.
-
-   The assignee has the capability of interacting with the liaison
-   manager and the tracking system (once implemented), including
-   replying, changing dates, reassignment, closing the liaison statement
-   process, etc.
-
-   The liaison manager or tracking system's "tickle" function
-   periodically reminds the assignee by email that the liaison statement
-   has not yet been closed.  This tickle email copies all of the above
-   except the associated mailing alias.
-
-###  Mechanism for Displaying Liaison Statements
-
-   The IETF site contains a section for current liaison statement
-   activity.  This consists of:
-
-   o  A submission mechanism,
-
-   o  A status/management mechanism for each active or recently closed
-      liaison statement, and zero or more associated files.
-
-   The status/management mechanism contains a simple frame, showing the
-   title of the liaison statement, the URL for its mechanism, and the
-   organizations it is from and to.
-
-   The display for liaison statement itself contains:
-
-   o  the liaison statement envelope information (Section 2.2.1),
-
-   o  direct content (Section 2.2.1),
-
-   o  URLs for the various associated files
-
-   o  current status of the liaison statement: to whom it is assigned,
-      its due date, and its status,
-
-   o  pointer to the liaison manager and tracking system entry for the
-      liaison statement.
-
-   o  reply-generation mechanism (see Section 3.2.2.4)
+The process of handling a liaison statement is more weighty than
+handling a business letter because it is important to a relationship
+with another SDO established by the IAB. The IETF will pulically record
+any received liaison statement. For received liaiosn statement with a
+formal liaison relationship handled by a liaison manager it is the responsiblity
+of the liaison manager to create that public record. However, even if a
+formal liaison relationship exists, it is possible that liaison statements arrive
+without knowledge of the liaison manager, therefore it is generally the
+reponibility of the addressee to ensure a public record is created.
 
 ##  Communicating IETF Information to Other SDOs, Consortia, and Fora
 
@@ -521,18 +387,13 @@ This document describes the procedure for generating and handling
 ####  Generating Liaison Statements
 
    IETF participants, usually WG chairs, ADs, or other officials, need
-   to be able to send liaison statements to other SDOs.  The mechanism
-   described in Section 3.1.2, listing appropriate contacts in other
-   SDOs with which the IAB has established liaison relationships,
-   provides that capability.
-
-   As a convenience, the liaison statement page described in
-   Section 3.1.2 may be used to generate a reply.  If a person (usually
-   a WG chair or an AD) selects "reply", a new liaison statement page is
-   generated from the existing one, reversing the addressing
-   information.  IETF documents should be referenced by URL, such as
-   http://www.ietf.org/internet-drafts/>file< or
-   ftp://ftp.rfc-editor.org/in-notes/>file<.
+   to be able to send liaison statements to other SDOs. Further,
+   all sent liaison statment must be publicly recorded. Therefore,
+   it is recommended to use a IETF provided tool to sent liaison
+   statment rather then sending them directly by email and record
+   them in hindsight, also this approach is possible as well e.g.
+   if a certain submission other than by email is required by the
+   other organization.
 
    The process of generating and approving transmission of liaison
    statements is a matter of IETF process and is specified in [RFC4052].
@@ -584,101 +445,12 @@ This document has no IANA actions.
 
 --- back
 
-# Implementation Road Map
+# Intented features for a future liaison statement tracking system
 
-   This section documents the development program as of the time of the
-   writing of this document.  It is not normative.
-
-## Phase I: Initial Implementation
-
-### Displays
-
-   The descriptions of the required displays in Section 3.1.1 and
-   Section 3.1.2 call for two sets of displays: one for the public (for
-   viewing liaison statements), and one for submitters (for managing
-   liaison statements).
-
-   Displays for public view of liaison statements include:
-
-   o  A Liaison Statements Web page that lists all incoming and outgoing
-      liaison statements (specific fields TBD).  The title of each
-      liaison statement is a link to the details page for that liaison
-      statement.
-
-   o  A detail page for each liaison statement that contains:
-
-      *  All of the information specified in the subsections of
-         Section 2.2.1.
-
-      *  Links to all attachments that accompanied the liaison statement
-         or to documents that are mentioned in the statement but were
-         not provided as part of the submission.
-
-      *  Links to all related liaison statements (e.g., replies).
-
-   Displays for submitting and managing liaison statements include:
-
-   o  A summary page that offers mechanisms for:
-
-      *  Creating and submitting a new liaison statement.
-
-      *  Editing a liaison statement that the user has previously
-         created and submitted.
-
-      *  Acting on a liaison statement that has been assigned to the
-         user.
-
-   o  A template for creating and submitting a liaison statement.  This
-      template allows the user to enter the information specified in
-      Section 2.2.1.  The user is able to access the template at any
-      time (from a list of liaison statements that the user has
-      previously created and submitted), and update and resubmit the
-      information.
-
-   o  A detail page for managing a liaison statement assigned to the
-      user.  This page is similar to the details page available to the
-      public.  However, it also includes:
-
-      *  A mechanism for replying to the liaison statement (initial
-         implementation)
-
-      *  A link to a liaison statement tracking mechanism (future
-         implementation)
-
-###  Actions on Submission
-
-   Submission of a liaison statement results in the following actions:
-
-   o  The information is uploaded to the database.
-
-   o  An e-mail message with the content specified in Section 3.1.1 is
-      sent to the addressee with copies to the addresses specified in
-      Section 4.1, and to the Secretariat (as specified in [RFC4052]).
-
-   o  The liaison statement is added to the list on the Liaison
-      Statements Web page.
-
-   o  Two detail pages are created for the liaison statement: one for
-      the public (to view the liaison statement), and one for the sender
-      and the assignee (to manage the liaison statement).
-
-   As specified in Section 3.2.2.4, when a user selects reply on the
-   details page of a liaison statement, a template for creating and
-   submitting a new liaison statement is generated from the existing one
-   that copies "From" to "To" and specifies the respondent as the
-   individual the response is coming "From".  Submission of this reply
-   liaison statement results in the same set of actions as submission of
-   any new liaison statement.  In addition, a link to the details page
-   of this liaison statement is added to the list of related liaison
-   statements on the details pages (both public and management) of the
-   original liaison statement (i.e., the one to which the user replied).
-
-# Phase II: Additional Instrumentation and Responses to Usage Experience
-
-   This section is for information, and is not normative.
-
-   The intended features of the future liaison statement tracking system
-   are discussed in Section 3.1.  They include mechanisms for:
+   This list of feature was indicated as Phase II in RFC4053 but have
+   never been implemented. Therefore this list is kept for now as a
+   record of high-level intended features of the future liaison statement
+   tracking system:
 
    o  Designating an assignee; the assignee is initially a person
       associated with the body (IAB, IESG, Area, WG, etc.) to which the
