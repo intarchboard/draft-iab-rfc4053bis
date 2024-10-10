@@ -48,7 +48,7 @@ This document describes the procedure for generating and handling
    effectively collaborate with other organizations in the international
    standards community.  These liaison statements are primarily
    exchanged between IETF and organizations with whom the IAB has
-   created a liaison relationship (see {{?RFC4052}}), although other
+   created a liaison relationship (see {{!RFC4052}}), although other
    organizations are not precluded.  The procedures described in this
    document encompass all liaisons statements received from SDOs,
    whether or not a formal liaison arrangement is in place between the
@@ -94,7 +94,7 @@ This document describes the procedure for generating and handling
    Liaison manager: A person designated to act as a manager of the
       relationship between the IETF and a peer organization to ensure
       that communication is maintained, is productive, and is timely, as
-      defined by sections 2.2 and 3 in [RFC4052].
+      defined by sections 2.2 and 3 in {{RFC4052}}.
 
    Liaison statement: A letter as described in this document, exchanged
       between organizations.
@@ -535,7 +535,7 @@ This document describes the procedure for generating and handling
    ftp://ftp.rfc-editor.org/in-notes/>file<.
 
    The process of generating and approving transmission of liaison
-   statements is a matter of IETF process and is specified in [RFC4052].
+   statements is a matter of IETF process and is specified in {{RFC4052}}.
 
 # Security Considerations
 
@@ -653,7 +653,7 @@ This document has no IANA actions.
 
    o  An e-mail message with the content specified in Section 3.1.1 is
       sent to the addressee with copies to the addresses specified in
-      Section 4.1, and to the Secretariat (as specified in [RFC4052]).
+      Section 4.1, and to the Secretariat (as specified in {{RFC4052}}).
 
    o  The liaison statement is added to the list on the Liaison
       Statements Web page.
