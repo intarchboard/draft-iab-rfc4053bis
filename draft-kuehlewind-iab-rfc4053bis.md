@@ -50,7 +50,7 @@ impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request. However,
 if a formal liaions relationship exists it is the responsibility
 of the liaison manager to ensure appropriate communication
-between the orginiation(see {{Section 3 of RFC4052}}) even if no response in sent.
+between the organisations (see {{Section 3 of RFC4052}}) even if no response in sent.
 
    The implementation of the procedure and supporting tools is occurring
    in a minimum of three phases.  The initial phase has been the
