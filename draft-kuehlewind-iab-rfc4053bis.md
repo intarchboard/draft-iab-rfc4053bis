@@ -100,7 +100,7 @@ From: The statement will indicate from what body it originates; for
 To: The statement will indicate to which body it is.  In this document,
   this body is the "addressee".
 
-Further liaison statement often contain the following information
+Further liaison statements often contain the following information
 in some form that should be recorded:
 
 Title: The statement will contain a short (usually single line) statement of
