@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-10T00:42:50.096994+00:00",
+  "timestamp": "2024-10-13T00:46:42.336709+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -113,7 +113,265 @@
       "updatedAt": "2024-10-09T13:35:22Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOMUjnl86ZuFPB",
+      "title": "\"Approval and Transmission of Liaison Statements\" is described in RFC4052",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/7",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Should we move this whole section from RFC4052 into this document instead? The requirements in specified in that section in RFC4052 and not specific to cases where we have a liaison manager and therefore would fit better into this document.",
+      "createdAt": "2024-10-10T14:12:57Z",
+      "updatedAt": "2024-10-10T14:12:58Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 5,
+      "id": "PR_kwDOMUjnl85-OUq-",
+      "title": "remove language that requires sending a response",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/5",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #2",
+      "createdAt": "2024-10-10T13:28:33Z",
+      "updatedAt": "2024-10-10T14:07:02Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-1",
+      "headRefOid": "ccf989c43183307a97dfb6bdf58cf6d0865ac6c1",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86Msj_u",
+          "commit": {
+            "abbreviatedOid": "6cba37d"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:05:51Z",
+          "updatedAt": "2024-10-10T14:05:52Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\nstandards community.\r\n```",
+              "createdAt": "2024-10-10T14:05:52Z",
+              "updatedAt": "2024-10-10T14:05:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86Msk1w",
+          "commit": {
+            "abbreviatedOid": "eb17429"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:06:54Z",
+          "updatedAt": "2024-10-10T14:06:55Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "```suggestion\r\nbetween the organisations (see {{Section 3 of RFC4052}}) even if no response in sent.\r\n```",
+              "createdAt": "2024-10-10T14:06:55Z",
+              "updatedAt": "2024-10-10T14:06:55Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOMUjnl85-OsQb",
+      "title": "Remove tooling details",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/6",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #1",
+      "createdAt": "2024-10-10T14:05:13Z",
+      "updatedAt": "2024-10-10T14:10:03Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-2",
+      "headRefOid": "31ec7c9dbf77a7012f76d5e4a10e39ef73785fa6",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86Mslc2",
+          "commit": {
+            "abbreviatedOid": "f8f9035"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:07:49Z",
+          "updatedAt": "2024-10-10T14:07:49Z",
+          "comments": [
+            {
+              "originalPosition": 90,
+              "body": "```suggestion\r\n\r\n```",
+              "createdAt": "2024-10-10T14:07:49Z",
+              "updatedAt": "2024-10-10T14:07:50Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86Mslib",
+          "commit": {
+            "abbreviatedOid": "f8f9035"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:07:56Z",
+          "updatedAt": "2024-10-10T14:07:56Z",
+          "comments": [
+            {
+              "originalPosition": 95,
+              "body": "```suggestion\r\n\r\n```",
+              "createdAt": "2024-10-10T14:07:56Z",
+              "updatedAt": "2024-10-10T14:07:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86MsmKa",
+          "commit": {
+            "abbreviatedOid": "b3f1edd"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:08:52Z",
+          "updatedAt": "2024-10-10T14:08:52Z",
+          "comments": [
+            {
+              "originalPosition": 90,
+              "body": "```suggestion\r\n\r\nFrom: The statement will indicate from what body it originates; for\r\n```",
+              "createdAt": "2024-10-10T14:08:52Z",
+              "updatedAt": "2024-10-10T14:08:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86MsmS4",
+          "commit": {
+            "abbreviatedOid": "b3f1edd"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:09:03Z",
+          "updatedAt": "2024-10-10T14:09:03Z",
+          "comments": [
+            {
+              "originalPosition": 94,
+              "body": "```suggestion\r\n\r\nTo: The statement will indicate to which body it is.  In this document,\r\n```",
+              "createdAt": "2024-10-10T14:09:03Z",
+              "updatedAt": "2024-10-10T14:09:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86Msm6H",
+          "commit": {
+            "abbreviatedOid": "61bb656"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:09:55Z",
+          "updatedAt": "2024-10-10T14:09:55Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "```suggestion\r\nFurther liaison statements often contain the following information\r\n```",
+              "createdAt": "2024-10-10T14:09:55Z",
+              "updatedAt": "2024-10-10T14:09:55Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOMUjnl85-O2tG",
+      "title": "Add text from RFC4052 Section 4",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/8",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #7",
+      "createdAt": "2024-10-10T14:23:39Z",
+      "updatedAt": "2024-10-10T14:39:58Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-3",
+      "headRefOid": "c9c4f453c64f21f63461c8d2fc8316c93e3200b0",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86Ms-Uz",
+          "commit": {
+            "abbreviatedOid": "c9c4f45"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-10T14:39:58Z",
+          "updatedAt": "2024-10-10T14:39:58Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2024-10-10T14:39:58Z",
+              "updatedAt": "2024-10-10T14:39:58Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
