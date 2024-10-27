@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-24T00:43:13.593472+00:00",
+  "timestamp": "2024-10-27T00:47:43.105058+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -338,7 +338,7 @@
       "labels": [],
       "body": "fixes #7",
       "createdAt": "2024-10-10T14:23:39Z",
-      "updatedAt": "2024-10-10T14:39:58Z",
+      "updatedAt": "2024-10-25T14:09:02Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
