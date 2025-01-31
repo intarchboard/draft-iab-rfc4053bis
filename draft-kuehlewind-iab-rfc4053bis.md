@@ -37,6 +37,7 @@ standards community.
 # Introduction
 
 This document describes the procedure for generating and handling
+
 liaison statements between the IETF and other SDOs, so that IETF can
 effectively collaborate with other organizations in the international
 standards community.
@@ -50,7 +51,7 @@ impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request. However,
 if a formal liaions relationship exists it is the responsibility
 of the liaison manager to ensure appropriate communication
-between the organisations (see {{Section 3 of RFC4052}}) even if no response in sent.
+between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
    The implementation of the procedure and supporting tools is occurring
    in a minimum of three phases.  The initial phase has been the
@@ -91,7 +92,7 @@ between the organisations (see {{Section 3 of RFC4052}}) even if no response in 
    Liaison manager: A person designated to act as a manager of the
       relationship between the IETF and a peer organization to ensure
       that communication is maintained, is productive, and is timely, as
-      defined by sections 2.2 and 3 in [RFC4052].
+      defined by sections 2.2 and 3 in {{RFC4052}}.
 
    Liaison statement: A letter as described in this document, exchanged
       between organizations.
@@ -531,7 +532,7 @@ between the organisations (see {{Section 3 of RFC4052}}) even if no response in 
    ftp://ftp.rfc-editor.org/in-notes/>file<.
 
    The process of generating and approving transmission of liaison
-   statements is a matter of IETF process and is specified in [RFC4052].
+   statements is a matter of IETF process and is specified in {{RFC4052}}.
 
 # Security Considerations
 
@@ -649,7 +650,7 @@ This document has no IANA actions.
 
    o  An e-mail message with the content specified in Section 3.1.1 is
       sent to the addressee with copies to the addresses specified in
-      Section 4.1, and to the Secretariat (as specified in [RFC4052]).
+      Section 4.1, and to the Secretariat (as specified in {{RFC4052}}).
 
    o  The liaison statement is added to the list on the Liaison
       Statements Web page.
