@@ -115,39 +115,35 @@ This document describes the procedure for generating and handling
    will always contain certain information, much as an business letter
    does.  This information will include the following:
 
-####  Envelope Information
+####  Contact Information
 
-   The following fields detail properties of the liaison statement.
+The following fields detail the contact information of the liaison statement.
 
-#####  From:
-
-   The statement will indicate from what body it originates; for
+From: The statement will indicate from what body it originates; for
    example, it may be from, an IETF WG or Area, an ITU-T Study Group,
    Working Party, or Question, etc.  In this document, this body is the
-   "sender".
+   "sender". This field may include more than one group, e.g. multipe IETF
+   working groups, but usually all group are from the same organisation.
+ 
+From-Contact: One or more electronic mail addresses belong to the "From" body to which any
+   response should be sent. This includes the addresses associated with the "From" group(s),
+   e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
+   contacts that are required for the management of the liaison, like the
+   liaison manager if existant and/or an IAB liaison contact in case of statements sent by
+   the IETF or the staff person from the external organisation that has sent the incoming
+   liaison by mail, as well as any additional technical experts that should be informed.
+   This is often also called the "Response Contact".
 
-##### To:
+To: The statement will indicate to which body it is.  In this document,
+   this body is the "addressee". This field may include multiple bodies or
+   groups within one body.
 
-   The statement will indicate to which body it is.  In this document,
-   this body is the "addressee".
-
-##### Title:
-
-   The statement will contain a short (usually single line) statement of
-   its context and content.
-
-##### Response Contact:
-
-   The sender will indicate the electronic mail address to which any
-   response should be sent.
-
-##### Technical Contact:
-
-   The sender will indicate one or more electronic mail addresses
-   (persons or lists) that may be contacted for clarification of the
-   liaison statement.
-
-##### Purpose:
+To-Contact: One or more electronic mail addresses from the receiving body to which this
+   statement should be sent. Similar as the "From-Contact" this includes addresses
+   associated with the "To" field, contacts that are required for liaison management,
+   as well as any additional experts.
+   
+#### Purpose:
 
    A liaison statement generally has one of three purposes and will
    clearly state its purpose using one of the following labels:
@@ -166,35 +162,51 @@ This document describes the procedure for generating and handling
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
-##### Deadline:
+Liaison statements that request comment or action will indicate when
+the comment or action is required.  If the addressee cannot
+accomplish the request within the stated period, courtesy calls for a
+response offering a more doable deadline or an alternative course of
+action.
 
-   Liaison statements that request comment or action will indicate when
-   the comment or action is required.  If the addressee cannot
-   accomplish the request within the stated period, courtesy calls for a
-   response offering a more doable deadline or an alternative course of
-   action.
+#### Liaison Content, Title, and Attachments
 
-##### Liaison Content
+As with any business letter, the liaison statement contains
+appropriate content explaining the issues or questions at hand.
 
-   The following fields are the substance of the liaison statement.
-   IETF participants use a wide variety of systems, thus document
-   formats that are not universally readable are problematic.  As a
-   result, documents enclosed with the body or attachments should be in
-   PDF, W3C HTML (without proprietary extensions), or ASCII text format.
-   If they were originally in a proprietary format such as Microsoft
-   Word, the file may be sent, but should be accompanied by a generally
-   readable file.
+Usually the statement will contain a short (usually single line) title
+providing a statement of its context and content.
 
-##### Body:
+Attachments, if enclosed, may be in the form of documents sent with
+the liaison statement or may be URLs to similar documents including
+Internet Drafts.
 
-   As with any business letter, the liaison statement contains
-   appropriate content explaining the issues or questions at hand.
+IETF participants use a wide variety of systems, thus document
+formats that are not universally readable are problematic.  As a
+result, documents enclosed with the body or attachments should be in
+PDF, W3C HTML (without proprietary extensions), or ASCII text format.
+If they were originally in a proprietary format such as Microsoft
+Word, the file may be sent, but should be accompanied by a generally
+readable file.
 
-##### Attachments:
+Different organisation have different requirements on the format of
+liaison statement. There are no requirements from the IETF on the format
+of the actual content of the liaison statement, however, we require
+the metadata (address information and purpose) as indicated in the previous
+section to be recorded. As such when receiving statement from other organisation
+these metadata should be extracted and recorded. However if content of the
+statement is not sent in plain text, the plain text content record field may
+be empty and the received laision statement is uploaded as attachement.
 
-   Attachments, if enclosed, may be in the form of documents sent with
-   the liaison statement or may be URLs to similar documents including
-   Internet Drafts.
+For statement sent from the IETF it is recommended to provide the content
+in plain text but also provide an attachement following the formating requirements
+of the receiving organisation if possible. If cases where we have a
+liaison manager, it is the responsiblity of the liaison to check or convert
+the formating requirements. It is further recommended to convert received
+document in proprietary formats into PDF and upload both version as
+attachments.
+
+This ensures that our process can comply with all formating requirements
+from other organisations.
 
 ##  Addressee Responsibilities
 
