@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-30T00:42:04.108961+00:00",
+  "timestamp": "2025-02-02T00:45:50.198585+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -129,6 +129,22 @@
       "updatedAt": "2024-10-10T14:12:58Z",
       "closedAt": null,
       "comments": []
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOMUjnl86oTvhQ",
+      "title": "Remove Purpose \"For Comment\"",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/9",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "This type of purpose is usually not used. I only checked a small sample set and didn't find a single usage. But we could also analyse the whole set of LSs and see if or how often this is actually used. Usually if comments are expected in a certain time frame \"for action\" is used; if a response is optional then \"for comment\" is used. The two cases (plus the \"in response\" purpose) seem sufficient.",
+      "createdAt": "2025-01-31T15:04:31Z",
+      "updatedAt": "2025-01-31T15:04:31Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -144,13 +160,13 @@
       "labels": [],
       "body": "fixes #2",
       "createdAt": "2024-10-10T13:28:33Z",
-      "updatedAt": "2024-10-10T14:07:02Z",
+      "updatedAt": "2025-01-31T14:13:15Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
-      "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
+      "baseRefOid": "77ae4f121ccde1de8821dae68ba4ddb8c3624319",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-1",
-      "headRefOid": "ccf989c43183307a97dfb6bdf58cf6d0865ac6c1",
+      "headRefOid": "cd4e1ec0f7e242800fdd744355e75ad9b11f319e",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -372,6 +388,58 @@
           ]
         }
       ]
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOMUjnl86Jp4ew",
+      "title": "remove purpose \"for comment\"",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/10",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #9",
+      "createdAt": "2025-01-31T15:09:40Z",
+      "updatedAt": "2025-01-31T15:09:40Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "0f2afc883541d138a43378610a0d36ede64c0a35",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-4",
+      "headRefOid": "4124210c8386c9800399a6ef5476e35d1067597f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOMUjnl86JqHIM",
+      "title": "Revision of metadata and content information fields",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/11",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-01-31T15:38:33Z",
+      "updatedAt": "2025-01-31T15:38:33Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "0f2afc883541d138a43378610a0d36ede64c0a35",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-5",
+      "headRefOid": "5d6906af499a1b216e0bec630beac020f63de7c5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
