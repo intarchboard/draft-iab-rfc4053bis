@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-04T00:43:05.147973+00:00",
+  "timestamp": "2025-02-06T00:43:36.547145+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -126,9 +126,17 @@
       "labels": [],
       "body": "Should we move this whole section from RFC4052 into this document instead? The requirements in specified in that section in RFC4052 and not specific to cases where we have a liaison manager and therefore would fit better into this document.",
       "createdAt": "2024-10-10T14:12:57Z",
-      "updatedAt": "2024-10-10T14:12:58Z",
+      "updatedAt": "2025-02-05T14:59:19Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Further the text needs to be updated as we discussed with the IESG that all (IETF) LS should have AD approval.",
+          "createdAt": "2025-02-05T14:59:19Z",
+          "updatedAt": "2025-02-05T14:59:19Z"
+        }
+      ]
     },
     {
       "number": 9,
@@ -401,7 +409,7 @@
       "labels": [],
       "body": "fixes #9",
       "createdAt": "2025-01-31T15:09:40Z",
-      "updatedAt": "2025-01-31T15:09:40Z",
+      "updatedAt": "2025-02-05T14:31:03Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "0f2afc883541d138a43378610a0d36ede64c0a35",
