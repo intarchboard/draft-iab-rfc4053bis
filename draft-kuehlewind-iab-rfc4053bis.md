@@ -159,7 +159,7 @@ This document describes the procedure for generating and handling
    For Action: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
       frame. This is also used if a document is sent out for comment and
-      the review feedback is expedted in the stated time frame.
+      the review feedback is expected in the stated time frame.
 
    In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
