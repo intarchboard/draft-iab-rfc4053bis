@@ -544,9 +544,6 @@ proposed IETF liaison statements and that those writing such
 statements, who claim to be speaking on behalf of IETF, are truly
 representing IETF views.
 
-All outgoing liaison statements will be copied to IETF Secretariat
-using procedures defined in [6] or its successors.
-
 For a liaison statement generated on behalf of an IETF WG, the WG
 chair(s) must create a statement based on appropriate discussions
 within the WG to ensure working group consensus for the position(s)
