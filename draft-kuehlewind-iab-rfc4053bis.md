@@ -135,7 +135,7 @@ clearly state its purpose using one of the following labels:
       frame. This is also used if a document is sent out for comment and
       the review feedback is expected in the stated time frame.
 
-In Response: The liaison statement includes a response to a liaison
+   In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
