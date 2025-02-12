@@ -143,25 +143,24 @@ To-Contact: One or more electronic mail addresses from the receiving body to whi
    
 #### Purpose:
 
-   A liaison statement generally has one of three purposes and will
-   clearly state its purpose using one of the following labels:
+A liaison statement generally has one of three purposes and will
+clearly state its purpose using one of the following labels:
 
    For Information: The liaison statement is to inform the addressee of
-      something, and expects no response.
-
-   For Comment: The liaison statement requests commentary from the
-      addressee, usually within a stated time frame.
+      something and expects no response. This includes calls for review
+      comments if the expected response is optional.
 
    For Action: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
-      frame.
+      frame. This is also used if a document is sent out for comment and
+      the review feedback is expected in the stated time frame.
 
    In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
-Liaison statements that request comment or action will indicate when
-the comment or action is required.  If the addressee cannot
+Liaison statements that request action indicate a deadline when
+the action is required.  If the addressee cannot
 accomplish the request within the stated period, courtesy calls for a
 response offering a more doable deadline or an alternative course of
 action.
