@@ -130,7 +130,6 @@ clearly state its purpose using one of the following labels:
       comments if the expected response is optional.
 
    For Action: The liaison statement requests that the addressee do
-
       something on the sender's behalf, usually within a stated time
       frame. This is also used if a document is sent out for comment and
       the review feedback is expected in the stated time frame.
