@@ -26,17 +26,10 @@ informative:
 
 --- abstract
 
-This document describes the procedure for proper handling of incoming
-liaison statements from other standards development organizations
-(SDOs), consortia, and industry fora, and for generating liaison
-statements to be transmitted from IETF to other SDOs, consortia and
-industry fora.  This procedure allows IETF to effectively collaborate
-with other organizations in the international standards community.
-
-The IETF expects that liaison statements might come from a variety of
-organizations, and it may choose to respond to many of those.  The
-IETF is only obligated to respond if there is an agreed liaison
-relationship, however.
+This document describes the procedure for generating and handling
+liaison statements between the IETF and other SDOs, so that IETF can
+effectively collaborate with other organizations in the international
+standards community.
 
 
 --- middle
@@ -44,16 +37,21 @@ relationship, however.
 # Introduction
 
 This document describes the procedure for generating and handling
-   liaison statements between the IETF and other SDOs, so that IETF can
-   effectively collaborate with other organizations in the international
-   standards community.  These liaison statements are primarily
-   exchanged between IETF and organizations with whom the IAB has
-   created a liaison relationship (see {{?RFC4052}}), although other
-   organizations are not precluded.  The procedures described in this
-   document encompass all liaisons statements received from SDOs,
-   whether or not a formal liaison arrangement is in place between the
-   SDO and the IETF.  The IETF is not obligated to respond to the
-   liaison statement where there is no formal liaison arrangement.
+
+Liaison statements between the IETF and other SDOs, so that IETF can
+effectively collaborate with other organizations in the international
+standards community.
+
+Exchange of liaison statements does not require a formal liaison
+relationship (see {{?RFC4052}}).  The procedures described in this
+document encompass all liaisons statements received from SDOs,
+whether or not a formal liaison arrangement is in place between the
+SDO and the IETF. Receive of a liaison statement does not automatically
+impose an obligation of sending a response by the other party. The decision
+to send a response depends on the content and kind of request. However,
+if a formal liaions relationship exists it is the responsibility
+of the liaison manager to ensure appropriate communication
+between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
 
 
@@ -73,76 +71,119 @@ This document describes the procedure for generating and handling
    Liaison manager: A person designated to act as a manager of the
       relationship between the IETF and a peer organization to ensure
       that communication is maintained, is productive, and is timely, as
-      defined by sections 2.2 and 3 in [RFC4052].
+      defined by sections 2.2 and 3 in {{RFC4052}}.
 
    Liaison statement: A letter as described in this document, exchanged
-      between organizations. These organizations may be at any level
-      (WG, Area, etc.)   Generally, the sender and receiver are peer
-      organizations.  A liaison statement may have any purpose, but
-      generally the purpose is to solicit information, make a comment or
-      request an action.
+      between organizations.
 
-#  Contents of a Liaison Statement
+##  Liaison Statements
 
-Liaison statements may be very formal or informal, depending on the
-rules of the body generating them. However, any kind of business
-letter needs to be transmitted in some form to the addressed body
-and needs to carry some information of the sender for context and
-to send a reply. This document furher assumes that liaison statements are
-send by email in some form. Therefor the following envolope information
-are expected as part of any liaison statement:
+   A Liaison Statement is a business letter sent by one standards
+   organization to another.  These organizations may be at any level
+   (WG, Area, etc.)   Generally, the sender and receiver are peer
+   organizations.  A liaison statement may have any purpose, but
+   generally the purpose is to solicit information, make a comment or
+   request an action.
+
+###  Contents of a Liaison Statement
+
+   Liaison statements may be very formal or informal, depending on the
+   rules of the body generating them.  Any liaison statement, however,
+   will always contain certain information, much as an business letter
+   does.  This information will include the following:
+
+####  Contact Information
+
+The following fields detail the contact information of the liaison statement.
 
 From: The statement will indicate from what body it originates; for
-  example, it may be from, an IETF WG or Area, an ITU-T Study Group,
-  Working Party, or Question, etc.  In this document, this body is the
-  "sender".
+   example, it may be from, an IETF WG or Area, an ITU-T Study Group,
+   Working Party, or Question, etc.  In this document, this body is the
+   "sender". This field may include more than one group, e.g. multipe IETF
+   working groups, but usually all group are from the same organisation.
+ 
+From-Contact: One or more electronic mail addresses belong to the "From" body to which any
+   response should be sent. This includes the addresses associated with the "From" group(s),
+   e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
+   contacts that are required for the management of the liaison, like the
+   liaison manager if existant and/or an IAB liaison contact in case of statements sent by
+   the IETF or the staff person from the external organisation that has sent the incoming
+   liaison by mail, as well as any additional technical experts that should be informed.
+   This is often also called the "Response Contact".
 
 To: The statement will indicate to which body it is.  In this document,
-  this body is the "addressee".
+   this body is the "addressee". This field may include multiple bodies or
+   groups within one body.
 
-Further liaison statements often contain the following information
-in some form that should be recorded:
+To-Contact: One or more electronic mail addresses from the receiving body to which this
+   statement should be sent. Similar as the "From-Contact" this includes addresses
+   associated with the "To" field, contacts that are required for liaison management,
+   as well as any additional experts.
+   
+#### Purpose:
 
-Title: The statement will contain a short (usually single line) statement of
-   its context and content.
+A liaison statement generally has one of three purposes and will
+clearly state its purpose using one of the following labels:
 
-Response Contact: The sender will indicate the electronic mail address to which any
-   response should be sent.
+   For Information: The liaison statement is to inform the addressee of
+      something and expects no response. This includes calls for review
+      comments if the expected response is optional.
 
-Technical Contact: The sender will indicate one or more electronic mail addresses
-   (persons or lists) that may be contacted for clarification of the
-   liaison statement.
+   For Action: The liaison statement requests that the addressee do
 
-Purpose: A liaison statement generally has one of three purposes and will
-   clearly state its purpose using one of the following labels:
-
-- For Information: The liaison statement is to inform the addressee of
-      something, and expects no response.
-- For Comment: The liaison statement requests commentary from the
-      addressee, usually within a stated time frame.
-- For Action: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
-      frame.
+      frame. This is also used if a document is sent out for comment and
+      the review feedback is expected in the stated time frame.
 
 In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
-Deadline: Liaison statements that request comment or action will indicate when
-   the comment or action is required.  If the addressee cannot
-   accomplish the request within the stated period, courtesy calls for a
-   response offering a more doable deadline or an alternative course of
-   action.
+Liaison statements that request action indicate a deadline when
+the action is required.  If the addressee cannot
+accomplish the request within the stated period, courtesy calls for a
+response offering a more doable deadline or an alternative course of
+action.
 
-Body: As with any business letter, the liaison statement contains
-   appropriate content explaining the issues or questions at hand. The
-   body itself may be empty if a liaison statement from another organisation
-   as attachement. Liaison statments sent from the IETF are encouraged
-   to send text directly in the body.
+#### Liaison Content, Title, and Attachments
 
-Attachments: Attachments, if enclosed, may be in the form of documents sent with
-   the liaison statement or may be URLs to similar documents including
-   Internet Drafts.
+As with any business letter, the liaison statement contains
+appropriate content explaining the issues or questions at hand.
+
+Usually the statement will contain a short (usually single line) title
+providing a statement of its context and content.
+
+Attachments, if enclosed, may be in the form of documents sent with
+the liaison statement or may be URLs to similar documents including
+Internet Drafts.
+
+IETF participants use a wide variety of systems, thus document
+formats that are not universally readable are problematic.  As a
+result, documents enclosed with the body or attachments should be in
+PDF, W3C HTML (without proprietary extensions), or ASCII text format.
+If they were originally in a proprietary format such as Microsoft
+Word, the file may be sent, but should be accompanied by a generally
+readable file.
+
+Different organisation have different requirements on the format of
+liaison statement. There are no requirements from the IETF on the format
+of the actual content of the liaison statement, however, we require
+the metadata (address information and purpose) as indicated in the previous
+section to be recorded. As such when receiving statement from other organisation
+these metadata should be extracted and recorded. However if content of the
+statement is not sent in plain text, the plain text content record field may
+be empty and the received laision statement is uploaded as attachement.
+
+For statement sent from the IETF it is recommended to provide the content
+in plain text but also provide an attachement following the formating requirements
+of the receiving organisation if possible. If cases where we have a
+liaison manager, it is the responsiblity of the liaison to check or convert
+the formating requirements. It is further recommended to convert received
+document in proprietary formats into PDF and upload both version as
+attachments.
+
+This ensures that our process can comply with all formating requirements
+from other organisations.
 
 ##  Addressee Responsibilities
 
@@ -317,11 +358,10 @@ reponibility of the addressee to ensure a public record is created.
 ###  Responding to Incoming Liaison Statements
 
    Any incoming liaison statement that indicates that it is for
-   "Comment" or for "Action" requires a response by the deadline; other
-   liaison statements may also be replied to, although a reply is
-   generally optional.  It is the responsibility of the (co)chair(s) of
+   "Comment" or for "Action" requires a response by the deadline.
+   It is the responsibility of the (co)chair(s) of
    the addressed organization to ensure that a response is generated by
-   the deadline.
+   the deadline if a respone is intended.
 
 ####  Responding to Requests for Information
 
@@ -342,8 +382,8 @@ reponibility of the addressee to ensure a public record is created.
 
    If no clear consensus is evident from the pattern of comments on the
    mailing list, or if there is no further discussion, a response is
-   still due to the originator.  A summary of the email comments, or
-   lack of interest in the issue, should be created and sent to the
+   still anticipated to the originator.  A summary of the email comments, or
+   lack of interest in the issue, can be created and sent to the
    originator, and represented as "collected comments" rather than a
    consensus of the IETF group to which the liaison statement was
    addressed.  It is possible to send this kind of a reply even if some
@@ -371,7 +411,7 @@ reponibility of the addressee to ensure a public record is created.
 
    There is, of course, no requirement that IETF perform the action that
    was requested.  But the request should always be taken seriously, and
-   a response is required.  The originating organization must always be
+   generally a response is anticipated.  The originating organization should always be
    informed of what, if anything, the IETF has decided to do in response
    to the request.  If the IETF decides not to honor the request, or to
    honor it with modifications, the response should include the reasons
@@ -380,7 +420,7 @@ reponibility of the addressee to ensure a public record is created.
    For tasks that require a great deal of time, it may be necessary that
    several liaison statements be sent back to the originating
    organization to report the status of the work and the anticipated
-   completion time.  The first of these liaison statements must be
+   completion time.  The first of these liaison statements should be
    generated by the deadline indicated in the incoming liaison
    statement.
 
@@ -396,7 +436,49 @@ reponibility of the addressee to ensure a public record is created.
    other organization.
 
    The process of generating and approving transmission of liaison
-   statements is a matter of IETF process and is specified in [RFC4052].
+   statements is a matter of IETF process and is specified in {{RFC4052}}.
+
+# Approval and Transmission of Liaison Statements
+
+It is important that appropriate leadership review be made of
+proposed IETF liaison statements and that those writing such
+statements, who claim to be speaking on behalf of IETF, are truly
+representing IETF views.
+
+For a liaison statement generated on behalf of an IETF WG, the WG
+chair(s) must create a statement based on appropriate discussions
+within the WG to ensure working group consensus for the position(s)
+presented.  The chair(s) must have generated or must agree with the
+sending of the liaison statement, and must advise the AD(s) that the
+liaison statement has been sent by copying the appropriate ADs on the
+message.
+
+For a liaison statement generated on behalf of an IETF Area, the
+AD(s) must have generated or must agree with the sending of the
+liaison statement.  If the liaison statement is not sent by the ADs,
+then their agreement must be obtained in advance and confirmed by
+copying the ADs on the message.
+
+For a liaison statement generated on behalf of the IETF as a whole,
+the IETF Chair must have generated or must agree with the sending of
+the liaison statement.  If the liaison statement is not sent by the
+IETF Chair, then his or her agreement must be obtained in advance and
+confirmed by copying the IETF Chair on the message.
+
+For a liaison statement generated by the IAB, the IAB Chair must have
+generated or must agree with the sending of the liaison statement.
+If the liaison statement is not sent by the IAB Chair, then his or
+her agreement must be obtained in advance and confirmed by copying
+the IAB Chair on the message.
+
+In cases where prior agreement was not obtained as outlined above,
+and the designated authority (AD, IETF Chair, or IAB Chair) in fact
+does not agree with the message, the designated authority will work
+with the liaison manager to follow up as appropriate, including
+emitting a revised liaison statement if necessary.  Clearly, this is
+a situation best avoided by assuring appropriate agreement in advance
+of sending the liaison message.
+
 
 # Security Considerations
 

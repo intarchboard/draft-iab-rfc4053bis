@@ -1,4 +1,5 @@
 name: "Publish New Draft Version"
+name: "Publish New Draft Version"
 
 on:
   push:
@@ -52,6 +53,6 @@ jobs:
         UPLOAD_EMAIL: ${{ inputs.email }}
 
     - name: "Archive Submitted Drafts"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         path: "versioned/draft-*-[0-9][0-9].*"
