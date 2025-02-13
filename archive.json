@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-11T00:43:34.343397+00:00",
+  "timestamp": "2025-02-13T00:43:51.784632+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -71,15 +71,15 @@
       "id": "I_kwDOMUjnl86ZieZM",
       "title": "IETF is not obligated to reply",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "The RFC says that the IETF is not obligated to reply, except there is an official liaison relationship. I think we are never obligated to reply; the relationship doesn't change that. however if we have a liaison manager, the liaison manager is expected to handle the LS in some way and e.g. communicate back if no reply will be sent.",
       "createdAt": "2024-10-09T13:30:48Z",
-      "updatedAt": "2024-10-09T13:30:48Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-12T14:03:56Z",
+      "closedAt": "2025-02-12T14:03:55Z",
       "comments": []
     },
     {
@@ -87,16 +87,24 @@
       "id": "I_kwDOMUjnl86ZifKA",
       "title": "Respond contact and technical contact are unclear",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "Propose is to only have the \"from\" contact. Currently the tooling also has CC. Do we need that? might be useful because it should map to email?",
       "createdAt": "2024-10-09T13:32:03Z",
-      "updatedAt": "2024-10-09T13:32:03Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2025-02-12T14:04:51Z",
+      "closedAt": "2025-02-12T14:04:50Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "PR #11 merged",
+          "createdAt": "2025-02-12T14:04:50Z",
+          "updatedAt": "2025-02-12T14:04:50Z"
+        }
+      ]
     },
     {
       "number": 4,
@@ -106,11 +114,13 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "sureshkrishnan"
+      ],
       "labels": [],
       "body": "Currently the RFC says: \"A liaison statement is a temporary document\". however, it is probably important to keep a record and we might want to revise this section",
       "createdAt": "2024-10-09T13:35:22Z",
-      "updatedAt": "2024-10-09T13:35:22Z",
+      "updatedAt": "2025-02-12T13:55:45Z",
       "closedAt": null,
       "comments": []
     },
@@ -119,15 +129,15 @@
       "id": "I_kwDOMUjnl86ZuFPB",
       "title": "\"Approval and Transmission of Liaison Statements\" is described in RFC4052",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "Should we move this whole section from RFC4052 into this document instead? The requirements in specified in that section in RFC4052 and not specific to cases where we have a liaison manager and therefore would fit better into this document.",
       "createdAt": "2024-10-10T14:12:57Z",
-      "updatedAt": "2025-02-05T14:59:19Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-12T13:39:37Z",
+      "closedAt": "2025-02-12T13:39:37Z",
       "comments": [
         {
           "author": "mirjak",
@@ -143,15 +153,15 @@
       "id": "I_kwDOMUjnl86oTvhQ",
       "title": "Remove Purpose \"For Comment\"",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/9",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "This type of purpose is usually not used. I only checked a small sample set and didn't find a single usage. But we could also analyse the whole set of LSs and see if or how often this is actually used. Usually if comments are expected in a certain time frame \"for action\" is used; if a response is optional then \"for comment\" is used. The two cases (plus the \"in response\" purpose) seem sufficient.",
       "createdAt": "2025-01-31T15:04:31Z",
-      "updatedAt": "2025-01-31T15:04:31Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-12T14:47:16Z",
+      "closedAt": "2025-02-12T14:47:16Z",
       "comments": []
     }
   ],
@@ -161,24 +171,26 @@
       "id": "PR_kwDOMUjnl85-OUq-",
       "title": "remove language that requires sending a response",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/5",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "fixes #2",
       "createdAt": "2024-10-10T13:28:33Z",
-      "updatedAt": "2025-01-31T14:13:15Z",
+      "updatedAt": "2025-02-12T14:03:54Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "77ae4f121ccde1de8821dae68ba4ddb8c3624319",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-1",
-      "headRefOid": "cd4e1ec0f7e242800fdd744355e75ad9b11f319e",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "5faa5dde6e1293374c9e2ae4ccc31c13d574d244",
+      "closedAt": "2025-02-12T14:03:54Z",
+      "mergedAt": "2025-02-12T14:03:54Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "0bf21fdc6ebab75247c78b52351b11db709591f9"
+      },
       "comments": [],
       "reviews": [
         {
@@ -220,6 +232,26 @@
               "updatedAt": "2024-10-10T14:06:55Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86bsE7R",
+          "commit": {
+            "abbreviatedOid": "cd4e1ec"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-12T14:02:14Z",
+          "updatedAt": "2025-02-12T14:02:14Z",
+          "comments": [
+            {
+              "originalPosition": 37,
+              "body": "```suggestion\r\nLiaison statements between the IETF and other SDOs, so that IETF can\r\n```",
+              "createdAt": "2025-02-12T14:02:14Z",
+              "updatedAt": "2025-02-12T14:02:14Z"
+            }
+          ]
         }
       ]
     },
@@ -235,13 +267,13 @@
       "labels": [],
       "body": "fixes #1",
       "createdAt": "2024-10-10T14:05:13Z",
-      "updatedAt": "2024-10-10T14:10:03Z",
+      "updatedAt": "2025-02-12T14:53:22Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
-      "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
+      "baseRefOid": "466812866eba965d49e6ce6289692ca6d7e3e89d",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-2",
-      "headRefOid": "31ec7c9dbf77a7012f76d5e4a10e39ef73785fa6",
+      "headRefOid": "9e3ca2addc827872395d981227339723ded83c41",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -347,6 +379,46 @@
               "updatedAt": "2024-10-10T14:09:55Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86bsws_",
+          "commit": {
+            "abbreviatedOid": "290e5aa"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-12T14:52:46Z",
+          "updatedAt": "2025-02-12T14:52:47Z",
+          "comments": [
+            {
+              "originalPosition": 44,
+              "body": "```suggestion\r\n   In Response: The liaison statement includes a response to a liaison\r\n```",
+              "createdAt": "2025-02-12T14:52:46Z",
+              "updatedAt": "2025-02-12T14:52:47Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86bsxPW",
+          "commit": {
+            "abbreviatedOid": "d0c5c34"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-12T14:53:12Z",
+          "updatedAt": "2025-02-12T14:53:13Z",
+          "comments": [
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2025-02-12T14:53:12Z",
+              "updatedAt": "2025-02-12T14:53:13Z"
+            }
+          ]
         }
       ]
     },
@@ -355,24 +427,26 @@
       "id": "PR_kwDOMUjnl85-O2tG",
       "title": "Add text from RFC4052 Section 4",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/8",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "fixes #7",
       "createdAt": "2024-10-10T14:23:39Z",
-      "updatedAt": "2024-10-25T14:09:02Z",
+      "updatedAt": "2025-02-12T13:39:37Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "46169ec68aa3f054c789cdd05deee609c796f171",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-3",
-      "headRefOid": "c9c4f453c64f21f63461c8d2fc8316c93e3200b0",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "f53e11802756bee841ddee342d17564aaa80defb",
+      "closedAt": "2025-02-12T13:39:36Z",
+      "mergedAt": "2025-02-12T13:39:36Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "63651fcdcc86f15be411d9c4a5b0e12cd4c77609"
+      },
       "comments": [],
       "reviews": [
         {
@@ -394,6 +468,26 @@
               "updatedAt": "2024-10-10T14:39:58Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86brzt-",
+          "commit": {
+            "abbreviatedOid": "c9c4f45"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-12T13:39:08Z",
+          "updatedAt": "2025-02-12T13:39:09Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "This is not needed anymore because ref 6 is RFC4053 (this doc).",
+              "createdAt": "2025-02-12T13:39:08Z",
+              "updatedAt": "2025-02-12T13:39:09Z"
+            }
+          ]
         }
       ]
     },
@@ -402,50 +496,75 @@
       "id": "PR_kwDOMUjnl86Jp4ew",
       "title": "remove purpose \"for comment\"",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/10",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "fixes #9",
       "createdAt": "2025-01-31T15:09:40Z",
-      "updatedAt": "2025-02-05T14:31:03Z",
+      "updatedAt": "2025-02-12T14:47:15Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
-      "baseRefOid": "0f2afc883541d138a43378610a0d36ede64c0a35",
+      "baseRefOid": "0bf21fdc6ebab75247c78b52351b11db709591f9",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-4",
-      "headRefOid": "4124210c8386c9800399a6ef5476e35d1067597f",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "630e8b07e94e423857fa4fcaf4349f7a141fe5f8",
+      "closedAt": "2025-02-12T14:47:15Z",
+      "mergedAt": "2025-02-12T14:47:15Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "466812866eba965d49e6ce6289692ca6d7e3e89d"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86bhmmO",
+          "commit": {
+            "abbreviatedOid": "4124210"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-11T16:17:23Z",
+          "updatedAt": "2025-02-11T16:17:23Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "```suggestion\r\n      the review feedback is expedted in the stated time frame.\r\n```\r\n```suggestion\r\n      the review feedback is expected in the stated time frame.\r\n```",
+              "createdAt": "2025-02-11T16:17:23Z",
+              "updatedAt": "2025-02-11T16:17:24Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 11,
       "id": "PR_kwDOMUjnl86JqHIM",
       "title": "Revision of metadata and content information fields",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/11",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-01-31T15:38:33Z",
-      "updatedAt": "2025-01-31T15:38:33Z",
+      "updatedAt": "2025-02-12T14:01:01Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "0f2afc883541d138a43378610a0d36ede64c0a35",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-5",
       "headRefOid": "5d6906af499a1b216e0bec630beac020f63de7c5",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-02-12T14:01:01Z",
+      "mergedAt": "2025-02-12T14:01:01Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "58b2e3b3347845200ea936070246b4d7aac2d129"
+      },
       "comments": [],
       "reviews": []
     }
