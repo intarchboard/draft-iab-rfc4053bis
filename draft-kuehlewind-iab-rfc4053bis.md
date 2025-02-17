@@ -159,7 +159,10 @@ For liaison statements sent by the IETF, this address should be the alias
 of the liaison manager, if applicable, or an address maintained by the IAB for liaison
 management such as liaison-coordination@iab.org. Having these more central contact points to
 send liaison statements to, helps to ensure that all statements get recorded correctly and
-are addressed to the appropriate groups. For statements send from other organisations
+are addressed to the appropriate groups. Note that when the liaison statement gets recorded,
+still all addresses in the "From-Contact" should be notified to acknowledge the recording. 
+
+For statements send from other organisations
 there is usually also such an generic address or the person from the sending organisation
 who sent out the email to someone within the IETF may be listed here. If that person is, however,
 already listed in the "From Contacts" part, this information can also be omitted for incoming statements.
