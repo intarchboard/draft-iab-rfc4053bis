@@ -151,7 +151,7 @@ To-Contact:
 
 In addition an explicit "Send Reply To" address may be provided that is used for processing
 the liaison statement. This address is usually not a personal address but rather a generic
-address associated to role. For liaison statements sent by the IETF, this address should be the alias
+address associated to a role. For liaison statements sent by the IETF, this address should be the alias
 of the liaison manager, if applicable, or an address maintained by the IAB for liaison
 management such as liaison-coordination@iab.org. Having these more central contact points to
 send liaison statements to, helps to ensure that all statements get recorded correctly and
