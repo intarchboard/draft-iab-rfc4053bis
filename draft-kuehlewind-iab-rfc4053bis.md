@@ -157,7 +157,8 @@ management such as liaison-coordination@iab.org. Having these more central conta
 send liaison statements to, helps to ensure that all statements get recorded correctly and
 are addressed to the appropriate groups. For statements send from other organisations
 there is usually also such an generic address or the person from the sending organisation
-who sent out the email to someone within the IETF may be listed here.
+who sent out the email to someone within the IETF may be listed here. If that person is, however,
+already listed in the "From Contacts" part, this information can also be omitted for incoming statements.
 
 #### Purpose:
 
