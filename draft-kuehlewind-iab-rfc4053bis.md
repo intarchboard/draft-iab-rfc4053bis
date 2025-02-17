@@ -119,14 +119,14 @@ does.  This information will include the following:
 
 ####  Contact Information
 
-The following fields detail the contact information of the liaison statement.
+The following contact information are expected to part of a liaison statement:
 
 From:
 : The statement will indicate from what body it originates; for
    example, it may be from, an IETF WG or Area, an ITU-T Study Group,
    Working Party, or Question, etc.  In this document, this body is the
-   "sender". This field may include more than one group, e.g. multipe IETF
-   working groups, but usually all group are from the same organisation.
+   "sender". A statement may be sent from more than one group, e.g. multiple IETF
+   working groups, but usually all groups are from the same organisation.
 
 From-Contact:
 : One or more electronic mail addresses belong to the "From" body to which any
@@ -140,13 +140,13 @@ From-Contact:
 
 To:
 : The statement will indicate to which body it is.  In this document,
-   this body is the "addressee". This field may include multiple bodies or
+   this body is the "addressee". A statement may be sent to multiple bodies or
    groups within one body.
 
 To-Contact:
 : One or more electronic mail addresses from the receiving body to which this
    statement should be sent. Similar as the "From-Contact" this includes addresses
-   associated with the "To" field, contacts that are required for liaison management,
+   associated with the "To" information, contacts that are required for liaison management,
    as well as any additional experts.
 
 #### Purpose:
