@@ -122,7 +122,7 @@ From: The statement will indicate from what body it originates; for
    Working Party, or Question, etc.  In this document, this body is the
    "sender". This field may include more than one group, e.g. multipe IETF
    working groups, but usually all group are from the same organisation.
- 
+
 From-Contact: One or more electronic mail addresses belong to the "From" body to which any
    response should be sent. This includes the addresses associated with the "From" group(s),
    e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
@@ -140,7 +140,7 @@ To-Contact: One or more electronic mail addresses from the receiving body to whi
    statement should be sent. Similar as the "From-Contact" this includes addresses
    associated with the "To" field, contacts that are required for liaison management,
    as well as any additional experts.
-   
+
 #### Purpose:
 
 A liaison statement generally has one of three purposes and will
