@@ -78,52 +78,58 @@ between the organisations (see {{Section 3 of RFC4052}}) even if no response is 
 
 ##  Definitions
 
-   For purposes of clarity, we use the following definitions:
+For purposes of clarity, we use the following definitions:
 
-   Addressee: The Working Group(s) (WG) or other party(s) in the IETF to
+Addressee:
+: The Working Group(s) (WG) or other party(s) in the IETF to
       whom a liaison statement is addressed.
 
-   Assignee: The person responsible to act on a liaison statement,
+Assignee:
+: The person responsible to act on a liaison statement,
       initially either the person to whom it was addressed or the chair
       of the group to which it was addressed.  The task may be
       reassigned to another person in the same or a different group as
       appropriate.
 
-   Liaison manager: A person designated to act as a manager of the
+Liaison manager:
+: A person designated to act as a manager of the
       relationship between the IETF and a peer organization to ensure
       that communication is maintained, is productive, and is timely, as
       defined by sections 2.2 and 3 in {{RFC4052}}.
 
-   Liaison statement: A letter as described in this document, exchanged
+Liaison statement:
+: A letter as described in this document, exchanged
       between organizations.
 
 ##  Liaison Statements
 
-   A Liaison Statement is a business letter sent by one standards
-   organization to another.  These organizations may be at any level
-   (WG, Area, etc.)   Generally, the sender and receiver are peer
-   organizations.  A liaison statement may have any purpose, but
-   generally the purpose is to solicit information, make a comment or
-   request an action.
+A Liaison Statement is a business letter sent by one standards
+organization to another.  These organizations may be at any level
+(WG, Area, etc.)   Generally, the sender and receiver are peer
+organizations.  A liaison statement may have any purpose, but
+generally the purpose is to solicit information, make a comment or
+request an action.
 
 ###  Contents of a Liaison Statement
 
-   Liaison statements may be very formal or informal, depending on the
-   rules of the body generating them.  Any liaison statement, however,
-   will always contain certain information, much as an business letter
-   does.  This information will include the following:
+Liaison statements may be very formal or informal, depending on the
+rules of the body generating them.  Any liaison statement, however,
+will always contain certain information, much as an business letter
+does.  This information will include the following:
 
 ####  Contact Information
 
 The following fields detail the contact information of the liaison statement.
 
-From: The statement will indicate from what body it originates; for
+From:
+: The statement will indicate from what body it originates; for
    example, it may be from, an IETF WG or Area, an ITU-T Study Group,
    Working Party, or Question, etc.  In this document, this body is the
    "sender". This field may include more than one group, e.g. multipe IETF
    working groups, but usually all group are from the same organisation.
 
-From-Contact: One or more electronic mail addresses belong to the "From" body to which any
+From-Contact:
+: One or more electronic mail addresses belong to the "From" body to which any
    response should be sent. This includes the addresses associated with the "From" group(s),
    e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
@@ -132,11 +138,13 @@ From-Contact: One or more electronic mail addresses belong to the "From" body to
    liaison by mail, as well as any additional technical experts that should be informed.
    This is often also called the "Response Contact".
 
-To: The statement will indicate to which body it is.  In this document,
+To:
+: The statement will indicate to which body it is.  In this document,
    this body is the "addressee". This field may include multiple bodies or
    groups within one body.
 
-To-Contact: One or more electronic mail addresses from the receiving body to which this
+To-Contact:
+: One or more electronic mail addresses from the receiving body to which this
    statement should be sent. Similar as the "From-Contact" this includes addresses
    associated with the "To" field, contacts that are required for liaison management,
    as well as any additional experts.
@@ -146,16 +154,19 @@ To-Contact: One or more electronic mail addresses from the receiving body to whi
 A liaison statement generally has one of three purposes and will
 clearly state its purpose using one of the following labels:
 
-   For Information: The liaison statement is to inform the addressee of
+For Information:
+: The liaison statement is to inform the addressee of
       something and expects no response. This includes calls for review
       comments if the expected response is optional.
 
-   For Action: The liaison statement requests that the addressee do
+For Action:
+: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
       frame. This is also used if a document is sent out for comment and
       the review feedback is expected in the stated time frame.
 
-   In Response: The liaison statement includes a response to a liaison
+In Response:
+: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
       documents and expects no further response.
 
