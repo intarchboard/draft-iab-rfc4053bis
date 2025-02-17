@@ -7,30 +7,24 @@
 <title>Procedures for Handling Liaison Statements to and from the IETF</title>
 <meta content="Mirja Kuehlewind" name="author">
 <meta content="
-       This document describes the procedure for proper handling of incoming
-liaison statements from other standards development organizations
-(SDOs), consortia, and industry fora, and for generating liaison
-statements to be transmitted from IETF to other SDOs, consortia and
-industry fora.  This procedure allows IETF to effectively collaborate
-with other organizations in the international standards community. 
-       The IETF expects that liaison statements might come from a variety of
-organizations, and it may choose to respond to many of those.  The
-IETF is only obligated to respond if there is an agreed liaison
-relationship, however. 
+       This document describes the procedure for generating and handling
+liaison statements between the IETF and other SDOs, so that IETF can
+effectively collaborate with other organizations in the international
+standards community. 
     " name="description">
-<meta content="xml2rfc 3.23.2" name="generator">
+<meta content="xml2rfc 3.26.0" name="generator">
 <meta content="draft-kuehlewind-iab-rfc4053bis-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.23.2
-    Python 3.12.7
+  xml2rfc 3.26.0
+    Python 3.12.8
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
-    Jinja2 3.1.4
-    lxml 4.9.4
+    Jinja2 3.1.5
+    lxml 5.3.0
     platformdirs 4.3.6
-    pycountry 22.3.5
-    PyYAML 6.0.1
+    pycountry 24.6.1
+    PyYAML 6.0.2
     requests 2.32.3
     setuptools 70.3.0
     wcwidth 0.2.13
@@ -169,31 +163,6 @@ relationship, however.
 }
 
 @font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Cabin Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url('https://martinthomson.github.io/rfc-css/fonts/cabincondensed-semibold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
   font-family: 'Oxygen Mono';
   font-style: normal;
   font-weight: 400;
@@ -210,6 +179,77 @@ relationship, however.
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-greek.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: italic;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-greek.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url('https://martinthomson.github.io/rfc-css/fonts/sofiasanssemicondensed-regular-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   color-scheme: light dark;
   --background-color: #fff;
@@ -222,6 +262,7 @@ relationship, however.
   --pilcrow-strong: #bbb;
   --small-font-size: 14.5px;
   --font-mono: 'Oxygen Mono', monospace;
+  --font-title: "Sofia Sans Semi Condensed", sans-serif;
   scrollbar-color: #bbb #eee;
 }
 body {
@@ -239,9 +280,15 @@ body {
 }
 
 /* headings */
+section {
+  clear: both;
+}
+.section-number {
+  padding-right: 0.5em;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cabin Condensed", sans-serif;
-  font-weight: 600;
+  font-family: var(--font-title);
+  font-weight: 680;
   margin: 0.8em 0 0.3em;
   font-size-adjust: 0.5;
   color: var(--title-color);
@@ -270,6 +317,7 @@ h4, h5, h6 {
 /* general structure */
 .author {
   padding-bottom: 0.3em;
+  vertical-align: top;
 }
 #abstract+p {
   font-size: 18px;
@@ -347,25 +395,26 @@ svg[font-family~="monospace" i], svg [font-family~="monospace" i] {
 ol, ul {
   padding: 0;
   margin: 0 0 0.5em 2em;
-}
-:is(ol, ul) :is(ol, ul) {
-  margin-left: 1em;
+  & :is(ol, ul) {
+    margin-left: 1em;
+  }
 }
 li {
   margin: 0 0 0.25em 0;
 }
-.ulCompact li {
-  margin: 0;
-}
 ul.empty, .ulEmpty {
   list-style-type: none;
-}
-ul.empty li, .ulEmpty li {
-  margin-top: 0.5em;
+  & li {
+    margin-top: 0.5em;
+  }
 }
 :is(ul, ol).compact, .ulCompact, .olCompact {
-  line-height: 1;
   margin: 0 0 0 2em;
+  & li {
+    margin: 0;
+    & :first-child { margin-top: 0; }
+    & :last-child { margin-bottom: 0; }
+  }
 }
 
 /* definition lists */
@@ -373,38 +422,39 @@ dl {
   clear: left;
   --indent: 3ch;
   /* --indent: attr(indent ch); not supported in any browser, but we can dream */
+  &.olPercent {
+    --indent: 5ch;
+    & > dt {
+      min-width: calc(var(--indent) - 2ch);
+    }
+  }
+  &.olPercent > dt {
+    float: none;
+  }
+
+  dl > dd > & {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
 }
-dl.olPercent {
-  --indent: 5ch;
-}
-dl > dt {
+dl:not(.dlNewline) > dt {
   float: left;
   margin-right: 2ch;
   min-width: 8ch;
-}
-dl.dlNewline > dt {
-  float: none;
 }
 dl > dd {
   margin-bottom: .8em;
   margin-left: var(--indent) !important; /* stupid element overrides */
   min-height: 2ex;
 }
-dl.olPercent > dt {
-  min-width: calc(var(--indent) - 2ch);
-}
 :is(dl.compact, .dlCompact) > dd {
   margin-bottom: 0;
-}
-:is(dl.compact, .dlCompact) > dd > :is(:first-child, .break:first-child + *) {
-  margin-top: 0;
-}
-:is(dl.compact, .dlCompact) > dd > :is(:last-child) {
-  margin-bottom: 0;
-}
-dl > dd > dl {
-  margin-top: 0.5em;
-  margin-bottom: 0;
+  & > :is(:first-child, .break:first-child + *) {
+    margin-top: 0;
+  }
+  & > :is(:last-child) {
+    margin-bottom: 0;
+  }
 }
 :is(dd, span).break {
   display: none;
@@ -468,6 +518,7 @@ figcaption, caption {
   font-style: italic;
   margin: 0.5em 1.5em;
   text-align: left;
+  caption-side: bottom;
 }
 @media screen {
   /* Auto-collapse boilerplate. */
@@ -485,7 +536,11 @@ figcaption, caption {
   }
   pre, svg {
     display: inline-block;
-    overflow-x: auto;
+    /* In the horizontal direction, sometimes people make over-sized figures.
+       Scrollbars for those is therefore necessary: auto adds them as necessary..
+       In the vertical direction, the line-height can combine with the font
+       asender/descender height to produce scrollbars: hidden avoids that. */
+    overflow: auto hidden;
   }
   pre {
     max-width: 100%;
@@ -522,6 +577,7 @@ cite {
 
 /* tables */
 table {
+  width: auto;
   max-width: 100%;
   margin: 0 0 1em;
   border-collapse: collapse;
@@ -536,6 +592,16 @@ table.center {
 table.left {
   margin-right: auto;
 }
+table .text-left {
+  text-align: left;
+}
+table .text-center {
+  text-align: center;
+}
+table .text-right {
+  text-align: right;
+}
+
 thead, tbody {
   border: 1px solid var(--line-color);
 }
@@ -566,9 +632,11 @@ a.pilcrow {
   margin-left: 3px;
   opacity: 0.2;
   user-select: none;
+  &[href] {
+    color: var(--pilcrow-weak);
+    &:hover { text-decoration: none; }
+  }
 }
-a.pilcrow[href] { color: var(--pilcrow-weak); }
-a.pilcrow[href]:hover { text-decoration: none; }
 @media not print {
   :hover > a.pilcrow {
     opacity: 1;
@@ -608,26 +676,28 @@ sub, sup {
   font-size: var(--small-font-size);
   line-height: 18px;
   --identifier-width: 15ch;
-}
-#identifiers dt {
-  width: var(--identifier-width);
-  min-width: var(--identifier-width);
-  clear: left;
-  float: left;
-  text-align: right;
-  margin-right: 1ch;
-}
-#identifiers dd {
-  margin: 0;
-  margin-left: calc(1em + var(--identifier-width)) !important;
-  min-width: 5em;
-}
-#identifiers .authors .author {
-  display: inline-block;
-  margin-right: 1.5em;
-}
-#identifiers .authors .org {
-  font-style: italic;
+  & dt {
+    width: var(--identifier-width);
+    min-width: var(--identifier-width);
+    clear: left;
+    float: left;
+    text-align: right;
+    margin-right: 1ch;
+  }
+  & dd {
+    margin: 0;
+    margin-left: calc(1em + var(--identifier-width)) !important;
+    min-width: 5em;
+  }
+  & .authors {
+    & .author {
+      display: inline-block;
+      margin-right: 1.5em;
+    }
+    & .org {
+      font-style: italic;
+    }
+  }
 }
 
 /* The prepared/rendered info at the very bottom of the page */
@@ -638,9 +708,6 @@ sub, sup {
   margin-top: 2em;
 }
 .docInfo .prepared {
-  float: left;
-}
-.docInfo .prepared {
   float: right;
 }
 
@@ -648,47 +715,48 @@ sub, sup {
 #toc {
   padding: 0.75em 0 2em 0;
   margin-bottom: 1em;
-}
-#toc nav ul {
-  margin: 0 0.5em 0 0;
-  padding: 0;
-  list-style: none;
-}
-#toc nav li {
-  line-height: 1.3em;
-  margin: 2px 0;
-  padding-left: 1.2em;
-  text-indent: -1.2em;
-}
-#toc a.xref {
-  white-space: normal;
-}
-/* references */
-.references dt {
-  text-align: right;
-  font-weight: bold;
-  min-width: 10ch;
-  margin-right: 1.5ch;
-}
-.references dt:target::before {
-  content: "⇒";
-  width: 15px;
-  margin: 0 10px 0 -25px;
-}
-.references dd {
-  margin-left: 12ch !important;
-  overflow: auto;
+
+  & nav {
+    & ul {
+      margin: 0 0.5em 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    & li {
+      line-height: 1.3em;
+      margin: 2px 0;
+      padding-left: 1.2em;
+      text-indent: -1.2em;
+    }
+  }
+  & a.xref {
+    white-space: normal;
+  }
 }
 
-.refInstance {
-  margin-bottom: 1.25em;
+.references {
+  & > dt {
+    text-align: right;
+    font-weight: bold;
+    min-width: 10ch;
+    margin-right: 1.5ch;
+    &:target::before {
+      content: "⇒";
+      margin: 0 10px 0 -25px;
+    }
+  }
+  & > dd {
+    margin-left: 12ch !important;
+    overflow: visible;
+    & .refInstance {
+      margin-bottom: 0.8em;
+    }
+    & .ascii {
+      margin-bottom: 0.25em;
+    }
+  }
 }
 
-.references .ascii {
-  margin-bottom: 0.25em;
-}
-
-/* index */
 #rfc\.index\.index + ul {
   margin-left: 0;
 }
@@ -696,21 +764,33 @@ sub, sup {
 /* authors */
 address.vcard {
   font-style: normal;
-  margin: 1em 0;
+  max-width: 20em;
+  margin: 1em auto 1em 0;
+
+  & .nameRole {
+    font-weight: 700;
+    margin-left: 0;
+  }
+  & .label {
+    margin: 0.5em 0;
+  }
+  & .type {
+    display: none;
+  }
+  & .alternative-contact {
+    margin: 0.5em 0 0.25em 0;
+  }
+  & .non-ascii {
+    margin: 0 0 0 2em;
+  }
+  & div.left {
+    text-align: left;
+  }
+  & div.right {
+    text-align: right;
+  }
 }
-address.vcard .nameRole {
-  font-weight: 700;
-  margin-left: 0;
-}
-address.vcard .label {
-  margin: 0.5em 0;
-}
-address.vcard .type {
-  display: none;
-}
-.alternative-contact {
-  margin: 1.5em 0 1em;
-}
+
 hr.addr {
   border-top: 1px dashed;
   margin: 0;
@@ -732,6 +812,7 @@ hr.addr {
   }
 }
 
+/* Comments */
 .rfcEditorRemove p:first-of-type {
   font-style: italic;
 }
@@ -742,7 +823,31 @@ hr.addr {
 .crefSource {
   font-style: italic;
 }
-/* alternative layout for smaller screens */
+
+@media screen {
+  #toc nav {
+    font-family: var(--font-title);
+    font-weight: 360;
+    & > ul { margin-bottom: 2em; }
+    & ul {
+      margin: 0 0 0 4px;
+      & :is(p, li) {
+        margin: 2px 0;
+      }
+    }
+  }
+  #toc a.toplink {
+    float: right;
+  }
+}
+@media not screen {
+  #toc a.toplink {
+    display: none;
+  }
+}
+
+
+/* TOC layout for smaller screens */
 @media screen and (max-width: 929px) {
   #toc {
     position: fixed;
@@ -753,9 +858,6 @@ hr.addr {
     margin: 0;
     border-bottom: 1px solid #ccc;
     opacity: 0.6;
-  }
-  #toc.active {
-      opacity: 1;
   }
   #toc h2 {
     margin: 0;
@@ -768,17 +870,17 @@ hr.addr {
     background-color: #444;
     color: white;
     cursor: pointer;
-  }
-  #toc h2::before { /* css hamburger */
-    float: right;
-    position: relative;
-    width: 1em;
-    height: 1px;
-    left: -164px;
-    margin: 8px 0 0 0;
-    background: white none repeat scroll 0 0;
-    box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
-    content: "";
+    &::before { /* css hamburger */
+      float: right;
+      position: relative;
+      width: 1em;
+      height: 1px;
+      left: -164px;
+      margin: 8px 0 0 0;
+      background: white none repeat scroll 0 0;
+      box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
+      content: "";
+    }
   }
   #toc nav {
     display: none;
@@ -789,14 +891,13 @@ hr.addr {
     height: calc(100vh - 48px);
     border-left: 1px solid #ddd;
   }
-  #toc.active nav {
-    display: block;
+  #toc.active {
+    opacity: 1;
+    & nav { display: block; }
   }
   /* Make the collapsed ToC header render white on gray also when it's a link */
   #toc h2 a,
-  #toc h2 a:link,
-  #toc h2 a:focus,
-  #toc h2 a:hover,
+  #toc h2 a:is(:link, :focus, :hover),
   #toc a.toplink,
   #toc a.toplink:hover {
     color: white;
@@ -804,11 +905,11 @@ hr.addr {
     text-decoration: none;
   }
   #toc a.toplink {
-    margin-top: 2px;
+    margin: 2px 0.5em 0;
   }
 }
 
-/* alternative layout for wide screens */
+/* TOC layout for wide screens */
 @media screen and (min-width: 930px) {
   body {
     padding-right: 360px;
@@ -837,20 +938,12 @@ hr.addr {
     overscroll-behavior: contain;
     scrollbar-width: thin;
   }
-  #toc nav > ul  {
-    margin-bottom: 2em;
-  }
-  #toc ul {
-    margin: 0 0 0 4px;
-    font-size: var(--small-font-size);
-  }
-  #toc ul :is(p, li) {
-    margin: 2px 0;
-    line-height: 22px;
-  }
   img { /* future proofing */
     max-width: 100%;
     height: auto;
+  }
+  #toc a.toplink {
+    margin: 8px 0.5em 0;
   }
 }
 
@@ -893,9 +986,6 @@ hr.addr {
   td {
     border-top: 1px solid #ddd;
   }
-  .toplink {
-    display: none;
-  }
 }
 
 @page :first {
@@ -918,82 +1008,6 @@ hr.addr {
   size: A4;
   margin-bottom: 45mm;
   padding-top: 20px;
-}
-
-/* Changes introduced to fix issues found during implementation */
-
-/* Separate body from document info even without intervening H1 */
-section {
-  clear: both;
-}
-
-/* Top align author divs, to avoid names without organization dropping level with org names */
-.author {
-  vertical-align: top;
-}
-
-/* Style section numbers with more space between number and title */
-.section-number {
-  padding-right: 0.5em;
-}
-
-/* Add styling for a link in the ToC that points to the top of the document */
-a.toplink {
-  float: right;
-  margin: 8px 0.5em 0;
-}
-
-/* Provide styling for table cell text alignment */
-table .text-left {
-  text-align: left;
-}
-table .text-center {
-  text-align: center;
-}
-table .text-right {
-  text-align: right;
-}
-
-/* Make the alternative author contact information look less like just another
-   author, and group it closer with the primary author contact information */
-.alternative-contact {
-  margin: 0.5em 0 0.25em 0;
-}
-address .non-ascii {
-  margin: 0 0 0 2em;
-}
-
-/* With it being possible to set tables with alignment
-  left, center, and right, { width: 100%; } does not make sense */
-table {
-  width: auto;
-}
-
-/* Avoid reference text that sits in a block with very wide left margin,
-   because of a long floating dt label.*/
-.references dd {
-  overflow: visible;
-}
-
-/* Control caption placement */
-caption {
-  caption-side: bottom;
-}
-
-/* Limit the width of the author address vcard, so names in right-to-left
-   script don't end up on the other side of the page. */
-
-address.vcard {
-  max-width: 20em;
-  margin-right: auto;
-}
-
-/* For address alignment dependent on LTR or RTL scripts */
-address div.left {
-  text-align: left;
-}
-address div.right {
-  text-align: right;
 }
 
 /* Dark mode. */
@@ -1032,11 +1046,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Handling of Liaison Statements</td>
-<td class="right">October 2024</td>
+<td class="right">February 2025</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kuehlewind</td>
-<td class="center">Expires 13 April 2025</td>
+<td class="center">Expires 21 August 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1049,12 +1063,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-kuehlewind-iab-rfc4053bis-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-10-10" class="published">10 October 2024</time>
+<time datetime="2025-02-17" class="published">17 February 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-04-13">13 April 2025</time></dd>
+<dd class="expires"><time datetime="2025-08-21">21 August 2025</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1067,16 +1081,10 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">Procedures for Handling Liaison Statements to and from the IETF</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">This document describes the procedure for proper handling of incoming
-liaison statements from other standards development organizations
-(SDOs), consortia, and industry fora, and for generating liaison
-statements to be transmitted from IETF to other SDOs, consortia and
-industry fora.  This procedure allows IETF to effectively collaborate
-with other organizations in the international standards community.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">The IETF expects that liaison statements might come from a variety of
-organizations, and it may choose to respond to many of those.  The
-IETF is only obligated to respond if there is an agreed liaison
-relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">This document describes the procedure for generating and handling
+liaison statements between the IETF and other SDOs, so that IETF can
+effectively collaborate with other organizations in the international
+standards community.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1112,7 +1120,7 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 13 April 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 21 August 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1121,7 +1129,7 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 <a href="#name-copyright-notice" class="section-name selfRef">Copyright Notice</a>
         </h2>
 <p id="section-boilerplate.2-1">
-            Copyright (c) 2024 IETF Trust and the persons identified as the
+            Copyright (c) 2025 IETF Trust and the persons identified as the
             document authors. All rights reserved.<a href="#section-boilerplate.2-1" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.2-2">
             This document is subject to BCP 78 and the IETF Trust's Legal
@@ -1191,38 +1199,41 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-approval-and-transmission-o" class="internal xref">Approval and Transmission of Liaison Statements</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref"></a><a href="#name-normative-references" class="internal xref">Normative References</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#appendix-A" class="auto internal xref">Appendix A</a>.  <a href="#name-implementation-road-map" class="internal xref">Implementation Road Map</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8.2.1">
-                <p id="section-toc.1-1.8.2.1.1"><a href="#appendix-A.1" class="auto internal xref">A.1</a>.  <a href="#name-phase-i-initial-implementat" class="internal xref">Phase I: Initial Implementation</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8.2.1.2.1">
-                    <p id="section-toc.1-1.8.2.1.2.1.1"><a href="#appendix-A.1.1" class="auto internal xref">A.1.1</a>.  <a href="#name-displays" class="internal xref">Displays</a></p>
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref"></a><a href="#name-informative-references" class="internal xref">Informative References</a></p>
 </li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8.2.1.2.2">
-                    <p id="section-toc.1-1.8.2.1.2.2.1"><a href="#appendix-A.1.2" class="auto internal xref">A.1.2</a>.  <a href="#name-actions-on-submission" class="internal xref">Actions on Submission</a></p>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
+            <p id="section-toc.1-1.9.1"><a href="#appendix-A" class="auto internal xref">Appendix A</a>.  <a href="#name-implementation-road-map" class="internal xref">Implementation Road Map</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9.2.1">
+                <p id="section-toc.1-1.9.2.1.1"><a href="#appendix-A.1" class="auto internal xref">A.1</a>.  <a href="#name-phase-i-initial-implementat" class="internal xref">Phase I: Initial Implementation</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9.2.1.2.1">
+                    <p id="section-toc.1-1.9.2.1.2.1.1"><a href="#appendix-A.1.1" class="auto internal xref">A.1.1</a>.  <a href="#name-displays" class="internal xref">Displays</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9.2.1.2.2">
+                    <p id="section-toc.1-1.9.2.1.2.2.1"><a href="#appendix-A.1.2" class="auto internal xref">A.1.2</a>.  <a href="#name-actions-on-submission" class="internal xref">Actions on Submission</a></p>
 </li>
                 </ul>
 </li>
             </ul>
 </li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
-            <p id="section-toc.1-1.9.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-phase-ii-additional-instrum" class="internal xref">Phase II: Additional Instrumentation and Responses to Usage Experience</a></p>
-</li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#appendix-C" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.10.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-phase-ii-additional-instrum" class="internal xref">Phase II: Additional Instrumentation and Responses to Usage Experience</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
+            <p id="section-toc.1-1.11.1"><a href="#appendix-C" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
 </li>
         </ul>
 </nav>
@@ -1233,18 +1244,21 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">This document describes the procedure for generating and handling
-   liaison statements between the IETF and other SDOs, so that IETF can
-   effectively collaborate with other organizations in the international
-   standards community.  These liaison statements are primarily
-   exchanged between IETF and organizations with whom the IAB has
-   created a liaison relationship (see <span>[<a href="#RFC4052" class="cite xref">RFC4052</a>]</span>), although other
-   organizations are not precluded.  The procedures described in this
-   document encompass all liaisons statements received from SDOs,
-   whether or not a formal liaison arrangement is in place between the
-   SDO and the IETF.  The IETF is not obligated to respond to the
-   liaison statement where there is no formal liaison arrangement.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">The implementation of the procedure and supporting tools is occurring
+<p id="section-1-1">This document describes the procedure for generating and handling<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">Liaison statements between the IETF and other SDOs, so that IETF can
+effectively collaborate with other organizations in the international
+standards community.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">Exchange of liaison statements does not require a formal liaison
+relationship (see <span>[<a href="#RFC4052" class="cite xref">RFC4052</a>]</span>).  The procedures described in this
+document encompass all liaisons statements received from SDOs,
+whether or not a formal liaison arrangement is in place between the
+SDO and the IETF. Receive of a liaison statement does not automatically
+impose an obligation of sending a response by the other party. The decision
+to send a response depends on the content and kind of request. However,
+if a formal liaions relationship exists it is the responsibility
+of the liaison manager to ensure appropriate communication
+between the organisations (see <span><a href="https://rfc-editor.org/rfc/rfc4052#section-3" class="relref">Section 3</a> of [<a href="#RFC4052" class="cite xref">RFC4052</a>]</span>) even if no response is sent.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">The implementation of the procedure and supporting tools is occurring
    in a minimum of three phases.  The initial phase has been the
    development of a prototype (in the best tradition of "rough consensus
    and running code"), by Sunny Lee of Foretec, in parallel with the
@@ -1252,13 +1266,13 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    conversion of that prototype to an operational tool.  This
    operational tool lacks an automated tracking tool; rather, the
    liaison manager implements it in his or her own way.  The third phase
-   will include that tracking tool.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">The specific supporting tools and their functionality described in
+   will include that tracking tool.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">The specific supporting tools and their functionality described in
    this document are one possible way of providing automated support for
    the processes described in this document.  Because specific tools and
    their functionality will change over time, the descriptions in this
    document are to be considered examples only and are not a normative
-   part of this specification.<a href="#section-1-3" class="pilcrow">¶</a></p>
+   part of this specification.<a href="#section-1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="liaison-statements-and-their-handling">
@@ -1310,125 +1324,94 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    rules of the body generating them.  Any liaison statement, however,
    will always contain certain information, much as an business letter
    does.  This information will include the following:<a href="#section-2.2.1-1" class="pilcrow">¶</a></p>
-<div id="envelope-information">
+<div id="contact-information">
 <section id="section-2.2.1.1">
-            <h5 id="name-envelope-information">
-<a href="#section-2.2.1.1" class="section-number selfRef">2.2.1.1. </a><a href="#name-envelope-information" class="section-name selfRef">Envelope Information</a>
+            <h5 id="name-contact-information">
+<a href="#section-2.2.1.1" class="section-number selfRef">2.2.1.1. </a><a href="#name-contact-information" class="section-name selfRef">Contact Information</a>
             </h5>
-<p id="section-2.2.1.1-1">The following fields detail properties of the liaison statement.<a href="#section-2.2.1.1-1" class="pilcrow">¶</a></p>
-<div id="from">
-<section id="section-2.2.1.1.1">
-              <h6 id="name-from">
-<a href="#section-2.2.1.1.1" class="section-number selfRef">2.2.1.1.1. </a><a href="#name-from" class="section-name selfRef">From:</a>
-              </h6>
-<p id="section-2.2.1.1.1-1">The statement will indicate from what body it originates; for
+<p id="section-2.2.1.1-1">The following fields detail the contact information of the liaison statement.<a href="#section-2.2.1.1-1" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.1-2">From: The statement will indicate from what body it originates; for
    example, it may be from, an IETF WG or Area, an ITU-T Study Group,
    Working Party, or Question, etc.  In this document, this body is the
-   "sender".<a href="#section-2.2.1.1.1-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="to">
-<section id="section-2.2.1.1.2">
-              <h6 id="name-to">
-<a href="#section-2.2.1.1.2" class="section-number selfRef">2.2.1.1.2. </a><a href="#name-to" class="section-name selfRef">To:</a>
-              </h6>
-<p id="section-2.2.1.1.2-1">The statement will indicate to which body it is.  In this document,
-   this body is the "addressee".<a href="#section-2.2.1.1.2-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="title">
-<section id="section-2.2.1.1.3">
-              <h6 id="name-title">
-<a href="#section-2.2.1.1.3" class="section-number selfRef">2.2.1.1.3. </a><a href="#name-title" class="section-name selfRef">Title:</a>
-              </h6>
-<p id="section-2.2.1.1.3-1">The statement will contain a short (usually single line) statement of
-   its context and content.<a href="#section-2.2.1.1.3-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="response-contact">
-<section id="section-2.2.1.1.4">
-              <h6 id="name-response-contact">
-<a href="#section-2.2.1.1.4" class="section-number selfRef">2.2.1.1.4. </a><a href="#name-response-contact" class="section-name selfRef">Response Contact:</a>
-              </h6>
-<p id="section-2.2.1.1.4-1">The sender will indicate the electronic mail address to which any
-   response should be sent.<a href="#section-2.2.1.1.4-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="technical-contact">
-<section id="section-2.2.1.1.5">
-              <h6 id="name-technical-contact">
-<a href="#section-2.2.1.1.5" class="section-number selfRef">2.2.1.1.5. </a><a href="#name-technical-contact" class="section-name selfRef">Technical Contact:</a>
-              </h6>
-<p id="section-2.2.1.1.5-1">The sender will indicate one or more electronic mail addresses
-   (persons or lists) that may be contacted for clarification of the
-   liaison statement.<a href="#section-2.2.1.1.5-1" class="pilcrow">¶</a></p>
+   "sender". This field may include more than one group, e.g. multipe IETF
+   working groups, but usually all group are from the same organisation.<a href="#section-2.2.1.1-2" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.1-3">From-Contact: One or more electronic mail addresses belong to the "From" body to which any
+   response should be sent. This includes the addresses associated with the "From" group(s),
+   e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
+   contacts that are required for the management of the liaison, like the
+   liaison manager if existant and/or an IAB liaison contact in case of statements sent by
+   the IETF or the staff person from the external organisation that has sent the incoming
+   liaison by mail, as well as any additional technical experts that should be informed.
+   This is often also called the "Response Contact".<a href="#section-2.2.1.1-3" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.1-4">To: The statement will indicate to which body it is.  In this document,
+   this body is the "addressee". This field may include multiple bodies or
+   groups within one body.<a href="#section-2.2.1.1-4" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.1-5">To-Contact: One or more electronic mail addresses from the receiving body to which this
+   statement should be sent. Similar as the "From-Contact" this includes addresses
+   associated with the "To" field, contacts that are required for liaison management,
+   as well as any additional experts.<a href="#section-2.2.1.1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="purpose">
-<section id="section-2.2.1.1.6">
-              <h6 id="name-purpose">
-<a href="#section-2.2.1.1.6" class="section-number selfRef">2.2.1.1.6. </a><a href="#name-purpose" class="section-name selfRef">Purpose:</a>
-              </h6>
-<p id="section-2.2.1.1.6-1">A liaison statement generally has one of three purposes and will
-   clearly state its purpose using one of the following labels:<a href="#section-2.2.1.1.6-1" class="pilcrow">¶</a></p>
-<p id="section-2.2.1.1.6-2">For Information: The liaison statement is to inform the addressee of
-      something, and expects no response.<a href="#section-2.2.1.1.6-2" class="pilcrow">¶</a></p>
-<p id="section-2.2.1.1.6-3">For Comment: The liaison statement requests commentary from the
-      addressee, usually within a stated time frame.<a href="#section-2.2.1.1.6-3" class="pilcrow">¶</a></p>
-<p id="section-2.2.1.1.6-4">For Action: The liaison statement requests that the addressee do
+<section id="section-2.2.1.2">
+            <h5 id="name-purpose">
+<a href="#section-2.2.1.2" class="section-number selfRef">2.2.1.2. </a><a href="#name-purpose" class="section-name selfRef">Purpose:</a>
+            </h5>
+<p id="section-2.2.1.2-1">A liaison statement generally has one of three purposes and will
+clearly state its purpose using one of the following labels:<a href="#section-2.2.1.2-1" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.2-2">For Information: The liaison statement is to inform the addressee of
+      something and expects no response. This includes calls for review
+      comments if the expected response is optional.<a href="#section-2.2.1.2-2" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.2-3">For Action: The liaison statement requests that the addressee do
       something on the sender's behalf, usually within a stated time
-      frame.<a href="#section-2.2.1.1.6-4" class="pilcrow">¶</a></p>
-<p id="section-2.2.1.1.6-5">In Response: The liaison statement includes a response to a liaison
+      frame. This is also used if a document is sent out for comment and
+      the review feedback is expected in the stated time frame.<a href="#section-2.2.1.2-3" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.2-4">In Response: The liaison statement includes a response to a liaison
       statement from the peer organization on one or more of its
-      documents and expects no further response.<a href="#section-2.2.1.1.6-5" class="pilcrow">¶</a></p>
+      documents and expects no further response.<a href="#section-2.2.1.2-4" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.2-5">Liaison statements that request action indicate a deadline when
+the action is required.  If the addressee cannot
+accomplish the request within the stated period, courtesy calls for a
+response offering a more doable deadline or an alternative course of
+action.<a href="#section-2.2.1.2-5" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="deadline">
-<section id="section-2.2.1.1.7">
-              <h6 id="name-deadline">
-<a href="#section-2.2.1.1.7" class="section-number selfRef">2.2.1.1.7. </a><a href="#name-deadline" class="section-name selfRef">Deadline:</a>
-              </h6>
-<p id="section-2.2.1.1.7-1">Liaison statements that request comment or action will indicate when
-   the comment or action is required.  If the addressee cannot
-   accomplish the request within the stated period, courtesy calls for a
-   response offering a more doable deadline or an alternative course of
-   action.<a href="#section-2.2.1.1.7-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="liaison-content">
-<section id="section-2.2.1.1.8">
-              <h6 id="name-liaison-content">
-<a href="#section-2.2.1.1.8" class="section-number selfRef">2.2.1.1.8. </a><a href="#name-liaison-content" class="section-name selfRef">Liaison Content</a>
-              </h6>
-<p id="section-2.2.1.1.8-1">The following fields are the substance of the liaison statement.
-   IETF participants use a wide variety of systems, thus document
-   formats that are not universally readable are problematic.  As a
-   result, documents enclosed with the body or attachments should be in
-   PDF, W3C HTML (without proprietary extensions), or ASCII text format.
-   If they were originally in a proprietary format such as Microsoft
-   Word, the file may be sent, but should be accompanied by a generally
-   readable file.<a href="#section-2.2.1.1.8-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="body">
-<section id="section-2.2.1.1.9">
-              <h6 id="name-body">
-<a href="#section-2.2.1.1.9" class="section-number selfRef">2.2.1.1.9. </a><a href="#name-body" class="section-name selfRef">Body:</a>
-              </h6>
-<p id="section-2.2.1.1.9-1">As with any business letter, the liaison statement contains
-   appropriate content explaining the issues or questions at hand.<a href="#section-2.2.1.1.9-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="attachments">
-<section id="section-2.2.1.1.10">
-              <h6 id="name-attachments">
-<a href="#section-2.2.1.1.10" class="section-number selfRef">2.2.1.1.10. </a><a href="#name-attachments" class="section-name selfRef">Attachments:</a>
-              </h6>
-<p id="section-2.2.1.1.10-1">Attachments, if enclosed, may be in the form of documents sent with
-   the liaison statement or may be URLs to similar documents including
-   Internet Drafts.<a href="#section-2.2.1.1.10-1" class="pilcrow">¶</a></p>
-</section>
-</div>
+<div id="liaison-content-title-and-attachments">
+<section id="section-2.2.1.3">
+            <h5 id="name-liaison-content-title-and-a">
+<a href="#section-2.2.1.3" class="section-number selfRef">2.2.1.3. </a><a href="#name-liaison-content-title-and-a" class="section-name selfRef">Liaison Content, Title, and Attachments</a>
+            </h5>
+<p id="section-2.2.1.3-1">As with any business letter, the liaison statement contains
+appropriate content explaining the issues or questions at hand.<a href="#section-2.2.1.3-1" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-2">Usually the statement will contain a short (usually single line) title
+providing a statement of its context and content.<a href="#section-2.2.1.3-2" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-3">Attachments, if enclosed, may be in the form of documents sent with
+the liaison statement or may be URLs to similar documents including
+Internet Drafts.<a href="#section-2.2.1.3-3" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-4">IETF participants use a wide variety of systems, thus document
+formats that are not universally readable are problematic.  As a
+result, documents enclosed with the body or attachments should be in
+PDF, W3C HTML (without proprietary extensions), or ASCII text format.
+If they were originally in a proprietary format such as Microsoft
+Word, the file may be sent, but should be accompanied by a generally
+readable file.<a href="#section-2.2.1.3-4" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-5">Different organisation have different requirements on the format of
+liaison statement. There are no requirements from the IETF on the format
+of the actual content of the liaison statement, however, we require
+the metadata (address information and purpose) as indicated in the previous
+section to be recorded. As such when receiving statement from other organisation
+these metadata should be extracted and recorded. However if content of the
+statement is not sent in plain text, the plain text content record field may
+be empty and the received laision statement is uploaded as attachement.<a href="#section-2.2.1.3-5" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-6">For statement sent from the IETF it is recommended to provide the content
+in plain text but also provide an attachement following the formating requirements
+of the receiving organisation if possible. If cases where we have a
+liaison manager, it is the responsiblity of the liaison to check or convert
+the formating requirements. It is further recommended to convert received
+document in proprietary formats into PDF and upload both version as
+attachments.<a href="#section-2.2.1.3-6" class="pilcrow">¶</a></p>
+<p id="section-2.2.1.3-7">This ensures that our process can comply with all formating requirements
+from other organisations.<a href="#section-2.2.1.3-7" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1710,11 +1693,10 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 <a href="#section-3.2.2" class="section-number selfRef">3.2.2. </a><a href="#name-responding-to-incoming-liai" class="section-name selfRef">Responding to Incoming Liaison Statements</a>
           </h4>
 <p id="section-3.2.2-1">Any incoming liaison statement that indicates that it is for
-   "Comment" or for "Action" requires a response by the deadline; other
-   liaison statements may also be replied to, although a reply is
-   generally optional.  It is the responsibility of the (co)chair(s) of
+   "Comment" or for "Action" requires a response by the deadline.
+   It is the responsibility of the (co)chair(s) of
    the addressed organization to ensure that a response is generated by
-   the deadline.<a href="#section-3.2.2-1" class="pilcrow">¶</a></p>
+   the deadline if a respone is intended.<a href="#section-3.2.2-1" class="pilcrow">¶</a></p>
 <div id="responding-to-requests-for-information">
 <section id="section-3.2.2.1">
             <h5 id="name-responding-to-requests-for-">
@@ -1739,8 +1721,8 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    reply liaison statement back to the originating organization.<a href="#section-3.2.2.2-2" class="pilcrow">¶</a></p>
 <p id="section-3.2.2.2-3">If no clear consensus is evident from the pattern of comments on the
    mailing list, or if there is no further discussion, a response is
-   still due to the originator.  A summary of the email comments, or
-   lack of interest in the issue, should be created and sent to the
+   still anticipated to the originator.  A summary of the email comments, or
+   lack of interest in the issue, can be created and sent to the
    originator, and represented as "collected comments" rather than a
    consensus of the IETF group to which the liaison statement was
    addressed.  It is possible to send this kind of a reply even if some
@@ -1767,7 +1749,7 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    work item requires a charter change.<a href="#section-3.2.2.3-5" class="pilcrow">¶</a></p>
 <p id="section-3.2.2.3-6">There is, of course, no requirement that IETF perform the action that
    was requested.  But the request should always be taken seriously, and
-   a response is required.  The originating organization must always be
+   generally a response is anticipated.  The originating organization should always be
    informed of what, if anything, the IETF has decided to do in response
    to the request.  If the IETF decides not to honor the request, or to
    honor it with modifications, the response should include the reasons
@@ -1775,7 +1757,7 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 <p id="section-3.2.2.3-7">For tasks that require a great deal of time, it may be necessary that
    several liaison statements be sent back to the originating
    organization to report the status of the work and the anticipated
-   completion time.  The first of these liaison statements must be
+   completion time.  The first of these liaison statements should be
    generated by the deadline indicated in the incoming liaison
    statement.<a href="#section-3.2.2.3-7" class="pilcrow">¶</a></p>
 </section>
@@ -1807,12 +1789,52 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </div>
 </section>
 </div>
-<div id="security-considerations">
+<div id="approval-and-transmission-of-liaison-statements">
 <section id="section-4">
-      <h2 id="name-security-considerations">
-<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+      <h2 id="name-approval-and-transmission-o">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-approval-and-transmission-o" class="section-name selfRef">Approval and Transmission of Liaison Statements</a>
       </h2>
-<p id="section-4-1">One of the key considerations in developing this process has been the
+<p id="section-4-1">It is important that appropriate leadership review be made of
+proposed IETF liaison statements and that those writing such
+statements, who claim to be speaking on behalf of IETF, are truly
+representing IETF views.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-4-2">For a liaison statement generated on behalf of an IETF WG, the WG
+chair(s) must create a statement based on appropriate discussions
+within the WG to ensure working group consensus for the position(s)
+presented.  The chair(s) must have generated or must agree with the
+sending of the liaison statement, and must advise the AD(s) that the
+liaison statement has been sent by copying the appropriate ADs on the
+message.<a href="#section-4-2" class="pilcrow">¶</a></p>
+<p id="section-4-3">For a liaison statement generated on behalf of an IETF Area, the
+AD(s) must have generated or must agree with the sending of the
+liaison statement.  If the liaison statement is not sent by the ADs,
+then their agreement must be obtained in advance and confirmed by
+copying the ADs on the message.<a href="#section-4-3" class="pilcrow">¶</a></p>
+<p id="section-4-4">For a liaison statement generated on behalf of the IETF as a whole,
+the IETF Chair must have generated or must agree with the sending of
+the liaison statement.  If the liaison statement is not sent by the
+IETF Chair, then his or her agreement must be obtained in advance and
+confirmed by copying the IETF Chair on the message.<a href="#section-4-4" class="pilcrow">¶</a></p>
+<p id="section-4-5">For a liaison statement generated by the IAB, the IAB Chair must have
+generated or must agree with the sending of the liaison statement.
+If the liaison statement is not sent by the IAB Chair, then his or
+her agreement must be obtained in advance and confirmed by copying
+the IAB Chair on the message.<a href="#section-4-5" class="pilcrow">¶</a></p>
+<p id="section-4-6">In cases where prior agreement was not obtained as outlined above,
+and the designated authority (AD, IETF Chair, or IAB Chair) in fact
+does not agree with the message, the designated authority will work
+with the liaison manager to follow up as appropriate, including
+emitting a revised liaison statement if necessary.  Clearly, this is
+a situation best avoided by assuring appropriate agreement in advance
+of sending the liaison message.<a href="#section-4-6" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="security-considerations">
+<section id="section-5">
+      <h2 id="name-security-considerations">
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+      </h2>
+<p id="section-5-1">One of the key considerations in developing this process has been the
    possibility of a denial of service attack on the IETF and its
    processes.  Historically, the IETF has not always handled liaison
    statements effectively, resulting in people working in other
@@ -1820,31 +1842,31 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    have also used the liaison statement process to impose deadlines on
    IETF activities, which has been frustrating for all concerned - the
    IETF because it does not accept such deadlines, and other
-   organizations because they feel ignored.<a href="#section-4-1" class="pilcrow">¶</a></p>
-<p id="section-4-2">For this reason the submission process is automated.  While the IETF
+   organizations because they feel ignored.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-2">For this reason the submission process is automated.  While the IETF
    cannot rate-limit the submitters, it can manage its internal
-   pipelines.<a href="#section-4-2" class="pilcrow">¶</a></p>
-<p id="section-4-3">This issue is exacerbated by the lack of any authentication on the
+   pipelines.<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-3">This issue is exacerbated by the lack of any authentication on the
    part of the submitter.  However, the IAB considers it important to be
    able to accept liaison statements whether or not a liaison
    relationship exists, so authentication of submitters is not an
-   effective control.<a href="#section-4-3" class="pilcrow">¶</a></p>
+   effective control.<a href="#section-5-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="iana-considerations">
-<section id="section-5">
+<section id="section-6">
       <h2 id="name-iana-considerations">
-<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-5-1">This document has no IANA actions.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-6-1">This document has no IANA actions.<a href="#section-6-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="acknowledgments">
-<section id="section-6">
+<section id="section-7">
       <h2 id="name-acknowledgments">
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="section-6-1">This text has been prompted by discussions with numerous individuals
+<p id="section-7-1">This text has been prompted by discussions with numerous individuals
    within IETF and other SDOs and fora, including Gary Fishman and Bert
    Wijnen.  It has been developed in cooperation with <span>[<a href="#RFC4052" class="cite xref">RFC4052</a>]</span>, which
    is to say with the express cooperation of the chair of the IAB,
@@ -1853,16 +1875,16 @@ relationship, however.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
    Area have also motivated this work.  Some drafts addressing
    individual problems (for example, RFC 3427) make it clear that a more
    general, consistent solution is needed for dealing with outside
-   organizations.  Certain ideas have been borrowed from these texts.<a href="#section-6-1" class="pilcrow">¶</a></p>
-<p id="section-6-2">Barbara Fuller, Sunny Lee, and Michael Lee developed a prototype and
+   organizations.  Certain ideas have been borrowed from these texts.<a href="#section-7-1" class="pilcrow">¶</a></p>
+<p id="section-7-2">Barbara Fuller, Sunny Lee, and Michael Lee developed a prototype and
    commented in detail on the document.  Their inputs directly resulted
-   in the appendices describing the implementation road map.<a href="#section-6-2" class="pilcrow">¶</a></p>
+   in the appendices describing the implementation road map.<a href="#section-7-2" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="sec-normative-references">
-<section id="section-7">
-      <h2 id="name-normative-references">
-<a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+<div id="sec-informative-references">
+<section id="section-8">
+      <h2 id="name-informative-references">
+<a href="#name-informative-references" class="section-name selfRef">Informative References</a>
       </h2>
 <dl class="references">
 <dt id="RFC4052">[RFC4052]</dt>
