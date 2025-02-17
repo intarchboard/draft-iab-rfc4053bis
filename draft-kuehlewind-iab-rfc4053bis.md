@@ -149,6 +149,16 @@ To-Contact:
    associated with the "To" information, contacts that are required for liaison management,
    as well as any additional experts.
 
+In addition an explicit "Send Reply To" address may be provided that is used for processing
+the liaison statement. This address is usually not a personal address but rather a generic
+address associated to role. For liaison statements sent by the IETF, this address should be the alias
+of the liaison manager, if applicable, or an address maintained by the IAB for liaison
+management such as liaison-coordination@iab.org. Having these more central contact points to
+send liaison statements to, helps to ensure that all statements get recorded correctly and
+are addressed to the appropriate groups. For statements send from other organisations
+there is usually also such an generic address or the person from the sending organisation
+who sent out the email to someone within the IETF may be listed here.
+
 #### Purpose:
 
 A liaison statement generally has one of three purposes and will
