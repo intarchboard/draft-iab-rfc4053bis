@@ -220,7 +220,9 @@ Table of Contents
    appropriate groups.  For statements send from other organisations
    there is usually also such an generic address or the person from the
    sending organisation who sent out the email to someone within the
-   IETF may be listed here.
+   IETF may be listed here.  If that person is, however, already listed
+   in the "From Contacts" part, this information can also be omitted for
+   incoming statements.
 
 2.2.1.2.  Purpose:
 
