@@ -1,5 +1,4 @@
 name: "Publish New Draft Version"
-name: "Publish New Draft Version"
 
 on:
   push:
