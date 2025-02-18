@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-16T00:48:32.147307+00:00",
+  "timestamp": "2025-02-18T00:43:28.142648+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -163,6 +163,44 @@
       "updatedAt": "2025-02-12T14:47:16Z",
       "closedAt": "2025-02-12T14:47:16Z",
       "comments": []
+    },
+    {
+      "number": 12,
+      "id": "I_kwDOMUjnl86qVlI4",
+      "title": "Maybe re-add a \"Send reply to\" field",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/12",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "If we want to ensure that in future all LSs are send either _through_ the liaison managers or liaison coordinators, maybe we should re-add a field \"send reply to\" which either contains the liaison manager alias, e.g. 3gpp-liaison@ietf.org, if applicable or liaison-coordination@iab.org",
+      "createdAt": "2025-02-17T12:56:35Z",
+      "updatedAt": "2025-02-17T15:14:42Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Actually I think we need a \"From-Liaison-Contact\" and a \"To-Liaison-Contact\". The \"From-Liaison-Contact\" is the \"Sent Reply To\" information. However, if the expectation is that a LS is only send to this address when replying, we should also expose this when sending a reply in the \"To-Liaison-Contact\".",
+          "createdAt": "2025-02-17T14:51:33Z",
+          "updatedAt": "2025-02-17T14:51:33Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Also this touches a bit more on tooling but it still be good to be clear here I think.\n\nWhenever we upload a LS, no matter if incoming or outgoing, into the datatacker an email should go out to all contacts belong to the IETF (either \"From Contacts\" or \"To Contacts\" depending if outgoing or incoming) to acknowledge that the LS was recorded.\n\nHowever, for outgoing LSs sent from the IETF, sometimes LS should only be send to a liaison contact email address. This could be covered by adding a \"To-Liaison-Contact\". If that contact is present/known, the statement will be only directly sent to this address. If not, it will be sent to all address in the \"To-Contacts\".\n\nQuestion is should we also do something similar for incoming LSs sent by another org. Usually there is one person that has send out the LS to someone in the IETF and that person in the IETF uploads the LS to the datatracker. Sometimes there might be others from the same org in cc of that original mail. And sometimes there are more people listed in the LS itself (like in an attached word doc or PDF). I guess somehow we should at least send out a confirmation to everybody who was cc'ed in the initial mail when creating the datatracker record. Again we could use the \"From-Liaison-Contact\" for this. However, using this field would than also mean that a reply would only be set to this set of people as well. But I think that seems actually right to me.\n\nSo in summary, if a LS get recorded a confirmation mail is sent to all email address belong to the IETF-side as well as the \"From/to-Liaison-Contact\" if present. If not present, then the mail is also send to all address in the \"From/To Contacts\". ",
+          "createdAt": "2025-02-17T15:12:08Z",
+          "updatedAt": "2025-02-17T15:12:08Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Here are some examples of metadata information from LS that we receive from the orgs:\n\n<img width=\"516\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c702ebe8-b57b-48af-a235-dbdfcb10b2cb\" />\n<img width=\"485\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3e2f0128-60e3-4009-8f48-f081b192f275\" />\n<img width=\"840\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8d08089e-bf33-40cb-96ae-d167f3432960\" />\n<img width=\"506\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/27fadcdc-67ca-4fc7-b9fe-0c9d3be4ea72\" />\n<img width=\"486\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e555d9dc-9d3f-4ada-95b3-2b817fc20ce0\" />\n<img width=\"1050\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b4d46569-e6f2-45e6-bf7c-3871f193de57\" />\n<img width=\"517\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2c70e977-fc93-4d23-b45c-442b187feda3\" />",
+          "createdAt": "2025-02-17T15:14:39Z",
+          "updatedAt": "2025-02-17T15:14:39Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -567,6 +605,153 @@
       },
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOMUjnl86LdwuW",
+      "title": "\"Send Reply To\" information",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/13",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #12",
+      "createdAt": "2025-02-17T13:57:06Z",
+      "updatedAt": "2025-02-17T14:45:21Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "e6e57b7a297e6548f4ae56d06b82e5bec6815a5f",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-6",
+      "headRefOid": "d27c7b2e5dc19de9b2d10856d71aeb17a98d774d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86cPEPI",
+          "commit": {
+            "abbreviatedOid": "4d66ce7"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:15:44Z",
+          "updatedAt": "2025-02-17T14:15:45Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "```suggestion\r\nwho sent out the email to someone within the IETF may be listed here. If that person is, however,\r\nalready listed in the \"From Contacts\" part, this information can also be omitted for incoming statements.\r\n```",
+              "createdAt": "2025-02-17T14:15:45Z",
+              "updatedAt": "2025-02-17T14:15:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86cPEjZ",
+          "commit": {
+            "abbreviatedOid": "5a64d42"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:16:15Z",
+          "updatedAt": "2025-02-17T14:16:16Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\naddress associated to a role. For liaison statements sent by the IETF, this address should be the alias\r\n```",
+              "createdAt": "2025-02-17T14:16:16Z",
+              "updatedAt": "2025-02-17T14:16:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86cPOhe",
+          "commit": {
+            "abbreviatedOid": "4eec3f1"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:32:39Z",
+          "updatedAt": "2025-02-17T14:32:40Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\naddress associated to a role. If such a \"Send Reply To\" address is provided the expectation is that a statement\r\nsend in reply will only be send to this address from the respective organisation and will then be distributed \r\naccordingly internally in the receiving organisation by that person.\r\n\r\nFor liaison statements sent by the IETF, this address should be the alias\r\n```",
+              "createdAt": "2025-02-17T14:32:39Z",
+              "updatedAt": "2025-02-17T14:32:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86cPRp6",
+          "commit": {
+            "abbreviatedOid": "5bc1bf5"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:37:53Z",
+          "updatedAt": "2025-02-17T14:37:53Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\nare addressed to the appropriate groups. Note that when the liaison statement gets recorded,\r\nstill all addresses in the \"From-Contact\" should be notified to acknowledge the recording. \r\n\r\nFor statements send from other organisations\r\n```",
+              "createdAt": "2025-02-17T14:37:53Z",
+              "updatedAt": "2025-02-17T14:37:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86cPV8D",
+          "commit": {
+            "abbreviatedOid": "bef6665"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:44:56Z",
+          "updatedAt": "2025-02-17T14:44:56Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\r\nsend in reply will only be send to this address from the respective organisation and will then be distributed\r\n```",
+              "createdAt": "2025-02-17T14:44:56Z",
+              "updatedAt": "2025-02-17T14:44:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86cPWAR",
+          "commit": {
+            "abbreviatedOid": "bef6665"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-17T14:45:03Z",
+          "updatedAt": "2025-02-17T14:45:03Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "```suggestion\r\nstill all addresses in the \"From-Contact\" should be notified to acknowledge the recording.\r\n```",
+              "createdAt": "2025-02-17T14:45:03Z",
+              "updatedAt": "2025-02-17T14:45:04Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
