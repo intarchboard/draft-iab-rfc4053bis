@@ -65,23 +65,23 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-     1.1.  Liaison Statements
-       1.1.1.  Contact Information
-       1.1.2.  Purpose:
-       1.1.3.  Liaison Content, Title, and Attachments
-     1.2.  Responsibilities when Receiving a Liaison Statement
-     1.3.  Lifetime of a Liaison Statement
-   2.  Handling Liaison Statements
-     2.1.  Liaison Statements from Other SDOs, Consortia, and Fora to
+   2.  Content of Liaison Statements
+     2.1.  Contact Information
+       2.1.1.  Purpose:
+       2.1.2.  Body, Title, and Attachments
+   3.  Responsibilities when Receiving a Liaison Statement
+   4.  Lifetime of a Liaison Statement
+   5.  Handling Liaison Statements
+     5.1.  Liaison Statements from Other SDOs, Consortia, and Fora to
            IETF
-     2.2.  Communicating IETF Information to Other SDOs, Consortia,
+     5.2.  Communicating IETF Information to Other SDOs, Consortia,
            and Fora
-       2.2.1.  Spontaneously Generating Liaison Statements to Other
+       5.2.1.  Spontaneously Generating Liaison Statements to Other
                Organizations
-       2.2.2.  Responding to Incoming Liaison Statements
-   3.  Approval and Transmission of Liaison Statements
-   4.  Security Considerations
-   5.  IANA Considerations
+       5.2.2.  Responding to Incoming Liaison Statements
+   6.  Approval and Transmission of Liaison Statements
+   7.  Security Considerations
+   8.  IANA Considerations
    Acknowledgments
    Informative References
    Author's Address
@@ -106,7 +106,7 @@ Table of Contents
    communication between the organisations (see Section 3 of [RFC4052])
    even if no response is sent.
 
-1.1.  Liaison Statements
+2.  Content of Liaison Statements
 
    A Liaison Statement is a business letter sent by one standards
    organization to another.  These organizations may be at any level
@@ -118,9 +118,9 @@ Table of Contents
    Liaison statements may be very formal or informal, depending on the
    rules of the body generating them.  Any liaison statement, however,
    will always contain certain information, much as an business letter
-   does.  This information will include the following:
+   does.  This information should include the following:
 
-1.1.1.  Contact Information
+2.1.  Contact Information
 
    The following contact information are expected to part of a liaison
    statement:
@@ -153,9 +153,9 @@ Table of Contents
       information, contacts that are required for liaison management, as
       well as any additional experts.
 
-1.1.2.  Purpose:
+2.1.1.  Purpose:
 
-   A liaison statement generally has one of three purposes and will
+   A liaison statement generally has one of three purposes and should
    clearly state its purpose using one of the following labels:
 
    For Information:  The liaison statement is to inform the receiving
@@ -177,12 +177,12 @@ Table of Contents
    request within the stated period, courtesy calls for a response
    offering a more doable deadline or an alternative course of action.
 
-1.1.3.  Liaison Content, Title, and Attachments
+2.1.2.  Body, Title, and Attachments
 
    As with any business letter, the liaison statement contains
    appropriate content explaining the issues or questions at hand.
 
-   Usually the statement will contain a short (usually single line)
+   Usually the statement also contains a short (usually single line)
    title providing a statement of its context and content.
 
    Attachments, if enclosed, may be in the form of documents sent with
@@ -198,14 +198,14 @@ Table of Contents
    readable file.
 
    Different organisation have different requirements on the format of
-   liaison statement.  There are no requirements from the IETF on the
-   format of the actual content of the liaison statement, however, we
-   require the metadata (address information and purpose) as indicated
-   in the previous section to be recorded.  As such when receiving
-   statement from other organisation these metadata should be extracted
-   and recorded.  However if content of the statement is not sent in
-   plain text, the plain text content record field may be empty and the
-   received laision statement is uploaded as attachement.
+   liaison statements.  There are no requirements from the IETF on the
+   format of the actual liaison statement, however, we require the
+   metadata (address information and purpose) as indicated in the
+   previous section to be recorded explicitly.  As such when receiving
+   statement from other organisation these metadata should be extracted.
+   If content of the statement is not sent in plain text, the plain text
+   body field may be empty and the received laision statement is
+   uploaded as attachement.
 
    For statement sent from the IETF it is recommended to provide the
    content in plain text but also provide an attachement following the
@@ -218,7 +218,7 @@ Table of Contents
    This ensures that our process can comply with all formating
    requirements from other organisations.
 
-1.2.  Responsibilities when Receiving a Liaison Statement
+3.  Responsibilities when Receiving a Liaison Statement
 
    The responsibilities of the receiver of a liaison statement are the
    same as the responsibilities of any business letter.  A liaison
@@ -265,7 +265,7 @@ Table of Contents
    another body; if it fails to react in a timely fashion, it may miss
    the opportunity.
 
-1.3.  Lifetime of a Liaison Statement
+4.  Lifetime of a Liaison Statement
 
    A liaison statement is a temporary document, much like an internet
    draft.  If it affects IETF output, the normal expectation is that the
@@ -284,9 +284,9 @@ Table of Contents
    relevant, but do so in a manner obviously distinct from current
    liaison statements.
 
-2.  Handling Liaison Statements
+5.  Handling Liaison Statements
 
-2.1.  Liaison Statements from Other SDOs, Consortia, and Fora to IETF
+5.1.  Liaison Statements from Other SDOs, Consortia, and Fora to IETF
 
    The process of handling a liaison statement is more weighty than
    handling a business letter because it is important to a relationship
@@ -299,13 +299,13 @@ Table of Contents
    knowledge of the liaison manager, therefore it is generally the
    reponibility of the receiver to ensure a public record is created.
 
-2.2.  Communicating IETF Information to Other SDOs, Consortia, and Fora
+5.2.  Communicating IETF Information to Other SDOs, Consortia, and Fora
 
    This includes liaison statements sent in reply to liaison statements
    sent by other bodies, and liaison statements being originated by the
    IETF.
 
-2.2.1.  Spontaneously Generating Liaison Statements to Other
+5.2.1.  Spontaneously Generating Liaison Statements to Other
         Organizations
 
    Liaison Statements can be generated at a WG, Area, or IETF level to
@@ -317,7 +317,7 @@ Table of Contents
    consensus should be sought before sending a liaison statement to
    another organization.
 
-2.2.1.1.  Transmitting IETF Documents to Other Organizations
+5.2.1.1.  Transmitting IETF Documents to Other Organizations
 
    The simplest case of approving sending of a liaison statement from
    IETF is when the information being transmitted consists of an IETF
@@ -344,7 +344,7 @@ Table of Contents
    these documents cannot be truthfully represented as any kind of IETF
    position.
 
-2.2.1.2.  Requests for Information
+5.2.1.2.  Requests for Information
 
    Another type of liaison statement that can be generated without the
    need for extensive consensus building on the email list is a request
@@ -358,7 +358,7 @@ Table of Contents
    Other requests for information may request access to certain
    documents of other organizations that are not publicly available.
 
-2.2.1.3.  Requesting Comments on Work in Progress
+5.2.1.3.  Requesting Comments on Work in Progress
 
    There may be cases when one feels that a document under development
    in the IETF may benefit from the input of experts in another relevant
@@ -370,7 +370,7 @@ Table of Contents
    it is appropriate to ask another organization for comments on an IETF
    draft.
 
-2.2.1.4.  Requests for Other Actions (Besides Comments on IETF Drafts)
+5.2.1.4.  Requests for Other Actions (Besides Comments on IETF Drafts)
 
    There are many other kinds of actions that might reasonably be
    requested of another organization:
@@ -391,7 +391,7 @@ Table of Contents
    clearest possible consensus within the particular WG, Area, or within
    the IETF at large.
 
-2.2.2.  Responding to Incoming Liaison Statements
+5.2.2.  Responding to Incoming Liaison Statements
 
    Any incoming liaison statement that indicates that it is for
    "Comment" or for "Action" requires a response by the deadline.  It is
@@ -399,14 +399,14 @@ Table of Contents
    to ensure that a response is generated by the deadline if a respone
    is intended.
 
-2.2.2.1.  Responding to Requests for Information
+5.2.2.1.  Responding to Requests for Information
 
    If another organization requests information that can be found in an
    IETF document of the types indicated in Section 3.2.1.1, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
    the level of agreement for the relevant document.
 
-2.2.2.2.  Responding to Requests for Comments
+5.2.2.2.  Responding to Requests for Comments
 
    If an incoming liaison statement requests comments on a document from
    another organization, a discussion will occur on the mailing list
@@ -425,7 +425,7 @@ Table of Contents
    addressed.  It is possible to send this kind of a reply even if some
    of the comments are contradictory.
 
-2.2.2.3.  Responding to Request for Action
+5.2.2.3.  Responding to Request for Action
 
    A request for Action is a fairly serious thing.  Examples of the
    kinds of actions that may be expected are:
@@ -461,7 +461,7 @@ Table of Contents
    generated by the deadline indicated in the incoming liaison
    statement.
 
-2.2.2.4.  Generating Liaison Statements
+5.2.2.4.  Generating Liaison Statements
 
    IETF participants, usually WG chairs, ADs, or other officials, need
    to be able to send liaison statements to other SDOs.  Further, all
@@ -474,7 +474,7 @@ Table of Contents
    The process of generating and approving transmission of liaison
    statements is a matter of IETF process and is specified in [RFC4052].
 
-3.  Approval and Transmission of Liaison Statements
+6.  Approval and Transmission of Liaison Statements
 
    It is important that appropriate leadership review be made of
    proposed IETF liaison statements and that those writing such
@@ -515,7 +515,7 @@ Table of Contents
    a situation best avoided by assuring appropriate agreement in advance
    of sending the liaison message.
 
-4.  Security Considerations
+7.  Security Considerations
 
    One of the key considerations in developing this process has been the
    possibility of a denial of service attack on the IETF and its
@@ -537,7 +537,7 @@ Table of Contents
    relationship exists, so authentication of submitters is not an
    effective control.
 
-5.  IANA Considerations
+8.  IANA Considerations
 
    This document has no IANA actions.
 
