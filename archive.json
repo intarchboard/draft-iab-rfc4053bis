@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-18T00:43:28.142648+00:00",
+  "timestamp": "2025-02-20T00:44:17.939773+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -120,9 +120,17 @@
       "labels": [],
       "body": "Currently the RFC says: \"A liaison statement is a temporary document\". however, it is probably important to keep a record and we might want to revise this section",
       "createdAt": "2024-10-09T13:35:22Z",
-      "updatedAt": "2025-02-12T13:55:45Z",
+      "updatedAt": "2025-02-18T13:46:23Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "NONE",
+          "body": "Should we understand temporary document as living document? should we understand record as permanent record? I am not 100% percent sure we will see liaison statement as permanent record, just like personal email I maintain, I might delete some of emails at some time point or quarterly.\nMaybe we should just use one single analogy,i.e., email, since temporary document as another analogy introducing confusing.\nOr we simply change it as living document.",
+          "createdAt": "2025-02-18T13:46:21Z",
+          "updatedAt": "2025-02-18T13:46:21Z"
+        }
+      ]
     },
     {
       "number": 7,
