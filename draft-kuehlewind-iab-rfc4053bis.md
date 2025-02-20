@@ -534,29 +534,3 @@ This document has no IANA actions.
    in the appendices describing the implementation road map.
 
 --- back
-
-# Intented features for a future liaison statement tracking system
-
-   This list of feature was indicated as Phase II in RFC4053 but have
-   never been implemented. Therefore this list is kept for now as a
-   record of high-level intended features of the future liaison statement
-   tracking system:
-
-   o  Designating an assignee; the assignee is initially a person
-      associated with the body (IAB, IESG, Area, WG, etc.) to which the
-      liaison statement is addressed, but may subsequently be changed by
-      an IETF participant.
-
-   o  Indicating the status of the liaison statement (e.g., actions
-      required, actions taken, etc.  Specific options TBD).
-
-   o  Sending ticklers to the assignee when action is required (with
-      copies to whomever is appropriate).
-
-   o  Changing the status of the liaison statement, the deadline, or
-      other attributes.
-
-   o  Reassigning responsibility.
-
-   o  Closing the liaison statement.
-
