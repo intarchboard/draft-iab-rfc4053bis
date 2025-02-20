@@ -53,7 +53,7 @@ if a formal liaions relationship exists it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
-##  Liaison Statements
+#  Content of Liaison Statements
 
 A Liaison Statement is a business letter sent by one standards
 organization to another.  These organizations may be at any level
@@ -65,9 +65,9 @@ request an action.
 Liaison statements may be very formal or informal, depending on the
 rules of the body generating them.  Any liaison statement, however,
 will always contain certain information, much as an business letter
-does.  This information will include the following:
+does.  This information should include the following:
 
-###  Contact Information
+##  Contact Information
 
 The following contact information are expected to part of a liaison statement:
 
@@ -99,7 +99,7 @@ To-Contact:
 
 ### Purpose:
 
-A liaison statement generally has one of three purposes and will
+A liaison statement generally has one of three purposes and should
 clearly state its purpose using one of the following labels:
 
 For Information:
@@ -124,12 +124,12 @@ accomplish the request within the stated period, courtesy calls for a
 response offering a more doable deadline or an alternative course of
 action.
 
-### Liaison Content, Title, and Attachments
+### Body, Title, and Attachments
 
 As with any business letter, the liaison statement contains
 appropriate content explaining the issues or questions at hand.
 
-Usually the statement will contain a short (usually single line) title
+Usually the statement also contains a short (usually single line) title
 providing a statement of its context and content.
 
 Attachments, if enclosed, may be in the form of documents sent with
@@ -145,12 +145,12 @@ Word, the file may be sent, but should be accompanied by a generally
 readable file.
 
 Different organisation have different requirements on the format of
-liaison statement. There are no requirements from the IETF on the format
-of the actual content of the liaison statement, however, we require
+liaison statements. There are no requirements from the IETF on the format
+of the actual liaison statement, however, we require
 the metadata (address information and purpose) as indicated in the previous
-section to be recorded. As such when receiving statement from other organisation
-these metadata should be extracted and recorded. However if content of the
-statement is not sent in plain text, the plain text content record field may
+section to be recorded explicitly. As such when receiving statement from other organisation
+these metadata should be extracted. If content of the
+statement is not sent in plain text, the plain text body field may
 be empty and the received laision statement is uploaded as attachement.
 
 For statement sent from the IETF it is recommended to provide the content
@@ -164,7 +164,7 @@ attachments.
 This ensures that our process can comply with all formating requirements
 from other organisations.
 
-##  Responsibilities when Receiving a Liaison Statement
+#  Responsibilities when Receiving a Liaison Statement
 
    The responsibilities of the receiver of a liaison statement are the
    same as the responsibilities of any business letter.  A liaison
@@ -211,7 +211,7 @@ from other organisations.
    another body; if it fails to react in a timely fashion, it may miss
    the opportunity.
 
-##  Lifetime of a Liaison Statement
+#  Lifetime of a Liaison Statement
 
    A liaison statement is a temporary document, much like an internet
    draft.  If it affects IETF output, the normal expectation is that the
