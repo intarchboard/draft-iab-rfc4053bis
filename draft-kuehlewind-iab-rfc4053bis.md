@@ -119,7 +119,7 @@ does.  This information will include the following:
 
 ####  Contact Information
 
-The following contact information are expected to part of a liaison statement:
+The following contact information are expected to be part of a liaison statement:
 
 From:
 : The statement will indicate from what body it originates; for
@@ -129,14 +129,22 @@ From:
    working groups, but usually all groups are from the same organisation.
 
 From-Contact:
-: One or more electronic mail addresses belong to the "From" body to which any
-   response should be sent. This includes the addresses associated with the "From" group(s),
+: One or more electronic mail addresses belong to the "From" body.
+   This includes the addresses associated with the "From" group(s),
    e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
    liaison manager if existant and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
    liaison by mail, as well as any additional technical experts that should be informed.
-   This is often also called the "Response Contact".
+
+From-Liaison-Contact ("Send Reply to"):
+: An explicit "Send Reply To" address may be provided that is used for processing
+   the liaison statement. This address is usually not a personal address but rather a generic
+   address associated to a role or process. For liaison statements sent by the IETF, this address should be the alias
+   of the liaison manager, if applicable, or an address maintained by the IAB for liaison
+   management such as liaison-coordination@iab.org. If a "Send Reply To" address is provided the expectation is that a statement
+   sent in reply will only be sent to this address and will then be distributed
+   accordingly internally in the receiving organisation follow their internal process.
 
 To:
 : The statement will indicate to which body it is.  In this document,
@@ -145,27 +153,17 @@ To:
 
 To-Contact:
 : One or more electronic mail addresses from the receiving body to which this
-   statement should be sent. Similar as the "From-Contact" this includes addresses
-   associated with the "To" information, contacts that are required for liaison management,
+   statement should be sent. Similar as the "From-Contact" this includes all addresses
+   associated with the "To" information, addional contacts that are required for liaison management,
    as well as any additional experts.
 
-In addition an explicit "Send Reply To" address may be provided that is used for processing
-the liaison statement. This address is usually not a personal address but rather a generic
-address associated to a role. If such a "Send Reply To" address is provided the expectation is that a statement
-send in reply will only be send to this address from the respective organisation and will then be distributed
-accordingly internally in the receiving organisation by that person.
-
-For liaison statements sent by the IETF, this address should be the alias
-of the liaison manager, if applicable, or an address maintained by the IAB for liaison
-management such as liaison-coordination@iab.org. Having these more central contact points to
-send liaison statements to, helps to ensure that all statements get recorded correctly and
-are addressed to the appropriate groups. Note that when the liaison statement gets recorded,
-still all addresses in the "From-Contact" should be notified to acknowledge the recording.
-
-For statements send from other organisations
-there is usually also such an generic address or the person from the sending organisation
-who sent out the email to someone within the IETF may be listed here. If that person is, however,
-already listed in the "From Contacts" part, this information can also be omitted for incoming statements.
+To-Liaison-Contact ("Send to"):
+: If this address is present, the liaison statement is only sent to this address and not
+   to the addresses in the "To-Contact". If a liaison statement is a reply, this "Send to" address is
+   the "Send Reply To" address provided by the other organisation in the original statement.
+   This supports processes where an organisation has a
+   central contact point to receive statements and then distributes the statement using their
+   own process to the approrpiate groups and persons.
 
 #### Purpose:
 
