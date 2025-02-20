@@ -113,7 +113,7 @@ To-Liaison-Contact ("Send to"):
    central contact adress to receive statements and then distributes the statement using their
    own process to the approrpiate groups and persons internally.
 
-### Purpose:
+## Purpose
 
 A liaison statement generally has one of three purposes and should
 clearly state its purpose using one of the following labels:
@@ -140,7 +140,7 @@ accomplish the request within the stated period, courtesy calls for a
 response offering a more doable deadline or an alternative course of
 action.
 
-### Body, Title, and Attachments
+## Body, Title, and Attachments
 
 As with any business letter, the liaison statement contains
 appropriate content explaining the issues or questions at hand.
