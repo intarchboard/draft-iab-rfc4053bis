@@ -89,14 +89,12 @@ organizations.  A liaison statement may have any purpose, but
 generally the purpose is to solicit information, make a comment or
 request an action.
 
-###  Contents of a Liaison Statement
-
 Liaison statements may be very formal or informal, depending on the
 rules of the body generating them.  Any liaison statement, however,
 will always contain certain information, much as an business letter
 does.  This information will include the following:
 
-####  Contact Information
+###  Contact Information
 
 The following contact information are expected to part of a liaison statement:
 
@@ -128,7 +126,7 @@ To-Contact:
    associated with the "To" information, contacts that are required for liaison management,
    as well as any additional experts.
 
-#### Purpose:
+### Purpose:
 
 A liaison statement generally has one of three purposes and will
 clearly state its purpose using one of the following labels:
@@ -155,7 +153,7 @@ accomplish the request within the stated period, courtesy calls for a
 response offering a more doable deadline or an alternative course of
 action.
 
-#### Liaison Content, Title, and Attachments
+### Liaison Content, Title, and Attachments
 
 As with any business letter, the liaison statement contains
 appropriate content explaining the issues or questions at hand.
