@@ -67,7 +67,9 @@ Table of Contents
    1.  Introduction
    2.  Definitions
      2.1.  Liaison Statements
-       2.1.1.  Contents of a Liaison Statement
+       2.1.1.  Contact Information
+       2.1.2.  Purpose:
+       2.1.3.  Liaison Content, Title, and Attachments
      2.2.  Addressee Responsibilities
      2.3.  Lifetime of a Liaison Statement
    3.  Handling Liaison Statements
@@ -137,14 +139,12 @@ Table of Contents
    generally the purpose is to solicit information, make a comment or
    request an action.
 
-2.1.1.  Contents of a Liaison Statement
-
    Liaison statements may be very formal or informal, depending on the
    rules of the body generating them.  Any liaison statement, however,
    will always contain certain information, much as an business letter
    does.  This information will include the following:
 
-2.1.1.1.  Contact Information
+2.1.1.  Contact Information
 
    The following contact information are expected to part of a liaison
    statement:
@@ -178,7 +178,7 @@ Table of Contents
       information, contacts that are required for liaison management, as
       well as any additional experts.
 
-2.1.1.2.  Purpose:
+2.1.2.  Purpose:
 
    A liaison statement generally has one of three purposes and will
    clearly state its purpose using one of the following labels:
@@ -201,7 +201,7 @@ Table of Contents
    within the stated period, courtesy calls for a response offering a
    more doable deadline or an alternative course of action.
 
-2.1.1.3.  Liaison Content, Title, and Attachments
+2.1.3.  Liaison Content, Title, and Attachments
 
    As with any business letter, the liaison statement contains
    appropriate content explaining the issues or questions at hand.
