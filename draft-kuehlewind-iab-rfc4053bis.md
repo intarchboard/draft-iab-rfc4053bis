@@ -78,9 +78,9 @@ From:
    working groups, but usually all groups are from the same organisation.
 
 From-Contact:
-: One or more electronic mail addresses belong to the "From" body.
+: One or more electronic mail addresses belonging to the "From" body.
    This includes the addresses associated with the "From" group(s),
-   e.g. in the IETF these are the working group chair, working mailing list, and Area Director(s), and
+   e.g. in the IETF these are the working group chairs, working mailing list, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
    liaison manager if existant and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
@@ -88,7 +88,7 @@ From-Contact:
 
 From-Liaison-Contact ("Send Reply to"):
 : An explicit "Send Reply To" address may be provided that is used for processing
-   the liaison statement. This address is usually not a personal address but rather a generic
+   the liaison statement reply. This address is usually not a personal address but rather a generic
    address associated to a role or process. For liaison statements sent by the IETF, this address should be the alias
    of the liaison manager, if applicable, or an address maintained by the IAB for liaison
    management such as liaison-coordination@iab.org. If a "Send Reply To" address is provided the expectation is that a statement
@@ -110,8 +110,8 @@ To-Liaison-Contact ("Send to"):
    to the addresses in the "To-Contact". If a liaison statement is a reply, this "Send to" address is
    the "Send Reply To" address provided by the other organisation in the original statement.
    This supports processes where an organisation has a
-   central contact point to receive statements and then distributes the statement using their
-   own process to the approrpiate groups and persons.
+   central contact adress to receive statements and then distributes the statement using their
+   own process to the approrpiate groups and persons internally.
 
 ### Purpose:
 
