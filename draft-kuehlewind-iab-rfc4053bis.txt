@@ -67,8 +67,8 @@ Table of Contents
    1.  Introduction
    2.  Content of Liaison Statements
      2.1.  Contact Information
-       2.1.1.  Purpose:
-       2.1.2.  Body, Title, and Attachments
+     2.2.  Purpose
+     2.3.  Body, Title, and Attachments
    3.  Responsibilities when Receiving a Liaison Statement
    4.  Lifetime of a Liaison Statement
    5.  Handling Liaison Statements
@@ -174,7 +174,7 @@ Table of Contents
       receive statements and then distributes the statement using their
       own process to the approrpiate groups and persons internally.
 
-2.1.1.  Purpose:
+2.2.  Purpose
 
    A liaison statement generally has one of three purposes and should
    clearly state its purpose using one of the following labels:
@@ -198,7 +198,7 @@ Table of Contents
    request within the stated period, courtesy calls for a response
    offering a more doable deadline or an alternative course of action.
 
-2.1.2.  Body, Title, and Attachments
+2.3.  Body, Title, and Attachments
 
    As with any business letter, the liaison statement contains
    appropriate content explaining the issues or questions at hand.
