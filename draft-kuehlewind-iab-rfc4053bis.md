@@ -417,13 +417,11 @@ other organization.
    A request for Action is a fairly serious thing.  Examples of the
    kinds of actions that may be expected are:
 
-   o  In the case of overlapping or related work in another
+- In the case of overlapping or related work in another
       organization, another organization may request that the IETF align
       its work with that of the other organization.
-
-   o  A request could be made for IETF to undertake a new work item.
-
-   o  A request could be made for IETF to stop a work item (presumably
+- A request could be made for IETF to undertake a new work item.
+- A request could be made for IETF to stop a work item (presumably
       because it overlaps or conflicts with other work in the
       originating organization).
 
