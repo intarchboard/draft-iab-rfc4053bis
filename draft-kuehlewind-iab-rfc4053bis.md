@@ -229,9 +229,12 @@ from other organisations.
 
 #  Recording Liaison Statements
 
-For the IETF, a liaison statement is a message that was sent or received (usually an email or some kind of formal letter)
-that is recorded in our liaison management tool. i.e. the value of sending a liaison statement for an organization compared to a mail,
-is that it will officially be recorded and the public record will attest that certain information has been communicated between the organizations.
+For the IETF, a liaison statement is a message that was sent or received
+(usually an email or some kind of formal letter)
+that is recorded in our liaison management tool,
+i.e. the value of sending a liaison statement for an organization compared to a mail,
+is that it will officially be recorded and the public record will attest
+that certain information has been communicated between the organizations.
 
 ## Incoming Liaison Statements from Other SDOs
 
