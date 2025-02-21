@@ -4,8 +4,8 @@
 
 Network Working Group                                      M. Kuehlewind
 Internet-Draft                                                       IAB
-Intended status: Informational                          20 February 2025
-Expires: 24 August 2025
+Intended status: Informational                          21 February 2025
+Expires: 25 August 2025
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 August 2025.
+   This Internet-Draft will expire on 25 August 2025.
 
 Copyright Notice
 
@@ -257,8 +257,8 @@ Table of Contents
    specified date, it will not be done for a specific reason, an answer
    to a question posed, or any other appropriate reply.
 
-   A liaison statement, like any other input document, must be
-   considered for its relevance, importance, and urgency.
+   A liaison statement, just like any other input into the IETF process,
+   must be considered for its relevance, importance, and urgency.
 
    One hopes that a liaison statement will be sent to the right
    organization, but this cannot be assured.  An SDO might send a
@@ -294,31 +294,32 @@ Table of Contents
 
 4.  Recording Liaison Statements
 
-   For the IETF, a liaison statement is a sent or received message,
-   usually an email or some kind of formal letter, that is recorded in
-   our liaison management tool.  I.e. the value of sending a liaison
-   statement for an organization compared to a mail, is that it will
-   official recorded to be received and the public record attest that
+   For the IETF, a liaison statement is a message that was sent or
+   received (usually an email or some kind of formal letter) that is
+   recorded in our liaison management tool. i.e. the value of sending a
+   liaison statement for an organization compared to a mail, is that it
+   will officially be recorded and the public record will attest that
    certain information has been communicated between the organizations.
 
 4.1.  Incoming Liaison Statements from Other SDOs
 
-   The IETF will pulically record any received liaison statement.  For
-   received liaiosn statement with a formal liaison relationship it is
-   the responsiblity of the liaison manager to create that public
-   record.  However, even if a formal liaison relationship exists, it is
-   possible that liaison statements arrive without knowledge of the
-   liaison manager, therefore it is generally the reponibility of the
-   receiver to ensure a public record is created.
+   The IETF will record any received liaison statement and make it
+   publicly visible . For received liaiosn statement with a formal
+   liaison relationship it is the responsiblity of the liaison manager
+   to create that public record.  However, even if a formal liaison
+   relationship exists, it is possible that liaison statements arrive
+   without knowledge of the liaison manager, therefore it is generally
+   the responibility of the receiver to ensure a public record is
+   created.
 
 4.2.  Outgoing Liaison Statements from the IETF
 
-   IETF participants, usually WG chairs, ADs, or other officials, can
-   send liaison statements to other SDOs and all sent liaison statments
-   must be publicly recorded.  Therefore, it is recommended to use a
-   IETF provided tool to sent liaison statment rather then sending them
-   directly by email and record them in hindsight, also this approach is
-   possible as well e.g. if a certain submission other than by email is
+   IETF participants (usually WG chairs or ADs) can send liaison
+   statements to other SDOs, and all sent liaison statments must be
+   publicly recorded.  Therefore, it is recommended to use a IETF
+   provided tool to send liaison statments, rather then send them
+   directly by email and record them after the fact.  This approach is
+   possible even if a certain form of submission other than email is
    required by the other organization.
 
 5.  Sending Liaison Statements from the IETF
