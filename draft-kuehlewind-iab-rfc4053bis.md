@@ -53,6 +53,32 @@ if a formal liaions relationship exists it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
+## Changes compared to RFC4053
+
+The mayor change in this revision of the document is that all tooling details have been removed.
+Particularly some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
+Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
+and the appendix have been removed.
+
+Further the following guidance has been updated in the -00 version:
+- A shorter abstract and a clarification in the introduction about obligations to send replies.
+- Removal of the definition section (2.1) as "assignee" is not used anymore and the "addressee" is now simply called receiver.
+- The section on Content of a Liaison Statement has been revised to
+  a) be less detailed about tooling, e.g. not talking about concrete fields anymore
+  b) indrocuce a new concept to handle contact information, replacing "Response Contact" and
+     "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
+     but are actually not specificed in RFC4053 and therefore often caused confusion.
+  c) add new address information ("Send Reply To"/"Send To") that can be used to support processes
+     where one central address is used to receive all liaison statements. This is also the process prefered now by the IETF
+     where the central address is either the liaison mananager or the IAB coordination contact.
+- The purpose "For comment" has been removed as either "For information" or "For Action" can be used instead;
+  depending if a deadline is needed or not. In the current record of statements "For comment" has been rarly used
+  indicating that this purpose is not needed or at least its meaning was not clear.
+- New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
+  to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
+  to ensure that all incoming statements get appropriately recorded.
+- Section 4 from RFC4052 on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
+
 #  Content of Liaison Statements
 
 A Liaison Statement is a business letter sent by one standards
