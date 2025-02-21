@@ -5,6 +5,7 @@ category: info
 
 docname: draft-kuehlewind-iab-rfc4053bis-latest
 submissiontype: IAB
+obsoletes: 4053
 date:
 v: 3
 venue:
@@ -18,6 +19,10 @@ author:
     fullname: Mirja Kuehlewind
     organization: IAB
     email: ietf@kuehlewind.net
+ -
+    fullname: Suresh Krishnan
+    organization: IAB
+    email: suresh.krishnan@gmail.com
 
 normative:
 
