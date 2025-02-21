@@ -92,16 +92,17 @@ Further the following guidance has been updated in the -00 version:
 #  Content of Liaison Statements
 
 A Liaison Statement is a business letter sent by one standards
-organization to another.  These organizations may be at any level
-(WG, Area, etc.)   Generally, the sender and receiver are peer
-organizations.  A liaison statement may have any purpose, but
-generally the purpose is to solicit information, make a comment or
-request an action.
+organization to another. These organizations may be at any level
+(WG, Area, etc.).  Generally, the sender and receiver are peer
+organizations. A liaison statement may have any purpose, but
+generally the purpose is to solicit information or
+request an action, like share a document, or ask for a review or a technical question.
 
 Liaison statements may be very formal or informal, depending on the
 rules of the body generating them.  Any liaison statement, however,
 will always contain certain information, much as an business letter
-does.  This information should include the following:
+does. In order to be able to process and record these statements
+in the IETF, the information should include the following:
 
 ##  Contact Information
 
