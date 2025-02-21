@@ -235,7 +235,8 @@ is that it will officially be recorded and the public record will attest that ce
 
 ## Incoming Liaison Statements from Other SDOs
 
-The IETF will record any received liaison statement and make it publicly visible . For received liaiosn statement with a
+The IETF will record any received liaison statement and make it publicly available.
+For received liaison statement with a
 formal liaison relationship it is the responsiblity
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
