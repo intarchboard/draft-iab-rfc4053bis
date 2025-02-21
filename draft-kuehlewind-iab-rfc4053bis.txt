@@ -126,36 +126,37 @@ Table of Contents
    Further the following guidance has been updated in the -00 version:
 
    1.  A shorter abstract and a clarification in the introduction about
-       obligations to send replies. - Removal of the definition section
-       (2.1) as "assignee" is not used anymore and the "addressee" is
-       now simply called receiver.
+       obligations to send replies.
 
-   2.  The section on Content of a Liaison Statement has been revised to
-       a. be less detailed about tooling, e.g. not talking about
-       concrete fields anymore b. indrocuce a new concept to handle
-       contact information, replacing "Response Contact" and "Technical
-       Contact" as well as additional fields ("CC", "From Contact", "To
-       Contact") that exists in the tooling but are actually not
-       specificed in RFC4053 and therefore often caused confusion.  c.
-       add new address information ("Send Reply To"/"Send To") that can
-       be used to support processes where one central address is used to
-       receive all liaison statements.  This is also the process
-       prefered now by the IETF where the central address is either the
-       liaison mananager or the IAB coordination contact.
+   2.  Removal of the definition section (2.1) as "assignee" is not used
+       anymore and the "addressee" is now simply called receiver.
 
-   3.  The purpose "For comment" has been removed as either "For
+   3.  The section on Content of a Liaison Statement has been revised to
+       - be less detailed about tooling, e.g. not talking about concrete
+       fields anymore - indrocuce a new concept to handle contact
+       information, replacing "Response Contact" and "Technical Contact"
+       as well as additional fields ("CC", "From Contact", "To Contact")
+       that exists in the tooling but are actually not specificed in
+       RFC4053 and therefore often caused confusion.  - add new address
+       information ("Send Reply To"/"Send To") that can be used to
+       support processes where one central address is used to receive
+       all liaison statements.  This is also the process prefered now by
+       the IETF where the central address is either the liaison
+       mananager or the IAB coordination contact.
+
+   4.  The purpose "For comment" has been removed as either "For
        information" or "For Action" can be used instead; depending if a
        deadline is needed or not.  In the current record of statements
        "For comment" has been rarly used indicating that this purpose is
        not needed or at least its meaning was not clear.
 
-   4.  New section on "Recording Liaison Statements" that replaces
+   5.  New section on "Recording Liaison Statements" that replaces
        Section 2.4. on "Lifetime of a Liaison Statement" to underline
        how important the public record of a liaison statement is and
        clarify the responsibility of the receiver to ensure that all
        incoming statements get appropriately recorded.
 
-   5.  Section 4 from RFC4052 on "Approval and Transmission of Liaison
+   6.  Section 4 from RFC4052 on "Approval and Transmission of Liaison
        Statements" has been moved to this document, without modification
        so far.
 
