@@ -192,7 +192,7 @@ from other organisations.
    specified date, it will not be done for a specific reason, an answer
    to a question posed, or any other appropriate reply.
 
-   A liaison statement, like any other temporary document, must be
+   A liaison statement, just like any other input into the IETF process, must be
    considered for its relevance, importance, and urgency.
 
    One hopes that a liaison statement will be sent to the right
@@ -227,46 +227,39 @@ from other organisations.
    another body; if it fails to react in a timely fashion, it may miss
    the opportunity.
 
-#  Lifetime of a Liaison Statement
+#  Recording Liaison Statements
 
-   A liaison statement is a temporary document, much like an internet
-   draft.  If it affects IETF output, the normal expectation is that the
-   resulting RFC will contain relevant information that remains
-   pertinent.  Retaining liaison statements that have been completely
-   dealt with mostly serves to hide new ones and create the appearance
-   of not dealing with them.
+For the IETF, a liaison statement is a message that was sent or received
+(usually an email or some kind of formal letter)
+that is recorded in our liaison management tool,
+i.e. the value of sending a liaison statement for an organization compared to a mail,
+is that it will officially be recorded and the public record will attest
+that certain information has been communicated between the organizations.
 
-   However, unlike an internet draft, liaison statements are often the
-   only record the IETF has of the communication with the peer SDO.  As
-   such, some liaison statements are referred to for relatively long
-   periods of time.
+## Incoming Liaison Statements from Other SDOs
 
-   As a result, the IETF will archive liaison statements that have been
-   fully dealt with, along with any attachments that may have been
-   relevant, but do so in a manner obviously distinct from current
-   liaison statements.
-
-#  Handling Liaison Statements
-
-##  Liaison Statements from Other SDOs, Consortia, and Fora to IETF
-
-The process of handling a liaison statement is more weighty than
-handling a business letter because it is important to a relationship
-with another SDO established by the IAB. The IETF will pulically record
-any received liaison statement. For received liaiosn statement with a
-formal liaison relationship handled by a liaison manager it is the responsiblity
+The IETF will record any received liaison statement and make it publicly available.
+For received liaison statement with a
+formal liaison relationship it is the responsiblity
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
-reponibility of the receiver to ensure a public record is created.
+responibility of the receiver to ensure a public record is created.
+
+## Outgoing Liaison Statements from the IETF
+
+IETF participants (usually WG chairs or ADs) can
+send liaison statements to other SDOs, and all sent liaison statments
+must be publicly recorded. Therefore,
+it is recommended to use a IETF provided tool to send liaison
+statments, rather then send them directly by email and record
+them after the fact. This approach is possible e.g. if a certain form
+of submission other than email is required by the
+other organization.
+
+#  Sending Liaison Statements from the IETF
 
 ##  Communicating IETF Information to Other SDOs, Consortia, and Fora
-
-   This includes liaison statements sent in reply to liaison statements
-   sent by other bodies, and liaison statements being originated by the
-   IETF.
-
-###  Spontaneously Generating Liaison Statements to Other Organizations
 
    Liaison Statements can be generated at a WG, Area, or IETF level to
    another organization.  The respective (co)chair(s) are responsible
@@ -277,7 +270,7 @@ reponibility of the receiver to ensure a public record is created.
    consensus should be sought before sending a liaison statement to
    another organization.
 
-####  Transmitting IETF Documents to Other Organizations
+##  Transmitting IETF Documents to Other Organizations
 
    The simplest case of approving sending of a liaison statement from
    IETF is when the information being transmitted consists of an IETF
@@ -304,7 +297,7 @@ reponibility of the receiver to ensure a public record is created.
    these documents cannot be truthfully represented as any kind of IETF
    position.
 
-####  Requests for Information
+##  Requests for Information
 
    Another type of liaison statement that can be generated without the
    need for extensive consensus building on the email list is a request
@@ -318,7 +311,7 @@ reponibility of the receiver to ensure a public record is created.
    Other requests for information may request access to certain
    documents of other organizations that are not publicly available.
 
-####  Requesting Comments on Work in Progress
+##  Requesting Comments on Work in Progress
 
    There may be cases when one feels that a document under development
    in the IETF may benefit from the input of experts in another relevant
@@ -330,7 +323,7 @@ reponibility of the receiver to ensure a public record is created.
    it is appropriate to ask another organization for comments on an IETF
    draft.
 
-####  Requests for Other Actions (Besides Comments on IETF Drafts)
+##  Requests for Other Actions (Besides Comments on IETF Drafts)
 
    There are many other kinds of actions that might reasonably be
    requested of another organization:
@@ -351,7 +344,7 @@ reponibility of the receiver to ensure a public record is created.
    clearest possible consensus within the particular WG, Area, or within
    the IETF at large.
 
-###  Responding to Incoming Liaison Statements
+#  Responding to Incoming Liaison Statements
 
    Any incoming liaison statement that indicates that it is for
    "Comment" or for "Action" requires a response by the deadline.
@@ -359,14 +352,14 @@ reponibility of the receiver to ensure a public record is created.
    the addressed organization to ensure that a response is generated by
    the deadline if a respone is intended.
 
-####  Responding to Requests for Information
+##  Responding to Requests for Information
 
    If another organization requests information that can be found in an
    IETF document of the types indicated in Section 3.2.1.1, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
    the level of agreement for the relevant document.
 
-#### Responding to Requests for Comments
+## Responding to Requests for Comments
 
    If an incoming liaison statement requests comments on a document from
    another organization, a discussion will occur on the mailing list
@@ -385,7 +378,7 @@ reponibility of the receiver to ensure a public record is created.
    addressed.  It is possible to send this kind of a reply even if some
    of the comments are contradictory.
 
-####  Responding to Request for Action
+##  Responding to Request for Action
 
    A request for Action is a fairly serious thing.  Examples of the
    kinds of actions that may be expected are:
@@ -419,20 +412,6 @@ reponibility of the receiver to ensure a public record is created.
    completion time.  The first of these liaison statements should be
    generated by the deadline indicated in the incoming liaison
    statement.
-
-####  Generating Liaison Statements
-
-   IETF participants, usually WG chairs, ADs, or other officials, need
-   to be able to send liaison statements to other SDOs. Further,
-   all sent liaison statment must be publicly recorded. Therefore,
-   it is recommended to use a IETF provided tool to sent liaison
-   statment rather then sending them directly by email and record
-   them in hindsight, also this approach is possible as well e.g.
-   if a certain submission other than by email is required by the
-   other organization.
-
-   The process of generating and approving transmission of liaison
-   statements is a matter of IETF process and is specified in {{RFC4052}}.
 
 # Approval and Transmission of Liaison Statements
 
