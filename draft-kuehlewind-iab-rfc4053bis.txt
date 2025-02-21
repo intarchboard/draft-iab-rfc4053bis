@@ -131,12 +131,12 @@ Table of Contents
        now simply called receiver.
 
    2.  The section on Content of a Liaison Statement has been revised to
-       a) be less detailed about tooling, e.g. not talking about
-       concrete fields anymore b) indrocuce a new concept to handle
+       a. be less detailed about tooling, e.g. not talking about
+       concrete fields anymore b. indrocuce a new concept to handle
        contact information, replacing "Response Contact" and "Technical
        Contact" as well as additional fields ("CC", "From Contact", "To
        Contact") that exists in the tooling but are actually not
-       specificed in RFC4053 and therefore often caused confusion.  c)
+       specificed in RFC4053 and therefore often caused confusion.  c.
        add new address information ("Send Reply To"/"Send To") that can
        be used to support processes where one central address is used to
        receive all liaison statements.  This is also the process
