@@ -162,7 +162,7 @@ Table of Contents
        clarify the responsibility of the receiver to ensure that all
        incoming statements get appropriately recorded.
 
-   6.  Section 4 from RFC4052 on "Approval and Transmission of Liaison
+   6.  Section 4 from [RFC4052] on "Approval and Transmission of Liaison
        Statements" has been moved to this document, without modification
        so far.
 
@@ -597,14 +597,14 @@ Table of Contents
 
 Acknowledgments
 
-   RFC4053 was authored by Stephen Trowbridge, Scott Bradner, Fred
+   [RFC4053] was authored by Stephen Trowbridge, Scott Bradner, Fred
    Baker.  The text in RFC4053 further has been prompted by discussions
    with numerous individuals within IETF and other SDOs and fora,
    including Gary Fishman and Bert Wijnen.  It has been developed in
    cooperation with [RFC4052], which is to say with the express
    cooperation of the chair of the IAB at that time, Leslie Daigle.
 
-   This document contain parts of the text from RFC4053, however, all
+   This document contain parts of the text from [RFC4053], however, all
    tooling details were removed and the remaining text will be reworked
    step by step with the goal to end up with a shorter and clear
    document that outlines requirements and gives high-level guidance to
