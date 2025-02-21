@@ -72,15 +72,13 @@ Further the following guidance has been updated in the -00 version:
 1. A shorter abstract and introduction as well as a clarification in the introduction about obligations to send replies.
 2. Removal of the definition section (2.1) as "assignee" is not used anymore and the "addressee" is now simply called receiver.
 3. The section on "Content of a Liaison Statement" has been revised to
-
-  - be less detailed about tooling, e.g. not talking about concrete fields anymore,
-  - indrocuce a new concept to handle contact information, replacing "Response Contact" and
+    - be less detailed about tooling, e.g. not talking about concrete fields anymore,
+    - indrocuce a new concept to handle contact information, replacing "Response Contact" and
      "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
      but are actually not specificed in {{?RFC4053}} and therefore often caused confusion,
-  - add new address information ("Send Reply To"/"Send To") that can be used to support processes
+    - add new address information ("Send Reply To"/"Send To") that can be used to support processes
      where one central address is used to receive all liaison statements. This is also the process prefered now by the IETF
      where the central address is either the liaison mananager or the IAB coordination contact.
-
 4. The purpose "For comment" has been removed as either "For information" or "For Action" can be used instead;
   depending if a deadline is needed or not. In the current record of statements "For comment" has been rarly used
   indicating that this purpose is not needed or at least its meaning was not clear.
@@ -93,7 +91,7 @@ Further the following guidance has been updated in the -00 version:
 
 A Liaison Statement is a business letter sent by one standards
 organization to another. These organizations may be at any level
-(WG, Area, etc.).  Generally, the sender and receiver are peer
+(WG, Area, etc.). Generally, the sender and receiver are peer
 organizations. A liaison statement may have any purpose, but
 generally the purpose is to solicit information or
 request an action, like share a document, or ask for a review or a technical question.
@@ -190,7 +188,7 @@ the liaison statement or may be URLs to similar documents including
 Internet Drafts.
 
 IETF participants use a wide variety of systems, thus document
-formats that are not universally readable are problematic.  As a
+formats that are not universally readable are problematic. As a
 result, documents enclosed with the body or attachments should be in
 PDF, W3C HTML (without proprietary extensions), or ASCII text format.
 If they were originally in a proprietary format such as Microsoft
@@ -202,7 +200,7 @@ liaison statements. There are no requirements from the IETF on the format
 of the actual liaison statement, however, we require
 the metadata (address information and purpose) as indicated in the previous
 section to be recorded explicitly. As such when receiving statement from other organisation
-these metadata should be extracted. If content of the
+these metadata should be extracted. If the content of the
 statement is not sent in plain text, the plain text body field may
 be empty and the received laision statement is uploaded as attachement.
 
