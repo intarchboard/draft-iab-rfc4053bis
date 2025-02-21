@@ -72,6 +72,7 @@ Further the following guidance has been updated in the -00 version:
 1. A shorter abstract and introduction as well as a clarification in the introduction about obligations to send replies.
 2. Removal of the definition section (2.1) as "assignee" is not used anymore and the "addressee" is now simply called receiver.
 3. The section on "Content of a Liaison Statement" has been revised to
+   
   - be less detailed about tooling, e.g. not talking about concrete fields anymore,
   - indrocuce a new concept to handle contact information, replacing "Response Contact" and
      "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
@@ -79,6 +80,7 @@ Further the following guidance has been updated in the -00 version:
   - add new address information ("Send Reply To"/"Send To") that can be used to support processes
      where one central address is used to receive all liaison statements. This is also the process prefered now by the IETF
      where the central address is either the liaison mananager or the IAB coordination contact.
+    
 4. The purpose "For comment" has been removed as either "For information" or "For Action" can be used instead;
   depending if a deadline is needed or not. In the current record of statements "For comment" has been rarly used
   indicating that this purpose is not needed or at least its meaning was not clear.
