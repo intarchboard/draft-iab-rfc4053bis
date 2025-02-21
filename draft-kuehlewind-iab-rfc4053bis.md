@@ -250,7 +250,8 @@ send liaison statements to other SDOs, and all sent liaison statments
 must be publicly recorded. Therefore,
 it is recommended to use a IETF provided tool to send liaison
 statments, rather then send them directly by email and record
-them after the fact. This approach is possible even if a certain form of submission other than email is required by the
+them after the fact. This approach is possible e.g. if a certain form
+of submission other than email is required by the
 other organization.
 
 #  Sending Liaison Statements from the IETF
