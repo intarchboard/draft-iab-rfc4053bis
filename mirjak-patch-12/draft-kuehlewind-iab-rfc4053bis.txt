@@ -2,7 +2,7 @@
 
 
 
-Network Working Group                                      M. Kuehlewind
+Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                        IAB
 Intended status: Informational                          21 February 2025
@@ -573,7 +573,7 @@ Informative References
 
 Authors' Addresses
 
-   Mirja Kuehlewind
+   Mirja Kuehlewind (editor)
    IAB
    Email: ietf@kuehlewind.net
 
