@@ -19,6 +19,7 @@ author:
     fullname: Mirja Kuehlewind
     organization: IAB
     email: ietf@kuehlewind.net
+    role: editor
  -
     fullname: Suresh Krishnan
     organization: IAB
