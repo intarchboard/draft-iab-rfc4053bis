@@ -485,19 +485,16 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-   This text has been prompted by discussions with numerous individuals
-   within IETF and other SDOs and fora, including Gary Fishman and Bert
-   Wijnen.  It has been developed in cooperation with {{RFC4052}}, which
-   is to say with the express cooperation of the chair of the IAB,
-   Leslie Daigle.  Personal experiences and some "miscues" in
-   coordinating work across ITU-T Study Group 15 and the IETF Sub-IP
-   Area have also motivated this work.  Some drafts addressing
-   individual problems (for example, RFC 3427) make it clear that a more
-   general, consistent solution is needed for dealing with outside
-   organizations.  Certain ideas have been borrowed from these texts.
+RFC4053 was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
+The text in RFC4053 further has been prompted by discussions with numerous individuals
+within IETF and other SDOs and fora, including Gary Fishman and Bert
+Wijnen.  It has been developed in cooperation with {{RFC4052}}, which
+is to say with the express cooperation of the chair of the IAB at that time,
+Leslie Daigle.
 
-   Barbara Fuller, Sunny Lee, and Michael Lee developed a prototype and
-   commented in detail on the document.  Their inputs directly resulted
-   in the appendices describing the implementation road map.
+This document contain parts of the text from RFC4053, however, all tooling
+details were removed and the remaining text will be reworked step by step with
+the goal to end up with a shorter and clear document that outlines requirements
+and gives high-level guidance to people sending and receiving liaison statements.
 
 --- back
