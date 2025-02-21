@@ -43,19 +43,20 @@ standards community.
 # Introduction
 
 This document describes the procedure for generating and handling
-
-Liaison statements between the IETF and other SDOs, so that IETF can
+liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
 
-Exchange of liaison statements does not require a formal liaison
+The exchange of liaison statements does not require a formal liaison
 relationship (see {{?RFC4052}}).  The procedures described in this
 document encompass all liaisons statements received from SDOs,
 whether or not a formal liaison arrangement is in place between the
-SDO and the IETF. Receive of a liaison statement does not automatically
+SDO and the IETF.
+
+Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request. However,
-if a formal liaions relationship exists it is the responsibility
+if a formal liaions relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
@@ -68,13 +69,13 @@ and the appendix have been removed.
 
 Further the following guidance has been updated in the -00 version:
 
-1. A shorter abstract and a clarification in the introduction about obligations to send replies.
+1. A shorter abstract and introduction as well as a clarification in the introduction about obligations to send replies.
 2. Removal of the definition section (2.1) as "assignee" is not used anymore and the "addressee" is now simply called receiver.
-3. The section on Content of a Liaison Statement has been revised to
-  - be less detailed about tooling, e.g. not talking about concrete fields anymore
+3. The section on "Content of a Liaison Statement" has been revised to
+  - be less detailed about tooling, e.g. not talking about concrete fields anymore,
   - indrocuce a new concept to handle contact information, replacing "Response Contact" and
      "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
-     but are actually not specificed in RFC4053 and therefore often caused confusion.
+     but are actually not specificed in {{?RFC4053}} and therefore often caused confusion,
   - add new address information ("Send Reply To"/"Send To") that can be used to support processes
      where one central address is used to receive all liaison statements. This is also the process prefered now by the IETF
      where the central address is either the liaison mananager or the IAB coordination contact.
