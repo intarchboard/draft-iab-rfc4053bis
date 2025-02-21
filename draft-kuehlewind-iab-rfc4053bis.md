@@ -33,7 +33,7 @@ informative:
 --- abstract
 
 This document describes the procedure for generating and handling
-liaison statements between the IETF and other SDOs, so that IETF can
+liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
 
