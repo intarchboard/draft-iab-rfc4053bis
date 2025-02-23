@@ -389,7 +389,7 @@ other organization.
 ##  Responding to Requests for Information
 
    If another organization requests information that can be found in an
-   IETF document of the types indicated in Section 3.2.1.1, this can be
+   IETF document of the types indicated in Section 5.2, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
    the level of agreement for the relevant document.
 
