@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-20T00:44:17.939773+00:00",
+  "timestamp": "2025-02-23T00:48:40.376120+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -55,15 +55,15 @@
       "id": "I_kwDOMUjnl86ZidYQ",
       "title": "Remove tool specification from RFC",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/1",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "RFC4053 goes overly into details about the tooling which makes it hard to adjust the tool. Therefore these parts should be removed. This is mainly section 2.2, some parts of 3 and the appendix. Instead I proposed to put some high-level tooling requirements into the appendix, e.g. like it must be possible to upload attachments...",
       "createdAt": "2024-10-09T13:29:08Z",
-      "updatedAt": "2024-10-09T13:55:50Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-20T15:51:19Z",
+      "closedAt": "2025-02-20T15:51:19Z",
       "comments": []
     },
     {
@@ -177,15 +177,15 @@
       "id": "I_kwDOMUjnl86qVlI4",
       "title": "Maybe re-add a \"Send reply to\" field",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/12",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "If we want to ensure that in future all LSs are send either _through_ the liaison managers or liaison coordinators, maybe we should re-add a field \"send reply to\" which either contains the liaison manager alias, e.g. 3gpp-liaison@ietf.org, if applicable or liaison-coordination@iab.org",
       "createdAt": "2025-02-17T12:56:35Z",
-      "updatedAt": "2025-02-17T15:14:42Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-20T17:20:29Z",
+      "closedAt": "2025-02-20T17:20:28Z",
       "comments": [
         {
           "author": "mirjak",
@@ -209,6 +209,54 @@
           "updatedAt": "2025-02-17T15:14:39Z"
         }
       ]
+    },
+    {
+      "number": 14,
+      "id": "I_kwDOMUjnl86q22AN",
+      "title": "Address liaison statements with deadlines for action",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/14",
+      "state": "OPEN",
+      "author": "sureshkrishnan",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There should be some text needed to address LSs that arrive with some requested action and deadlines. Potentially also document need for notifications/reminders as well as an escalation chain.",
+      "createdAt": "2025-02-20T15:24:46Z",
+      "updatedAt": "2025-02-20T15:24:46Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 16,
+      "id": "I_kwDOMUjnl86q3aGq",
+      "title": "double-check list from appendix",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/16",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "This is from the old appendix that is now removed from the doc. We might want to check if we still want to discuss any of these feature in the new version of the doc.\n\n> This list of feature was indicated as Phase II in RFC4053 but have\n>    never been implemented. Therefore this list is kept for now as a\n>    record of high-level intended features of the future liaison statement\n>    tracking system:\n> \n>    o  Designating an assignee; the assignee is initially a person\n>       associated with the body (IAB, IESG, Area, WG, etc.) to which the\n>       liaison statement is addressed, but may subsequently be changed by\n>       an IETF participant.\n> \n>    o  Indicating the status of the liaison statement (e.g., actions\n>       required, actions taken, etc.  Specific options TBD).\n> \n>    o  Sending ticklers to the assignee when action is required (with\n>       copies to whomever is appropriate).\n> \n>    o  Changing the status of the liaison statement, the deadline, or\n>       other attributes.\n> \n>    o  Reassigning responsibility.\n> \n>    o  Closing the liaison statement.",
+      "createdAt": "2025-02-20T16:18:17Z",
+      "updatedAt": "2025-02-20T16:18:17Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 17,
+      "id": "I_kwDOMUjnl86q3fRN",
+      "title": "add changes-from-4053 section and update acknowledgements",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/17",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-20T16:25:14Z",
+      "updatedAt": "2025-02-20T16:27:23Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -306,24 +354,26 @@
       "id": "PR_kwDOMUjnl85-OsQb",
       "title": "Remove tooling details",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/6",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "fixes #1",
       "createdAt": "2024-10-10T14:05:13Z",
-      "updatedAt": "2025-02-12T14:53:22Z",
+      "updatedAt": "2025-02-20T15:51:18Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "466812866eba965d49e6ce6289692ca6d7e3e89d",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-2",
       "headRefOid": "9e3ca2addc827872395d981227339723ded83c41",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-02-20T15:51:17Z",
+      "mergedAt": "2025-02-20T15:51:17Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "a4b39c5a126fccf00c77c715a35a11847ebd6eb8"
+      },
       "comments": [],
       "reviews": [
         {
@@ -619,24 +669,26 @@
       "id": "PR_kwDOMUjnl86LdwuW",
       "title": "\"Send Reply To\" information",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/13",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "fixes #12",
       "createdAt": "2025-02-17T13:57:06Z",
-      "updatedAt": "2025-02-17T14:45:21Z",
+      "updatedAt": "2025-02-20T17:20:27Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
-      "baseRefOid": "e6e57b7a297e6548f4ae56d06b82e5bec6815a5f",
+      "baseRefOid": "da2e3d9ce0b82a1499e1db12738a14960d2806b7",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "mirjak-patch-6",
-      "headRefOid": "d27c7b2e5dc19de9b2d10856d71aeb17a98d774d",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "55d67135726fd91b6805d0ffd18eb48a6f6aa9f7",
+      "closedAt": "2025-02-20T17:20:27Z",
+      "mergedAt": "2025-02-20T17:20:27Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "c7e90cefdc82087529047d29c9120b8e4d0f16f2"
+      },
       "comments": [],
       "reviews": [
         {
@@ -760,6 +812,256 @@
           ]
         }
       ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOMUjnl86L7MvM",
+      "title": "remove list in appendix",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/15",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-20T16:16:57Z",
+      "updatedAt": "2025-02-20T16:19:03Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "37527dc3f4fe91fc026d1e741ba5e147379d7542",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-7",
+      "headRefOid": "baf3bf45e06a2cdc379ecad7dfde97519802f6d9",
+      "closedAt": "2025-02-20T16:19:03Z",
+      "mergedAt": "2025-02-20T16:19:03Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "0936e8f17fa5ce84cfb8cfd6fc5b658c6112593a"
+      },
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "removing this appendix now but I opened issue #16 instead to double-check later!",
+          "createdAt": "2025-02-20T16:18:48Z",
+          "updatedAt": "2025-02-20T16:18:48Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOMUjnl86L7rsJ",
+      "title": "Remove definitions",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/18",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "these seem not very helpful",
+      "createdAt": "2025-02-20T17:10:29Z",
+      "updatedAt": "2025-02-20T17:19:02Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "0936e8f17fa5ce84cfb8cfd6fc5b658c6112593a",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-8",
+      "headRefOid": "b3b92fd18bf48495b90430c2d95fc8476d2b558f",
+      "closedAt": "2025-02-20T17:19:01Z",
+      "mergedAt": "2025-02-20T17:19:01Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "da2e3d9ce0b82a1499e1db12738a14960d2806b7"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOMUjnl86L7-5R",
+      "title": "Change lifecycle section to recording LSs",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/19",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "this removes the original text and mainly moves some later text up.",
+      "createdAt": "2025-02-20T17:49:43Z",
+      "updatedAt": "2025-02-21T13:07:22Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "1b044c0d3cff2474a841240eee75ad89f04b8074",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-9",
+      "headRefOid": "8fc902f6f9298814d97c97a5ed54636fd1fadaca",
+      "closedAt": "2025-02-21T13:07:22Z",
+      "mergedAt": "2025-02-21T13:07:22Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "5b632c4faaf7611e1e7ae3e019c30cca6e1c8e2f"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86c33KI",
+          "commit": {
+            "abbreviatedOid": "df7f593"
+          },
+          "author": "sureshkrishnan",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-02-21T04:06:08Z",
+          "updatedAt": "2025-02-21T04:06:08Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOMUjnl86c8Dp9",
+          "commit": {
+            "abbreviatedOid": "df7f593"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-21T13:04:28Z",
+          "updatedAt": "2025-02-21T13:04:28Z",
+          "comments": [
+            {
+              "originalPosition": 46,
+              "body": "```suggestion\r\nThe IETF will record any received liaison statement and make it publicly available.\r\nFor received liaison statement with a\r\n```",
+              "createdAt": "2025-02-21T13:04:28Z",
+              "updatedAt": "2025-02-21T13:04:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86c8EFt",
+          "commit": {
+            "abbreviatedOid": "d885abd"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-21T13:05:19Z",
+          "updatedAt": "2025-02-21T13:05:19Z",
+          "comments": [
+            {
+              "originalPosition": 66,
+              "body": "```suggestion\r\nthem after the fact. This approach is possible e.g. if a certain form\r\nof submission other than email is required by the\r\n```",
+              "createdAt": "2025-02-21T13:05:19Z",
+              "updatedAt": "2025-02-21T13:05:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86c8Elf",
+          "commit": {
+            "abbreviatedOid": "cadd248"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-21T13:06:17Z",
+          "updatedAt": "2025-02-21T13:06:17Z",
+          "comments": [
+            {
+              "originalPosition": 24,
+              "body": "```suggestion\r\nFor the IETF, a liaison statement is a message that was sent or received\r\n(usually an email or some kind of formal letter)\r\nthat is recorded in our liaison management tool,\r\ni.e. the value of sending a liaison statement for an organization compared to a mail,\r\nis that it will officially be recorded and the public record will attest\r\nthat certain information has been communicated between the organizations.\r\n```",
+              "createdAt": "2025-02-21T13:06:17Z",
+              "updatedAt": "2025-02-21T13:06:18Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOMUjnl86MD32v",
+      "title": "New ack consideration section",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/20",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-21T14:46:38Z",
+      "updatedAt": "2025-02-21T15:18:49Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "5b632c4faaf7611e1e7ae3e019c30cca6e1c8e2f",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-10",
+      "headRefOid": "60e42ebd0cf840254ba9ece2cc558b36df8cbed0",
+      "closedAt": "2025-02-21T15:18:49Z",
+      "mergedAt": "2025-02-21T15:18:49Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "0f05e573096dc7eafa4bee2cd8517290afaf698e"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 21,
+      "id": "PR_kwDOMUjnl86MEHfn",
+      "title": "changes from RFC4053",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/21",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-21T15:12:04Z",
+      "updatedAt": "2025-02-21T15:20:22Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "5b632c4faaf7611e1e7ae3e019c30cca6e1c8e2f",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-11",
+      "headRefOid": "f8c1e717a05ab36899babfd2fdf98a88c4d6565c",
+      "closedAt": "2025-02-21T15:20:22Z",
+      "mergedAt": "2025-02-21T15:20:22Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "4a24ac985726da68a0708bd4c08b0fe7fea4c584"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 22,
+      "id": "PR_kwDOMUjnl86MEK1j",
+      "title": "header: add suresh as author and obsolete tag",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/22",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-21T15:18:34Z",
+      "updatedAt": "2025-02-21T15:20:46Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "5b632c4faaf7611e1e7ae3e019c30cca6e1c8e2f",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-12",
+      "headRefOid": "4230e34ecb27eba8c33508fce09727cc2ca2e9ee",
+      "closedAt": "2025-02-21T15:20:46Z",
+      "mergedAt": "2025-02-21T15:20:46Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "b7dc41bf71645d17bf9f52099b0ce4f4272908f0"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
