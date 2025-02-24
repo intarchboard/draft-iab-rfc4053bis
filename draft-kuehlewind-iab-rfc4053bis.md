@@ -119,7 +119,7 @@ From:
 From-Contact:
 : One or more electronic mail addresses belonging to the "From" body.
    This includes the addresses associated with the "From" group(s),
-   e.g. in the IETF these are the working group chairs, working mailing list, and Area Director(s), and
+   e.g. in the IETF these are the working group chairs, working group mailing lists, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
    liaison manager (if one exists) and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
@@ -207,12 +207,12 @@ these metadata should be extracted. If the content of the
 statement is not sent in plain text, the plain text body field may
 be empty and the received laision statement is uploaded as an attachment.
 
-For statement sent from the IETF it is recommended to provide the content
+For statements sent from the IETF, it is recommended to provide the content
 in plain text but also provide an attachment following the formatting requirements
 of the receiving organisation if possible. If cases where we have a
 liaison manager, it is the responsiblity of the liaison to check or convert
 the formatting requirements. It is further recommended to convert received
-document in proprietary formats into PDF and upload both version as
+documents in proprietary formats into PDF and upload both version as
 attachments.
 
 This ensures that our process can comply with all formatting requirements
@@ -524,7 +524,7 @@ Wijnen.  It has been developed in cooperation with {{RFC4052}}, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.
 
-This document contain parts of the text from {{RFC4053}}, however, all tooling
+This document contain parts of text from {{RFC4053}}, however, all tooling
 details were removed and the remaining text will be reworked step by step with
 the goal to end up with a shorter and clear document that outlines requirements
 and gives high-level guidance to people sending and receiving liaison statements.
