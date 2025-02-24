@@ -5,8 +5,8 @@
 Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                        IAB
-Intended status: Informational                          21 February 2025
-Expires: 25 August 2025
+Intended status: Informational                          24 February 2025
+Expires: 28 August 2025
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 August 2025.
+   This Internet-Draft will expire on 28 August 2025.
 
 Copyright Notice
 
@@ -472,9 +472,9 @@ Table of Contents
 6.1.  Responding to Requests for Information
 
    If another organization requests information that can be found in an
-   IETF document of the types indicated in Section 3.2.1.1, this can be
-   transmitted by the (co)chair(s) of the addressed group, indicating
-   the level of agreement for the relevant document.
+   IETF document, this can be transmitted by the (co)chair(s) of the
+   addressed group, indicating the level of agreement for the relevant
+   document, as also discussed in Section 5.2.
 
 6.2.  Responding to Requests for Comments
 
