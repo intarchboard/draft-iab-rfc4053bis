@@ -24,6 +24,10 @@ author:
     fullname: Suresh Krishnan
     organization: IAB
     email: suresh.krishnan@gmail.com
+ -
+   fullname: Qin Wu
+   organization: IAB
+   email: bill.wu@huawei.com
 
 normative:
 
@@ -108,9 +112,9 @@ The following contact information are expected to be part of a liaison statement
 
 From:
 : The statement needs to indicate from what body it originates; for
-   example, it may be from, an IETF WG or Area, an ITU-T Study Group,
+   example, it may be from, an IETF Area or WG, an ITU-T Study Group,
    Working Party, or Question, etc. A statement may be sent from more than one group, e.g. multiple IETF
-   working groups, but usually all groups are from the same organisation.
+   working groups, but usually all groups are from the same organization.
 
 From-Contact:
 : One or more electronic mail addresses belonging to the "From" body.
@@ -144,9 +148,8 @@ To-Liaison-Contact ("Send to"):
 : If this address is present, the liaison statement is only sent to this address and not
    to the addresses in the "To-Contact". If a liaison statement is a reply, this "Send to" address is
    the "Send Reply To" address provided by the other organisation in the original statement.
-   This supports processes where an organisation has a
-   central contact adress to receive statements and then distributes the statement using their
-   own process to the approrpiate groups and persons internally.
+   This supports processes where an organisation has a central contact adress to receive statements
+   and then distributes the statement using their own process to the approrpiate groups and persons internally.
 
 ## Purpose
 
@@ -273,8 +276,7 @@ that certain information has been communicated between the organizations.
 ## Incoming Liaison Statements from Other SDOs
 
 The IETF will record any received liaison statement and make it publicly available.
-For received liaison statement with a
-formal liaison relationship it is the responsiblity
+For received liaison statement with a formal liaison relationship, it is the responsiblity
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
@@ -288,8 +290,7 @@ must be publicly recorded. Therefore,
 it is recommended to use a IETF provided tool to send liaison
 statments, rather then send them directly by email and record
 them after the fact. This approach is possible e.g. if a certain form
-of submission other than email is required by the
-other organization.
+of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
@@ -419,12 +420,12 @@ other organization.
    kinds of actions that may be expected are:
 
 - In the case of overlapping or related work in another
-      organization, another organization may request that the IETF align
-      its work with that of the other organization.
+     organization, another organization may request that the IETF align
+     its work with that of the other organization.
 - A request could be made for IETF to undertake a new work item.
 - A request could be made for IETF to stop a work item (presumably
-      because it overlaps or conflicts with other work in the
-      originating organization).
+     because it overlaps or conflicts with other work in the
+     originating organization).
 
    Consensus of the receiving group within IETF is clearly necessary to
    fulfill the request.  Fulfilling the request may require a great deal
