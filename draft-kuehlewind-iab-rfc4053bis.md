@@ -304,7 +304,7 @@ other organization.
    consensus should be sought before sending a liaison statement to
    another organization.
 
-##  Transmitting IETF Documents to Other Organizations
+##  Transmitting IETF Documents to Other Organizations {#transmit-docs}
 
    The simplest case of approving sending of a liaison statement from
    IETF is when the information being transmitted consists of an IETF
@@ -389,9 +389,10 @@ other organization.
 ##  Responding to Requests for Information
 
    If another organization requests information that can be found in an
-   IETF document of the types indicated in Section 5.2, this can be
+   IETF document, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
-   the level of agreement for the relevant document.
+   the level of agreement for the relevant document, as also discussed
+   in {{transmit-docs}}.
 
 ## Responding to Requests for Comments
 
