@@ -36,7 +36,7 @@ informative:
 
 --- abstract
 
-This document describes the procedure for generating and handling
+This document describes the procedures for generating and handling
 liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
@@ -77,14 +77,14 @@ Further the following guidance has been updated in the -00 version:
 2. Removal of the definition section (2.1) as "assignee" is not used anymore and the "addressee" is now simply called receiver.
 3. The section on "Content of a Liaison Statement" has been revised to
     - be less detailed about tooling, e.g. not talking about concrete fields anymore,
-    - indrocuce a new concept to handle contact information, replacing "Response Contact" and
+    - introduce a new concept to handle contact information, replacing "Response Contact" and
      "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
      but are actually not specificed in {{?RFC4053}} and therefore often caused confusion,
     - add new address information ("Send Reply To"/"Send To") that can be used to support processes
-     where one central address is used to receive all liaison statements. This is also the process prefered now by the IETF
+     where one central address is used to receive all liaison statements. This is also the process preferred now by the IETF
      where the central address is either the liaison mananager or the IAB coordination contact.
 4. The purpose "For comment" has been removed as either "For information" or "For Action" can be used instead;
-  depending if a deadline is needed or not. In the current record of statements "For comment" has been rarly used
+  depending if a deadline is needed or not. In the current record of statements "For comment" has been rarely used
   indicating that this purpose is not needed or at least its meaning was not clear.
 5. New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
@@ -121,7 +121,7 @@ From-Contact:
    This includes the addresses associated with the "From" group(s),
    e.g. in the IETF these are the working group chairs, working mailing list, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
-   liaison manager if existant and/or an IAB liaison contact in case of statements sent by
+   liaison manager (if one exists) and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
    liaison by mail, as well as any additional technical experts that should be informed.
 
@@ -148,7 +148,7 @@ To-Liaison-Contact ("Send to"):
 : If this address is present, the liaison statement is only sent to this address and not
    to the addresses in the "To-Contact". If a liaison statement is a reply, this "Send to" address is
    the "Send Reply To" address provided by the other organisation in the original statement.
-   This supports processes where an organisation has a central contact adress to receive statements
+   This supports processes where an organisation has a central contact address to receive statements
    and then distributes the statement using their own process to the approrpiate groups and persons internally.
 
 ## Purpose
@@ -205,17 +205,17 @@ the metadata (address information and purpose) as indicated in the previous
 section to be recorded explicitly. As such when receiving statement from other organisation
 these metadata should be extracted. If the content of the
 statement is not sent in plain text, the plain text body field may
-be empty and the received laision statement is uploaded as attachement.
+be empty and the received laision statement is uploaded as an attachment.
 
 For statement sent from the IETF it is recommended to provide the content
-in plain text but also provide an attachement following the formating requirements
+in plain text but also provide an attachment following the formatting requirements
 of the receiving organisation if possible. If cases where we have a
 liaison manager, it is the responsiblity of the liaison to check or convert
-the formating requirements. It is further recommended to convert received
+the formatting requirements. It is further recommended to convert received
 document in proprietary formats into PDF and upload both version as
 attachments.
 
-This ensures that our process can comply with all formating requirements
+This ensures that our process can comply with all formatting requirements
 from other organisations.
 
 #  Responsibilities when Receiving a Liaison Statement
@@ -242,7 +242,7 @@ from other organisations.
    the liaison manager to redirect it appropriately.  In some cases, a
    liaison statement may require consideration by multiple groups within
    the IETF; in such cases, potentially multiple chair and area directors
-   have to coordinate but idealy one of them takes the lead and
+   have to coordinate but ideally one of them takes the lead and
    responsibility for developing a response.
 
    Liaison Statements are always important to the body that sent them.
@@ -280,15 +280,15 @@ For received liaison statement with a formal liaison relationship, it is the res
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
-responibility of the receiver to ensure a public record is created.
+responsibility of the receiver to ensure a public record is created.
 
 ## Outgoing Liaison Statements from the IETF
 
 IETF participants (usually WG chairs or ADs) can
-send liaison statements to other SDOs, and all sent liaison statments
+send liaison statements to other SDOs, and all sent liaison statements
 must be publicly recorded. Therefore,
 it is recommended to use a IETF provided tool to send liaison
-statments, rather then send them directly by email and record
+statements, rather then send them directly by email and record
 them after the fact. This approach is possible e.g. if a certain form
 of submission other than email is required by the other organization.
 
