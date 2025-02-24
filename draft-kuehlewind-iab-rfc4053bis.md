@@ -114,8 +114,7 @@ From:
 : The statement needs to indicate from what body it originates; for
    example, it may be from, an IETF Area or WG, an ITU-T Study Group,
    Working Party, or Question, etc. A statement may be sent from more than one group, e.g. multiple IETF
-   working groups, but usually all groups are from the same organisation and one of these groups will be chosen as
-   main responsible group.
+   working groups, but usually all groups are from the same organization.
 
 From-Contact:
 : One or more electronic mail addresses belonging to the "From" body.
