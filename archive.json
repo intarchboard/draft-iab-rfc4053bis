@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-23T00:48:40.376120+00:00",
+  "timestamp": "2025-02-25T00:44:59.384924+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -125,7 +125,7 @@
       "comments": [
         {
           "author": "billwuqin",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Should we understand temporary document as living document? should we understand record as permanent record? I am not 100% percent sure we will see liaison statement as permanent record, just like personal email I maintain, I might delete some of emails at some time point or quarterly.\nMaybe we should just use one single analogy,i.e., email, since temporary document as another analogy introducing confusing.\nOr we simply change it as living document.",
           "createdAt": "2025-02-18T13:46:21Z",
           "updatedAt": "2025-02-18T13:46:21Z"
@@ -1062,6 +1062,103 @@
       },
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOMUjnl86MMAc2",
+      "title": "section 3.2.1.1 existed in RFC4053 has been moved to section 5.2",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/23",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-23T08:15:35Z",
+      "updatedAt": "2025-02-24T11:49:59Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "c4dd202ce65815a87a479df88630f335aec3ab51",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "billwuqin-patch-1",
+      "headRefOid": "3e4f225f0fd129f14467a0a973d11a16bf62901b",
+      "closedAt": "2025-02-24T11:49:59Z",
+      "mergedAt": "2025-02-24T11:49:59Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "5320dbe3956391df8b67f8662b104a492e10f6a4"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 24,
+      "id": "PR_kwDOMUjnl86MMCKm",
+      "title": "Some Editorial changes",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/24",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-23T08:31:09Z",
+      "updatedAt": "2025-02-24T11:55:07Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "c4dd202ce65815a87a479df88630f335aec3ab51",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "billwuqin-patch-2",
+      "headRefOid": "36887d450768b57e978d6aec34eab972df5c234d",
+      "closedAt": "2025-02-24T11:55:07Z",
+      "mergedAt": "2025-02-24T11:55:07Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "8d410341a103b17e1ca3e1e3b96932d34fd0c93d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86dKuvH",
+          "commit": {
+            "abbreviatedOid": "358dd89"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-24T11:52:05Z",
+          "updatedAt": "2025-02-24T11:52:06Z",
+          "comments": [
+            {
+              "originalPosition": 20,
+              "body": "I don't think add this is here is the right place to add it.\r\n```suggestion\r\n   working groups, but usually all groups are from the same organization.\r\n```",
+              "createdAt": "2025-02-24T11:52:05Z",
+              "updatedAt": "2025-02-24T11:52:06Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86dKxzN",
+          "commit": {
+            "abbreviatedOid": "735c850"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-02-24T11:54:13Z",
+          "updatedAt": "2025-02-24T11:54:13Z",
+          "comments": [
+            {
+              "originalPosition": 72,
+              "body": "We should remove the indention everywhere. That's just leftover from the copy-paste of the original RFC. In particularly in list indention has a meaning in markdown.\r\n```suggestion\r\n- In the case of overlapping or related work in another\r\n     organization, another organization may request that the IETF align\r\n     its work with that of the other organization.\r\n- A request could be made for IETF to undertake a new work item.\r\n- A request could be made for IETF to stop a work item (presumably\r\n     because it overlaps or conflicts with other work in the\r\n     originating organization).\r\n```",
+              "createdAt": "2025-02-24T11:54:13Z",
+              "updatedAt": "2025-02-24T11:54:14Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
