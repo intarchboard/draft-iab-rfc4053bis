@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-27T00:44:55.291552+00:00",
+  "timestamp": "2025-03-02T00:49:09.193059+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -120,7 +120,7 @@
       "labels": [],
       "body": "Currently the RFC says: \"A liaison statement is a temporary document\". however, it is probably important to keep a record and we might want to revise this section",
       "createdAt": "2024-10-09T13:35:22Z",
-      "updatedAt": "2025-02-18T13:46:23Z",
+      "updatedAt": "2025-02-27T13:05:03Z",
       "closedAt": null,
       "comments": [
         {
@@ -129,6 +129,13 @@
           "body": "Should we understand temporary document as living document? should we understand record as permanent record? I am not 100% percent sure we will see liaison statement as permanent record, just like personal email I maintain, I might delete some of emails at some time point or quarterly.\nMaybe we should just use one single analogy,i.e., email, since temporary document as another analogy introducing confusing.\nOr we simply change it as living document.",
           "createdAt": "2025-02-18T13:46:21Z",
           "updatedAt": "2025-02-18T13:46:21Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "we merged #19 which removed this section on \"Lifecycle\" and adds a section on recording instead. However, we still leave this issue open for now to double-check if there is more we need to say.",
+          "createdAt": "2025-02-27T13:05:03Z",
+          "updatedAt": "2025-02-27T13:05:03Z"
         }
       ]
     },
@@ -247,15 +254,15 @@
       "id": "I_kwDOMUjnl86q3fRN",
       "title": "add changes-from-4053 section and update acknowledgements",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/17",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-02-20T16:25:14Z",
-      "updatedAt": "2025-02-20T16:27:23Z",
-      "closedAt": null,
+      "updatedAt": "2025-02-27T13:02:25Z",
+      "closedAt": "2025-02-27T13:02:25Z",
       "comments": []
     }
   ],
