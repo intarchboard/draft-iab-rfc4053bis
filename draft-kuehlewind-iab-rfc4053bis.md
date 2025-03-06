@@ -203,9 +203,7 @@ liaison statements. There are no requirements from the IETF on the format
 of the actual liaison statement, however, we require
 the metadata (address information and purpose) as indicated in the previous
 section to be recorded explicitly. As such when receiving statement from other organisation
-these metadata should be extracted. If the content of the
-statement is not sent in plain text, the plain text body field may
-be empty and the received laision statement is uploaded as an attachment.
+these metadata should be extracted.
 
 For statements sent from the IETF, it is recommended to provide the content
 in plain text but also provide an attachment following the formatting requirements
