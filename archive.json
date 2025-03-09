@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-06T00:45:49.660361+00:00",
+  "timestamp": "2025-03-09T00:40:21.034579+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -263,6 +263,54 @@
       "createdAt": "2025-02-20T16:25:14Z",
       "updatedAt": "2025-02-27T13:02:25Z",
       "closedAt": "2025-02-27T13:02:25Z",
+      "comments": []
+    },
+    {
+      "number": 25,
+      "id": "I_kwDOMUjnl86s6mX5",
+      "title": "Mentions of ASCII should be UTF-8 - \"plain text\" could be defined once and reused.",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/25",
+      "state": "OPEN",
+      "author": "rjsparks",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The document mentions \"ASCII text\" in section 2.3 - I think it should say UTF-8 text instead. I suggest making it clear early that \"plain text\" means a UTF-8 encoded text/plain document and using that phrase consistently in the rest of the document.",
+      "createdAt": "2025-03-06T17:42:01Z",
+      "updatedAt": "2025-03-06T17:42:01Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 26,
+      "id": "I_kwDOMUjnl86s6nCn",
+      "title": "Section 2.3 still speaks in terms of web forms and fields",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/26",
+      "state": "OPEN",
+      "author": "rjsparks",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "One goal of the update is to abstract away tooling details. Wording could be adjusted to avoid \"forms\" and \"fields\".",
+      "createdAt": "2025-03-06T17:43:27Z",
+      "updatedAt": "2025-03-06T17:43:27Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 27,
+      "id": "I_kwDOMUjnl86s7hyY",
+      "title": "Should it be explicit that liaison statement documents to/from the IETF/IAB are expected to be in English?",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/27",
+      "state": "OPEN",
+      "author": "rjsparks",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Should it be explicit that liaison statement documents to/from the IETF/IAB are expected to be in English?",
+      "createdAt": "2025-03-06T19:51:27Z",
+      "updatedAt": "2025-03-06T19:51:27Z",
+      "closedAt": null,
       "comments": []
     }
   ],
@@ -1166,6 +1214,58 @@
           ]
         }
       ]
+    },
+    {
+      "number": 28,
+      "id": "PR_kwDOMUjnl86NsEWE",
+      "title": "fix: UTF-8 instead of ASCII",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/28",
+      "state": "OPEN",
+      "author": "rjsparks",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #25",
+      "createdAt": "2025-03-06T20:09:52Z",
+      "updatedAt": "2025-03-06T20:09:52Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "02f09a61ddd73f81f30a907c793e336abbc1bb6b",
+      "headRepository": "rjsparks/draft-iab-rfc4053bis",
+      "headRefName": "text_plain",
+      "headRefOid": "b8ecb9fc0585f15a870ae4da1f38780f492e7bec",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 29,
+      "id": "PR_kwDOMUjnl86NsEy3",
+      "title": "fix: remove a form/tool specific sentence.",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/29",
+      "state": "OPEN",
+      "author": "rjsparks",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #26 ",
+      "createdAt": "2025-03-06T20:10:36Z",
+      "updatedAt": "2025-03-06T20:10:37Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "02f09a61ddd73f81f30a907c793e336abbc1bb6b",
+      "headRepository": "rjsparks/draft-iab-rfc4053bis",
+      "headRefName": "forms_fields",
+      "headRefOid": "1a425eae740ddaca022ac3792e7769c6d322d32b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
