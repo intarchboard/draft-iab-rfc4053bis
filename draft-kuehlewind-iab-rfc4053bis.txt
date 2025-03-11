@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 28 August 2025                                 24 February 2025
+Expires: 12 September 2025                                 11 March 2025
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 August 2025.
+   This Internet-Draft will expire on 12 September 2025.
 
 Copyright Notice
 
@@ -110,7 +110,7 @@ Table of Contents
    Receive of a liaison statement does not automatically impose an
    obligation of sending a response by the other party.  The decision to
    send a response depends on the content and kind of request.  However,
-   if a formal liaions relationship exists, it is the responsibility of
+   if a formal liaison relationship exists, it is the responsibility of
    the liaison manager to ensure appropriate communication between the
    organisations (see Section 3 of [RFC4052]) even if no response is
    sent.
