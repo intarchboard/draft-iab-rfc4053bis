@@ -60,7 +60,7 @@ SDO and the IETF.
 Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request. However,
-if a formal liaions relationship exists, it is the responsibility
+if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
