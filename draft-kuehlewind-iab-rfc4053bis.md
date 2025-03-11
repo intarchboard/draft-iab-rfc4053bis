@@ -276,7 +276,7 @@ that certain information has been communicated between the organizations.
 ## Incoming Liaison Statements from Other SDOs
 
 The IETF will record any received liaison statement and make it publicly available.
-For received liaison statement with a formal liaison relationship, it is the responsiblity
+For received liaison statement with a formal liaison relationship, it is the responsibility
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
