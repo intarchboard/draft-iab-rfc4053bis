@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-01T00:55:09.827934+00:00",
+  "timestamp": "2025-04-20T00:53:44.104686+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -348,9 +348,17 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-03-17T09:26:56Z",
-      "updatedAt": "2025-03-17T09:26:56Z",
+      "updatedAt": "2025-04-17T15:03:13Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Note that no \"special standing\" includes that there is no obligation to reply and no reply does not imply endorsement. Sending a contribution or request in a LS is not different than sending an informal email to the wg mailing or respective person/role. Depending on the process of the SDO that has sent the LS, the statement might reflect some level of consensus, however, that doesn't change the weight compared to any contribution but any individual. Also note that LS sent by any IETF group do not automatically imply group or IETF level consensus (effectively only RFCs reflect IETF consensus). ",
+          "createdAt": "2025-04-17T15:03:12Z",
+          "updatedAt": "2025-04-17T15:03:12Z"
+        }
+      ]
     }
   ],
   "pulls": [
