@@ -57,8 +57,8 @@ document encompass all liaisons statements received from SDOs,
 whether or not a formal liaison arrangement is in place between the
 SDO and the IETF.
 
-Receive of a liaison statement does not automatically
-impose an obligation of sending a response by the other party. The decision
+Receiving of a liaison statement from other SDOs does not automatically
+impose an obligation of sending a response by the IETF. The decision
 to send a response depends on the content and kind of request. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
