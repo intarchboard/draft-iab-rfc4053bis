@@ -383,7 +383,7 @@ of submission other than email is required by the other organization.
 
    The decision to send a response to incoming liaison statements
    depends on the content and kind of request.
-   
+
    Any incoming liaison statement that indicates that it is for
    "Action" requires a response by the deadline.
    It is the responsibility of the (co)chair(s) of
