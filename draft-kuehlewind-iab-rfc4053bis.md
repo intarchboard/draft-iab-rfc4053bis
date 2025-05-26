@@ -193,7 +193,7 @@ Internet Drafts.
 IETF participants use a wide variety of systems, thus document
 formats that are not universally readable are problematic. As a
 result, documents enclosed with the body or attachments should be in
-PDF, W3C HTML (without proprietary extensions), or UTF-8 encoded 
+PDF, W3C HTML (without proprietary extensions), or UTF-8 encoded
 plain/text format.
 If they were originally in a proprietary format such as Microsoft
 Word, the file may be sent, but should be accompanied by a generally
