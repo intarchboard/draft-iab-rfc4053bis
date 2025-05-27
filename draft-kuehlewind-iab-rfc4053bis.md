@@ -392,7 +392,7 @@ of submission other than email is required by the other organization.
 
    If no response to an incoming liaison statement is provided, this
    does not imply agreement or consensus on the topic raised to
-   the IETF. IETF positions require community rough consensus 
+   the IETF. IETF positions require community rough consensus
    via processes managed by the Internet Engineering Steering Group (IESG).
 
 ##  Responding to Requests for Information
