@@ -381,8 +381,6 @@ of submission other than email is required by the other organization.
 
 #  Responding to Incoming Liaison Statements
 
-   The decision to send a response to incoming liaison statements
-   depends on the content and kind of request.
 
    Any incoming liaison statement that indicates that it is for
    "Action" expects a response by the deadline.
