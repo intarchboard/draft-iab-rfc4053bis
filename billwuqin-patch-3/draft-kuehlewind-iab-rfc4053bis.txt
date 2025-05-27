@@ -464,9 +464,6 @@ Table of Contents
 
 6.  Responding to Incoming Liaison Statements
 
-   The decision to send a response to incoming liaison statements
-   depends on the content and kind of request.
-
    Any incoming liaison statement that indicates that it is for "Action"
    expects a response by the deadline.  It is the responsibility of the
    (co)chair(s) of the addressed group to ensure that a response is
