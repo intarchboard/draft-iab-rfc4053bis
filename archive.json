@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-04T00:56:10.201308+00:00",
+  "timestamp": "2025-05-27T00:51:21.699565+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -283,15 +283,15 @@
       "id": "I_kwDOMUjnl86s6mX5",
       "title": "Mentions of ASCII should be UTF-8 - \"plain text\" could be defined once and reused.",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/25",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "rjsparks",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "The document mentions \"ASCII text\" in section 2.3 - I think it should say UTF-8 text instead. I suggest making it clear early that \"plain text\" means a UTF-8 encoded text/plain document and using that phrase consistently in the rest of the document.",
       "createdAt": "2025-03-06T17:42:01Z",
-      "updatedAt": "2025-03-06T17:42:01Z",
-      "closedAt": null,
+      "updatedAt": "2025-05-26T13:30:28Z",
+      "closedAt": "2025-05-26T13:30:28Z",
       "comments": []
     },
     {
@@ -380,9 +380,41 @@
       "labels": [],
       "body": "RFC4053bis said:\n\"\nReceive of a liaison statement does not automatically impose an obligation of sending a response by the other party. The decision to send a response depends on the content and kind of request. \n\"\nI am wondering who will be \"the other party\"? should it be limited to other SDOs? should it also include IETF? If the motivation of the first sentence in the above quoted text is aiming at generic, e..g,\n\"Receiving of a liaison statement from one party does not automatically impose an obligation of sending a response by the other party\", I am wondering whether RFC4053bis can stipulate on how other SDOs handle liaison statement to and from IETF?\nIf the answer is no, I think we should make the above text clear with the following change:\n\nReceiving of a liaison statement from other SDOs does not automatically impose an obligation of sending a response by the IETF. ",
       "createdAt": "2025-05-03T13:01:10Z",
-      "updatedAt": "2025-05-03T13:01:10Z",
+      "updatedAt": "2025-05-26T13:52:11Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "This is keep generic because it is also true that just because we send an LS to some other SDO that's doesn't automatically mean that we will receive a reply. However, we could be more explicit about this but maybe it better to keep it generic in the intro and then be more explicit in the later sections.",
+          "createdAt": "2025-05-26T13:52:10Z",
+          "updatedAt": "2025-05-26T13:52:10Z"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "id": "I_kwDOMUjnl864N5eL",
+      "title": "Clarify consensus when sending LSs from an IETF group",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/37",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on a first call for community feedback we received some comments, all regarding the consensus implied when sending a LS from an IETF group.\n\nEliot Lear wrote:\n\n> A couple of things that have come up from time to time, for the IAB to consider:\n>\n>    What does it mean for an area to send a liaison that would state a position of that area (e.g., require rough consensus)?  IMHO, areas should not send liaisons.\n>    Can the IESG send a liaison that represents its view and not that of the IETF?  And if so, what is the distinction?\n>\n>These are somewhat pointy headed distinctions, but again from time to time they have come up.\n\nAnd further:\n\n>  I think the high order bit here, and it really should be normative in the document, is that when any group is speaking (IAB/IESG/area/wg), especially when stating a position, that position must be properly represented as to what form of consensus it has, and whether it is a position of the IETF.  That latter part is important because the peer organizations may not understand our organization.\n\nS. Moonesamy wrote:\n\n>There is the following sentence in rfc4052bis-00:\n>\n> 'However, if these communications aim to \"represent the IETF\", they must\n>  have consensus, e.g. by being based on an RFC or some other formal statement\n>  by a group within the IETF.'\n>\n>Does that mean that statements discussed and agreed upon within, for example, a working group would be viewed as the position of the IETF Community?\n\nAnd further (after Suresh replied with an exampled):\n\n> The designation of the sender is clearly visible in the above example.  However, the external party may assume that the statement represents the views of the IETF Community.  My mild suggestion is for your colleagues and you to consider that.\n",
+      "createdAt": "2025-05-26T10:01:09Z",
+      "updatedAt": "2025-05-26T10:01:23Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Generally, most of the text about sending statements and approval has been taken so far without much modification from 4053/4052 and we will definitely work on those parts for the next revision (also with the intent to maybe say those things but using less words).\n\nOn the question of IESG vs. IETF we actually have a tooling issue/discussion open for that:\nhttps://github.com/ietf-tools/liaison-tooling-2025a/discussions/5\n\nWhat I\u2019ve seen in the tracker is that both fields have been used interchangeably, so I think it would be better to only have one. I think we do need the ability to send statements from the IETF because that\u2019s what other organizations might expect while IESG might not mean anything to them. But as you say it is of cause important to be clear in the statement what that means and what level of consensus a statement has.",
+          "createdAt": "2025-05-26T10:01:22Z",
+          "updatedAt": "2025-05-26T10:01:22Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -1291,24 +1323,26 @@
       "id": "PR_kwDOMUjnl86NsEWE",
       "title": "fix: UTF-8 instead of ASCII",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/28",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "rjsparks",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "fixes #25",
       "createdAt": "2025-03-06T20:09:52Z",
-      "updatedAt": "2025-03-06T20:09:52Z",
+      "updatedAt": "2025-05-26T13:30:27Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "02f09a61ddd73f81f30a907c793e336abbc1bb6b",
       "headRepository": "rjsparks/draft-iab-rfc4053bis",
       "headRefName": "text_plain",
       "headRefOid": "b8ecb9fc0585f15a870ae4da1f38780f492e7bec",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-05-26T13:30:27Z",
+      "mergedAt": "2025-05-26T13:30:27Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "dc51f37d381a4361e8b9f41ec73475f07c5d479d"
+      },
       "comments": [],
       "reviews": []
     },
@@ -1319,12 +1353,12 @@
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/29",
       "state": "OPEN",
       "author": "rjsparks",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Fixes #26 ",
       "createdAt": "2025-03-06T20:10:36Z",
-      "updatedAt": "2025-03-17T04:06:23Z",
+      "updatedAt": "2025-05-26T13:39:05Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "02f09a61ddd73f81f30a907c793e336abbc1bb6b",
@@ -1351,9 +1385,29 @@
           "comments": [
             {
               "originalPosition": 7,
-              "body": "```suggestion\r\nthese metadata should be extracted. Statements might be recorded containing only a plain text body,\r\nor the body of the statement might only be found in the original received attachment.\r\n```\r\nNot fully sure we need this, but it might still be useful to say somehow that the body of an attachment does not need to be extracted and converted into plain text...?",
+              "body": "```suggestion\r\nthese metadata should be extracted. The content of a statement is recorded as plain text body \r\nand/or by attaching a received document.\r\n```\r\nNot fully sure we need this, but it might still be useful to say somehow that the body of an attachment does not need to be extracted and converted into plain text...?",
               "createdAt": "2025-03-17T04:06:23Z",
-              "updatedAt": "2025-03-17T04:06:23Z"
+              "updatedAt": "2025-05-26T13:38:02Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86q-cmO",
+          "commit": {
+            "abbreviatedOid": "1a425ea"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:39:05Z",
+          "updatedAt": "2025-05-26T13:39:05Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "@rjsparks does this proposed sentence work or do you think that still has to tight tooling implications?",
+              "createdAt": "2025-05-26T13:39:05Z",
+              "updatedAt": "2025-05-26T13:39:05Z"
             }
           ]
         }
@@ -1371,7 +1425,7 @@
       "labels": [],
       "body": "Fix #31",
       "createdAt": "2025-05-03T13:50:23Z",
-      "updatedAt": "2025-05-03T13:52:12Z",
+      "updatedAt": "2025-05-26T13:55:09Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
@@ -1382,8 +1436,77 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Please note that this PR does not address issue #31. This PR only clarifies what the absent of a replies implies but does not clarify that the input provided by a received LS from another SDO has not special handling in the IETF process, e.g. it is not treated different by the process than any input provided by an individual on e.g. a mailing list.",
+          "createdAt": "2025-05-26T13:55:07Z",
+          "updatedAt": "2025-05-26T13:55:07Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86q-dt-",
+          "commit": {
+            "abbreviatedOid": "a2baf53"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:40:44Z",
+          "updatedAt": "2025-05-26T13:40:44Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\n   \"Action\" expects a response by the deadline.\r\n```",
+              "createdAt": "2025-05-26T13:40:44Z",
+              "updatedAt": "2025-05-26T13:40:44Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86q-ioQ",
+          "commit": {
+            "abbreviatedOid": "a2baf53"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:48:34Z",
+          "updatedAt": "2025-05-26T13:48:35Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\n   If no response to an incoming liaison statement is provided, this\r\n   does not imply agreement or consensus on the topic raised to\r\n   the IETF. IETF positions require community rough consensus \r\n   via processes managed by the Internet Engineering Steering Group (IESG).\r\n```",
+              "createdAt": "2025-05-26T13:48:34Z",
+              "updatedAt": "2025-05-26T13:48:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86q-lVX",
+          "commit": {
+            "abbreviatedOid": "a2baf53"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:52:56Z",
+          "updatedAt": "2025-05-26T13:52:57Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "This is already in the intro. Not sure we need to repeat the exact same sentence here.",
+              "createdAt": "2025-05-26T13:52:56Z",
+              "updatedAt": "2025-05-26T13:52:57Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 34,
@@ -1423,7 +1546,7 @@
       "labels": [],
       "body": "Fix #30",
       "createdAt": "2025-05-03T14:20:57Z",
-      "updatedAt": "2025-05-03T14:20:57Z",
+      "updatedAt": "2025-05-26T14:01:54Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
@@ -1434,8 +1557,57 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks for the editorial proposal. However, this PR does not address issue #30, as the intention is to review and adapt the content appropriately. I think/hope the text can be strongly simplified.",
+          "createdAt": "2025-05-26T14:01:53Z",
+          "updatedAt": "2025-05-26T14:01:53Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86q-nrC",
+          "commit": {
+            "abbreviatedOid": "44d06cf"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:56:39Z",
+          "updatedAt": "2025-05-26T13:56:40Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "This change is not correct. The sentence takes about activities in the IETF wg",
+              "createdAt": "2025-05-26T13:56:39Z",
+              "updatedAt": "2025-05-26T13:56:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86q-pZP",
+          "commit": {
+            "abbreviatedOid": "44d06cf"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T13:59:29Z",
+          "updatedAt": "2025-05-26T13:59:29Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "I think WG or even IETF LC is too late. I think this sentence meant to say it better to request input much earlier that this. But maybe we can just remove this sentence because that should be clear or it actually for the chairs to decided when is the right time for input (usually early in the process but when the solution is relatively stable).",
+              "createdAt": "2025-05-26T13:59:29Z",
+              "updatedAt": "2025-05-26T13:59:29Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 36,
@@ -1449,7 +1621,7 @@
       "labels": [],
       "body": "Fix #14",
       "createdAt": "2025-05-03T14:52:24Z",
-      "updatedAt": "2025-05-03T14:52:24Z",
+      "updatedAt": "2025-05-26T14:04:56Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
@@ -1461,7 +1633,28 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl86q-spR",
+          "commit": {
+            "abbreviatedOid": "50e2a55"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-26T14:04:56Z",
+          "updatedAt": "2025-05-26T14:04:56Z",
+          "comments": [
+            {
+              "originalPosition": 25,
+              "body": "Not sure we can put this like this because that's again a tooling requirement that we decided to remove from this document.\r\n\r\n@sureshkrishnan what did you have on your mind for this?",
+              "createdAt": "2025-05-26T14:04:56Z",
+              "updatedAt": "2025-05-26T14:04:56Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
