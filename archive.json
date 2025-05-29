@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-27T00:51:21.699565+00:00",
+  "timestamp": "2025-05-29T00:52:37.879401+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -230,11 +230,13 @@
       "state": "OPEN",
       "author": "sureshkrishnan",
       "authorAssociation": "CONTRIBUTOR",
-      "assignees": [],
+      "assignees": [
+        "sureshkrishnan"
+      ],
       "labels": [],
       "body": "There should be some text needed to address LSs that arrive with some requested action and deadlines. Potentially also document need for notifications/reminders as well as an escalation chain.",
       "createdAt": "2025-02-20T15:24:46Z",
-      "updatedAt": "2025-05-03T14:32:08Z",
+      "updatedAt": "2025-05-27T16:00:13Z",
       "closedAt": null,
       "comments": [
         {
@@ -254,11 +256,13 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "mirjak"
+      ],
       "labels": [],
       "body": "This is from the old appendix that is now removed from the doc. We might want to check if we still want to discuss any of these feature in the new version of the doc.\n\n> This list of feature was indicated as Phase II in RFC4053 but have\n>    never been implemented. Therefore this list is kept for now as a\n>    record of high-level intended features of the future liaison statement\n>    tracking system:\n> \n>    o  Designating an assignee; the assignee is initially a person\n>       associated with the body (IAB, IESG, Area, WG, etc.) to which the\n>       liaison statement is addressed, but may subsequently be changed by\n>       an IETF participant.\n> \n>    o  Indicating the status of the liaison statement (e.g., actions\n>       required, actions taken, etc.  Specific options TBD).\n> \n>    o  Sending ticklers to the assignee when action is required (with\n>       copies to whomever is appropriate).\n> \n>    o  Changing the status of the liaison statement, the deadline, or\n>       other attributes.\n> \n>    o  Reassigning responsibility.\n> \n>    o  Closing the liaison statement.",
       "createdAt": "2025-02-20T16:18:17Z",
-      "updatedAt": "2025-02-20T16:18:17Z",
+      "updatedAt": "2025-05-27T16:03:26Z",
       "closedAt": null,
       "comments": []
     },
@@ -301,14 +305,16 @@
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/26",
       "state": "OPEN",
       "author": "rjsparks",
-      "authorAssociation": "NONE",
-      "assignees": [],
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [
+        "mirjak"
+      ],
       "labels": [
         "editorial"
       ],
       "body": "One goal of the update is to abstract away tooling details. Wording could be adjusted to avoid \"forms\" and \"fields\".",
       "createdAt": "2025-03-06T17:43:27Z",
-      "updatedAt": "2025-03-17T04:00:25Z",
+      "updatedAt": "2025-05-27T16:03:38Z",
       "closedAt": null,
       "comments": []
     },
@@ -336,11 +342,13 @@
       "state": "OPEN",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
-      "assignees": [],
+      "assignees": [
+        "mirjak"
+      ],
       "labels": [],
       "body": "",
       "createdAt": "2025-03-17T03:56:40Z",
-      "updatedAt": "2025-03-17T03:56:40Z",
+      "updatedAt": "2025-05-27T16:01:15Z",
       "closedAt": null,
       "comments": []
     },
@@ -349,15 +357,15 @@
       "id": "I_kwDOMUjnl86uTe5S",
       "title": "Also note in this doc that LSs have no \"special standing\"",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/31",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-03-17T09:26:56Z",
-      "updatedAt": "2025-04-17T15:03:13Z",
-      "closedAt": null,
+      "updatedAt": "2025-05-27T15:54:37Z",
+      "closedAt": "2025-05-27T15:54:36Z",
       "comments": [
         {
           "author": "mirjak",
@@ -1358,7 +1366,7 @@
       "labels": [],
       "body": "Fixes #26 ",
       "createdAt": "2025-03-06T20:10:36Z",
-      "updatedAt": "2025-05-26T13:39:05Z",
+      "updatedAt": "2025-05-27T13:36:00Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "02f09a61ddd73f81f30a907c793e336abbc1bb6b",
@@ -1410,6 +1418,26 @@
               "updatedAt": "2025-05-26T13:39:05Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86rIdKd",
+          "commit": {
+            "abbreviatedOid": "1a425ea"
+          },
+          "author": "rjsparks",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-27T13:35:59Z",
+          "updatedAt": "2025-05-27T13:36:00Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "It's still speaking in terms of implementation, not requirement, which is that the content of the received statement be recorded and that it's ok to transform that content when it makes sense rather than preserve the exact received bits. We'd not follow the proposed statement if we wanted to store something as markdown rather than plain text. See if this works for you instead:\r\n\r\n\"The content of the statement is also recorded. This content may be transformed into a another format, such as plain text or markdown when it is reasonable to do so.\"",
+              "createdAt": "2025-05-27T13:36:00Z",
+              "updatedAt": "2025-05-27T13:36:12Z"
+            }
+          ]
         }
       ]
     },
@@ -1418,24 +1446,26 @@
       "id": "PR_kwDOMUjnl86U0zeo",
       "title": "Clarify LSs have no \"special standing\"",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/33",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
-      "body": "Fix #31",
+      "body": "related to #31",
       "createdAt": "2025-05-03T13:50:23Z",
-      "updatedAt": "2025-05-26T13:55:09Z",
+      "updatedAt": "2025-05-27T15:54:36Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "billwuqin-patch-3",
-      "headRefOid": "a2baf535ca0907ee9305d9ab8431da3f18e14781",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "81b62326785f1ce94e8d5717937d9ea6756437ba",
+      "closedAt": "2025-05-27T15:54:35Z",
+      "mergedAt": "2025-05-27T15:54:35Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "8f52bafce15fba4e3d83f3c5401a7fdd81866b3f"
+      },
       "comments": [
         {
           "author": "mirjak",
@@ -1505,6 +1535,26 @@
               "updatedAt": "2025-05-26T13:52:57Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl86rKiBr",
+          "commit": {
+            "abbreviatedOid": "9882def"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-05-27T15:53:41Z",
+          "updatedAt": "2025-05-27T15:53:42Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2025-05-27T15:53:41Z",
+              "updatedAt": "2025-05-27T15:53:42Z"
+            }
+          ]
         }
       ]
     },
@@ -1513,21 +1563,21 @@
       "id": "PR_kwDOMUjnl86U0z8-",
       "title": "Clarify whether  we care how other SDOs or other party handle liaison\u2026",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/34",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Fix #32",
       "createdAt": "2025-05-03T13:55:27Z",
-      "updatedAt": "2025-05-03T13:55:27Z",
+      "updatedAt": "2025-05-27T15:55:22Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "billwuqin-patch-4",
       "headRefOid": "e786dcde20bf8452fd18a465296a9b067aad0150",
-      "closedAt": null,
+      "closedAt": "2025-05-27T15:55:22Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -1544,9 +1594,9 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
-      "body": "Fix #30",
+      "body": "related to #30",
       "createdAt": "2025-05-03T14:20:57Z",
-      "updatedAt": "2025-05-26T14:01:54Z",
+      "updatedAt": "2025-05-27T15:57:41Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
@@ -1619,9 +1669,9 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
-      "body": "Fix #14",
+      "body": "related to #14",
       "createdAt": "2025-05-03T14:52:24Z",
-      "updatedAt": "2025-05-26T14:04:56Z",
+      "updatedAt": "2025-05-27T15:58:31Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "9f6f010cec28a4bd4ba060a358c3729d6d7198d9",
