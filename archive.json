@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-29T00:52:37.879401+00:00",
+  "timestamp": "2025-06-08T00:58:14.427119+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -1705,6 +1705,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 38,
+      "id": "PR_kwDOMUjnl86ZgaPv",
+      "title": "Describe liaison relationships for IRTF",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/38",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Qin to move PR #34 from 4052bis to 4053bis",
+      "createdAt": "2025-06-07T12:00:18Z",
+      "updatedAt": "2025-06-07T12:00:19Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "8f52bafce15fba4e3d83f3c5401a7fdd81866b3f",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "billwuqin-patch-7",
+      "headRefOid": "4781d943c0c536576dc1e6133f684c4d444a65dc",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
