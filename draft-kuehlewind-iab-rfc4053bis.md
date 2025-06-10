@@ -203,7 +203,7 @@ liaison statements. There are no requirements from the IETF on the format
 of the actual liaison statement, however, we require
 the metadata (address information and purpose) as indicated in the previous
 section to be recorded explicitly. As such when receiving statement from other organisation
-these metadata should be extracted.
+these metadata should be extracted. Further, the content of the statement must be recorded. This content may be recorded by archiving a received document in its original format, such as PDF or word, or may be transformed into an another format, such as plain text or markdown, when it is reasonable to do so.
 
 For statements sent from the IETF, it is recommended to provide the content
 in plain text but also provide an attachment following the formatting requirements
