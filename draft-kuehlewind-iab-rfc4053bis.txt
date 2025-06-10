@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 28 November 2025                                    27 May 2025
+Expires: 12 December 2025                                   10 June 2025
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 November 2025.
+   This Internet-Draft will expire on 12 December 2025.
 
 Copyright Notice
 
@@ -285,9 +285,11 @@ Table of Contents
    metadata (address information and purpose) as indicated in the
    previous section to be recorded explicitly.  As such when receiving
    statement from other organisation these metadata should be extracted.
-   If the content of the statement is not sent in plain text, the plain
-   text body field may be empty and the received laision statement is
-   uploaded as an attachment.
+   Further, the content of the statement must be recorded.  This content
+   may be recorded by archiving a received document in its original
+   format, such as PDF or word, or may be transformed into an another
+   format, such as plain text or markdown, when it is reasonable to do
+   so.
 
    For statements sent from the IETF, it is recommended to provide the
    content in plain text but also provide an attachment following the
