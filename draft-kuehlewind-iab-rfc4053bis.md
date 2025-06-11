@@ -99,6 +99,7 @@ Further the following guidance has been updated in the -00 version:
 6. Section 4 from {{RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
 
 Changes in the -01 version:
+
 1. Minor wording adjustments to avoid tooling implications
 2. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
 
