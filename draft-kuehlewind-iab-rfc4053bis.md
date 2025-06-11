@@ -58,7 +58,7 @@ slightly different procedures to handle sending and receiving of liaison
 statements. The IETF process is intended to be as less complex as possible
 while still accommodating the process or format requirements from various
 other SDOs. The property of the IETF liaison statement handling process
-is the requirement to record all sent and received liaison statement in
+is the requirement to record all sent and received liaison statements in
 a publicly accessible central location, which makes its more formal
 than other direct communications. However, liaison statements do not
 have any special standing within the IETF process otherwise. This means
