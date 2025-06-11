@@ -296,10 +296,9 @@ of submission other than email is required by the other organization.
 
 Liaison Statements can be generated at a WG, Area, or IETF level to another organization. The respective (co)chair(s) or Area Director (AD) are responsible
 for deciding the content and judging the level of consensus that is needed
-for sending the respective content. This section outlines the approval 
-responsibilities and gives guidance
-about how much consensus should be sought before sending a liaison statement to
-another organization.
+for sending the respective content. This section outlines the approval
+responsibilities and gives guidance about how much consensus should be
+sought before sending a liaison statement to another organization.
 
 Generally, it is recommended to base liaison statements
 on existing consensus (in form of references to RFCs or other IETF documents)
