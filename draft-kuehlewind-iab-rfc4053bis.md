@@ -60,7 +60,7 @@ SDO and the IETF.
 Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request.
-A liaison statement, just like any other input into the IETF process, is 
+A liaison statement, just like any other input into the IETF process, is
 considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
