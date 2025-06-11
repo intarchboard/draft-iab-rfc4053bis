@@ -377,7 +377,7 @@ figure out if working groups consensus should be strived for before
 sending a liaison statements.
 
 The simplest case of sending of a liaison statement from
-IETF is when the information being transmitted is based of 
+IETF is when the information being transmitted is based of
 already existing IETF consensus such as an IETF
 document that has some level of agreement within the IETF
 or general information about process or (WG) scope.
@@ -396,11 +396,11 @@ usually benefit from some level of consensus to be reached in the WG or
 another appropriate, open mailing list.
 
 Generally, it is recommended to inform the respective group or individuals
-before transmitting a statement to create early awareness 
+before transmitting a statement to create early awareness
 as the recording and sending of the statement must be announced to the originating group.
 
 ### Transmitting (references to) documents
- 
+
 Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
 Standard, BCP), and any WG document expected to be placed on the
 standards track, may be transmitted without concern. Informational
