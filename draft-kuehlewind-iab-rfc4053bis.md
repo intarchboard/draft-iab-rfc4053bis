@@ -294,10 +294,36 @@ of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
-Liaison Statements can be generated at a WG, Area, or IETF level to another organization. The respective (co)chair(s) or Area Director (AD) are responsible
+There are different reason for an IETF group to send a liaison statement
+to another organization such as
+
+* A working group might request additional information for another organization,
+  for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
+  intent of another SDOs document is, just ask the other SDO and base
+  further work on the "official" answer).
+* A working group might request comments for a document under development
+  in the IETF that would benefit from the input of experts in another relevant
+  SDO, consortium, or forum.  Generally, this is done before the text
+  is "fully cooked" so that input from experts in another organization
+  can be included in the final result.
+* In the case of overlapping or related work in another organization,
+  a request could be made that the other organization
+  change something to align with the IETF work.
+* A request could be made for another organization to start a new
+  work item (on behalf of IETF).
+* A request could be made for another organization to stop a work
+  item (presumably because it overlaps or conflicts with other work
+  in the IETF).
+
+Further, a group might reply to an incoming liaison statement, as in more detail
+discussed in the next section, however, of course the same requirements
+on consensus and approval as discussed in this section are applied.
+
+Liaison Statements can be generated at a WG, Area, or IETF level to another
+organization. The respective (co)chair(s) or Area Director (AD) are responsible
 for deciding the content and judging the level of consensus that is needed
-for sending the respective content. This section outlines the approval
-responsibilities and gives guidance about how much consensus should be
+for sending the respective content. This section outlines approval
+requirements and gives guidance about how much consensus should be
 sought before sending a liaison statement to another organization.
 
 Generally, it is recommended to base liaison statements
@@ -345,31 +371,6 @@ a situation best avoided by assuring appropriate agreement in advance
 of sending the liaison message.
 
 ## Level of Consensus
-
-There are different reason for an IETF group to send a liaison statement
-to another organization such as
-
-* A working group might request additional information for another organization,
-  for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
-  intent of another SDOs document is, just ask the other SDO and base
-  further work on the "official" answer).
-* A working group might request comments for a document under development
-  in the IETF that would benefit from the input of experts in another relevant
-  SDO, consortium, or forum.  Generally, this is done before the text
-  is "fully cooked" so that input from experts in another organization
-  can be included in the final result.
-* In the case of overlapping or related work in another organization,
-  a request could be made that the other organization
-  change something to align with the IETF work.
-* A request could be made for another organization to start a new
-  work item (on behalf of IETF).
-* A request could be made for another organization to stop a work
-  item (presumably because it overlaps or conflicts with other work
-  in the IETF).
-
-Further, a group might reply to an incoming liaison statement, as in more detail
-discussed in the next section, however, of course the same requirements
-on consensus and approval as discussed in this section are applied.
 
 A liaison statement does not automatically imply any level on consensus
 and as such it is the responsibility of the chairs or responsible AD to
