@@ -60,16 +60,16 @@ SDO and the IETF.
 Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
 to send a response depends on the content and kind of request.
-A liaison statement, just like any other input into the IETF process, must be
+A liaison statement, just like any other input into the IETF process, is 
 considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
-If no response to an incoming liaison statement is provided, this
-does not imply agreement or consensus on the topic raised to
+If no response to an incoming liaison statement is provided, this does not
+indicate agreement or consensus on the topic raised to
 the IETF. IETF positions require community rough consensus
-via processes managed by the Internet Engineering Steering Group (IESG).
+via processes managed by the working group chairs and the Internet Engineering Steering Group (IESG).
 
 ## Changes compared to RFC4053
 
