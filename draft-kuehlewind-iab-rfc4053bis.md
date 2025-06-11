@@ -59,10 +59,17 @@ SDO and the IETF.
 
 Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
-to send a response depends on the content and kind of request. However,
+to send a response depends on the content and kind of request.
+A liaison statement, just like any other input into the IETF process, is 
+considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
+
+If no response to an incoming liaison statement is provided, this does not
+indicate agreement or consensus on the topic raised to
+the IETF. IETF positions require community rough consensus
+via processes managed by the working group chairs and the Internet Engineering Steering Group (IESG).
 
 ## Changes compared to RFC4053
 
@@ -90,6 +97,10 @@ Further the following guidance has been updated in the -00 version:
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
 6. Section 4 from {{RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
+
+Changes in the -01 version:
+1. Minor wording adjustments to avoid tooling implications
+2. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
 
 #  Content of Liaison Statements
 
@@ -217,52 +228,6 @@ attachments.
 This ensures that our process can comply with all formatting requirements
 from other organisations.
 
-#  Responsibilities when Receiving a Liaison Statement
-
-   The responsibilities of the receiver of a liaison statement are the
-   same as the responsibilities of any business letter.  A liaison
-   statement calls for appropriate consideration of its contents, and if
-   a reply is requested and an appropriate relationship exists, a
-   courteous authoritative reply within the expected time frame.  The
-   reply may be that the information was useful or not useful, that the
-   requested action has been accomplished, it will be accomplished by a
-   specified date, it will not be done for a specific reason, an answer
-   to a question posed, or any other appropriate reply.
-
-   A liaison statement, just like any other input into the IETF process, must be
-   considered for its relevance, importance, and urgency.
-
-   One hopes that a liaison statement will be sent to the right
-   organization, but this cannot be assured.  An SDO might send a
-   liaison statement to a specific IETF Area whose Area Director (AD)
-   deems it better handled by one of the WGs, or it might be sent to one
-   WG when it should have gone to another.  If a liaison statement
-   arrives that appears misdirected, the receiver should promptly ask
-   the liaison manager to redirect it appropriately.  In some cases, a
-   liaison statement may require consideration by multiple groups within
-   the IETF; in such cases, potentially multiple chair and area directors
-   have to coordinate but ideally one of them takes the lead and
-   responsibility for developing a response.
-
-   Liaison Statements are always important to the body that sent them.
-   Having arrived at the appropriate body, the liaison statement may be
-   more or less important to the receiver depending on its contents and
-   the expertise of the sender.  If the liaison statement seeks to
-   influence the direction of a WG's development, it should receive the
-   same consideration that any input document receives.  The WG
-   chair may request the sender to make their case to the
-   IETF WG in the same manner that an author of an internet draft makes
-   his or her case.
-
-   The urgency of a liaison statement is usually reflected in its
-   deadline.  A liaison statement for informational purposes has no
-   deadline; in such a case, a courteous "thank you" liaison statement
-   may be sent to inform the sender that the liaison statement was
-   received.  A liaison statement specifying a deadline, however,
-   gives the receiver a finite opportunity to influence the activity of
-   another body; if it fails to react in a timely fashion, it may miss
-   the opportunity.
-
 #  Recording Liaison Statements
 
 For the IETF, a liaison statement is a message that was sent or received
@@ -275,11 +240,27 @@ that certain information has been communicated between the organizations.
 ## Incoming Liaison Statements from Other SDOs
 
 The IETF will record any received liaison statement and make it publicly available.
+
 For received liaison statement with a formal liaison relationship, it is the responsibility
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
 responsibility of the receiver to ensure a public record is created.
+
+Liaison statements that are sent to the IETF without a liaison manager
+are generally handled by the IAB. Ideally, statements are sent to a contact point
+appointed by the IAB who record them and further distribute it within the IETF to the
+right groups and experts. This enables a better control to ensure that
+liaison statement are received by the relevant parties.
+
+However, it hard to ensure that liaison statements will always be sent to the right
+group or person, as statements are sometimes sent directly to WG mailing lists or
+individuals. E.g an SDO might send a liaison statement to a specific IETF
+Area whose Area Director (AD) deems it better handled by one of the WGs,
+or it might be sent to one WG when it should have gone to a different more relevant one.
+If a liaison statement arrives that appears misdirected, it is recommended
+to manually forward it to the right groups and inform the liaison manager or
+the IAB so that informal feedback can be provided to the sender for the future.
 
 ## Outgoing Liaison Statements from the IETF
 
@@ -378,8 +359,42 @@ of submission other than email is required by the other organization.
    clearest possible consensus within the particular WG, Area, or within
    the IETF at large.
 
-#  Responding to Incoming Liaison Statements
+#  Receiving and Responding to Incoming Liaison Statements
 
+ The responsibilities of the receiver of a liaison statement are the
+   same as the responsibilities of any business letter.  A liaison
+   statement calls for appropriate consideration of its contents, and if
+   a reply is requested and an appropriate relationship exists, a
+   courteous authoritative reply within the expected time frame.  The
+   reply may be that the information was useful or not useful, that the
+   requested action has been accomplished, it will be accomplished by a
+   specified date, it will not be done for a specific reason, an answer
+   to a question posed, or any other appropriate reply.
+
+   Liaison Statements are always important to the body that sent them.
+   Having arrived at the appropriate body, the liaison statement may be
+   more or less important to the receiver depending on its contents and
+   the expertise of the sender.  If the liaison statement seeks to
+   influence the direction of a WG's development, it should receive the
+   same consideration that any input document receives.  The WG
+   chair may request the sender to make their case to the
+   IETF WG in the same manner that an author of an internet draft makes
+   his or her case.
+
+In some cases, a
+   liaison statement may require consideration by multiple groups within
+   the IETF; in such cases, potentially multiple chair and area directors
+   have to coordinate but ideally one of them takes the lead and
+   responsibility for developing a response.
+
+   The urgency of a liaison statement is usually reflected in its
+   deadline.  A liaison statement for informational purposes has no
+   deadline; in such a case, a courteous "thank you" liaison statement
+   may be sent to inform the sender that the liaison statement was
+   received.  A liaison statement specifying a deadline, however,
+   gives the receiver a finite opportunity to influence the activity of
+   another body; if it fails to react in a timely fashion, it may miss
+   the opportunity.
 
    Any incoming liaison statement that indicates that it is for
    "Action" expects a response by the deadline.
@@ -387,10 +402,7 @@ of submission other than email is required by the other organization.
    the addressed group to ensure that a response is generated by
    the deadline if a respone is intended.
 
-   If no response to an incoming liaison statement is provided, this
-   does not imply agreement or consensus on the topic raised to
-   the IETF. IETF positions require community rough consensus
-   via processes managed by the Internet Engineering Steering Group (IESG).
+
 
 ##  Responding to Requests for Information
 
