@@ -51,6 +51,32 @@ liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
 
+Most organizations have a process to send liaison
+statements that simply provides a more formal way of communication, beyond 
+just sending an informal email. However, every organization has 
+slightly different procedures to handle the sending and receiving of liaison
+statements. The IETF process is intended to be as simple as possible
+while still accommodating the process or format requirements of various
+other SDOs. One key property of the IETF liaison statement handling process
+is the requirement to record all sent and received liaison statements in
+a publicly accessible central location, which makes its more formal
+than other direct communications. However, liaison statements do not
+have any special standing within the IETF process otherwise. This means
+that any input provided through a liaison statement, even if that statement
+reflects consensus in the other organisation, does not have a different
+standing in the IETF process than other (individually-provided) inputs.
+
+Further, liaison statements that are sent by the IETF do not always
+pass though the normal IETF consensus process, e.g. in an IETF-wide
+last call, and therefore do generally not represent IETF consensus. Depending
+on the nature of the liaison statement, it might refer to existing
+IETF consensus as documented in IETF-stream RFCs or working group chairs
+might ask for working group consensus on technical matter not (yet)
+documented in an RFC. However, just the existence of a formal liaison
+statement does not automatically imply any form of consensus within the IETF process.
+When sending a liaison statement, it is highly recommended for senders on the IETF side to clearly indicate
+any level of consensus or non-consensus as part of the liaison statement content.
+
 The exchange of liaison statements does not require a formal liaison
 relationship (see {{?RFC4052}}).  The procedures described in this
 document encompass all liaisons statements received from SDOs,
@@ -100,7 +126,8 @@ Further the following guidance has been updated in the -00 version:
 
 Changes in the -01 version:
 1. Minor wording adjustments to avoid tooling implications
-2. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
+2. New text in intro on "no special standing" and consensus
+3. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
 
 #  Content of Liaison Statements
 
