@@ -247,20 +247,20 @@ formal liaison relationship exists, it is possible that liaison statements arriv
 without knowledge of the liaison manager, therefore it is generally the
 responsibility of the receiver to ensure a public record is created.
 
-Liaison statement that are sent to the IETF without a liaison manager
-are handled by the IAB. Ideally, statements are to a contact point
-appointed by the IAB to then record and thereby distribute it within the IETF to the
+Liaison statements that are sent to the IETF without a liaison manager
+are generally handled by the IAB. Ideally, statements are sent to a contact point
+appointed by the IAB who record them and further distribute it within the IETF to the
 right groups and experts. This enables a better control to ensure that
-liaison statement are received by the relevent parties.
+liaison statement are received by the relevant parties.
 
-However, it cannot be assured that liaison statements will be sent to the right
-group or person as sometimes statement are send directly to mailing list or
+However, it hard to ensure that liaison statements will always be sent to the right
+group or person, as statements are sometimes sent directly to WG mailing lists or
 individuals. E.g an SDO might send a liaison statement to a specific IETF
 Area whose Area Director (AD) deems it better handled by one of the WGs,
-or it might be sent to one WG when it should have gone to another.
+or it might be sent to one WG when it should have gone to a different more relevant one.
 If a liaison statement arrives that appears misdirected, it is recommended
 to manually forward it to the right groups and inform the liaison manager or
-IAB such that informal feedback can be provided to the sender for future cases.
+the IAB so that informal feedback can be provided to the sender for the future.
 
 ## Outgoing Liaison Statements from the IETF
 
