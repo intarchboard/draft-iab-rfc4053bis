@@ -202,11 +202,14 @@ Table of Contents
        Statements" has been moved to this document, without modification
        so far.
 
-   Changes in the -01 version: 1.  New text in intro on "no special
-   standing" and consensus 1.  Minor wording adjustments to avoid
-   tooling implications 2.  Merge section 3 (Responsibilities when
-   Receiving a Liaison Statement) into Section 4 (Recording) and 6
-   (Responding)
+   Changes in the -01 version:
+
+   1.  New text in intro on "no special standing" and consensus
+
+   2.  Minor wording adjustments to avoid tooling implications
+
+   3.  Merge section 3 (Responsibilities when Receiving a Liaison
+       Statement) into Section 4 (Recording) and 6 (Responding)
 
 2.  Content of Liaison Statements
 
