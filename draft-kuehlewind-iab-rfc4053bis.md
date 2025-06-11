@@ -49,7 +49,7 @@ standards community.
 This document describes the procedure for generating and handling
 liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
-standards community. 
+standards community.
 
 Most organizations have a process to send liaison
 statements which simply provides a more formal way of communication, beyond e.g.
