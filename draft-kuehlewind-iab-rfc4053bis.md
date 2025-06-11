@@ -66,7 +66,6 @@ even if that statement reflects consensus in the other organisation, does
 not have a different standing in the IETF process than other
 (individually-provided) inputs.
 
-
 Further, liaison statements that are sent by the IETF do not always pass
 though the normal IETF consensus process, e.g. in an IETF-wide last call,
 and therefore do generally not represent IETF consensus. Depending on the
