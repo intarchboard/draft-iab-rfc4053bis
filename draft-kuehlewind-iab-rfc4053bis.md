@@ -49,7 +49,33 @@ standards community.
 This document describes the procedure for generating and handling
 liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
-standards community.
+standards community. 
+
+Most organizations have a process to send liaison
+statements which simply provides a more formal way of communication, beyond e.g.
+just sending an informal email. However, every organization has its own
+slightly different procedures to handle sending and receiving of liaison
+statements. The IETF process is intended to be as less complex as possible
+while still accommodating the process or format requirement form various
+other SDOs. The property of the IETF liaison statement handling process
+is the requirement to record all sent and received liaison statement in
+a publicly accessible central location, which makes its more formal
+than other direct communications. However, liaison statements do not
+have any special standing within the IETF process otherwise. This means
+input provided through a liaison statement, even if that statement
+reflects consensus in the other organisation, does not have a different
+standing in the process than other (individually-provided) inputs.
+
+Further, liaison statements that are sent by the IETF do usually not
+pass though the normal IETF consensus process, e.g. in an IETF-wide
+last call, and therefore do generally not represent IETF consensus. Depending
+on the nature of the liaison statement, it might refer to existing
+IETF consensus as documented in IETF-stream RFCs or working group chairs
+might ask for working group consensus on technical matter not (yet)
+documented in an RFC. However, just the existing of a formal liaison
+statement does not imply any form of consensus within the IETF process.
+When sending a liaison it is highly recommended to clearly indicate
+any level of consensus or non-consensus as part of the liaison statement content.
 
 The exchange of liaison statements does not require a formal liaison
 relationship (see {{?RFC4052}}).  The procedures described in this
@@ -90,6 +116,10 @@ Further the following guidance has been updated in the -00 version:
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
 6. Section 4 from {{RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
+
+Changes in the -01 version:
+1. Minor wording adjustments to avoid tooling implications
+2. New text in intro on "no special standing" and consensus
 
 #  Content of Liaison Statements
 
