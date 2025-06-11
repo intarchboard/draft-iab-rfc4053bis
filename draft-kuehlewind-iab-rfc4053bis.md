@@ -441,7 +441,7 @@ treated as nothing more than Work in Progress.
    IETF document, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
    the level of agreement for the relevant document, as also discussed
-   in {{transmit-docs}}.
+   in in the previous section.
 
 ## Responding to Requests for Comments
 
