@@ -283,7 +283,8 @@ responsibility of the receiver to ensure a public record is created.
 
 ## Outgoing Liaison Statements from the IETF
 
-IETF participants (usually WG chairs or ADs) can
+IETF participants (usually WG chairs or ADs), of course ahereing the requirements
+on approval and consensus as outline in the next section, can
 send liaison statements to other SDOs, and all sent liaison statements
 must be publicly recorded. Therefore,
 it is recommended to use a IETF provided tool to send liaison
@@ -293,11 +294,10 @@ of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
-Liaison Statements can be generated at a WG, Area, or IETF level to
-another organization.  The respective (co)chair(s) or Area Directior (AD) are responsible
+Liaison Statements can be generated at a WG, Area, or IETF level to another organization. The respective (co)chair(s) or Area Director (AD) are responsible
 for deciding the content and judging the level of consensus that is needed
 for sending the respective content. This section outlines the approval 
-responsibilites and gives guidance
+responsibilities and gives guidance
 about how much consensus should be sought before sending a liaison statement to
 another organization.
 
@@ -310,20 +310,20 @@ implied by the liaison statement should be spelled out clearly in the
 liaison statement itself as this provides most clarity and avoids potential
 confusion.
 
-## Approval of Liaison Statements
+## Approval
 
 All liaison statements sent by any group in the IETF
 need AD approval to ensure that those writing such
 statements, who claim to be speaking on behalf of a group in the IETF, are truly
 representing IETF views. This does not include statements sent by the IAB
-which require IAB approval instead, based on the jugdement
+which require IAB approval instead, based on the judgement
 of the IAB Chair. Statements sent from an area,
-respectively, need approval by at least one of the responsible ADs,
-and statements sent by the IETF or IESG require IETF Chair approval.
+respectively, need approval by at least one of the responsible ADs.
+Statements sent by the IETF or IESG require IETF Chair approval.
 
 Sometimes it is beneficial or required to send a statement that indicates
-the IETF as orginiator rather than a specific working group or
-area. This might be e.g. the case for questions related to the scope
+the IETF as originator rather than a specific working group or
+area. This might be the case e.g. for questions related to the scope
 of work of the IETF as the whole rather than a specific chartered group.
 In this case approval of the IETF Chair is required, however, it is usually expected
 that other matter experts, sometimes from the IESG or IAB, are involved
@@ -350,11 +350,11 @@ of sending the liaison message.
 There are different reason for an IETF group to send a liaison statement
 to another organization such as
 
-* A working group might request addintional information for another organization,
+* A working group might request additional information for another organization,
   for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
   intent of another SDOs document is, just ask the other SDO and base
   further work on the "official" answer).
-* A working group might reuqest comments for a document under development
+* A working group might request comments for a document under development
   in the IETF that would benefit from the input of experts in another relevant
   SDO, consortium, or forum.  Generally, this is done before the text
   is "fully cooked" so that input from experts in another organization
@@ -368,11 +368,11 @@ to another organization such as
   item (presumably because it overlaps or conflicts with other work
   in the IETF).
 
-Further a group might reply to an incoming liaison statement, as in more detail
+Further, a group might reply to an incoming liaison statement, as in more detail
 discussed in the next section, however, of course the same requirements
 on consensus and approval as discussed in this section are applied.
 
-Liaison statement does not automatically imply any level on consensus
+A liaison statement does not automatically imply any level on consensus
 and as such it is the responsibility of the chairs or responsible AD to
 figure out if working groups consensus should be strived for before
 sending a liaison statements.
@@ -381,7 +381,7 @@ The simplest case of sending of a liaison statement from
 IETF is when the information being transmitted is based of 
 already existing IETF consensus such as an IETF
 document that has some level of agreement within the IETF
-or general information about process or (wg) scope.
+or general information about process or (WG) scope.
 When sending such statements for pure information sharing
 purposes, the chairs or AD might not reach out for consensus.
 
@@ -393,12 +393,12 @@ progress.
 
 Other requests, that often might be initiated by a specific group discussion,
 such as soliciting comments for a standards track WG Internet Draft,
-usualy benefit from some level of consensus to be reached in the WG or
+usually benefit from some level of consensus to be reached in the WG or
 another appropriate, open mailing list.
 
-Generally it is recommended to inform the respective group or individuals
+Generally, it is recommended to inform the respective group or individuals
 before transmitting a statement to create early awareness 
-as the recording and sending of the statement must be anounced to the originating group.
+as the recording and sending of the statement must be announced to the originating group.
 
 ### Transmitting (references to) documents
  
@@ -420,6 +420,7 @@ the case of a WG Internet Draft, it must be clear that the existence
 of the draft only indicates that the WG has accepted the work item
 and, as the standard disclaimer says, the actual content can be
 treated as nothing more than Work in Progress.
+
 
 #  Responding to Incoming Liaison Statements
 
