@@ -370,7 +370,7 @@ emitting a revised liaison statement if necessary.  Clearly, this is
 a situation best avoided by assuring appropriate agreement in advance
 of sending the liaison message.
 
-## Level of Consensus {consensus-sending}
+## Level of Consensus {#consensus-sending}
 
 A liaison statement does not automatically imply any level on consensus
 and as such it is the responsibility of the chairs or responsible AD to
@@ -400,7 +400,7 @@ Generally, it is recommended to inform the respective group or individuals
 before transmitting a statement to create early awareness
 as the recording and sending of the statement must be announced to the originating group.
 
-### Transmitting (references to) documents {transmit-docs}
+### Transmitting (references to) documents {#transmit-docs}
 
 Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
 Standard, BCP), and any WG document expected to be placed on the
