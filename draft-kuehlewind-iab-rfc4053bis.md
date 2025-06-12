@@ -405,7 +405,7 @@ untilizing information communication, like a simple email reply, if
 appropriate. If a formal liaison relationship with a liaison manager exists,
 it is the responsibility of the liaison manager to ensure appropriate communication.
 Otherwise the IAB can be consulted and should be integrated into any additional
-informal communication. 
+informal communication.
 
 There is, of course, no requirement that IETF perform the action that
 was requested.  But the request should always be taken seriously, and
@@ -464,7 +464,7 @@ within IETF or even IETF-wide consensus is clearly necessary to fulfill
 the request. However, as already indicated, a liaison statement has no
 special standing and should be considered equally to all other inputs.
 Still, if there is a need for this work by the other organization the request
-should be considered seriously. Usually, it is appropriate for the chairs 
+should be considered seriously. Usually, it is appropriate for the chairs
 to send a response (by the deadline) and explain the process or invite experts
 of the other organization to participate directly,
 even if the request itself cannot be fullied by the deadline.
