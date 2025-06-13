@@ -51,6 +51,39 @@ liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
 
+Most organizations have a process to send liaison statements that simply
+provides a more formal way of communication, beyond just sending an informal
+email. However, every organization has slightly different procedures to
+handle the sending and receiving of liaison statements. In some cases
+sending formal liaison statements might be the only way of
+communicating with a certain organization.
+The IETF process
+is intended to be as simple as possible while still accommodating the process
+or format requirements of various other SDOs. One key property of the IETF
+liaison statement handling process is the requirement to record all sent
+and received liaison statements in a publicly accessible central location,
+which makes its more formal than other direct communications. However,
+liaison statements do not have any special standing within the IETF process
+otherwise. This means that any input provided through a liaison statement,
+even if that statement reflects consensus in the other organisation, does
+not have a different standing in the IETF process than other
+(individually-provided) inputs.
+
+Further, liaison statements that are sent by the IETF do not usually pass
+though the normal IETF consensus process, e.g. in an IETF-wide last call,
+and therefore do generally not necessarily represent IETF consensus. Depending on the
+nature of the liaison statement, it might refer to existing IETF consensus
+as documented in IETF-stream RFCs or working group chairs might ask for
+working group consensus on technical matter not (yet) documented in an RFC.
+While the existence of a formal liaison statement does not automatically
+imply any form of consensus within the IETF process, liaison statements still
+reflect an official position supported by leadership approval and particularly
+underline when the stated position is based on existing community consensus.
+When sending a liaison
+statement from the IETF, it is highly recommended to clearly
+indicate any level of consensus or non-consensus as part of the liaison
+statement content.
+
 The exchange of liaison statements does not require a formal liaison
 relationship (see {{?RFC4052}}).  The procedures described in this
 document encompass all liaisons statements received from SDOs,
@@ -59,10 +92,17 @@ SDO and the IETF.
 
 Receive of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
-to send a response depends on the content and kind of request. However,
+to send a response depends on the content and kind of request.
+A liaison statement, just like any other input into the IETF process, is
+considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
+
+If no response to an incoming liaison statement is provided, this does not
+indicate agreement or consensus on the topic raised to
+the IETF. IETF positions require community rough consensus
+via processes managed by the working group chairs and the Internet Engineering Steering Group (IESG).
 
 Sometimes liaison statements sent from other SDOs may cover topics
 that are relevant for research done in the IRTF. In this case the IAB
@@ -71,7 +111,6 @@ to any relevant IRTF research group(s). The IRTF chair as a member of IAB
 can work with the IAB, as well as specific research group chairs,
 to decide whether a response to the liaison statement is needed. Research groups 
 do not initiate sending of liaison statements. 
-
 
 ## Changes compared to RFC4053
 
@@ -99,6 +138,12 @@ Further the following guidance has been updated in the -00 version:
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
 6. Section 4 from {{RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
+
+Changes in the -01 version:
+
+1. New text in intro on "no special standing" and consensus
+1. Minor wording adjustments to avoid tooling implications
+2. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
 
 #  Content of Liaison Statements
 
@@ -213,9 +258,7 @@ liaison statements. There are no requirements from the IETF on the format
 of the actual liaison statement, however, we require
 the metadata (address information and purpose) as indicated in the previous
 section to be recorded explicitly. As such when receiving statement from other organisation
-these metadata should be extracted. If the content of the
-statement is not sent in plain text, the plain text body field may
-be empty and the received laision statement is uploaded as an attachment.
+these metadata should be extracted. Further, the content of the statement must be recorded. This content may be recorded by archiving a received document in its original format, such as PDF or word, or may be transformed into an another format, such as plain text or markdown, when it is reasonable to do so.
 
 For statements sent from the IETF, it is recommended to provide the content
 in plain text but also provide an attachment following the formatting requirements
@@ -227,52 +270,6 @@ attachments.
 
 This ensures that our process can comply with all formatting requirements
 from other organisations.
-
-#  Responsibilities when Receiving a Liaison Statement
-
-   The responsibilities of the receiver of a liaison statement are the
-   same as the responsibilities of any business letter.  A liaison
-   statement calls for appropriate consideration of its contents, and if
-   a reply is requested and an appropriate relationship exists, a
-   courteous authoritative reply within the expected time frame.  The
-   reply may be that the information was useful or not useful, that the
-   requested action has been accomplished, it will be accomplished by a
-   specified date, it will not be done for a specific reason, an answer
-   to a question posed, or any other appropriate reply.
-
-   A liaison statement, just like any other input into the IETF process, must be
-   considered for its relevance, importance, and urgency.
-
-   One hopes that a liaison statement will be sent to the right
-   organization, but this cannot be assured.  An SDO might send a
-   liaison statement to a specific IETF Area whose Area Director (AD)
-   deems it better handled by one of the WGs, or it might be sent to one
-   WG when it should have gone to another.  If a liaison statement
-   arrives that appears misdirected, the receiver should promptly ask
-   the liaison manager to redirect it appropriately.  In some cases, a
-   liaison statement may require consideration by multiple groups within
-   the IETF; in such cases, potentially multiple chair and area directors
-   have to coordinate but ideally one of them takes the lead and
-   responsibility for developing a response.
-
-   Liaison Statements are always important to the body that sent them.
-   Having arrived at the appropriate body, the liaison statement may be
-   more or less important to the receiver depending on its contents and
-   the expertise of the sender.  If the liaison statement seeks to
-   influence the direction of a WG's development, it should receive the
-   same consideration that any input document receives.  The WG
-   chair may request the sender to make their case to the
-   IETF WG in the same manner that an author of an internet draft makes
-   his or her case.
-
-   The urgency of a liaison statement is usually reflected in its
-   deadline.  A liaison statement for informational purposes has no
-   deadline; in such a case, a courteous "thank you" liaison statement
-   may be sent to inform the sender that the liaison statement was
-   received.  A liaison statement specifying a deadline, however,
-   gives the receiver a finite opportunity to influence the activity of
-   another body; if it fails to react in a timely fashion, it may miss
-   the opportunity.
 
 #  Recording Liaison Statements
 
@@ -286,15 +283,32 @@ that certain information has been communicated between the organizations.
 ## Incoming Liaison Statements from Other SDOs
 
 The IETF will record any received liaison statement and make it publicly available.
+
 For received liaison statement with a formal liaison relationship, it is the responsibility
 of the liaison manager to create that public record. However, even if a
 formal liaison relationship exists, it is possible that liaison statements arrive
 without knowledge of the liaison manager, therefore it is generally the
 responsibility of the receiver to ensure a public record is created.
 
+Liaison statements that are sent to the IETF without a liaison manager
+are generally handled by the IAB. Ideally, statements are sent to a contact point
+appointed by the IAB who record them and further distribute it within the IETF to the
+right groups and experts. This enables a better control to ensure that
+liaison statement are received by the relevant parties.
+
+However, it hard to ensure that liaison statements will always be sent to the right
+group or person, as statements are sometimes sent directly to WG mailing lists or
+individuals. E.g an SDO might send a liaison statement to a specific IETF
+Area whose Area Director (AD) deems it better handled by one of the WGs,
+or it might be sent to one WG when it should have gone to a different more relevant one.
+If a liaison statement arrives that appears misdirected, it is recommended
+to manually forward it to the right groups and inform the liaison manager or
+the IAB so that informal feedback can be provided to the sender for the future.
+
 ## Outgoing Liaison Statements from the IETF
 
-IETF participants (usually WG chairs or ADs) can
+IETF participants (usually WG chairs or ADs), of course ahereing the requirements
+on approval and consensus as outline in the next section, can
 send liaison statements to other SDOs, and all sent liaison statements
 must be publicly recorded. Therefore,
 it is recommended to use a IETF provided tool to send liaison
@@ -304,205 +318,244 @@ of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
-##  Communicating IETF Information to Other SDOs, Consortia, and Fora
+There are different reason for an IETF group to send a liaison statement
+to another organization such as
 
-   Liaison Statements can be generated at a WG, Area, or IETF level to
-   another organization.  The respective (co)chair(s) are responsible
-   for judging the degree of consensus for sending the particular
-   liaison statement and deciding the content.  The amount of consensus
-   required to send a liaison statement varies greatly depending on its
-   content.  This section gives some rough guidance about how much
-   consensus should be sought before sending a liaison statement to
-   another organization.
+* A working group might request additional information for another organization,
+  for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
+  intent of another SDOs document is, just ask the other SDO and base
+  further work on the "official" answer).
+* A working group might request comments for a document under development
+  in the IETF that would benefit from the input of experts in another relevant
+  SDO, consortium, or forum.  Generally, this is done before the text
+  is "fully cooked" so that input from experts in another organization
+  can be included in the final result.
+* In the case of overlapping or related work in another organization,
+  a request could be made that the other organization
+  change something to align with the IETF work.
+* A request could be made for another organization to start a new
+  work item (on behalf of IETF).
+* A request could be made for another organization to stop a work
+  item (presumably because it overlaps or conflicts with other work
+  in the IETF).
 
-##  Transmitting IETF Documents to Other Organizations {#transmit-docs}
+Further, a group might reply to an incoming liaison statement, as in more detail
+discussed in the next section, however, of course the same requirements
+on consensus and approval as discussed in this section are applied.
 
-   The simplest case of approving sending of a liaison statement from
-   IETF is when the information being transmitted consists of an IETF
-   document that has some level of agreement within the IETF.  The
-   process that the document has already gone through to achieve its
-   current status assures the necessary level of consensus.  Any
-   Standards Track RFC (Draft Standard, Proposed Standard, Internet
-   Standard, BCP), and any WG document expected to be placed on the
-   standards track, may be transmitted without concern.
+Liaison Statements can be generated at a WG, Area, or IETF level to another
+organization. The respective (co)chair(s) or Area Director (AD) are responsible
+for deciding the content and judging the level of consensus that is needed
+for sending the respective content. This section outlines approval
+requirements and gives guidance about how much consensus should be
+sought before sending a liaison statement to another organization.
 
-   Informational documents may also be exchanged readily when they
-   represent a WG position or consensus, such as a requirements or
-   architecture document.
+Generally, it is recommended to base liaison statements
+on existing consensus (in form of references to RFCs or other IETF documents)
+or focus on information sharing related to e.g. process like expected timelines,
+rather than aiming to communicate technical matters beyond the active work
+of the respective group. Further, the level of consensus implied or not
+implied by the liaison statement should be spelled out clearly in the
+liaison statement itself as this provides most clarity and avoids potential
+confusion.
 
-   In all cases, the document status must be appropriately noted.  In
-   the case of a WG Internet Draft, it must be clear that the existence
-   of the draft only indicates that the WG has accepted the work item
-   and, as the standard disclaimer says, the actual content can be
-   treated as nothing more than Work in Progress.
+## Approval
 
-   Individually submitted Internet Drafts, Experimental or Historical
-   RFCs, and non-WG informational documents should not be transmitted
-   without developing further consensus within the relevant group, as
-   these documents cannot be truthfully represented as any kind of IETF
-   position.
-
-##  Requests for Information
-
-   Another type of liaison statement that can be generated without the
-   need for extensive consensus building on the email list is a request
-   for information.  The (co)chairs(s) can generate such a liaison
-   statement when they recognize, from the activities of the group, that
-   some additional information is helpful, for example, to resolve an
-   impasse (i.e., don't waste time arguing over what the real meaning or
-   intent of another SDOs document is, just ask the other SDO and base
-   further work on the "official" answer).
-
-   Other requests for information may request access to certain
-   documents of other organizations that are not publicly available.
-
-##  Requesting Comments on Work in Progress
-
-   There may be cases when one feels that a document under development
-   in the IETF may benefit from the input of experts in another relevant
-   SDO, consortium, or forum.  Generally, this is done before the text
-   is "fully cooked" so that input from experts in another organization
-   can be included in the final result.  Comments would generally be
-   solicited for a standards track WG Internet Draft and some level of
-   consensus should be reached on the WG or other open mailing list that
-   it is appropriate to ask another organization for comments on an IETF
-   draft.
-
-##  Requests for Other Actions (Besides Comments on IETF Drafts)
-
-   There are many other kinds of actions that might reasonably be
-   requested of another organization:
-
-   o  In the case of overlapping or related work in another
-      organization, a request could be made that the other organization
-      change something to align with the IETF work.
-
-   o  A request could be made for another organization to start a new
-      work item (on behalf of IETF).
-
-   o  A request could be made for another organization to stop a work
-      item (presumably because it overlaps or conflicts with other work
-      in the IETF).
-
-   These kinds of requests are quite serious.  They can certainly be
-   made when appropriate, but should only be made when there is the
-   clearest possible consensus within the particular WG, Area, or within
-   the IETF at large.
-
-#  Responding to Incoming Liaison Statements
-
-
-   Any incoming liaison statement that indicates that it is for
-   "Action" expects a response by the deadline.
-   It is the responsibility of the (co)chair(s) of
-   the addressed group to ensure that a response is generated by
-   the deadline if a respone is intended.
-
-   If no response to an incoming liaison statement is provided, this
-   does not imply agreement or consensus on the topic raised to
-   the IETF. IETF positions require community rough consensus
-   via processes managed by the Internet Engineering Steering Group (IESG).
-
-##  Responding to Requests for Information
-
-   If another organization requests information that can be found in an
-   IETF document, this can be
-   transmitted by the (co)chair(s) of the addressed group, indicating
-   the level of agreement for the relevant document, as also discussed
-   in {{transmit-docs}}.
-
-## Responding to Requests for Comments
-
-   If an incoming liaison statement requests comments on a document from
-   another organization, a discussion will occur on the mailing list
-   where participants can provide their comments.
-
-   If a clear consensus is evident from the pattern of comments made to
-   the mailing list, the (co)chair(s) can summarize the conclusions in a
-   reply liaison statement back to the originating organization.
-
-   If no clear consensus is evident from the pattern of comments on the
-   mailing list, or if there is no further discussion, a response is
-   still anticipated to the originator.  A summary of the email comments, or
-   lack of interest in the issue, can be created and sent to the
-   originator, and represented as "collected comments" rather than a
-   consensus of the IETF group to which the liaison statement was
-   addressed.  It is possible to send this kind of a reply even if some
-   of the comments are contradictory.
-
-##  Responding to Request for Action
-
-A request for Action is a fairly serious thing.  Examples of the
-kinds of actions that may be expected are:
-
-- In the case of overlapping or related work in another
-  organization, another organization may request that the IETF align
-  its work with that of the other organization.
-- A request could be made for IETF to undertake a new work item.
-- A request could be made for IETF to stop a work item (presumably
-   because it overlaps or conflicts with other work in the
-  originating organization).
-
-Consensus of the receiving group within IETF is clearly necessary to
-fulfill the request.  Fulfilling the request may require a great deal
-of time and multiple steps, for example, if initiating or stopping a
-work item requires a charter change.
-
-There is, of course, no requirement that IETF perform the action that
-was requested.  But the request should always be taken seriously, and
-generally a response is anticipated.  The originating organization should always be
-informed of what, if anything, the IETF has decided to do in response
-to the request.  If the IETF decides not to honor the request, or to
-honor it with modifications, the response should include the reasons
-and, if applicable, the alternate course of action.
-
-For tasks that require a great deal of time, it may be necessary that
-several liaison statements be sent back to the originating
-organization to report the status of the work and the anticipated
-completion time.  The first of these liaison statements should be
-generated by the deadline indicated in the incoming liaison
-statement.
-
-# Approval and Transmission of Liaison Statements
-
-It is important that appropriate leadership review be made of
-proposed IETF liaison statements and that those writing such
+All liaison statements sent by any group in the IETF
+need AD approval to ensure that those writing such
 statements, who claim to be speaking on behalf of a group in the IETF, are truly
-representing IETF views.
+representing IETF views. This does not include statements sent by the IAB
+which require IAB approval instead, based on the judgement
+of the IAB Chair. Statements sent from an area,
+respectively, need approval by at least one of the responsible ADs.
+Statements sent by the IETF or IESG require IETF Chair approval.
 
-For a liaison statement generated on behalf of an IETF WG, the WG
-chair(s) must create a statement based on appropriate discussions
-within the WG to ensure working group consensus for the position(s)
-presented.  The chair(s) must have generated or must agree with the
-sending of the liaison statement, and must advise the AD(s) that the
-liaison statement has been sent by copying the appropriate ADs on the
-message.
+Sometimes it is beneficial or required to send a statement that indicates
+the IETF as originator rather than a specific working group or
+area. This might be the case e.g. for questions related to the scope
+of work of the IETF as the whole rather than a specific chartered group.
+In this case approval of the IETF Chair is required, however, it is usually expected
+that other matter experts, sometimes from the IESG or IAB, are involved
+in generating the content of the statement.
 
-For a liaison statement generated on behalf of an IETF Area, the
-AD(s) must have generated or must agree with the sending of the
-liaison statement.  If the liaison statement is not sent by the ADs,
-then their agreement must be obtained in advance and confirmed by
-copying the ADs on the message.
+Statements sent by the IESG do not have different approval requirements
+than statements send by the IETF, which is IETF Chair approval.
+This is to avoid heavy processes when sending liaison statements,
+however, statements from the IESG might imply there is consensus
+among the IESG and, as recommended earlier in this document,
+it is best to clarify in the statement itself if that is
+intended or not.
 
-For a liaison statement generated on behalf of the IETF as a whole,
-the IETF Chair must have generated or must agree with the sending of
-the liaison statement.  If the liaison statement is not sent by the
-IETF Chair, then his or her agreement must be obtained in advance and
-confirmed by copying the IETF Chair on the message.
-
-For a liaison statement generated by the IAB, the IAB Chair must have
-generated or must agree with the sending of the liaison statement.
-If the liaison statement is not sent by the IAB Chair, then his or
-her agreement must be obtained in advance and confirmed by copying
-the IAB Chair on the message.
-
-In cases where prior agreement was not obtained as outlined above,
+In cases where prior approval was not obtained as outlined above,
 and the designated authority (AD, IETF Chair, or IAB Chair) in fact
 does not agree with the message, the designated authority will work
 with the liaison manager or IAB to follow up as appropriate, including
 emitting a revised liaison statement if necessary.  Clearly, this is
 a situation best avoided by assuring appropriate agreement in advance
 of sending the liaison message.
+
+## Level of Consensus {#consensus-sending}
+
+A liaison statement does not automatically imply any level on consensus
+and as such it is the responsibility of the chairs or responsible AD to
+figure out if working groups consensus should be strived for before
+sending a liaison statements.
+
+The simplest case of sending of a liaison statement from
+IETF is when the information being transmitted is based of
+already existing IETF consensus such as an IETF
+document that has some level of agreement within the IETF
+or general information about process or (WG) scope.
+When sending such statements for pure information sharing
+purposes, the chairs or AD might not reach out for consensus.
+
+Further, requests for information from the other organization,
+including requests to access to certain documents of other
+organizations that are not publicly available, may be initiated by
+the chair if the additional input is considered helpful for the group's
+progress.
+
+Other requests, that often might be initiated by a specific group discussion,
+such as soliciting comments for a standards track WG Internet Draft,
+usually benefit from some level of consensus to be reached in the WG or
+another appropriate, open mailing list.
+
+Generally, it is recommended to inform the respective group or individuals
+before transmitting a statement to create early awareness
+as the recording and sending of the statement must be announced to the originating group.
+
+### Transmitting (references to) documents {#transmit-docs}
+
+Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
+Standard, BCP), and any WG document expected to be placed on the
+standards track, may be transmitted without concern. Informational
+documents may also be exchanged readily when they
+represent a WG position or consensus, such as a requirements or
+architecture document.
+
+Individually submitted Internet Drafts, Experimental or Historical
+RFCs, and non-WG informational documents should not be transmitted
+without developing further consensus within the relevant group, as
+these documents cannot be truthfully represented as any kind of IETF
+position.
+
+In all cases, the document status must be appropriately noted.  In
+the case of a WG Internet Draft, it must be clear that the existence
+of the draft only indicates that the WG has accepted the work item
+and, as the standard disclaimer says, the actual content can be
+treated as nothing more than Work in Progress.
+
+
+#  Receiving and Responding to Incoming Liaison Statements
+
+The responsibilities of the receiver of a liaison statement are the
+same as the responsibilities of any business letter.  A liaison
+statement calls for appropriate consideration of its contents.
+Liaison Statements are always important to the body that sent them.
+Having arrived at the appropriate body, the liaison statement may be
+more or less important to the receiver depending on its contents and
+the expertise of the sender.
+
+If the liaison statement seeks to influence the direction of a WG's
+development, it should receive the same consideration that any
+input document receives. This could be the case if a liaison statement
+provides input to a working group document, requests modifications or
+new work, or comments on the scope of work. The WG
+chair may request the sender to make their case to the
+IETF WG in the same manner that an author of an Internet-Draft makes
+his or her case.
+
+If a reply is requested (usually marked as "For Action"),
+the originating organziation expects response by the deadline.
+The urgency of a liaison statement is usually reflected in its
+deadline. A liaison statement specifying a deadline
+gives the receiver a finite opportunity to influence the activity of
+another body; if it fails to react in a timely fashion, it may miss
+the opportunity.
+
+Examples of the kinds of actions that may be requested are:
+
+* Access to documents or information about process and timelines.
+* Comments on a document of another organisation.
+* Technical questions related to an RFC or working group document.
+* A request for the IETF to align its work with that of the other
+  organization, in the case of overlapping or related work.
+* A request for the IETF to undertake a new work item.
+* A request for the IETF to stop a work item (presumably because it overlaps
+  or conflicts with other work in the originating organization).
+
+The originating organization should always be
+informed of what, if anything, the IETF has decided to do in response
+to the request, either by sending a formal liaison statement back or
+utilizing information communication, like a simple email reply, if
+appropriate. If a formal liaison relationship with a liaison manager exists,
+it is the responsibility of the liaison manager to ensure appropriate communication.
+Otherwise, the IAB can be consulted and should be integrated into any additional
+informal communication.
+
+There is, of course, no requirement that IETF perform the action that
+was requested.  But the request should always be taken seriously, and
+generally a response is anticipated. The reply may be that the information
+was useful or not useful, that the requested action has been accomplished,
+it will be accomplished by a specified date, it will not be done for a
+specific reason, an answer to a question posed, or any other appropriate reply.
+If the IETF decides not to honor the request, or to
+honor it with modifications, ideally the response should include the reasons
+and, if applicable, an alternate course of action.
+
+It is the responsibility of the (co)chair(s) of
+the addressed group, supported by the liaison manager if one exists,
+to ensure that a response is generated by the deadline if a response is intended.
+In some cases, a liaison statement may require consideration by multiple groups within
+the IETF; in such cases, potentially multiple chairs and area directors
+have to coordinate but ideally one of them takes the lead and
+responsibility for developing a response.
+
+## Level of Consensus When Sending a Response
+
+As discussed in {{consensus-sending}}, it is the chairs and AD's
+responsibility to decide about the necessary  level of consensus needed
+for a certain response. This section adds additional consideration
+when replying to a request from another organization.
+
+As also discussed in {{transmit-docs}}, if another organization
+requests information that can be found in an IETF document, this can be
+transmitted by the (co)chair(s) of the addressed group, indicating
+the level of agreement for the relevant document.
+
+If an incoming liaison statement requests information that goes beyond
+what is documented in existing IETF documents, such as asking for comments
+on a document from another organization or a specific technical question
+not addressed in existing RFCs, the chairs should seek for group input.
+Usually such a request is received on the mailing list of a group,
+a discussion will occur on the mailing list where participants can provide
+their comments.
+
+If a clear consensus is evident from the pattern of comments made to
+the mailing list, the (co)chair(s) can summarize the conclusions in a
+reply liaison statement back to the originating organization.
+
+If no clear consensus is evident from the pattern of comments on the
+mailing list, or if there is no further discussion, a response is
+still anticipated to the originator.  A summary of the email comments, or
+lack of interest in the issue, can be created and sent to the
+originator, and represented as "collected comments" rather than a
+consensus of the IETF group to which the liaison statement was
+addressed.  It is possible to send this kind of a reply even if some
+of the comments are contradictory.
+
+For other requests for actions, for example, if initiating or stopping a
+work item requires a charter change, consensus of the receiving group
+within IETF or even IETF-wide consensus is clearly necessary to fulfill
+the request. However, as already indicated, a liaison statement has no
+special standing and should be considered equally to all other inputs.
+Still, if there is a need for this work by the other organization the request
+should be considered seriously. Usually, it is appropriate for the chairs
+to send a response (by the deadline) and explain the process or invite experts
+of the other organization to participate directly,
+even if the request itself cannot be fulfilled  by the deadline.
+Potential follow-up liaison statements might be sent to provide a status update,
+e.g. when a document gets adopted or is ready for publication.
 
 
 # Security Considerations
