@@ -77,7 +77,7 @@ Table of Contents
    4.  Sending Liaison Statements from the IETF
      4.1.  Approval
      4.2.  Level of Consensus
-       4.2.1.  Transmitting (references to) documents
+     4.3.  Transmitting (references to) documents
    5.  Receiving and Responding to Incoming Liaison Statements
      5.1.  Level of Consensus When Sending a Response
    6.  Security Considerations
@@ -519,7 +519,7 @@ Table of Contents
    as the recording and sending of the statement must be announced to
    the originating group.
 
-4.2.1.  Transmitting (references to) documents
+4.3.  Transmitting (references to) documents
 
    Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
    Standard, BCP), and any WG document expected to be placed on the
@@ -617,7 +617,7 @@ Table of Contents
    response.  This section adds additional consideration when replying
    to a request from another organization.
 
-   As also discussed in Section 4.2.1, if another organization requests
+   As also discussed in Section 4.3, if another organization requests
    information that can be found in an IETF document, this can be
    transmitted by the (co)chair(s) of the addressed group, indicating
    the level of agreement for the relevant document.
