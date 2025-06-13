@@ -244,14 +244,18 @@ from other organisations.
    liaison statement may require consideration by multiple groups within
    the IETF; in such cases, potentially multiple chair and area directors
    have to coordinate but ideally one of them takes the lead and
-   responsibility for developing a response. In case of liaison statements
-   sent to IAB from other SDO for research topic consultation, IAB can choose
-   to forward them to IRTF research group. The IRTF chair as a member of IAB
-   can work with IAB, specific IRTF research group chair to decide whether the
-   response liaison statement is needed. Note that IRTF as closely related
-   organization of IETF, should not send liaison statement proactively. All the
-   working documents and RFCs from IRTF are freely available to everyone without
-   the need for a formal liaison relationship.
+   responsibility for developing a response.
+   
+   Sometimes liaison statements sent from other SDOs may cover topics
+   that are relevant for research done in the IRTF. In this case the IAB might
+   consult with the IRTF chair who might choose to forward them
+   to a specific IRTF research group. The IRTF chair as a member of IAB
+   can work with the IAB, as well as potentially specific IRTF research group chairs,
+   to decide whether the response liaison statement is needed.
+   Note that the IRTF works closely with IETF but does not develop standards itself
+   and therefore usually formal liaison communication is not needed.
+   Coordination with groups in the IRTF can be done though public mailing list
+   without the need for a formal liaison relationship.
 
    Liaison Statements are always important to the body that sent them.
    Having arrived at the appropriate body, the liaison statement may be
