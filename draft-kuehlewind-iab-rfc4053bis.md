@@ -424,7 +424,7 @@ Generally, it is recommended to inform the respective group or individuals
 before transmitting a statement to create early awareness
 as the recording and sending of the statement must be announced to the originating group.
 
-### Transmitting (references to) documents {#transmit-docs}
+## Transmitting (references to) documents {#transmit-docs}
 
 Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
 Standard, BCP), and any WG document expected to be placed on the
