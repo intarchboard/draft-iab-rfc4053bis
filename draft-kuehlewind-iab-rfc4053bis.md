@@ -104,6 +104,14 @@ indicate agreement or consensus on the topic raised to
 the IETF. IETF positions require community rough consensus
 via processes managed by the working group chairs and the Internet Engineering Steering Group (IESG).
 
+Sometimes liaison statements sent from other SDOs may cover topics
+that are relevant for research done in the IRTF. In this case the IAB
+consults with the IRTF chair who might choose to forward them
+to any relevant IRTF research group(s). The IRTF chair as a member of IAB
+can work with the IAB, as well as specific research group chairs,
+to decide whether a response to the liaison statement is needed. Research groups 
+do not initiate sending of liaison statements. 
+
 ## Changes compared to RFC4053
 
 The mayor change in this revision of the document is that all tooling details have been removed.
