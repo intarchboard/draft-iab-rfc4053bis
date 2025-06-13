@@ -64,6 +64,17 @@ if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
 between the organisations (see {{Section 3 of RFC4052}}) even if no response is sent.
 
+Sometimes liaison statements sent from other SDOs may cover topics
+that are relevant for research done in the IRTF. In this case the IAB might
+consult with the IRTF chair who might choose to forward them
+to a specific IRTF research group. The IRTF chair as a member of IAB
+can work with the IAB, as well as potentially specific IRTF research group chairs,
+to decide whether the response liaison statement is needed.
+Note that the IRTF works closely with IETF but does not develop standards itself
+and therefore usually formal liaison communication is not needed.
+Coordination with groups in the IRTF can be done though public mailing list
+without the need for a formal liaison relationship.
+
 ## Changes compared to RFC4053
 
 The mayor change in this revision of the document is that all tooling details have been removed.
@@ -245,17 +256,6 @@ from other organisations.
    the IETF; in such cases, potentially multiple chair and area directors
    have to coordinate but ideally one of them takes the lead and
    responsibility for developing a response.
-   
-   Sometimes liaison statements sent from other SDOs may cover topics
-   that are relevant for research done in the IRTF. In this case the IAB might
-   consult with the IRTF chair who might choose to forward them
-   to a specific IRTF research group. The IRTF chair as a member of IAB
-   can work with the IAB, as well as potentially specific IRTF research group chairs,
-   to decide whether the response liaison statement is needed.
-   Note that the IRTF works closely with IETF but does not develop standards itself
-   and therefore usually formal liaison communication is not needed.
-   Coordination with groups in the IRTF can be done though public mailing list
-   without the need for a formal liaison relationship.
 
    Liaison Statements are always important to the body that sent them.
    Having arrived at the appropriate body, the liaison statement may be
