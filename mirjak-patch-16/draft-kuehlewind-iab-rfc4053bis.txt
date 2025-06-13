@@ -118,7 +118,7 @@ Table of Contents
    organisation, does not have a different standing in the IETF process
    than other (individually-provided) inputs.
 
-   Further, liaison statements that are sent by the IETF do usually not
+   Further, liaison statements that are sent by the IETF do not usually
    pass though the normal IETF consensus process, e.g. in an IETF-wide
    last call, and therefore do generally not necessarily represent IETF
    consensus.  Depending on the nature of the liaison statement, it
