@@ -54,7 +54,10 @@ standards community.
 Most organizations have a process to send liaison statements that simply
 provides a more formal way of communication, beyond just sending an informal
 email. However, every organization has slightly different procedures to
-handle the sending and receiving of liaison statements. The IETF process
+handle the sending and receiving of liaison statements. In some cases
+sending formal liaison statements might be the only way of
+communicating with a certain organization.
+The IETF process
 is intended to be as simple as possible while still accommodating the process
 or format requirements of various other SDOs. One key property of the IETF
 liaison statement handling process is the requirement to record all sent
