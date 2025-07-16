@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 15 December 2025                                   13 June 2025
+Expires: 17 January 2026                                    16 July 2025
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 December 2025.
+   This Internet-Draft will expire on 17 January 2026.
 
 Copyright Notice
 
@@ -404,7 +404,7 @@ Table of Contents
 
 4.  Sending Liaison Statements from the IETF
 
-   There are different reason for an IETF group to send a liaison
+   There are different reasons for an IETF group to send a liaison
    statement to another organization such as
 
    *  A working group might request additional information for another
