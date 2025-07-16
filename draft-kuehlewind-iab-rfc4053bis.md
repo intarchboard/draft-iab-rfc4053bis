@@ -318,7 +318,7 @@ of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
-There are different reason for an IETF group to send a liaison statement
+There are different reasons for an IETF group to send a liaison statement
 to another organization such as
 
 * A working group might request additional information for another organization,
