@@ -137,7 +137,7 @@ Further, the following guidance has been updated in the -00 version:
 5. New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
-6. Section 4 from {{RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
+6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
 
 Changes in the -01 version:
 
@@ -589,7 +589,7 @@ This document has no IANA actions.
 {{RFC4053}} was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
 The text in RFC4053 further has been prompted by discussions with numerous individuals
 within IETF and other SDOs and fora, including Gary Fishman and Bert
-Wijnen.  It has been developed in cooperation with {{RFC4052}}, which
+Wijnen.  It has been developed in cooperation with {{?RFC4052}}, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.
 
