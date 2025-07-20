@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-03T00:53:53.151954+00:00",
+  "timestamp": "2025-07-20T01:02:19.633633+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -2334,6 +2334,32 @@
       "mergeCommit": {
         "oid": "0f5de5718698df693d68370987649a0eff66e8be"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 47,
+      "id": "PR_kwDOMUjnl86fbsRJ",
+      "title": "minoredits",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/47",
+      "state": "OPEN",
+      "author": "dhruvdhody",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-17T18:51:18Z",
+      "updatedAt": "2025-07-17T18:54:13Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "c425d5c4ea37533bc804acf0b56a234b4ac9355a",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "dhruvdhody-patch-minoredits",
+      "headRefOid": "041739d874bdb398b3e92b728af6d6bdc296f031",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
