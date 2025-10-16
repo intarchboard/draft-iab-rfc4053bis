@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-11T00:47:58.594123+00:00",
+  "timestamp": "2025-10-16T00:49:46.541389+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -523,14 +523,38 @@
       "id": "I_kwDOMUjnl86-Xhnh",
       "title": "Link to subscribe to IAB list in the \"About This Document\" section",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/46",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "cindymorgan",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "The \"About This Document\" section contains:\n\n>    Discussion of this document takes place on the Internet Architecture\n>    Board Internet Engineering Task Force mailing list\n>    (mailto:iab@iab.org), which is archived at\n>    https://mailarchive.ietf.org/arch/browse/iab/.  Subscribe at\n>    https://www.ietf.org/mailman/listinfo/iab/.\n\nBut the IAB list has a closed membership and no archive. Should this point to architecture-discuss instead?",
       "createdAt": "2025-07-01T21:14:31Z",
-      "updatedAt": "2025-07-01T21:14:48Z",
+      "updatedAt": "2025-10-15T14:24:24Z",
+      "closedAt": "2025-10-15T14:24:23Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "This part is automatically generated. Thanks for flagging it but I don't think this is a big issue.",
+          "createdAt": "2025-10-15T14:24:23Z",
+          "updatedAt": "2025-10-15T14:24:23Z"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "I_kwDOMUjnl87RtXKA",
+      "title": "Add ack sec",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/50",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-10-15T14:29:22Z",
+      "updatedAt": "2025-10-15T14:29:22Z",
       "closedAt": null,
       "comments": []
     }
