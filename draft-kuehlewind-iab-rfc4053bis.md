@@ -115,7 +115,7 @@ do not initiate sending of liaison statements.
 ## Changes compared to RFC4053
 
 The major change in this revision of the document is that all tooling details have been removed.
-Particularly some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
+Particularly, some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
 Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
 and the appendix have been removed.
 
