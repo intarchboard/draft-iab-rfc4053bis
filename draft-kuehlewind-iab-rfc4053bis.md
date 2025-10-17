@@ -71,7 +71,7 @@ not have a different standing in the IETF process than other
 
 Further, liaison statements sent by the IETF usually do not go
 though the normal IETF consensus process (e.g. an IETF-wide last call)
-and therefore do not necessarily represent IETF consensus. Depending on the
+and therefore do not automatically represent IETF consensus. Depending on the
 nature of the liaison statement, it might refer to existing IETF consensus
 as documented in IETF-stream RFCs or working group chairs might ask for
 working group consensus on a technical matter not (yet) documented in an RFC.
