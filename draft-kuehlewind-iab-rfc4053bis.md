@@ -527,7 +527,7 @@ If an incoming liaison statement requests information that goes beyond
 what is documented in existing IETF documents, such as asking for comments
 on a document from another organization or a specific technical question
 not addressed in existing RFCs, the chairs should seek group input.
-Usually such a request is received on the mailing list of a group,
+Usually, such a request is received on the mailing list of a group,
 and a discussion will occur on the mailing list where participants can provide
 their comments.
 
