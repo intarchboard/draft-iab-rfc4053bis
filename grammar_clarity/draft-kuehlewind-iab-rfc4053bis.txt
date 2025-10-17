@@ -159,7 +159,7 @@ Table of Contents
 1.1.  Changes compared to RFC4053
 
    The major change in this revision of the document is that all tooling
-   details have been removed.  Particularly some text in the
+   details have been removed.  Particularly, some text in the
    introduction, Section 3.1.1.  (Liaison Statement Submission),
    Section 3.1.2.  (Mechanism for Displaying Liaison Statements),
    Section 3.2.2.4.  (Generating Liaison Statements) and the appendix
