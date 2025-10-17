@@ -127,8 +127,6 @@ Table of Contents
    consensus as part of the liaison statement content.
 
    The exchange of liaison statements does not require a formal liaison
-   relationship (see [RFC4052]).  The procedures described in this
-   document encompass all liaison statements received from SDOs,
    relationship (see [I-D.krishnan-iab-rfc4052bis]).  The procedures
    described in this document encompass all liaisons statements received
    from SDOs, whether or not a formal liaison arrangement is in place
