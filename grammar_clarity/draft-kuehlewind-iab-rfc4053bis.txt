@@ -191,10 +191,10 @@ Table of Contents
           process preferred now by the IETF where the central address is
           either the liaison manager or the IAB coordination contact.
 
-   4.  The purpose "For comment" has been removed as either "For
-       information" or "For Action" can be used instead; depending if a
+   4.  The purpose "For Comment" has been removed as either "For
+       Information" or "For Action" can be used instead; depending if a
        deadline is needed or not.  In the current record of statements,
-       "For comment" has been rarely used indicating that this purpose
+       "For Comment" has been rarely used indicating that this purpose
        is not needed or at least its meaning was not clear.
 
    5.  New section on "Recording Liaison Statements" that replaces
