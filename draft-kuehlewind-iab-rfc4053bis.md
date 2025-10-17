@@ -237,7 +237,7 @@ action.
 As with any business letter, the liaison statement contains
 appropriate content explaining the issues or questions at hand.
 
-Usually, the statement also contains a short (a single line) title
+Usually, the statement also contains a short (single line) title
 providing a statement of its context and content.
 
 Attachments, if enclosed, may be in the form of documents sent with
