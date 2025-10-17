@@ -3,7 +3,7 @@ title: "Procedures for Handling Liaison Statements to and from the IETF"
 abbrev: "Handling of Liaison Statements"
 category: info
 
-docname: draft-kuehlewind-iab-rfc4053bis-latest
+docname: draft-iab-rfc4053bis-latest
 submissiontype: IAB
 obsoletes: 4053
 date:
