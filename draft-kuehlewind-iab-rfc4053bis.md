@@ -292,11 +292,11 @@ responsibility of the receiver to ensure a public record is created.
 
 Liaison statements that are sent to the IETF without a liaison manager
 are generally handled by the IAB. Ideally, statements are sent to a contact point
-appointed by the IAB, who record them and further distributes them within the IETF to the
+appointed by the IAB, who records them and further distributes them within the IETF to the
 right groups and experts. This enables a better control to ensure that
-liaison statement are received by the relevant parties.
+liaison statements are received by the relevant parties.
 
-However, it is hard to ensure that liaison statements will always be sent to the right
+However, it is difficult to ensure that liaison statements will always be sent to the right
 group or person, as statements are sometimes sent directly to WG mailing lists or
 individuals. E.g an SDO might send a liaison statement to a specific IETF
 Area whose Area Director (AD) deems it better handled by one of the WGs,
@@ -339,8 +339,8 @@ to another organization such as
   item (presumably because it overlaps or conflicts with other work
   in the IETF).
 
-Further, a group might reply to an incoming liaison statement, as in more detail
-discussed in the next section, however, of course, the same requirements
+Further, a group might reply to an incoming liaison statement, as discussed
+in more detail in the next section; however, of course, the same requirements
 on consensus and approval as discussed in this section are applied.
 
 Liaison Statements can be generated at a WG, Area, or IETF level to another
@@ -379,9 +379,9 @@ that other matter experts, sometimes from the IESG or IAB, are involved
 in generating the content of the statement.
 
 Statements sent by the IESG do not have different approval requirements
-than statements sent by the IETF, which require IETF Chair approval.
-This is to avoid heavy processes when sending liaison statements,
-however, statements from the IESG might imply there is consensus
+than statements sent by the IETF: both require IETF Chair approval.
+This is to avoid heavy processes when sending liaison statements.
+However, statements from the IESG might imply there is consensus
 among the IESG and, as recommended earlier in this document,
 it is best to clarify in the statement itself if that is
 intended or not.
@@ -398,7 +398,7 @@ of sending the liaison message.
 
 A liaison statement does not automatically imply any level of consensus
 and as such it is the responsibility of the chairs or the responsible AD to
-figure out if a working groups consensus should be strived for before
+figure out if working groups consensus should be strived for before
 sending a liaison statement.
 
 The simplest case of sending a liaison statement from
