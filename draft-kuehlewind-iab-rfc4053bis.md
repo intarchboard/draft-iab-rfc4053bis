@@ -131,8 +131,8 @@ Further, the following guidance has been updated in the -00 version:
     - add new address information ("Send Reply To"/"Send To") that can be used to support processes
      where one central address is used to receive all liaison statements. This is also the process preferred now by the IETF
      where the central address is either the liaison manager or the IAB coordination contact.
-4. The purpose "For comment" has been removed as either "For information" or "For Action" can be used instead;
-  depending if a deadline is needed or not. In the current record of statements, "For comment" has been rarely used
+4. The purpose "For Comment" has been removed as either "For Information" or "For Action" can be used instead;
+  depending if a deadline is needed or not. In the current record of statements, "For Comment" has been rarely used
   indicating that this purpose is not needed or at least its meaning was not clear.
 5. New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
