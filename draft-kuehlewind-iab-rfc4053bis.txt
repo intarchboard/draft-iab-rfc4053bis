@@ -695,6 +695,9 @@ Acknowledgments
    document that outlines requirements and gives high-level guidance to
    people sending and receiving liaison statements.
 
+   Thanks to Eliot Lear, Robert Sparks, Dhruv Dody, and Warren Kumari
+   for their review input.
+
 Informative References
 
    [I-D.krishnan-iab-rfc4052bis]
