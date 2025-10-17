@@ -443,7 +443,7 @@ In all cases, the document status must be appropriately noted.  In
 the case of a WG Internet Draft, it must be clear that the existence
 of the draft only indicates that the WG has accepted the work item
 and, as the standard disclaimer says, the actual content can be
-treated as nothing more than a 'Work in Progress'.
+treated as nothing more than as 'Work in Progress'.
 
 
 #  Receiving and Responding to Incoming Liaison Statements
