@@ -598,4 +598,6 @@ details were removed and the remaining text will be reworked step by step with
 the goal to end up with a shorter and clear document that outlines requirements
 and gives high-level guidance to people sending and receiving liaison statements.
 
+Thanks to Eliot Lear, Robert Sparks, Dhruv Dody, and Warren Kumari for their review input.
+
 --- back
