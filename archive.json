@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-16T00:49:46.541389+00:00",
+  "timestamp": "2025-10-19T00:55:17.383994+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -547,15 +547,15 @@
       "id": "I_kwDOMUjnl87RtXKA",
       "title": "Add ack sec",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/50",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-10-15T14:29:22Z",
-      "updatedAt": "2025-10-15T14:29:22Z",
-      "closedAt": null,
+      "updatedAt": "2025-10-17T16:44:49Z",
+      "closedAt": "2025-10-17T16:44:49Z",
       "comments": []
     }
   ],
@@ -1847,21 +1847,21 @@
       "id": "PR_kwDOMUjnl86U041y",
       "title": "Address liaison statements with deadlines for action",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/36",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "related to #14",
       "createdAt": "2025-05-03T14:52:24Z",
-      "updatedAt": "2025-06-13T15:14:40Z",
+      "updatedAt": "2025-10-17T16:36:37Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "42ea5b289abc145fc1b55832c2a178612ed5c4b8",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "billwuqin-patch-6",
       "headRefOid": "50e2a55e9959c6329f0fd08b19b6545e9c04c7f4",
-      "closedAt": null,
+      "closedAt": "2025-10-17T16:36:37Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -2366,50 +2366,220 @@
       "id": "PR_kwDOMUjnl86fbsRJ",
       "title": "minoredits",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/47",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "dhruvdhody",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-07-17T18:51:18Z",
-      "updatedAt": "2025-07-17T18:54:13Z",
+      "updatedAt": "2025-10-17T16:00:46Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
       "baseRefOid": "c425d5c4ea37533bc804acf0b56a234b4ac9355a",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "dhruvdhody-patch-minoredits",
-      "headRefOid": "041739d874bdb398b3e92b728af6d6bdc296f031",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "headRefOid": "7760ed59aa60107a841c06375956967817fe081e",
+      "closedAt": "2025-10-17T16:00:46Z",
+      "mergedAt": "2025-10-17T16:00:46Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "978430c17f15eaec996faff390ad0cb045c2744e"
+      },
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks a lot!",
+          "createdAt": "2025-10-17T16:00:42Z",
+          "updatedAt": "2025-10-17T16:00:42Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl87HuykU",
+          "commit": {
+            "abbreviatedOid": "041739d"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T15:53:55Z",
+          "updatedAt": "2025-10-17T15:53:55Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\r\nand therefore do not automatically represent IETF consensus. Depending on the\r\n```",
+              "createdAt": "2025-10-17T15:53:55Z",
+              "updatedAt": "2025-10-17T15:53:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl87Hu0Dd",
+          "commit": {
+            "abbreviatedOid": "dbc9d5f"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T15:56:04Z",
+          "updatedAt": "2025-10-17T15:56:05Z",
+          "comments": [
+            {
+              "originalPosition": 145,
+              "body": "```suggestion\r\nUsually, the statement also contains a short (single line) title\r\n```",
+              "createdAt": "2025-10-17T15:56:05Z",
+              "updatedAt": "2025-10-17T15:56:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl87Hu2Se",
+          "commit": {
+            "abbreviatedOid": "c1fa761"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T15:59:04Z",
+          "updatedAt": "2025-10-17T15:59:05Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "```suggestion\r\ntreated as nothing more than as 'Work in Progress'.\r\n```",
+              "createdAt": "2025-10-17T15:59:04Z",
+              "updatedAt": "2025-10-17T15:59:05Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 49,
       "id": "PR_kwDOMUjnl86nojet",
       "title": "Primarily editorial changes.",
       "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/49",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "wkumari",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Also some rewording to improve clarity.\r\n\r\nLarger Q - I didn't include these, and didn't want to stack PRs, so asking here:\r\ns/The IETF will record any received liaison statement and make it publicly available./The IETF will record any received liaison statement and make the statement publicly available./?\r\n\r\ns/But the request should always be taken seriously, and generally a response is anticipated./But the request should always be given careful consideration, and generally a response is anticipated./?",
       "createdAt": "2025-09-09T15:23:28Z",
-      "updatedAt": "2025-09-09T15:23:29Z",
+      "updatedAt": "2025-10-17T16:34:16Z",
       "baseRepository": "intarchboard/draft-iab-rfc4053bis",
       "baseRefName": "main",
-      "baseRefOid": "c425d5c4ea37533bc804acf0b56a234b4ac9355a",
+      "baseRefOid": "978430c17f15eaec996faff390ad0cb045c2744e",
       "headRepository": "intarchboard/draft-iab-rfc4053bis",
       "headRefName": "grammar_clarity",
-      "headRefOid": "b22e14906ebd927d39e5f3a80b8f04c5a98fc8f1",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "ba49db3d46afa35a362120d10eef44b4a600c34a",
+      "closedAt": "2025-10-17T16:34:16Z",
+      "mergedAt": "2025-10-17T16:34:16Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "d3bff2fb5c0e0c78a397827315196a81a3e4f12a"
+      },
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "> s/The IETF will record any received liaison statement and make it publicly available./The IETF will record any received liaison statement and make the statement publicly available./?\r\n\r\nYes but isn't \"it\" just as clear...?\r\n\r\n\r\n> s/But the request should always be taken seriously, and generally a response is anticipated./But the request should always be given careful consideration, and generally a response is anticipated./?\r\n\r\nI think these are not the same. Or is that a question of tone?\r\n\r\nI will merge this PR now, which closes this PR, but we could open a new PR for these two changes if further discussion makes sense. For now I didn't include them obviously...\r\n\r\n",
+          "createdAt": "2025-10-17T16:34:01Z",
+          "updatedAt": "2025-10-17T16:34:01Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOMUjnl87HvD51",
+          "commit": {
+            "abbreviatedOid": "8a60e24"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T16:11:43Z",
+          "updatedAt": "2025-10-17T16:11:43Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2025-10-17T16:11:43Z",
+              "updatedAt": "2025-10-17T16:11:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl87HvF_V",
+          "commit": {
+            "abbreviatedOid": "4fbbc24"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T16:13:39Z",
+          "updatedAt": "2025-10-17T16:13:39Z",
+          "comments": [
+            {
+              "originalPosition": 128,
+              "body": "```suggestion\r\nUsually, such a request is received on the mailing list of a group,\r\n```",
+              "createdAt": "2025-10-17T16:13:39Z",
+              "updatedAt": "2025-10-17T16:13:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOMUjnl87HvGvk",
+          "commit": {
+            "abbreviatedOid": "eab79a6"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-17T16:14:09Z",
+          "updatedAt": "2025-10-17T16:14:09Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "```suggestion\r\nParticularly, some text in the introduction, Section 3.1.1. (Liaison Statement Submission),\r\n```",
+              "createdAt": "2025-10-17T16:14:09Z",
+              "updatedAt": "2025-10-17T16:14:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "PR_kwDOMUjnl86uWPPT",
+      "title": "Add acknowledgments for review input",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/pull/51",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #50 ",
+      "createdAt": "2025-10-17T16:43:40Z",
+      "updatedAt": "2025-10-17T16:44:48Z",
+      "baseRepository": "intarchboard/draft-iab-rfc4053bis",
+      "baseRefName": "main",
+      "baseRefOid": "d3bff2fb5c0e0c78a397827315196a81a3e4f12a",
+      "headRepository": "intarchboard/draft-iab-rfc4053bis",
+      "headRefName": "mirjak-patch-18",
+      "headRefOid": "68b5ea10b333266a5d9ec92334fa1ec69018c6ed",
+      "closedAt": "2025-10-17T16:44:48Z",
+      "mergedAt": "2025-10-17T16:44:48Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "564ab1e1da0db635fc794784b8eb76dea2768596"
+      },
       "comments": [],
       "reviews": []
     }
