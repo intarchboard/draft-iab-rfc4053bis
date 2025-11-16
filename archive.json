@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-19T00:55:17.383994+00:00",
+  "timestamp": "2025-11-16T00:56:20.259459+00:00",
   "repo": "intarchboard/draft-iab-rfc4053bis",
   "labels": [
     {
@@ -556,6 +556,22 @@
       "createdAt": "2025-10-15T14:29:22Z",
       "updatedAt": "2025-10-17T16:44:49Z",
       "closedAt": "2025-10-17T16:44:49Z",
+      "comments": []
+    },
+    {
+      "number": 52,
+      "id": "I_kwDOMUjnl87YCt_M",
+      "title": "Note explicitly that LM needs to be informed about outgoing LSs",
+      "url": "https://github.com/intarchboard/draft-iab-rfc4053bis/issues/52",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-11-14T08:39:15Z",
+      "updatedAt": "2025-11-14T08:39:15Z",
+      "closedAt": null,
       "comments": []
     }
   ],
