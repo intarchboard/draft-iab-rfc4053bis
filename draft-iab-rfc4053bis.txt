@@ -98,18 +98,20 @@ Table of Contents
    sending an informal email.  However, every organization has slightly
    different procedures to handle the sending and receiving of liaison
    statements.  In some cases sending formal liaison statements might be
-   the only way of communicating with a certain organization.  The IETF
-   process is intended to be as simple as possible while still
-   accommodating the process or format requirements of various other
-   SDOs.  One key property of the IETF liaison statement handling
-   process is the requirement to record all sent and received liaison
-   statements in a publicly accessible central location, which makes it
-   more formal than other direct communications.  However, liaison
-   statements do not have any special standing within the IETF process
-   otherwise.  This means that any input provided through a liaison
-   statement, even if that statement reflects consensus in the other
-   organisation, does not have a different standing in the IETF process
-   than other (individually-provided) inputs.
+   the only way of communicating with a certain organization.
+
+   The IETF process, described in this document, is intended to be as
+   simple as possible while still accommodating the process or format
+   requirements of various other SDOs.  One key property of the IETF
+   liaison statement handling process is the requirement to record all
+   sent and received liaison statements in a publicly accessible central
+   location, which makes it more formal than other direct
+   communications.  However, liaison statements do not have any special
+   standing within the IETF process otherwise.  This means that any
+   input provided through a liaison statement, even if that statement
+   reflects consensus in the other organisation, does not have a
+   different standing in the IETF process than other (individually-
+   provided) inputs.
 
    Further, liaison statements sent by the IETF usually do not go though
    the normal IETF consensus process (e.g. an IETF-wide last call) and
@@ -124,22 +126,25 @@ Table of Contents
    when the stated position is based on existing community consensus.
    When sending a liaison statement from the IETF, it is highly
    recommended to clearly indicate any level of consensus or non-
-   consensus as part of the liaison statement content.
+   consensus as part of the liaison statement content.  Further
+   consideration on consensus in IETF liaison statements are provided in
+   Section 4.2.
 
    The exchange of liaison statements does not require a formal liaison
    relationship (see [I-D.krishnan-iab-rfc4052bis]).  The procedures
    described in this document encompass all liaisons statements received
-   from SDOs, whether or not a formal liaison arrangement is in place
-   between the SDO and the IETF.  The IAB is generally responsible for
-   ensuring liaison statements are handled appropriately and can assist
-   with any liaison matter.  If a formal liaison relationship with an
-   IAB-appointed liaison manager is in place, the liaison manager
-   assists the IAB in this responsibility and is the first contact point
-   for liaison statements send to or received from the respective SDO,
-   as also further explained in [I-D.krishnan-iab-rfc4052bis].
-   Especially, the liaison manager should be consulted before sending a
-   liaison statement to ensure formal requirements or agreements of the
-   liaison relation are followed.
+   from or sent to other SDOs, whether or not a formal liaison
+   arrangement is in place between the SDO and the IETF.  The IAB is
+   generally responsible for ensuring liaison statements are handled
+   appropriately and can assist with any liaison matter.  If a formal
+   liaison relationship with an IAB-appointed liaison manager is in
+   place, the liaison manager assists the IAB in this responsibility and
+   is the first contact point for liaison statements send to or received
+   from the respective SDO, as also further explained in
+   [I-D.krishnan-iab-rfc4052bis].  Especially, the liaison manager
+   should be consulted before sending a liaison statement to ensure
+   formal requirements or agreements of the liaison relation are
+   followed.
 
    Receipt of a liaison statement does not automatically impose an
    obligation of sending a response by the other party.  The decision to
