@@ -88,7 +88,14 @@ The exchange of liaison statements does not require a formal liaison
 relationship (see {{?I-D.krishnan-iab-rfc4052bis}}).  The procedures described in this
 document encompass all liaisons statements received from SDOs,
 whether or not a formal liaison arrangement is in place between the
-SDO and the IETF.
+SDO and the IETF. The IAB is generally responsible for ensuring liaison statements
+are handled appropriately and can assist with any liaison matter. If a
+formal liaison relationship with an IAB-appointed liaison manager is in place,
+the liaison manager assists the IAB in this responsibility and is the first contact
+point for liaison statements send to or received from the respective SDO,
+as also further explained in {{?I-D.krishnan-iab-rfc4052bis}}. Especially,
+the liaison manager should be consulted before sending a liaison statement
+to ensure formal requirements or agreements of the liaison relation are followed.
 
 Receipt of a liaison statement does not automatically
 impose an obligation of sending a response by the other party. The decision
