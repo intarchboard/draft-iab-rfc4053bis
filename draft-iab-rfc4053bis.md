@@ -57,7 +57,8 @@ email. However, every organization has slightly different procedures to
 handle the sending and receiving of liaison statements. In some cases
 sending formal liaison statements might be the only way of
 communicating with a certain organization.
-The IETF process
+
+The IETF process, described in this document,
 is intended to be as simple as possible while still accommodating the process
 or format requirements of various other SDOs. One key property of the IETF
 liaison statement handling process is the requirement to record all sent
@@ -82,11 +83,12 @@ underline when the stated position is based on existing community consensus.
 When sending a liaison
 statement from the IETF, it is highly recommended to clearly
 indicate any level of consensus or non-consensus as part of the liaison
-statement content.
+statement content. Further consideration on consensus in IETF liaison statements
+are provided in {{consensus}}.
 
 The exchange of liaison statements does not require a formal liaison
 relationship (see {{?I-D.krishnan-iab-rfc4052bis}}).  The procedures described in this
-document encompass all liaisons statements received from SDOs,
+document encompass all liaisons statements received from or sent to other SDOs,
 whether or not a formal liaison arrangement is in place between the
 SDO and the IETF. The IAB is generally responsible for ensuring liaison statements
 are handled appropriately and can assist with any liaison matter. If a
@@ -401,7 +403,7 @@ emitting a revised liaison statement if necessary.  Clearly, this is
 a situation best avoided by assuring appropriate agreement in advance
 of sending the liaison message.
 
-## Level of Consensus {#consensus-sending}
+## Level of Consensus {#consensus}
 
 A liaison statement does not automatically imply any level of consensus
 and as such it is the responsibility of the chairs or the responsible AD to
@@ -520,7 +522,7 @@ responsibility for developing a response.
 
 ## Level of Consensus When Sending a Response
 
-As discussed in {{consensus-sending}}, it is the chairs' and AD's
+As discussed in {{consensus}}, it is the chairs' and AD's
 responsibility to decide about the necessary  level of consensus needed
 for a certain response. This section adds additional consideration
 when replying to a request from another organization.
