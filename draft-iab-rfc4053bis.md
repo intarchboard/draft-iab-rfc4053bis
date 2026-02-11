@@ -128,7 +128,7 @@ Particularly, some text in the introduction, Section 3.1.1. (Liaison Statement S
 Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
 and the appendix have been removed.
 
-Further, the following guidance has been updated in the -00 version:
+Further, the following has been updated:
 
 1. A shorter abstract and introduction, as well as a clarification in the introduction about obligations to send replies.
 2. Removal of the definition section (2.1) as "assignee" is not used anymore, and the "addressee" is now simply called the receiver.
@@ -146,13 +146,10 @@ Further, the following guidance has been updated in the -00 version:
 5. New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
-6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been moved to this document, without modification so far.
-
-Changes in the -01 version:
-
-1. New text in intro on "no special standing" and consensus
-1. Minor wording adjustments to avoid tooling implications
-2. Merge section 3 (Responsibilities when Receiving a Liaison Statement) into Section 4 (Recording) and 6 (Responding)
+6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been merged to this document
+7. New text in intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
+9. Re-working and shortening of Section on "Sending Liaison Statements from the IETF", which includes subsections on Approval and consensus now
+2. Merge and shortening of section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) in one new section
 
 #  Content of Liaison Statements
 
