@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 14 August 2026                                 10 February 2026
+Expires: 15 August 2026                                 11 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 August 2026.
+   This Internet-Draft will expire on 15 August 2026.
 
 Copyright Notice
 
@@ -179,7 +179,7 @@ Table of Contents
    Section 3.2.2.4.  (Generating Liaison Statements) and the appendix
    have been removed.
 
-   Further, the following guidance has been updated in the -00 version:
+   Further, the following has been updated:
 
    1.  A shorter abstract and introduction, as well as a clarification
        in the introduction about obligations to send replies.
@@ -218,17 +218,18 @@ Table of Contents
        incoming statements get appropriately recorded.
 
    6.  Section 4 from [RFC4052] on "Approval and Transmission of Liaison
-       Statements" has been moved to this document, without modification
-       so far.
+       Statements" has been merged to this document
 
-   Changes in the -01 version:
+   7.  New text in intro regarding consensus and liaison statements
+       having no special standing, as well as the role of the IRTF
 
-   1.  New text in intro on "no special standing" and consensus
+   8.  Re-working and shortening of Section on "Sending Liaison
+       Statements from the IETF", which includes subsections on Approval
+       and consensus now
 
-   2.  Minor wording adjustments to avoid tooling implications
-
-   3.  Merge section 3 (Responsibilities when Receiving a Liaison
-       Statement) into Section 4 (Recording) and 6 (Responding)
+   9.  Merge and shortening of section 3 (Responsibilities when
+       Receiving a Liaison Statement), Section 4 (Recording), and 6
+       (Responding) in one new section
 
 2.  Content of Liaison Statements
 
