@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 14 August 2026                                 10 February 2026
+Expires: 15 August 2026                                 11 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 August 2026.
+   This Internet-Draft will expire on 15 August 2026.
 
 Copyright Notice
 
@@ -220,11 +220,11 @@ Table of Contents
    6.  Section 4 from [RFC4052] on "Approval and Transmission of Liaison
        Statements" has been merged to this document
 
-   7.  New text in intro on "no special standing" and consensus, as well
-       as the role of the IRTF
+   7.  New text in intro regarding consensus and liaison statements
+       having no special standing, as well as the role of the IRTF
 
    8.  Re-working and shortening of Section on "Sending Liaison
-       Statements from the IETF", which includes subsections on Approal
+       Statements from the IETF", which includes subsections on Approval
        and consensus now
 
    9.  Merge and shortening of section 3 (Responsibilities when
