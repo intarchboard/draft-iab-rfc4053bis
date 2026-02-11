@@ -147,8 +147,8 @@ Further, the following has been updated:
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
 6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been merged to this document
-7. New text in intro on "no special standing" and consensus, as well as the role of the IRTF
-9. Re-working and shortening of Section on "Sending Liaison Statements from the IETF", which includes subsections on Approal and consensus now
+7. New text in intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
+9. Re-working and shortening of Section on "Sending Liaison Statements from the IETF", which includes subsections on Approval and consensus now
 2. Merge and shortening of section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) in one new section
 
 #  Content of Liaison Statements
