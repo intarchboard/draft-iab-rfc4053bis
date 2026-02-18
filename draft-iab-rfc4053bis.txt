@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 15 August 2026                                 11 February 2026
+Expires: 22 August 2026                                 18 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 August 2026.
+   This Internet-Draft will expire on 22 August 2026.
 
 Copyright Notice
 
@@ -680,7 +680,7 @@ Table of Contents
    statements effectively, resulting in people working in other
    organizations becoming frustrated with it.  Various organizations
    have also used the liaison statement process to impose deadlines on
-   IETF activities, which has been frustrating for all concerned - the
+   IETF activities, which has been frustrating for all concerned; the
    IETF because it does not accept such deadlines, and other
    organizations because they feel ignored.  While the IETF cannot rate-
    limit the submitters, it can manage its internal pipelines.
