@@ -566,23 +566,23 @@ e.g. when a document gets adopted or is ready for publication.
 
 # Security Considerations
 
-   One of the key considerations in developing this process has been the
-   possibility of a denial of service attack on the IETF and its
-   processes.  Historically, the IETF has not always handled liaison
-   statements effectively, resulting in people working in other
-   organizations becoming frustrated with it.  Various organizations
-   have also used the liaison statement process to impose deadlines on
-   IETF activities, which has been frustrating for all concerned - the
-   IETF because it does not accept such deadlines, and other
-   organizations because they feel ignored. While the IETF
-   cannot rate-limit the submitters, it can manage its internal
-   pipelines.
+One of the key considerations in developing this process has been the
+possibility of a denial of service attack on the IETF and its
+processes. Historically, the IETF has not always handled liaison
+statements effectively, resulting in people working in other
+organizations becoming frustrated with it. Various organizations
+have also used the liaison statement process to impose deadlines on
+IETF activities, which has been frustrating for all concerned; the
+IETF because it does not accept such deadlines, and other
+organizations because they feel ignored. While the IETF
+cannot rate-limit the submitters, it can manage its internal
+pipelines.
 
-   This issue is exacerbated by the lack of any authentication on the
-   part of the submitter.  However, the IAB considers it important to be
-   able to accept liaison statements, whether or not a liaison
-   relationship exists, so authentication of submitters is not an
-   effective control.
+This issue is exacerbated by the lack of any authentication on the
+part of the submitter.  However, the IAB considers it important to be
+able to accept liaison statements, whether or not a liaison
+relationship exists, so authentication of submitters is not an
+effective control.
 
 
 # IANA Considerations
