@@ -1,25 +1,3 @@
----
-title: "Procedures for Handling Liaison Statements to and from the IETF"
-abbrev: "Handling of Liaison Statements"
-category: info
-
-docname: draft-iab-rfc4053bis-latest
-submissiontype: IAB
-obsoletes: 4053
-date:
-v: 3
-venue:
-  group: "Internet Architecture Board"
-  type: "Internet Engineering Task Force"
-  mail: "iab@iab.org"
-  github: "intarchboard/draft-iab-rfc4053bis"
-
-author:
- -
-    fullname: Mirja Kuehlewind
-    organization: IAB
-    email: ietf@kuehlewind.net
-    role: editor
  -
     fullname: Suresh Krishnan
     organization: IAB
@@ -37,8 +15,8 @@ informative:
 --- abstract
 
 This document describes the procedures for generating and handling
-liaison statements between the IETF and other SDOs, so that the IETF can
-effectively collaborate with other organizations in the international
+liaison statements between the IETF and other Standards Development Organizations (SDOs),
+so that the IETF can effectively collaborate with other organizations in the international
 standards community.
 
 
@@ -47,8 +25,8 @@ standards community.
 # Introduction
 
 This document describes the procedure for generating and handling
-liaison statements between the IETF and other SDOs, so that the IETF can
-effectively collaborate with other organizations in the international
+liaison statements between the IETF and other Standards Development Organizations (SDOs),
+so that the IETF can effectively collaborate with other organizations in the international
 standards community.
 
 Most organizations have a process to send liaison statements that simply
@@ -64,8 +42,8 @@ or format requirements of various other SDOs. One key property of the IETF
 liaison statement handling process is the requirement to record all sent
 and received liaison statements in a publicly accessible central location,
 which makes it more formal than other direct communications. However,
-liaison statements do not have any special standing within the IETF process
-otherwise. This means that any input provided through a liaison statement,
+liaison statements do not have any special standing within the IETF process.
+This means that any input provided through a liaison statement,
 even if that statement reflects consensus in the other organisation, does
 not have a different standing in the IETF process than other
 (individually-provided) inputs.
@@ -87,7 +65,7 @@ statement content. Further consideration on consensus in IETF liaison statements
 are provided in {{consensus}}.
 
 The exchange of liaison statements does not require a formal liaison
-relationship (see {{?I-D.krishnan-iab-rfc4052bis}}).  The procedures described in this
+relationship (see {{?I-D.iab-rfc4052bis}}).  The procedures described in this
 document encompass all liaisons statements received from or sent to other SDOs,
 whether or not a formal liaison arrangement is in place between the
 SDO and the IETF. The IAB is generally responsible for ensuring liaison statements
@@ -95,7 +73,7 @@ are handled appropriately and can assist with any liaison matter. If a
 formal liaison relationship with an IAB-appointed liaison manager is in place,
 the liaison manager assists the IAB in this responsibility and is the first contact
 point for liaison statements send to or received from the respective SDO,
-as also further explained in {{?I-D.krishnan-iab-rfc4052bis}}. Especially,
+as also further explained in {{?I-D.iab-rfc4052bis}}. Especially,
 the liaison manager should be consulted before sending a liaison statement
 to ensure formal requirements or agreements of the liaison relation are followed.
 
@@ -106,7 +84,7 @@ A liaison statement, just like any other input into the IETF process, is
 considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
-between the organisations (see {{Section 3 of I-D.krishnan-iab-rfc4052bis}}) even if no response is sent.
+between the organisations (see {{Section 3 of I-D.iab-rfc4052bis}}) even if no response is sent.
 
 If no response to an incoming liaison statement is provided, this does not
 indicate agreement or consensus on the topic raised to
@@ -130,8 +108,8 @@ and the appendix have been removed.
 
 Further, the following has been updated:
 
-1. A shorter abstract and introduction, as well as a clarification in the introduction about obligations to send replies.
-2. Removal of the definition section (2.1) as "assignee" is not used anymore, and the "addressee" is now simply called the receiver.
+1. The abstract and introduction as been shortened, and a clarification was added in the introduction about obligations to send replies.
+2. The definition section (2.1) has been removed as "assignee" is not used anymore, and the "addressee" is now simply called the receiver.
 3. The section on "Content of a Liaison Statement" has been revised to
     - be less detailed about tooling, e.g. not talking about concrete fields anymore,
     - introduce a new concept to handle contact information, replacing "Response Contact" and
@@ -140,21 +118,21 @@ Further, the following has been updated:
     - add new address information ("Send Reply To"/"Send To") that can be used to support processes
      where one central address is used to receive all liaison statements. This is also the process preferred now by the IETF
      where the central address is either the liaison manager or the IAB coordination contact.
-4. The purpose "For Comment" has been removed as either "For Information" or "For Action" can be used instead;
+4. The purpose "For Comment" was removed as either "For Information" or "For Action" can be used instead;
   depending if a deadline is needed or not. In the current record of statements, "For Comment" has been rarely used
   indicating that this purpose is not needed or at least its meaning was not clear.
-5. New section on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
+5. New section was added on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
   to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
   to ensure that all incoming statements get appropriately recorded.
 6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been merged to this document
-7. New text in intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
-9. Re-working and shortening of Section on "Sending Liaison Statements from the IETF", which includes subsections on Approval and consensus now
-2. Merge and shortening of section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) in one new section
+7. New text was added in the intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
+9. Section on "Sending Liaison Statements from the IETF" was re-worked and shortened, which noew includes the subsections on approval and consensus.
+2. Section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) were merged and shorteded in one new section.
 
 #  Content of Liaison Statements
 
-A Liaison Statement is a formal letter sent by one standards
-organization to another. These organizations may be at any level
+A Liaison Statement is a formal letter sent by one SDO
+to another. These organizations may be at any level
 (WG, Area, etc.). Generally, the sender and receiver are peer
 organizations. A liaison statement may have any purpose, but
 generally the purpose is to solicit information or
@@ -319,13 +297,13 @@ send liaison statements to other SDOs, and all sent liaison statements
 must be publicly recorded. Therefore,
 it is recommended to use an IETF-provided tool to send liaison
 statements, rather than send them directly by email and record
-them after the fact. This approach is possible e.g. if a certain form
+them after the fact. This approach is possible if, e.g. a certain form
 of submission other than email is required by the other organization.
 
 #  Sending Liaison Statements from the IETF
 
 There are different reasons for an IETF group to send a liaison statement
-to another organization such as
+to another organization, such as
 
 * A working group might request additional information from another organization,
   for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
@@ -371,8 +349,7 @@ All liaison statements sent by any group in the IETF
 need AD approval to ensure that those writing such
 statements, who claim to be speaking on behalf of a group in the IETF, are truly
 representing IETF views. This does not include statements sent by the IAB,
-which require IAB approval instead, based on the judgment
-of the IAB Chair. Statements sent from an area,
+which require IAB approval. Statements sent from an area,
 respectively, need approval by at least one of the responsible ADs.
 Statements sent by the IETF or IESG require IETF Chair approval.
 
@@ -499,8 +476,8 @@ it is the responsibility of the liaison manager to ensure appropriate communicat
 Otherwise, the IAB can be consulted and should be integrated into any additional
 informal communication.
 
-There is, of course, no requirement that the IETF performs the action that
-was requested.  But the request should always be taken seriously, and
+There is, of course, no requirement that the IETF performs the requested
+action. But the request should always be taken seriously, and
 generally, a response is anticipated. The reply may be that the information
 was useful or not useful, that the requested action has been accomplished,
 it will be accomplished by a specified date, it will not be done for a
@@ -519,8 +496,8 @@ responsibility for developing a response.
 
 ## Level of Consensus When Sending a Response
 
-As discussed in {{consensus}}, it is the chairs' and AD's
-responsibility to decide about the necessary  level of consensus needed
+As discussed in {{consensus}}, it is the responsibility of the
+chairs and ADs to decide about the necessary  level of consensus needed
 for a certain response. This section adds additional consideration
 when replying to a request from another organization.
 
