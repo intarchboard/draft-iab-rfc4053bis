@@ -340,7 +340,7 @@ to another organization such as
   a request could be made that the other organization
   change something to align with the IETF work.
 * A request could be made for another organization to start a new
-  work item (on behalf of IETF).
+  work item (on behalf of the IETF).
 * A request could be made for another organization to stop a work
   item (presumably because it overlaps or conflicts with other work
   in the IETF).
@@ -408,7 +408,7 @@ figure out if working groups consensus should be strived for before
 sending a liaison statement.
 
 The simplest case of sending a liaison statement from
-IETF is when the information being transmitted is based on
+the IETF is when the information being transmitted is based on
 already existing IETF consensus, such as an IETF
 document that has some level of agreement within the IETF
 or general information about the process or (WG) scope.
@@ -499,7 +499,7 @@ it is the responsibility of the liaison manager to ensure appropriate communicat
 Otherwise, the IAB can be consulted and should be integrated into any additional
 informal communication.
 
-There is, of course, no requirement that IETF perform the action that
+There is, of course, no requirement that the IETF performs the action that
 was requested.  But the request should always be taken seriously, and
 generally, a response is anticipated. The reply may be that the information
 was useful or not useful, that the requested action has been accomplished,
@@ -552,7 +552,7 @@ of the comments are contradictory.
 
 For other requests for actions, for example, if initiating or stopping a
 work item requires a charter change, the consensus of the receiving group
-within IETF or even IETF-wide consensus is clearly necessary to fulfill
+within the IETF or even IETF-wide consensus is clearly necessary to fulfill
 the request. However, as already indicated, a liaison statement has no
 special standing and should be considered equal to all other inputs.
 Still, if there is a need for this work by the other organization the request
@@ -594,7 +594,7 @@ This document has no IANA actions.
 
 {{RFC4053}} was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
 The text in RFC4053 further has been prompted by discussions with numerous individuals
-within IETF and other SDOs and fora, including Gary Fishman and Bert
+within the IETF and other SDOs and fora, including Gary Fishman and Bert
 Wijnen.  It has been developed in cooperation with {{?RFC4052}}, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.
