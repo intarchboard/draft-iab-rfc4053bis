@@ -304,7 +304,7 @@ liaison statements are received by the relevant parties.
 
 However, it is difficult to ensure that liaison statements will always be sent to the right
 group or person, as statements are sometimes sent directly to WG mailing lists or
-individuals. E.g an SDO might send a liaison statement to a specific IETF
+individuals. For example, an SDO might send a liaison statement to a specific IETF
 Area whose Area Director (AD) deems it better handled by one of the WGs,
 or it might be sent to one WG when it should have gone to a different, more relevant one.
 If a liaison statement arrives that appears misdirected, it is recommended
