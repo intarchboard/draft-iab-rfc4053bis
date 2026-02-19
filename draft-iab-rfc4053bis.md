@@ -1,3 +1,25 @@
+---
+title: "Procedures for Handling Liaison Statements to and from the IETF"
+abbrev: "Handling of Liaison Statements"
+category: info
+
+docname: draft-iab-rfc4053bis-latest
+submissiontype: IAB
+obsoletes: 4053
+date:
+v: 3
+venue:
+  group: "Internet Architecture Board"
+  type: "Internet Engineering Task Force"
+  mail: "iab@iab.org"
+  github: "intarchboard/draft-iab-rfc4053bis"
+
+author:
+ -
+    fullname: Mirja Kuehlewind
+    organization: IAB
+    email: ietf@kuehlewind.net
+    role: editor
  -
     fullname: Suresh Krishnan
     organization: IAB
