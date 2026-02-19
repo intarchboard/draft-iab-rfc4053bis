@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 22 August 2026                                 18 February 2026
+Expires: 23 August 2026                                 19 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 August 2026.
+   This Internet-Draft will expire on 23 August 2026.
 
 Copyright Notice
 
@@ -439,7 +439,7 @@ Table of Contents
       change something to align with the IETF work.
 
    *  A request could be made for another organization to start a new
-      work item (on behalf of IETF).
+      work item (on behalf of the IETF).
 
    *  A request could be made for another organization to stop a work
       item (presumably because it overlaps or conflicts with other work
@@ -510,12 +510,12 @@ Table of Contents
    responsible AD to figure out if working groups consensus should be
    strived for before sending a liaison statement.
 
-   The simplest case of sending a liaison statement from IETF is when
-   the information being transmitted is based on already existing IETF
-   consensus, such as an IETF document that has some level of agreement
-   within the IETF or general information about the process or (WG)
-   scope.  When sending such statements for pure information sharing
-   purposes, the chairs or AD might not reach out for consensus.
+   The simplest case of sending a liaison statement from the IETF is
+   when the information being transmitted is based on already existing
+   IETF consensus, such as an IETF document that has some level of
+   agreement within the IETF or general information about the process or
+   (WG) scope.  When sending such statements for pure information
+   sharing purposes, the chairs or AD might not reach out for consensus.
 
    Further, requests for information from the other organization,
    including requests for access to certain documents of other
@@ -606,16 +606,16 @@ Table of Contents
    communication.  Otherwise, the IAB can be consulted and should be
    integrated into any additional informal communication.
 
-   There is, of course, no requirement that IETF perform the action that
-   was requested.  But the request should always be taken seriously, and
-   generally, a response is anticipated.  The reply may be that the
-   information was useful or not useful, that the requested action has
-   been accomplished, it will be accomplished by a specified date, it
-   will not be done for a specific reason, an answer to a question
-   posed, or any other appropriate reply.  If the IETF decides not to
-   honor the request, or to honor it with modifications, ideally, the
-   response should include the reasons and, if applicable, an alternate
-   course of action.
+   There is, of course, no requirement that the IETF performs the action
+   that was requested.  But the request should always be taken
+   seriously, and generally, a response is anticipated.  The reply may
+   be that the information was useful or not useful, that the requested
+   action has been accomplished, it will be accomplished by a specified
+   date, it will not be done for a specific reason, an answer to a
+   question posed, or any other appropriate reply.  If the IETF decides
+   not to honor the request, or to honor it with modifications, ideally,
+   the response should include the reasons and, if applicable, an
+   alternate course of action.
 
    It is the responsibility of the (co)chair(s) of the addressed group,
    supported by the liaison manager if one exists, to ensure that a
@@ -660,17 +660,18 @@ Table of Contents
 
    For other requests for actions, for example, if initiating or
    stopping a work item requires a charter change, the consensus of the
-   receiving group within IETF or even IETF-wide consensus is clearly
-   necessary to fulfill the request.  However, as already indicated, a
-   liaison statement has no special standing and should be considered
-   equal to all other inputs.  Still, if there is a need for this work
-   by the other organization the request should be considered seriously.
-   Usually, it is appropriate for the chairs to send a response (by the
-   deadline) and explain the process, or invite experts of the other
-   organization to participate directly, even if the request itself
-   cannot be fulfilled by the deadline.  Potential follow-up liaison
-   statements might be sent to provide a status update, e.g. when a
-   document gets adopted or is ready for publication.
+   receiving group within the IETF or even IETF-wide consensus is
+   clearly necessary to fulfill the request.  However, as already
+   indicated, a liaison statement has no special standing and should be
+   considered equal to all other inputs.  Still, if there is a need for
+   this work by the other organization the request should be considered
+   seriously.  Usually, it is appropriate for the chairs to send a
+   response (by the deadline) and explain the process, or invite experts
+   of the other organization to participate directly, even if the
+   request itself cannot be fulfilled by the deadline.  Potential
+   follow-up liaison statements might be sent to provide a status
+   update, e.g. when a document gets adopted or is ready for
+   publication.
 
 6.  Security Considerations
 
@@ -699,7 +700,7 @@ Acknowledgments
 
    [RFC4053] was authored by Stephen Trowbridge, Scott Bradner, Fred
    Baker.  The text in RFC4053 further has been prompted by discussions
-   with numerous individuals within IETF and other SDOs and fora,
+   with numerous individuals within the IETF and other SDOs and fora,
    including Gary Fishman and Bert Wijnen.  It has been developed in
    cooperation with [RFC4052], which is to say with the express
    cooperation of the chair of the IAB at that time, Leslie Daigle.
