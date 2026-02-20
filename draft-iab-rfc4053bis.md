@@ -51,7 +51,7 @@ liaison statements between the IETF and other SDOs, so that the IETF can
 effectively collaborate with other organizations in the international
 standards community.
 
-Most organizations have a process to send liaison statements that simply
+Most organizations have a process to send liaison statements that
 provides a more formal way of communication, beyond just sending an informal
 email. However, every organization has slightly different procedures to
 handle the sending and receiving of liaison statements. In some cases
@@ -66,9 +66,9 @@ and received liaison statements in a publicly accessible central location,
 which makes it more formal than other direct communications. However,
 liaison statements do not have any special standing within the IETF process
 otherwise. This means that any input provided through a liaison statement,
-even if that statement reflects consensus in the other organisation, does
-not have a different standing in the IETF process than other
-(individually-provided) inputs.
+even if that statement reflects consensus in the other organisation, 
+iss given no more weight in IETF consensus processes than (individually-provided)
+contributions to the IETF through other forms of communication.
 
 Further, liaison statements sent by the IETF usually do not go
 though the normal IETF consensus process (e.g. an IETF-wide last call)
@@ -155,8 +155,7 @@ Further, the following has been updated:
 
 A Liaison Statement is a formal letter sent by one standards
 organization to another. These organizations may be at any level
-(WG, Area, etc.). Generally, the sender and receiver are peer
-organizations. A liaison statement may have any purpose, but
+(WG, Area, etc.). A liaison statement may have any purpose, but
 generally the purpose is to solicit information or
 request an action, like share a document, or ask for a review or a technical question.
 
@@ -234,16 +233,16 @@ In Response:
 
 Liaison statements that request action indicate a deadline when
 the action is required.  If the receiving body cannot
-accomplish the request within the stated period, courtesy calls for a
-response offering a more doable deadline or an alternative course of
-action.
+accomplish the request within the stated period, a prelimary
+response could be sent requesting a more doable deadline or
+offering an alternative course of action.
 
-## Body, Title, and Attachments
+## Body, Subject, and Attachments
 
 As with any business letter, the liaison statement contains
 content explaining the issues or questions at hand.
 
-Usually, the statement also contains a short (single line) title
+Usually, the statement also contains a short (single line) subject
 providing a statement of its context and content.
 
 Attachments, if enclosed, may be in the form of documents sent with
@@ -269,7 +268,7 @@ these metadata should be extracted. Further, the content of the statement must b
 For statements sent from the IETF, it is recommended to provide the content
 in plain text but also provide an attachment following the formatting requirements
 of the receiving organisation if possible. In cases where we have a
-liaison manager, it is the responsibility of the liaison to check or convert
+liaison manager, it is the responsibility of the liaison manager to check or convert
 the formatting requirements. It is further recommended to convert received
 documents in proprietary formats into PDF and upload both versions as
 attachments.
@@ -334,7 +333,7 @@ to another organization such as
 * A working group might request comments for a document under development
   in the IETF that would benefit from the input of experts in another relevant
   SDO, consortium, or forum.  Generally, this is done before the text
-  is "fully cooked" so that input from experts in another organization
+  is completely finalized so that input from experts in another organization
   can be included in the final result.
 * In the case of overlapping or related work in another organization,
   a request could be made that the other organization
@@ -347,7 +346,7 @@ to another organization such as
 
 Further, a group might reply to an incoming liaison statement, as discussed
 in more detail in the next section; however, of course, the same requirements
-on consensus and approval as discussed in this section are applied.
+on consensus and approval as discussed in this section must be applied.
 
 Liaison Statements can be generated at a WG, Area, or IETF level to another
 organization. The respective (co)chair(s) or Area Director (AD) are responsible
@@ -418,8 +417,8 @@ purposes, the chairs or AD might not reach out for consensus.
 Further, requests for information from the other organization,
 including requests for access to certain documents of other
 organizations that are not publicly available, may be initiated by
-the chair if the additional input is considered helpful for the group's
-progress.
+the chair without an explicit call for consensus if the additional
+input is considered helpful for the group's progress.
 
 Other requests, that might often be initiated by a specific group discussion,
 such as soliciting comments for a standards track WG Internet Draft,
@@ -481,8 +480,8 @@ the opportunity.
 
 Examples of the kinds of actions that may be requested are:
 
-* Access to documents or information about the process and timelines.
-* Comments on a document of another organisation.
+* Access to IETF documents or information about the IETF process and timelines.
+* Comments from the IETF on a document of the other organisation.
 * Technical questions related to an RFC or working group document.
 * A request for the IETF to align its work with that of the other
   organization, in the case of overlapping or related work.
