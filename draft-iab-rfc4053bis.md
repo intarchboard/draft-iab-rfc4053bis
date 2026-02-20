@@ -177,7 +177,7 @@ From:
    working groups, but usually all groups are from the same organization.
 
 From-Contact:
-: One or more electronic mail addresses belonging to the "From" body.
+: One or more email addresses belonging to the "From" body.
    This includes the addresses associated with the "From" group(s),
    e.g. in the IETF these are the working group chairs, working group mailing lists, and Area Director(s), and
    contacts that are required for the management of the liaison, like the
@@ -199,7 +199,7 @@ To:
    groups within one body.
 
 To-Contact:
-: One or more electronic mail addresses from the receiving body to which this
+: One or more email addresses from the receiving body to which this
    statement should be sent. Similar to the "From-Contact" this includes all addresses
    associated with the "To" information, additional contacts that are required for liaison management,
    as well as any additional experts.
@@ -281,8 +281,8 @@ from other organisations.
 
 For the IETF, a liaison statement is a message that was sent or received
 (usually an email or some formal letter)
-that is recorded in our liaison management tool,
-i.e. the value of sending a liaison statement for an organization compared to an email,
+and is recorded in the IETF liaison management tool.
+The value of sending a liaison statement for an organization compared to an email,
 is that it will officially be recorded and the public record will attest
 that certain information has been communicated between the organizations.
 
@@ -430,7 +430,7 @@ Generally, it is recommended to inform the respective group or individuals
 before transmitting a statement to create early awareness
 as the recording and sending of the statement must be announced to the originating group.
 
-## Transmitting (references to) documents {#transmit-docs}
+## Transmitting (References to) Documents {#transmit-docs}
 
 Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
 Standard, BCP), and any WG document expected to be placed on the
