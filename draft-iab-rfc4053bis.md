@@ -66,7 +66,7 @@ and received liaison statements in a publicly accessible central location,
 which makes it more formal than other direct communications. However,
 liaison statements do not have any special standing within the IETF process
 otherwise. This means that any input provided through a liaison statement,
-even if that statement reflects consensus in the other organisation, 
+even if that statement reflects consensus in the other organisation,
 iss given no more weight in IETF consensus processes than (individually-provided)
 contributions to the IETF through other forms of communication.
 
