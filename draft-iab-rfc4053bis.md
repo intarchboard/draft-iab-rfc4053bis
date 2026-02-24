@@ -113,6 +113,14 @@ indicate agreement or consensus on the topic raised to
 the IETF. IETF positions require community rough consensus
 via processes managed by the working group chairs and the Internet Engineering Steering Group (IESG).
 
+Liaison communication is intended for coordinating
+information relevant to the standards process, auch as information
+about standard track documents or other process related information.
+Usually liaison coordinatation does not have a need to cover other
+RFC publications such as those by the IRTF, the Independent Stream, or
+the RFC editorial series. If reference to such non-consensu documents are needed,
+their status should be clearly indicated, as further discussed in {{transmit-docs}}.
+
 Sometimes liaison statements sent from other SDOs may cover topics
 that are relevant for research done in the IRTF. In this case the IAB
 consults with the IRTF chair who might choose to forward them
@@ -441,9 +449,10 @@ architecture document.
 
 Individually submitted Internet Drafts, Experimental or Historical
 RFCs, and non-WG informational documents should not be transmitted
-without developing further consensus within the relevant group, as
-these documents cannot be truthfully represented as any kind of IETF
-position.
+without either developing further consensus within the relevant
+group or without explicitly including the context related to their
+state and noting that they are not documents that represent IETF
+consensus.
 
 In all cases, the document status must be appropriately noted.  In
 the case of a WG Internet Draft, it must be clear that the existence
