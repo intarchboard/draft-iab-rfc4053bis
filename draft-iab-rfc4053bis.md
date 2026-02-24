@@ -47,9 +47,12 @@ standards community.
 # Introduction
 
 This document describes the procedure for generating and handling
-liaison statements between the IETF and other SDOs, so that the IETF can
+liaison statements within the IETF, covering both statements sent by
+the IETF as well as statement received from other SDOs. This process is
+managed by the IAB and designed such that the IETF can
 effectively collaborate with other organizations in the international
-standards community.
+standards community. The IAB also serves as contact point for any matters
+regarding liaison management beyond the scope of this document.
 
 Most organizations have a process to send liaison statements that simply
 provides a more formal way of communication, beyond just sending an informal
