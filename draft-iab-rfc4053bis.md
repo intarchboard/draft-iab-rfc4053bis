@@ -415,11 +415,10 @@ or general information about the process or (WG) scope.
 When sending such statements for pure information sharing
 purposes, the chairs or AD might not reach out for consensus.
 
-Further, requests for information from the other organization,
-including requests for access to certain documents of other
-organizations that are not publicly available, may be initiated by
-the chair if the additional input is considered helpful for the group's
-progress.
+When the IETF is working toward consensus on documents that relate to
+peer organizations and information from another organization is needed
+that are not publicly available, chairs may use Liaison Statements to
+request the needed information or documents from the peer organization.
 
 Other requests, that might often be initiated by a specific group discussion,
 such as soliciting comments for a standards track WG Internet Draft,
