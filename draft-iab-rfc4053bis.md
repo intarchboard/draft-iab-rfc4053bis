@@ -452,7 +452,7 @@ outcomes:
    mailing list, or if there is no further discussion, a response is
    still anticipated to the originator.  The reply may summarize the email comments, or
    indicate a lack of interest in the issue. The reply should clearly indicated that it
-   represents "collected comments" rather than a consensus of the IETF group. 
+   represents "collected comments" rather than a consensus of the IETF group.
    It is possible to send this kind of reply even if some of the comments are contradictory.
 
 For requests for actions received from another organization, for example, a request for initiating or stopping a
@@ -504,7 +504,7 @@ chair may request the sender to make their case to the
 IETF WG in the same manner that an author of an Internet-Draft makes
 their case.
 
-### Responding to Incoming Requests for Actions
+## Responding to Incoming Requests for Actions (by the Deadline)
 
 If a reply is requested (usually marked as "For Action"),
 the originating organziation expects a response by the deadline.
