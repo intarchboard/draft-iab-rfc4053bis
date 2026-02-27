@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 24 August 2026                                 20 February 2026
+Expires: 31 August 2026                                 27 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 August 2026.
+   This Internet-Draft will expire on 31 August 2026.
 
 Copyright Notice
 
@@ -109,8 +109,8 @@ Table of Contents
    communications.  However, liaison statements do not have any special
    standing within the IETF process otherwise.  This means that any
    input provided through a liaison statement, even if that statement
-   reflects consensus in the other organisation, iss given no more
-   weight in IETF consensus processes than (individually-provided)
+   reflects consensus in the other organisation, is given no more weight
+   in IETF consensus processes than (individually-provided)
    contributions to the IETF through other forms of communication.
 
    Further, liaison statements sent by the IETF usually do not go though
