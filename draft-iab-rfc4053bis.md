@@ -435,7 +435,7 @@ such as soliciting comments for a standards track WG Internet Draft,
 usually benefit from some level of consensus to be reached in the WG, or
 another appropriate, open mailing list.
 
-### Handling to Incoming Requests for Actions
+### Handling of Incoming Requests for Actions
 
 If an incoming liaison statement requests information that goes beyond
 what is documented in existing IETF documents, such as asking for comments
