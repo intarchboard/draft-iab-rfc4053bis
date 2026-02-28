@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 31 August 2026                                 27 February 2026
+Expires: 1 September 2026                               28 February 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 August 2026.
+   This Internet-Draft will expire on 1 September 2026.
 
 Copyright Notice
 
@@ -77,7 +77,7 @@ Table of Contents
    4.  Sending Liaison Statements from the IETF
      4.1.  Approval
      4.2.  Level of Consensus
-       4.2.1.  Handling to Incoming Requests for Actions
+       4.2.1.  Handling of Incoming Requests for Actions
      4.3.  Transmitting (references to) documents
    5.  Receiving Incoming Liaison Statements
      5.1.  Responding to Incoming Requests for Actions (by the
@@ -542,7 +542,7 @@ Table of Contents
    Internet Draft, usually benefit from some level of consensus to be
    reached in the WG, or another appropriate, open mailing list.
 
-4.2.1.  Handling to Incoming Requests for Actions
+4.2.1.  Handling of Incoming Requests for Actions
 
    If an incoming liaison statement requests information that goes
    beyond what is documented in existing IETF documents, such as asking
