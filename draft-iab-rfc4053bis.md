@@ -463,7 +463,7 @@ special standing and should be considered equal to all other inputs.
 Still, if there is a need for this work by the other organization the request
 should be considered seriously, as further discussed in {{receiving}}.
 
-## Transmitting (references to) documents {#transmit-docs}
+### Transmitting (references to) documents {#transmit-docs}
 
 Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
 Standard, BCP), and any WG document expected to be placed on the
