@@ -154,7 +154,7 @@ Further, the following has been updated:
 2. Merge and shortening of section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) in one new section
 3. The term "business letter" was removed throughout the document
 4. Additional text in intro to clarify scope and foucs on standards process was added
-5. Both section on consensus have been merged
+5. Both sections on consensus have been merged
 
 #  Content of Liaison Statements
 
