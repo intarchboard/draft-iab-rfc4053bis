@@ -416,7 +416,7 @@ as the recording and sending of the statement must be announced to the originati
 
 The simplest case of sending a liaison statement from
 the IETF is when the information being transmitted is based on
-already existing IETF consensus, e.g. by referencing an IETF
+established consensus, e.g., by referencing an IETF
 document that has some level of agreement within the IETF,
 as further discussed in the next section,
 or general information about the process or working group scope.
