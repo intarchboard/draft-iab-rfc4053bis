@@ -410,9 +410,8 @@ initiated by the IETF as well as for liaison statements that are sent in
 response to a received liasion statement from another organization.
 
 Even if the responsible chairs or ADs intend to send a liaison statement
-without establishing additional consensus, it is recommended to inform the respective group or individuals
-before transmitting a statement to create early awareness
-as the recording and sending of the statement must be announced to the originating group.
+without establishing additional consensus, the originator should inform the group it represents
+prior to its transmission and not only when the the statement is already sent and recorded.
 
 The simplest case of sending a liaison statement from
 the IETF is when the information being transmitted is based on
