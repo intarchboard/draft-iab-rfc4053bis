@@ -523,9 +523,9 @@ Table of Contents
    group.
 
    The simplest case of sending a liaison statement from the IETF is
-   when the information being transmitted is based on already existing
-   IETF consensus, e.g. by referencing an IETF document that has some
-   level of agreement within the IETF, as further discussed in the next
+   when the information being transmitted is based on established
+   consensus, e.g., by referencing an IETF document that has some level
+   of agreement within the IETF, as further discussed in the next
    section, or general information about the process or working group
    scope.  In such cases, where the statement is send for pure
    information sharing purposes, the chairs or ADs may choose to not
