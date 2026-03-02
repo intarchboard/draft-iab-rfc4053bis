@@ -77,7 +77,7 @@ Table of Contents
    4.  Sending Liaison Statements from the IETF
      4.1.  Approval
      4.2.  Level of Consensus
-     4.3.  Transmitting (references to) documents
+     4.3.  Transmitting (References to) Documents
    5.  Receiving and Responding to Incoming Liaison Statements
      5.1.  Level of Consensus When Sending a Response
    6.  Security Considerations
@@ -259,15 +259,15 @@ Table of Contents
       from more than one group, e.g. multiple IETF working groups, but
       usually all groups are from the same organization.
 
-   From-Contact:  One or more electronic mail addresses belonging to the
-      "From" body.  This includes the addresses associated with the
-      "From" group(s), e.g. in the IETF these are the working group
-      chairs, working group mailing lists, and Area Director(s), and
-      contacts that are required for the management of the liaison, like
-      the liaison manager (if one exists) and/or an IAB liaison contact
-      in case of statements sent by the IETF or the staff person from
-      the external organisation that has sent the incoming liaison by
-      mail, as well as any additional technical experts who should be
+   From-Contact:  One or more email addresses belonging to the "From"
+      body.  This includes the addresses associated with the "From"
+      group(s), e.g. in the IETF these are the working group chairs,
+      working group mailing lists, and Area Director(s), and contacts
+      that are required for the management of the liaison, like the
+      liaison manager (if one exists) and/or an IAB liaison contact in
+      case of statements sent by the IETF or the staff person from the
+      external organisation that has sent the incoming liaison by mail,
+      as well as any additional technical experts who should be
       informed.
 
    From-Liaison-Contact ("Send Reply to"):  An explicit "Send Reply To"
@@ -286,11 +286,11 @@ Table of Contents
       statement may be sent to multiple bodies or groups within one
       body.
 
-   To-Contact:  One or more electronic mail addresses from the receiving
-      body to which this statement should be sent.  Similar to the
-      "From-Contact" this includes all addresses associated with the
-      "To" information, additional contacts that are required for
-      liaison management, as well as any additional experts.
+   To-Contact:  One or more email addresses from the receiving body to
+      which this statement should be sent.  Similar to the "From-
+      Contact" this includes all addresses associated with the "To"
+      information, additional contacts that are required for liaison
+      management, as well as any additional experts.
 
    To-Liaison-Contact ("Send to"):  If this address is present, the
       liaison statement is only sent to this address and not to the
@@ -371,8 +371,8 @@ Table of Contents
 3.  Recording Liaison Statements
 
    For the IETF, a liaison statement is a message that was sent or
-   received (usually an email or some formal letter) that is recorded in
-   our liaison management tool, i.e. the value of sending a liaison
+   received (usually an email or some formal letter) and is recorded in
+   the IETF liaison management tool.  The value of sending a liaison
    statement for an organization compared to an email, is that it will
    officially be recorded and the public record will attest that certain
    information has been communicated between the organizations.
@@ -534,7 +534,7 @@ Table of Contents
    as the recording and sending of the statement must be announced to
    the originating group.
 
-4.3.  Transmitting (references to) documents
+4.3.  Transmitting (References to) Documents
 
    Any Standards Track RFC (Draft Standard, Proposed Standard, Internet
    Standard, BCP), and any WG document expected to be placed on the
