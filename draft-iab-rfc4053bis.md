@@ -423,12 +423,11 @@ or general information about the process or working group scope.
 In such cases, where the statement is send for pure information sharing
 purposes, the chairs or ADs may choose to not seek for additional consensus.
 
-Statements sent by the IETF that request information from the other organization,
-including e.g. access to non-public documents of the other
-organization, may be initiated directly by the chair without
-seeking for additional group consensus if the
-additional input is expected to be beneficial for the group's
-progress.
+Similarly, when the IETF is working on documents that relate to
+peer organizations and information from the other organization is needed
+that is not publicly available, chairs may use Liaison Statements to
+request the needed information or documents from the peer organization
+without seeking for additional group consensus.
 
 Other requests, that might often be initiated by a specific group discussion,
 such as soliciting comments for a standards track WG Internet Draft,
