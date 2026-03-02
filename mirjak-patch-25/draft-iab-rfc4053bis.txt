@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 28 August 2026                                 24 February 2026
+Expires: 3 September 2026                                   2 March 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 August 2026.
+   This Internet-Draft will expire on 3 September 2026.
 
 Copyright Notice
 
@@ -167,7 +167,7 @@ Table of Contents
    track documents or other process related information.  Usually
    liaison coordinatation does not have a need to cover other RFC
    publications such as those by the IRTF, the Independent Stream, or
-   the RFC editorial series.  If reference to such non-consensu
+   the RFC editorial series.  If reference to such non-consensus
    documents are needed, their status should be clearly indicated, as
    further discussed in Section 4.3.
 
