@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 31 August 2026                                 27 February 2026
+Expires: 3 September 2026                                   2 March 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -15,9 +15,9 @@ Expires: 31 August 2026                                 27 February 2026
 Abstract
 
    This document describes the procedures for generating and handling
-   liaison statements between the IETF and other SDOs, so that the IETF
-   can effectively collaborate with other organizations in the
-   international standards community.
+   liaison statements between the IETF and other Standards Development
+   Organizations (SDOs), so that the IETF can effectively collaborate
+   with other organizations in the international standards community.
 
 About This Document
 
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 August 2026.
+   This Internet-Draft will expire on 3 September 2026.
 
 Copyright Notice
 
@@ -89,9 +89,9 @@ Table of Contents
 1.  Introduction
 
    This document describes the procedure for generating and handling
-   liaison statements between the IETF and other SDOs, so that the IETF
-   can effectively collaborate with other organizations in the
-   international standards community.
+   liaison statements between the IETF and other Standards Development
+   Organizations (SDOs), so that the IETF can effectively collaborate
+   with other organizations in the international standards community.
 
    Most organizations have a process to send liaison statements that
    provides a more formal way of communication, beyond just sending an
@@ -107,11 +107,11 @@ Table of Contents
    sent and received liaison statements in a publicly accessible central
    location, which makes it more formal than other direct
    communications.  However, liaison statements do not have any special
-   standing within the IETF process otherwise.  This means that any
-   input provided through a liaison statement, even if that statement
-   reflects consensus in the other organisation, is given no more weight
-   in IETF consensus processes than (individually-provided)
-   contributions to the IETF through other forms of communication.
+   standing within the IETF process.  This means that any input provided
+   through a liaison statement, even if that statement reflects
+   consensus in the other organisation, does not have a different
+   standing in the IETF process than other (individually-provided)
+   inputs.
 
    Further, liaison statements sent by the IETF usually do not go though
    the normal IETF consensus process (e.g. an IETF-wide last call) and
@@ -131,20 +131,19 @@ Table of Contents
    Section 4.2.
 
    The exchange of liaison statements does not require a formal liaison
-   relationship (see [I-D.krishnan-iab-rfc4052bis]).  The procedures
-   described in this document encompass all liaisons statements received
-   from or sent to other SDOs, whether or not a formal liaison
-   arrangement is in place between the SDO and the IETF.  The IAB is
-   generally responsible for ensuring liaison statements are handled
-   appropriately and can assist with any liaison matter.  If a formal
-   liaison relationship with an IAB-appointed liaison manager is in
-   place, the liaison manager assists the IAB in this responsibility and
-   is the first contact point for liaison statements send to or received
-   from the respective SDO, as also further explained in
-   [I-D.krishnan-iab-rfc4052bis].  Especially, the liaison manager
-   should be consulted before sending a liaison statement to ensure
-   formal requirements or agreements of the liaison relation are
-   followed.
+   relationship (see [I-D.iab-rfc4052bis]).  The procedures described in
+   this document encompass all liaisons statements received from or sent
+   to other SDOs, whether or not a formal liaison arrangement is in
+   place between the SDO and the IETF.  The IAB is generally responsible
+   for ensuring liaison statements are handled appropriately and can
+   assist with any liaison matter.  If a formal liaison relationship
+   with an IAB-appointed liaison manager is in place, the liaison
+   manager assists the IAB in this responsibility and is the first
+   contact point for liaison statements send to or received from the
+   respective SDO, as also further explained in [I-D.iab-rfc4052bis].
+   Especially, the liaison manager should be consulted before sending a
+   liaison statement to ensure formal requirements or agreements of the
+   liaison relation are followed.
 
    Receipt of a liaison statement does not automatically impose an
    obligation of sending a response by the other party.  The decision to
@@ -153,8 +152,8 @@ Table of Contents
    is considered for its relevance, importance, and urgency.  However,
    if a formal liaison relationship exists, it is the responsibility of
    the liaison manager to ensure appropriate communication between the
-   organisations (see Section 3 of [I-D.krishnan-iab-rfc4052bis]) even
-   if no response is sent.
+   organisations (see Section 3 of [I-D.iab-rfc4052bis]) even if no
+   response is sent.
 
    If no response to an incoming liaison statement is provided, this
    does not indicate agreement or consensus on the topic raised to the
@@ -181,11 +180,13 @@ Table of Contents
 
    Further, the following has been updated:
 
-   1.  A shorter abstract and introduction, as well as a clarification
-       in the introduction about obligations to send replies.
+   1.  The abstract and introduction as been shortened, and a
+       clarification was added in the introduction about obligations to
+       send replies.
 
-   2.  Removal of the definition section (2.1) as "assignee" is not used
-       anymore, and the "addressee" is now simply called the receiver.
+   2.  The definition section (2.1) has been removed as "assignee" is
+       not used anymore, and the "addressee" is now simply called the
+       receiver.
 
    3.  The section on "Content of a Liaison Statement" has been revised
        to
@@ -205,39 +206,40 @@ Table of Contents
           process preferred now by the IETF where the central address is
           either the liaison manager or the IAB coordination contact.
 
-   4.  The purpose "For Comment" has been removed as either "For
-       Information" or "For Action" can be used instead; depending if a
-       deadline is needed or not.  In the current record of statements,
-       "For Comment" has been rarely used indicating that this purpose
-       is not needed or at least its meaning was not clear.
+   4.  The purpose "For Comment" was removed as either "For Information"
+       or "For Action" can be used instead; depending if a deadline is
+       needed or not.  In the current record of statements, "For
+       Comment" has been rarely used indicating that this purpose is not
+       needed or at least its meaning was not clear.
 
-   5.  New section on "Recording Liaison Statements" that replaces
-       Section 2.4. on "Lifetime of a Liaison Statement" to underline
-       how important the public record of a liaison statement is and
-       clarify the responsibility of the receiver to ensure that all
-       incoming statements get appropriately recorded.
+   5.  New section was added on "Recording Liaison Statements" that
+       replaces Section 2.4. on "Lifetime of a Liaison Statement" to
+       underline how important the public record of a liaison statement
+       is and clarify the responsibility of the receiver to ensure that
+       all incoming statements get appropriately recorded.
 
    6.  Section 4 from [RFC4052] on "Approval and Transmission of Liaison
        Statements" has been merged to this document
 
-   7.  New text in intro regarding consensus and liaison statements
-       having no special standing, as well as the role of the IRTF
+   7.  New text was added in the intro regarding consensus and liaison
+       statements having no special standing, as well as the role of the
+       IRTF
 
-   8.  Re-working and shortening of Section on "Sending Liaison
-       Statements from the IETF", which includes subsections on Approval
-       and consensus now
+   8.  Section on "Sending Liaison Statements from the IETF" was re-
+       worked and shortened, which noew includes the subsections on
+       approval and consensus.
 
-   9.  Merge and shortening of section 3 (Responsibilities when
-       Receiving a Liaison Statement), Section 4 (Recording), and 6
-       (Responding) in one new section
+   9.  Section 3 (Responsibilities when Receiving a Liaison Statement),
+       Section 4 (Recording), and 6 (Responding) were merged and
+       shorteded in one new section.
 
 2.  Content of Liaison Statements
 
-   A Liaison Statement is a formal letter sent by one standards
-   organization to another.  These organizations may be at any level
-   (WG, Area, etc.).  A liaison statement may have any purpose, but
-   generally the purpose is to solicit information or request an action,
-   like share a document, or ask for a review or a technical question.
+   A Liaison Statement is a formal letter sent by one SDO to another.
+   These organizations may be at any level (WG, Area, etc.).  A liaison
+   statement may have any purpose, but generally the purpose is to
+   solicit information or request an action, like share a document, or
+   ask for a review or a technical question.
 
    Liaison statements may be very formal or informal, depending on the
    rules of the body generating them.  Any liaison statement, however,
@@ -396,14 +398,14 @@ Table of Contents
 
    However, it is difficult to ensure that liaison statements will
    always be sent to the right group or person, as statements are
-   sometimes sent directly to WG mailing lists or individuals.  E.g an
-   SDO might send a liaison statement to a specific IETF Area whose Area
-   Director (AD) deems it better handled by one of the WGs, or it might
-   be sent to one WG when it should have gone to a different, more
-   relevant one.  If a liaison statement arrives that appears
-   misdirected, it is recommended to manually forward it to the right
-   groups and inform the liaison manager or the IAB so that informal
-   feedback can be provided to the sender for the future.
+   sometimes sent directly to WG mailing lists or individuals.  For
+   example, an SDO might send a liaison statement to a specific IETF
+   Area whose Area Director (AD) deems it better handled by one of the
+   WGs, or it might be sent to one WG when it should have gone to a
+   different, more relevant one.  If a liaison statement arrives that
+   appears misdirected, it is recommended to manually forward it to the
+   right groups and inform the liaison manager or the IAB so that
+   informal feedback can be provided to the sender for the future.
 
 3.2.  Outgoing Liaison Statements from the IETF
 
@@ -413,13 +415,13 @@ Table of Contents
    liaison statements must be publicly recorded.  Therefore, it is
    recommended to use an IETF-provided tool to send liaison statements,
    rather than send them directly by email and record them after the
-   fact.  This approach is possible e.g. if a certain form of submission
-   other than email is required by the other organization.
+   fact.  This approach is possible if, e.g. a certain form of
+   submission other than email is required by the other organization.
 
 4.  Sending Liaison Statements from the IETF
 
    There are different reasons for an IETF group to send a liaison
-   statement to another organization such as
+   statement to another organization, such as
 
    *  A working group might request additional information from another
       organization, for example, to resolve an impasse (i.e., don't
@@ -473,10 +475,9 @@ Table of Contents
    to ensure that those writing such statements, who claim to be
    speaking on behalf of a group in the IETF, are truly representing
    IETF views.  This does not include statements sent by the IAB, which
-   require IAB approval instead, based on the judgment of the IAB Chair.
-   Statements sent from an area, respectively, need approval by at least
-   one of the responsible ADs.  Statements sent by the IETF or IESG
-   require IETF Chair approval.
+   require IAB approval.  Statements sent from an area, respectively,
+   need approval by at least one of the responsible ADs.  Statements
+   sent by the IETF or IESG require IETF Chair approval.
 
    Sometimes it is beneficial or required to send a statement that
    indicates the IETF as the originator rather than a specific working
@@ -606,16 +607,16 @@ Table of Contents
    communication.  Otherwise, the IAB can be consulted and should be
    integrated into any additional informal communication.
 
-   There is, of course, no requirement that the IETF performs the action
-   that was requested.  But the request should always be taken
-   seriously, and generally, a response is anticipated.  The reply may
-   be that the information was useful or not useful, that the requested
-   action has been accomplished, it will be accomplished by a specified
-   date, it will not be done for a specific reason, an answer to a
-   question posed, or any other appropriate reply.  If the IETF decides
-   not to honor the request, or to honor it with modifications, ideally,
-   the response should include the reasons and, if applicable, an
-   alternate course of action.
+   There is, of course, no requirement that the IETF performs the
+   requested action.  But the request should always be taken seriously,
+   and generally, a response is anticipated.  The reply may be that the
+   information was useful or not useful, that the requested action has
+   been accomplished, it will be accomplished by a specified date, it
+   will not be done for a specific reason, an answer to a question
+   posed, or any other appropriate reply.  If the IETF decides not to
+   honor the request, or to honor it with modifications, ideally, the
+   response should include the reasons and, if applicable, an alternate
+   course of action.
 
    It is the responsibility of the (co)chair(s) of the addressed group,
    supported by the liaison manager if one exists, to ensure that a
@@ -627,10 +628,10 @@ Table of Contents
 
 5.1.  Level of Consensus When Sending a Response
 
-   As discussed in Section 4.2, it is the chairs' and AD's
-   responsibility to decide about the necessary level of consensus
-   needed for a certain response.  This section adds additional
-   consideration when replying to a request from another organization.
+   As discussed in Section 4.2, it is the responsibility of the chairs
+   and ADs to decide about the necessary level of consensus needed for a
+   certain response.  This section adds additional consideration when
+   replying to a request from another organization.
 
    As also discussed in Section 4.3, if another organization requests
    information that can be found in an IETF document, this can be
@@ -716,12 +717,12 @@ Acknowledgments
 
 Informative References
 
-   [I-D.krishnan-iab-rfc4052bis]
+   [I-D.iab-rfc4052bis]
               Krishnan, S., Kühlewind, M., and Q. Wu, "IAB Processes for
               Management of IETF Liaison Relationships", Work in
-              Progress, Internet-Draft, draft-krishnan-iab-rfc4052bis-
-              01, 14 June 2025, <https://datatracker.ietf.org/doc/html/
-              draft-krishnan-iab-rfc4052bis-01>.
+              Progress, Internet-Draft, draft-iab-rfc4052bis-02, 11
+              February 2026, <https://datatracker.ietf.org/doc/html/
+              draft-iab-rfc4052bis-02>.
 
    [RFC4052]  Daigle, L., Ed. and IAB, "IAB Processes for Management of
               IETF Liaison Relationships", BCP 102, RFC 4052,
