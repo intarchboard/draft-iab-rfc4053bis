@@ -161,8 +161,8 @@ request an action, like share a document, or ask for a review or a technical que
 
 Liaison statements may be very formal or informal, depending on the
 rules of the body generating them.  Any liaison statement, however,
-will always contain certain information, much as a business letter
-does. In order to be able to process and record these statements
+will always contain certain information to enable effective communication.
+Further, in order to be able to process and record these statements
 in the IETF, the information should include the following:
 
 ##  Contact Information
@@ -239,7 +239,7 @@ offering an alternative course of action.
 
 ## Body, Subject, and Attachments
 
-As with any business letter, the liaison statement contains
+Most importantly, the liaison statement contains
 content explaining the issues or questions at hand.
 
 Usually, the statement also contains a short (single line) subject
@@ -279,9 +279,9 @@ from other organisations.
 #  Recording Liaison Statements
 
 For the IETF, a liaison statement is a message that was sent or received
-(usually an email or some formal letter)
+(usually in an email directly or attached as some formal letter)
 and is recorded in the IETF liaison management tool.
-The value of sending a liaison statement for an organization compared to an email,
+The value of sending a liaison statement for an organization compared to an informal email,
 is that it will officially be recorded and the public record will attest
 that certain information has been communicated between the organizations.
 
@@ -452,8 +452,7 @@ treated as nothing more than as 'Work in Progress'.
 
 #  Receiving and Responding to Incoming Liaison Statements
 
-The responsibilities of the receiver of a liaison statement are the
-same as the responsibilities of any business letter.  A liaison
+A liaison
 statement calls for appropriate consideration of its contents.
 Liaison Statements are always important to the body that sent them.
 Having arrived at the appropriate body, the liaison statement may be
