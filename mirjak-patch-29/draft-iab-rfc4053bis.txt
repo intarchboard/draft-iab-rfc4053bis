@@ -241,7 +241,7 @@ Table of Contents
    11.  Additional text in intro to clarify scope and foucs on standards
         process was added
 
-   12.  Both section on consensus have been merged
+   12.  Both sections on consensus have been merged
 
 2.  Content of Liaison Statements
 
