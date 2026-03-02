@@ -243,9 +243,10 @@ Table of Contents
 
    Liaison statements may be very formal or informal, depending on the
    rules of the body generating them.  Any liaison statement, however,
-   will always contain certain information, much as a business letter
-   does.  In order to be able to process and record these statements in
-   the IETF, the information should include the following:
+   will always contain certain information to enable effective
+   communication.  Further, in order to be able to process and record
+   these statements in the IETF, the information should include the
+   following:
 
 2.1.  Contact Information
 
@@ -327,8 +328,8 @@ Table of Contents
 
 2.3.  Body, Subject, and Attachments
 
-   As with any business letter, the liaison statement contains content
-   explaining the issues or questions at hand.
+   Most importantly, the liaison statement contains content explaining
+   the issues or questions at hand.
 
    Usually, the statement also contains a short (single line) subject
    providing a statement of its context and content.
@@ -371,11 +372,12 @@ Table of Contents
 3.  Recording Liaison Statements
 
    For the IETF, a liaison statement is a message that was sent or
-   received (usually an email or some formal letter) and is recorded in
-   the IETF liaison management tool.  The value of sending a liaison
-   statement for an organization compared to an email, is that it will
-   officially be recorded and the public record will attest that certain
-   information has been communicated between the organizations.
+   received (usually in an email directly or attached as some formal
+   letter) and is recorded in the IETF liaison management tool.  The
+   value of sending a liaison statement for an organization compared to
+   an informal email, is that it will officially be recorded and the
+   public record will attest that certain information has been
+   communicated between the organizations.
 
 3.1.  Incoming Liaison Statements from Other SDOs
 
@@ -557,13 +559,11 @@ Table of Contents
 
 5.  Receiving and Responding to Incoming Liaison Statements
 
-   The responsibilities of the receiver of a liaison statement are the
-   same as the responsibilities of any business letter.  A liaison
-   statement calls for appropriate consideration of its contents.
-   Liaison Statements are always important to the body that sent them.
-   Having arrived at the appropriate body, the liaison statement may be
-   more or less important to the receiver depending on its contents and
-   the expertise of the sender.
+   A liaison statement calls for appropriate consideration of its
+   contents.  Liaison Statements are always important to the body that
+   sent them.  Having arrived at the appropriate body, the liaison
+   statement may be more or less important to the receiver depending on
+   its contents and the expertise of the sender.
 
    If the liaison statement seeks to influence the direction of a WG's
    development, it should receive the same consideration as any input
