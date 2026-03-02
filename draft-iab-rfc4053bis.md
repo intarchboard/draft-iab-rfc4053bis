@@ -116,7 +116,7 @@ via processes managed by the working group chairs and the Internet Engineering S
 Liaison communication is intended for coordinating
 information relevant to the standards process, auch as information
 about standard track documents or other process related information.
-Usually liaison coordinatation does not have a need to cover other
+Usually liaison coordination does not cover other
 RFC publications such as those by the IRTF, the Independent Stream, or
 the RFC editorial series. If reference to such non-consensus documents are needed,
 their status should be clearly indicated, as further discussed in {{transmit-docs}}.
