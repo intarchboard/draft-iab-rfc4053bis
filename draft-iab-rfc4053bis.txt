@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 3 September 2026                                   2 March 2026
+Expires: 4 September 2026                                   3 March 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 September 2026.
+   This Internet-Draft will expire on 4 September 2026.
 
 Copyright Notice
 
@@ -186,6 +186,9 @@ Table of Contents
 
 1.1.  Changes compared to RFC4053
 
+   The text in this section is intended to be removed and replaced with
+   a shorter, high-level summary before publication.
+
    The major change in this revision of the document is that all tooling
    details have been removed.  Particularly, some text in the
    introduction, Section 3.1.1.  (Liaison Statement Submission),
@@ -195,58 +198,68 @@ Table of Contents
 
    Further, the following has been updated:
 
-   1.  The abstract and introduction as been shortened, and a
-       clarification was added in the introduction about obligations to
-       send replies.
+   1.   The abstract and introduction as been shortened, and a
+        clarification was added in the introduction about obligations to
+        send replies.
 
-   2.  The definition section (2.1) has been removed as "assignee" is
-       not used anymore, and the "addressee" is now simply called the
-       receiver.
+   2.   The definition section (2.1) has been removed as "assignee" is
+        not used anymore, and the "addressee" is now simply called the
+        receiver.
 
-   3.  The section on "Content of a Liaison Statement" has been revised
-       to
+   3.   The section on "Content of a Liaison Statement" has been revised
+        to
 
-       *  be less detailed about tooling, e.g. not talking about
-          concrete fields anymore,
+        *  be less detailed about tooling, e.g. not talking about
+           concrete fields anymore,
 
-       *  introduce a new concept to handle contact information,
-          replacing "Response Contact" and "Technical Contact" as well
-          as additional fields ("CC", "From Contact", "To Contact") that
-          exists in the tooling but are actually not specified in
-          [RFC4053] and therefore often caused confusion,
+        *  introduce a new concept to handle contact information,
+           replacing "Response Contact" and "Technical Contact" as well
+           as additional fields ("CC", "From Contact", "To Contact")
+           that exists in the tooling but are actually not specified in
+           [RFC4053] and therefore often caused confusion,
 
-       *  add new address information ("Send Reply To"/"Send To") that
-          can be used to support processes where one central address is
-          used to receive all liaison statements.  This is also the
-          process preferred now by the IETF where the central address is
-          either the liaison manager or the IAB coordination contact.
+        *  add new address information ("Send Reply To"/"Send To") that
+           can be used to support processes where one central address is
+           used to receive all liaison statements.  This is also the
+           process preferred now by the IETF where the central address
+           is either the liaison manager or the IAB coordination
+           contact.
 
-   4.  The purpose "For Comment" was removed as either "For Information"
-       or "For Action" can be used instead; depending if a deadline is
-       needed or not.  In the current record of statements, "For
-       Comment" has been rarely used indicating that this purpose is not
-       needed or at least its meaning was not clear.
+   4.   The purpose "For Comment" was removed as either "For
+        Information" or "For Action" can be used instead; depending if a
+        deadline is needed or not.  In the current record of statements,
+        "For Comment" has been rarely used indicating that this purpose
+        is not needed or at least its meaning was not clear.
 
-   5.  New section was added on "Recording Liaison Statements" that
-       replaces Section 2.4. on "Lifetime of a Liaison Statement" to
-       underline how important the public record of a liaison statement
-       is and clarify the responsibility of the receiver to ensure that
-       all incoming statements get appropriately recorded.
+   5.   New section was added on "Recording Liaison Statements" that
+        replaces Section 2.4. on "Lifetime of a Liaison Statement" to
+        underline how important the public record of a liaison statement
+        is and clarify the responsibility of the receiver to ensure that
+        all incoming statements get appropriately recorded.
 
-   6.  Section 4 from [RFC4052] on "Approval and Transmission of Liaison
-       Statements" has been merged to this document
+   6.   Section 4 from [RFC4052] on "Approval and Transmission of
+        Liaison Statements" has been merged to this document
 
-   7.  New text was added in the intro regarding consensus and liaison
-       statements having no special standing, as well as the role of the
-       IRTF
+   7.   New text was added in the intro regarding consensus and liaison
+        statements having no special standing, as well as the role of
+        the IRTF
 
-   8.  Section on "Sending Liaison Statements from the IETF" was re-
-       worked and shortened, which noew includes the subsections on
-       approval and consensus.
+   8.   Section on "Sending Liaison Statements from the IETF" was re-
+        worked and shortened, which noew includes the subsections on
+        approval and consensus.
 
-   9.  Section 3 (Responsibilities when Receiving a Liaison Statement),
-       Section 4 (Recording), and 6 (Responding) were merged and
-       shorteded in one new section.
+   9.   Section 3 (Responsibilities when Receiving a Liaison Statement),
+        Section 4 (Recording), and 6 (Responding) were merged and
+        shorteded in one new section.
+
+   10.  The term "business letter" was removed throughout the document
+
+   11.  Additional text in intro to clarify scope and foucs on standards
+        process was added
+
+   12.  Both sections on consensus have been merged
+
+   13.  Out-dated text in security consideration section was removed.
 
 2.  Content of Liaison Statements
 
