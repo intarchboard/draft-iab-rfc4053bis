@@ -134,6 +134,8 @@ do not initiate sending of liaison statements.
 
 ## Changes compared to RFC4053
 
+The text in this section is intended to be removed and replaced with a shorter, high-level summary before publication.
+
 The major change in this revision of the document is that all tooling details have been removed.
 Particularly, some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
 Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
@@ -161,6 +163,10 @@ Further, the following has been updated:
 7. New text was added in the intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
 9. Section on "Sending Liaison Statements from the IETF" was re-worked and shortened, which noew includes the subsections on approval and consensus.
 2. Section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) were merged and shorteded in one new section.
+3. The term "business letter" was removed throughout the document
+4. Additional text in intro to clarify scope and foucs on standards process was added
+5. Both sections on consensus have been merged
+6. Out-dated text in security consideration section was removed.
 
 #  Content of Liaison Statements
 
