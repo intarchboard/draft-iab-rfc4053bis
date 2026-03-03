@@ -155,6 +155,7 @@ Further, the following has been updated:
 3. The term "business letter" was removed throughout the document
 4. Additional text in intro to clarify scope and foucs on standards process was added
 5. Both sections on consensus have been merged
+6. Out-dated text in security consideration section was removed.
 
 #  Content of Liaison Statements
 
