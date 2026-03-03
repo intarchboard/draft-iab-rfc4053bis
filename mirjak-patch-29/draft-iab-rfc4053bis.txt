@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 3 September 2026                                   2 March 2026
+Expires: 4 September 2026                                   3 March 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 September 2026.
+   This Internet-Draft will expire on 4 September 2026.
 
 Copyright Notice
 
@@ -242,6 +242,8 @@ Table of Contents
         process was added
 
    12.  Both sections on consensus have been merged
+
+   13.  Out-dated text in security consideration section was removed.
 
 2.  Content of Liaison Statements
 
