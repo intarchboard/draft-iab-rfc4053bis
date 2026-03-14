@@ -527,12 +527,6 @@ gives the receiver a finite opportunity to influence the activity of
 another body; if it fails to react in a timely fashion, it may miss
 the opportunity.
 
-If the request itself cannot be fulfilled by the deadline, it is appropriate for the chairs
-to still send a response (by the deadline) and explain the process, or invite experts
-of the other organization to participate directly.
-Potential follow-up liaison statements might be sent to provide a status update,
-e.g. when a document gets adopted or is ready for publication.
-
 Examples of the kinds of actions that may be requested are:
 
 * Access to IETF documents or information about the IETF process and timelines.
@@ -570,6 +564,12 @@ In some cases, a liaison statement may require consideration by multiple groups 
 the IETF; in such cases, potentially multiple chairs and area directors
 have to coordinate, but ideally one of them takes the lead and
 responsibility for developing a response.
+
+If the request itself cannot be fulfilled by the deadline, it is appropriate for the chairs
+to still send a response (by the deadline) and explain the process, or invite experts
+of the other organization to participate directly.
+Potential follow-up liaison statements might be sent to provide a status update,
+e.g. when a document gets adopted or is ready for publication.
 
 As discussed in {{consensus}}, it is the responsibility of the chairs and ADs
 to decide about the necessary level of consensus needed
