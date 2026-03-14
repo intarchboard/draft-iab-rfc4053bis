@@ -372,15 +372,6 @@ for sending the respective content. This section outlines approval
 requirements and gives guidance about the level of consensus that should be
 sought before sending a liaison statement to another organization.
 
-Generally, it is recommended to base liaison statements
-on existing consensus (in the form of references to RFCs or other IETF documents)
-or focus on information sharing related to e.g. process like expected timelines,
-rather than aiming to communicate technical matters beyond the active work
-of the respective group. Further, the level of consensus implied or not
-implied by the liaison statement should be spelled out clearly in the
-liaison statement itself, as this provides the most clarity and avoids potential
-confusion.
-
 ## Approval
 
 All liaison statements sent by any group in the IETF
@@ -423,6 +414,15 @@ determine whether working groups consensus should be strived for before
 sending a liaison statement. This is equally true for both, liaison statements
 initiated by the IETF as well as for liaison statements that are sent in
 response to a received liasion statement from another organization.
+
+Generally, it is recommended to base liaison statements
+on existing consensus (in the form of references to RFCs or other IETF documents)
+or focus on information sharing related to e.g. process like expected timelines,
+rather than aiming to communicate technical matters beyond the active work
+of the respective group. Further, the level of consensus implied or not
+implied by the liaison statement should be spelled out clearly in the
+liaison statement itself, as this provides the most clarity and avoids potential
+confusion.
 
 Even if the responsible chairs or ADs intend to send a liaison statement
 without establishing additional consensus, the originator should inform the group it represents
