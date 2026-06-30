@@ -446,7 +446,10 @@ without seeking for additional group consensus.
 Other requests, that might often be initiated by a specific group discussion,
 such as soliciting comments for a standards track WG Internet Draft,
 usually benefit from some level of consensus to be reached in the WG, or
-another appropriate, open mailing list.
+another appropriate, open mailing list. Therefore if an explicit consensus
+process is necesary for a liaison statement to be sent, it is recommended to send
+such statements from one ore more specific WGs. Area or IETF level statements
+otherwise require IETF-wide consensus.
 
 ### Handling of Incoming Requests for Actions
 
