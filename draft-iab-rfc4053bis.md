@@ -327,6 +327,16 @@ If a liaison statement arrives that appears misdirected, it is recommended
 to manually forward it to the right groups and inform the liaison manager or
 the IAB so that informal feedback can be provided to the sender for the future.
 
+The person recording the statement should also consider itself as the assignee to
+ensure any follow-up action, including potentially sending a response, are taken,
+if needed, or find another assignee, such a working group chair or area director.
+
+Further, while not mandatorily required, it is recommend to also record publicly an actions taken
+based on a received statement.
+If a reply is sent for the received statement, this automatically creates a public record.
+If other actions are taken, it should be considered to record that in a linked tool or
+mailing list.
+
 ## Outgoing Liaison Statements from the IETF
 
 IETF participants (usually WG chairs or ADs), of course adhering to the requirements
