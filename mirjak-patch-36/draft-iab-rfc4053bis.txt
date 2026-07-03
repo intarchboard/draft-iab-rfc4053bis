@@ -445,8 +445,8 @@ Table of Contents
    Further, while it is not mandatory, it is recommend to also record
    publicly an actions taken based on a received statement.  If a reply
    is sent for the received statement, this automatically creates a
-   public record.  If other actions are taken, it should be considered
-   to record that in a linked tool or mailing list.
+   public record.  If other actions are taken, they should be recorded
+   in a linked tool or mailing list.
 
 3.2.  Outgoing Liaison Statements from the IETF
 
