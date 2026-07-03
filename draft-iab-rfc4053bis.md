@@ -331,7 +331,7 @@ The person recording the statement should also consider themself as the assignee
 ensure any follow-up action, including potentially sending a response, are taken,
 if needed, or find another assignee, such a working group chair or area director.
 
-Further, while not mandatorily required, it is recommend to also record publicly an actions taken
+Further, while it is not mandatory, it is recommend to also record publicly an actions taken
 based on a received statement.
 If a reply is sent for the received statement, this automatically creates a public record.
 If other actions are taken, it should be considered to record that in a linked tool or
