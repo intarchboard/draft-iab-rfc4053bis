@@ -327,7 +327,7 @@ If a liaison statement arrives that appears misdirected, it is recommended
 to manually forward it to the right groups and inform the liaison manager or
 the IAB so that informal feedback can be provided to the sender for the future.
 
-The person recording the statement should also consider itself as the assignee to
+The person recording the statement should also consider themself as the assignee to
 ensure any follow-up action, including potentially sending a response, are taken,
 if needed, or find another assignee, such a working group chair or area director.
 
