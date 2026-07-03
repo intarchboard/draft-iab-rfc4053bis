@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 1 January 2027                                     30 June 2026
+Expires: 4 January 2027                                      3 July 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 January 2027.
+   This Internet-Draft will expire on 4 January 2027.
 
 Copyright Notice
 
@@ -96,8 +96,8 @@ Table of Contents
    Development Organizations (SDOs).  Particularly, it provides guidance
    to and defines requirements for IETF working group chairs, area
    directors, or other IETF participants when generating and handling
-   liaison statements regarding the required content, needed approval,
-   and consensus level of statements sent from the IETF.
+   liaison statements regarding the required content, needed approvals,
+   and indicating the consensus level of statements sent from the IETF.
 
    The process for handling liaison statements is managed by the IAB and
    designed such that the IETF can effectively collaborate with other
