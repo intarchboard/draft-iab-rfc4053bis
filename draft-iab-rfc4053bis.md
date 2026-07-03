@@ -51,7 +51,7 @@ liaison statements within the IETF, covering both statements sent by
 the IETF as well as statement received from other Standards Development Organizations (SDOs).
 Particularly, it provides guidance to and defines requirements for IETF working group chairs,
 area directors, or other IETF participants when generating and handling liaison statements regarding
-the required content, needed approval, and consensus level of statements sent from the IETF.
+the required content, needed approvals, and indicating the consensus level of statements sent from the IETF.
 
 The process for handling liaison statements is managed by the IAB and designed such that the IETF can
 effectively collaborate with other organizations in the international
