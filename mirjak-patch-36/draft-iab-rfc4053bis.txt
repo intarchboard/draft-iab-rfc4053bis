@@ -442,10 +442,10 @@ Table of Contents
    sending a response, are taken, if needed, or find another assignee,
    such a working group chair or area director.
 
-   Further, while not mandatorily required, it is recommend to also
-   record publicly an actions taken based on a received statement.  If a
-   reply is sent for the received statement, this automatically creates
-   a public record.  If other actions are taken, it should be considered
+   Further, while it is not mandatory, it is recommend to also record
+   publicly an actions taken based on a received statement.  If a reply
+   is sent for the received statement, this automatically creates a
+   public record.  If other actions are taken, it should be considered
    to record that in a linked tool or mailing list.
 
 3.2.  Outgoing Liaison Statements from the IETF
