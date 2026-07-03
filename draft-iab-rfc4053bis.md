@@ -334,7 +334,7 @@ if needed, or find another assignee, such a working group chair or area director
 Further, while it is not mandatory, it is recommend to also record publicly an actions taken
 based on a received statement.
 If a reply is sent for the received statement, this automatically creates a public record.
-If other actions are taken, it should be considered to record that in a linked tool or
+If other actions are taken, they should be recorded in a linked tool or
 mailing list.
 
 ## Outgoing Liaison Statements from the IETF
