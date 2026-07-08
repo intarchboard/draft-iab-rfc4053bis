@@ -213,7 +213,7 @@ From-Liaison-Contact ("Send Reply to"):
    address associated with a role or process. For liaison statements sent by the IETF, this address should be the alias
    of the liaison manager, if applicable, or an address maintained by the IAB for liaison
    management such as liaison-coordination@iab.org. Using a central contact point ensures that all received statements
-   are recorded, handled appropriately, and feedback is provided to the sender if desired. 
+   are recorded, handled appropriately, and feedback is provided to the sender if desired.
    If a "Send Reply To" address is provided,
    the expectation is that a statement sent in reply use this address as the To-Liaison Contact.
 
