@@ -215,8 +215,9 @@ From-Liaison-Contact ("Send Reply to"):
   in the receiving organisation, following their internal process.
 
 To:
-: The statement needs to indicate to which body it is sent. A statement may be sent to multiple bodies or
-   groups within one body.
+: The statement needs to indicate to which body it is sent. A statement may be sent to multiple
+   groups within one body or even multiple bodies. However, it is rather recommended to send separate
+   statements to different bodies to avoid unnessary interconnections.
 
 To-Contact:
 : One or more email addresses from the receiving body to which this
