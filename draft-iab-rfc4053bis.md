@@ -204,15 +204,18 @@ From-Contact:
    liaison manager (if one exists) and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
    liaison by mail, as well as any additional technical experts who should be informed.
+   For statements sent from the IETF all working groups, areas, leadership groups, or individuals
+   as listed in the From-Contacts should be informed about the sending.
 
 From-Liaison-Contact ("Send Reply to"):
 : An explicit "Send Reply To" address may be provided that is used for processing
    the liaison statement reply. This address is usually not a personal address but rather a generic
    address associated with a role or process. For liaison statements sent by the IETF, this address should be the alias
    of the liaison manager, if applicable, or an address maintained by the IAB for liaison
-   management such as liaison-coordination@iab.org. If a "Send Reply To" address is provided, the expectation is that a statement
-   sent in reply will only be sent to this address and will then be distributed
-  in the receiving organisation, following their internal process.
+   management such as liaison-coordination@iab.org. Using a central contact point ensures that all received statements
+   are recorded, handled appropriately, and feedback is provided to the sender if desired. 
+   If a "Send Reply To" address is provided,
+   the expectation is that a statement sent in reply use this address as the To-Liaison Contact.
 
 To:
 : The statement needs to indicate to which body it is sent. A statement may be sent to multiple bodies or
@@ -226,10 +229,15 @@ To-Contact:
 
 To-Liaison-Contact ("Send to"):
 : If this address is present, the liaison statement is only sent to this address and not
-   to the addresses in the "To-Contact". If a liaison statement is a reply, this "Send to" address is
+   to the addresses in the "To-Contact" and will then be distributed
+   in the receiving organisation, following their internal process.
+   If a liaison statement is a reply, this "Send to" address is
    the "Send Reply To" address provided by the other organisation in the original statement.
    This supports processes where an organisation has a central contact address to receive statements
    and then distributes the statement using their own process to the appropriate groups and persons internally.
+   Any received statement by the IETF will record the email address that the statements was orginially received
+   on in the To-Liaison-Contact and then, after recording, must be distributed to the respective
+   working groups, areas, leadership groups, or individuals as listed in the From-Contacts.
 
 ## Purpose
 
