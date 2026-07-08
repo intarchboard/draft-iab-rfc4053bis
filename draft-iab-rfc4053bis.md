@@ -589,14 +589,14 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-{{RFC4053}} was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
+RFC4053 was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
 The text in RFC4053 further has been prompted by discussions with numerous individuals
 within the IETF and other SDOs and fora, including Gary Fishman and Bert
-Wijnen.  It has been developed in cooperation with {{?RFC4052}}, which
+Wijnen.  It has been developed in cooperation with RFC4052, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.
 
-This document contain parts of text from {{RFC4053}}, however, all tooling
+This document contain parts of text from RFC4053, however, all tooling
 details were removed and the remaining text will be reworked step by step with
 the goal to end up with a shorter and clear document that outlines requirements
 and gives high-level guidance to people sending and receiving liaison statements.
