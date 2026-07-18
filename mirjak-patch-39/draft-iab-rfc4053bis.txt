@@ -338,9 +338,9 @@ Table of Contents
       original statement.  This supports processes where an organisation
       has a central contact address to receive statements and then
       distributes the statement using their own process to the
-      appropriate groups and persons internally.  Any received statement
+      appropriate groups and persons internally.  Any statement received
       by the IETF will record the email address that the statements was
-      orginially received on in the To-Liaison-Contact and then, after
+      originally received on in the To-Liaison-Contact and then, after
       recording, must be distributed to the respective working groups,
       areas, leadership groups, or individuals as listed in the From-
       Contacts.
