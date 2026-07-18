@@ -304,7 +304,7 @@ Table of Contents
       as well as any additional technical experts who should be
       informed.  For statements sent from the IETF, all working groups,
       areas, leadership groups, or individuals as listed in the From-
-      Contacts should be informed about the sending.
+      Contacts need to be informed about the sending of the statement.
 
    From-Liaison-Contact ("Send Reply to"):  An explicit "Send Reply To"
       address may be provided that is used for processing the liaison
