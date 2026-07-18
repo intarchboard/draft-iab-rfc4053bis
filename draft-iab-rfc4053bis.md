@@ -204,7 +204,7 @@ From-Contact:
    liaison manager (if one exists) and/or an IAB liaison contact in case of statements sent by
    the IETF or the staff person from the external organisation that has sent the incoming
    liaison by mail, as well as any additional technical experts who should be informed.
-   For statements sent from the IETF all working groups, areas, leadership groups, or individuals
+   For statements sent from the IETF, all working groups, areas, leadership groups, or individuals
    as listed in the From-Contacts should be informed about the sending.
 
 From-Liaison-Contact ("Send Reply to"):
