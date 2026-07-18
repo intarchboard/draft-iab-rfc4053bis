@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 9 January 2027                                      8 July 2026
+Expires: 19 January 2027                                    18 July 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 January 2027.
+   This Internet-Draft will expire on 19 January 2027.
 
 Copyright Notice
 
@@ -316,10 +316,10 @@ Table of Contents
       sent to this address and will then be distributed in the receiving
       organisation, following their internal process.
 
-   To:  The statement needs to indicate to which body it is sent.  A
+   To:  The statement needs to indicate to which body it is sent to.  A
       statement may be sent to multiple groups within one body or even
-      multiple bodies.  However, it is rather recommended to send
-      separate statements to different bodies to avoid unnessary
+      multiple bodies.  However, it is recommended to send separate
+      statements to different bodies to avoid unnecessary
       interconnections.
 
    To-Contact:  One or more email addresses from the receiving body to
