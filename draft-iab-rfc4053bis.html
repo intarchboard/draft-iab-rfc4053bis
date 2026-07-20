@@ -25,7 +25,7 @@ standards community.
     Jinja2 3.1.6
     lxml 6.1.1
     natsort 8.4.0
-    platformdirs 4.10.0
+    platformdirs 4.10.1
     pycountry 24.6.1
     PyYAML 6.0.3
     requests 2.33.1
@@ -1052,7 +1052,7 @@ svg {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kuehlewind, et al.</td>
-<td class="center">Expires 17 January 2027</td>
+<td class="center">Expires 21 January 2027</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1068,12 +1068,12 @@ svg {
 <a href="https://www.rfc-editor.org/rfc/rfc4053" class="eref">4053</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-07-16" class="published">16 July 2026</time>
+<time datetime="2026-07-20" class="published">20 July 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2027-01-17">17 January 2027</time></dd>
+<dd class="expires"><time datetime="2027-01-21">21 January 2027</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1134,7 +1134,7 @@ standards community.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 17 January 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 21 January 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1305,7 +1305,7 @@ A liaison statement, just like any other input into the IETF process, is
 considered for its relevance, importance, and urgency. However,
 if a formal liaison relationship exists, it is the responsibility
 of the liaison manager to ensure appropriate communication
-between the organisations (see <span><a href="https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-04#section-3" class="relref">Section 3</a> of [<a href="#I-D.iab-rfc4052bis" class="cite xref">I-D.iab-rfc4052bis</a>]</span>) even if no response is sent.<a href="#section-1-7" class="pilcrow">¶</a></p>
+between the organisations (see <span><a href="https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-05#section-3" class="relref">Section 3</a> of [<a href="#I-D.iab-rfc4052bis" class="cite xref">I-D.iab-rfc4052bis</a>]</span>) even if no response is sent.<a href="#section-1-7" class="pilcrow">¶</a></p>
 <p id="section-1-8">If no response to an incoming liaison statement is provided, this does not
 indicate agreement or consensus on the topic raised to
 the IETF. IETF positions require community rough consensus
@@ -1329,72 +1329,19 @@ do not initiate sending of liaison statements.<a href="#section-1-10" class="pil
         <h3 id="name-changes-compared-to-rfc4053">
 <a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-changes-compared-to-rfc4053" class="section-name selfRef">Changes compared to RFC4053</a>
         </h3>
-<p id="section-1.1-1">The text in this section is intended to be removed and replaced with a shorter, high-level summary before publication.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
-<p id="section-1.1-2">The major change in this revision of the document is that all tooling details have been removed.
-Particularly, some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
-Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
-and the appendix have been removed.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
-<p id="section-1.1-3">Further, the following has been updated:<a href="#section-1.1-3" class="pilcrow">¶</a></p>
-<ol start="1" type="1" class="normal type-1" id="section-1.1-4">
-<li id="section-1.1-4.1">
-            <p id="section-1.1-4.1.1">The abstract and introduction as been shortened, and a clarification was added in the introduction about obligations to send replies.<a href="#section-1.1-4.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.2">
-            <p id="section-1.1-4.2.1">The definition section (2.1) has been removed as "assignee" is not used anymore, and the "addressee" is now simply called the receiver.<a href="#section-1.1-4.2.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.3">
-            <p id="section-1.1-4.3.1">The section on "Content of a Liaison Statement" has been revised to<a href="#section-1.1-4.3.1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-1.1-4.3.2.1">
-                <p id="section-1.1-4.3.2.1.1">be less detailed about tooling, e.g. not talking about concrete fields anymore,<a href="#section-1.1-4.3.2.1.1" class="pilcrow">¶</a></p>
-</li>
-              <li class="normal" id="section-1.1-4.3.2.2">
-                <p id="section-1.1-4.3.2.2.1">introduce a new concept to handle contact information, replacing "Response Contact" and
-  "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
-  but are actually not specified in <span>[<a href="#RFC4053" class="cite xref">RFC4053</a>]</span> and therefore often caused confusion,<a href="#section-1.1-4.3.2.2.1" class="pilcrow">¶</a></p>
-</li>
-              <li class="normal" id="section-1.1-4.3.2.3">
-                <p id="section-1.1-4.3.2.3.1">add new address information ("Send Reply To"/"Send To") that can be used to support processes
-  where one central address is used to receive all liaison statements. This is also the process preferred now by the IETF
-  where the central address is either the liaison manager or the IAB coordination contact.<a href="#section-1.1-4.3.2.3.1" class="pilcrow">¶</a></p>
-</li>
-            </ul>
-</li>
-          <li id="section-1.1-4.4">
-            <p id="section-1.1-4.4.1">The purpose "For Comment" was removed as either "For Information" or "For Action" can be used instead;
-  depending if a deadline is needed or not. In the current record of statements, "For Comment" has been rarely used
-  indicating that this purpose is not needed or at least its meaning was not clear.<a href="#section-1.1-4.4.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.5">
-            <p id="section-1.1-4.5.1">New section was added on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
-  to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
-  to ensure that all incoming statements get appropriately recorded.<a href="#section-1.1-4.5.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.6">
-            <p id="section-1.1-4.6.1">Section 4 from <span>[<a href="#RFC4052" class="cite xref">RFC4052</a>]</span> on "Approval and Transmission of Liaison Statements" has been merged to this document<a href="#section-1.1-4.6.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.7">
-            <p id="section-1.1-4.7.1">New text was added in the intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF<a href="#section-1.1-4.7.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.8">
-            <p id="section-1.1-4.8.1">Section on "Sending Liaison Statements from the IETF" was re-worked and shortened, which noew includes the subsections on approval and consensus.<a href="#section-1.1-4.8.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.9">
-            <p id="section-1.1-4.9.1">Section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) were merged and shorteded in one new section.<a href="#section-1.1-4.9.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.10">
-            <p id="section-1.1-4.10.1">The term "business letter" was removed throughout the document<a href="#section-1.1-4.10.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.11">
-            <p id="section-1.1-4.11.1">Additional text in intro to clarify scope and foucs on standards process was added<a href="#section-1.1-4.11.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.12">
-            <p id="section-1.1-4.12.1">Both sections on consensus have been merged<a href="#section-1.1-4.12.1" class="pilcrow">¶</a></p>
-</li>
-          <li id="section-1.1-4.13">
-            <p id="section-1.1-4.13.1">Out-dated text in security consideration section was removed.<a href="#section-1.1-4.13.1" class="pilcrow">¶</a></p>
-</li>
-        </ol>
+<p id="section-1.1-1">This revision of RFC4053 removes all tooling details (multiple sections completely,
+large parts of the intro, most of the security considerations and the whole appendix)
+and focuses on guidance and requirements.
+It retains the practical requirements on the content of a liaison statement and its metadata,
+however, it simplifies the contact information model and removes the "For Comment" purpose.
+Moreover, this revision presents a mayor editorial rework, adds new considerations regarding
+publicly recording liaison statements, integrates approval requirements that where previously
+in RFC4052 instead, and explains the relationship with the IRTF.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+<p id="section-1.1-2">Strong emphasis is placed, including overview text in the introduction, on the consensus
+level of statements and that there is no "special standing" in the IETF process for received statements,
+other then providing an easy-to-find, public recording. Further, the process and requirements for sending replies
+has been editorially reworked and clarified with a document structure that should make it easier to find and process
+the needed information for chairs, ADs, or other IETF participants.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1911,13 +1858,13 @@ the level of agreement for the relevant document.<a href="#section-5.1-8" class=
       <h2 id="name-acknowledgments">
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="section-8-1"><span>[<a href="#RFC4053" class="cite xref">RFC4053</a>]</span> was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
+<p id="section-8-1">RFC4053 was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
 The text in RFC4053 further has been prompted by discussions with numerous individuals
 within the IETF and other SDOs and fora, including Gary Fishman and Bert
-Wijnen.  It has been developed in cooperation with <span>[<a href="#RFC4052" class="cite xref">RFC4052</a>]</span>, which
+Wijnen.  It has been developed in cooperation with RFC4052, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.<a href="#section-8-1" class="pilcrow">¶</a></p>
-<p id="section-8-2">This document contain parts of text from <span>[<a href="#RFC4053" class="cite xref">RFC4053</a>]</span>, however, all tooling
+<p id="section-8-2">This document contain parts of text from RFC4053, however, all tooling
 details were removed and the remaining text will be reworked step by step with
 the goal to end up with a shorter and clear document that outlines requirements
 and gives high-level guidance to people sending and receiving liaison statements.<a href="#section-8-2" class="pilcrow">¶</a></p>
@@ -1932,16 +1879,8 @@ Russ Housley, and Yingzhen Qu for their review input.<a href="#section-8-3" clas
       </h2>
 <dl class="references">
 <dt id="I-D.iab-rfc4052bis">[I-D.iab-rfc4052bis]</dt>
-      <dd>
-<span class="refAuthor">Krishnan, S.</span>, <span class="refAuthor">Kühlewind, M.</span>, and <span class="refAuthor">Q. Wu</span>, <span class="refTitle">"IAB Processes for Management of IETF Liaison Relationships"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-iab-rfc4052bis-04</span>, <time datetime="2026-07-03" class="refDate">3 July 2026</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-04">https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-04</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFC4052">[RFC4052]</dt>
-      <dd>
-<span class="refAuthor">Daigle, L., Ed.</span> and <span class="refAuthor">IAB</span>, <span class="refTitle">"IAB Processes for Management of IETF Liaison Relationships"</span>, <span class="seriesInfo">BCP 102</span>, <span class="seriesInfo">RFC 4052</span>, <span class="seriesInfo">DOI 10.17487/RFC4052</span>, <time datetime="2005-04" class="refDate">April 2005</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc4052">https://www.rfc-editor.org/rfc/rfc4052</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="RFC4053">[RFC4053]</dt>
     <dd>
-<span class="refAuthor">Trowbridge, S.</span>, <span class="refAuthor">Bradner, S.</span>, and <span class="refAuthor">F. Baker</span>, <span class="refTitle">"Procedures for Handling Liaison Statements to and from the IETF"</span>, <span class="seriesInfo">BCP 103</span>, <span class="seriesInfo">RFC 4053</span>, <span class="seriesInfo">DOI 10.17487/RFC4053</span>, <time datetime="2005-04" class="refDate">April 2005</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc4053">https://www.rfc-editor.org/rfc/rfc4053</a>&gt;</span>. </dd>
+<span class="refAuthor">Krishnan, S.</span>, <span class="refAuthor">Kühlewind, M.</span>, and <span class="refAuthor">Q. Wu</span>, <span class="refTitle">"IAB Processes for Management of IETF Liaison Relationships"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-iab-rfc4052bis-05</span>, <time datetime="2026-07-20" class="refDate">20 July 2026</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-05">https://datatracker.ietf.org/doc/html/draft-iab-rfc4052bis-05</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
