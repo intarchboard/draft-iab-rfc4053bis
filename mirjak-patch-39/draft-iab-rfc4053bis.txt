@@ -342,7 +342,7 @@ Table of Contents
       where an organisation has a central contact address to receive
       statements and then distributes the statement using their own
       process to the appropriate groups and persons internally.  For
-      statements send to the IETF this will liaison-coordination@iab.org
+      statements sent to the IETF this will liaison-coordination@iab.org
       or the liaison manager alias, if the statement was received
       through these addresses.  Then, after recording, the statement
       must be distributed to the respective working groups, areas,
