@@ -193,7 +193,7 @@ Table of Contents
 1.1.  Changes compared to RFC4053
 
    This revision of RFC4053 removes all tooling details (multiple
-   section completely, large parts of the intro, most of the security
+   sections completely, large parts of the intro, most of the security
    consideration and the whole appendix) and focuses on guidance and
    requirements.  It retains the practical requirements on the content
    of a liaison statement and its metadata, however, it simplifies the
@@ -705,9 +705,9 @@ Informative References
    [I-D.iab-rfc4052bis]
               Krishnan, S., Kühlewind, M., and Q. Wu, "IAB Processes for
               Management of IETF Liaison Relationships", Work in
-              Progress, Internet-Draft, draft-iab-rfc4052bis-04, 3 July
+              Progress, Internet-Draft, draft-iab-rfc4052bis-05, 20 July
               2026, <https://datatracker.ietf.org/doc/html/draft-iab-
-              rfc4052bis-04>.
+              rfc4052bis-05>.
 
 Authors' Addresses
 
