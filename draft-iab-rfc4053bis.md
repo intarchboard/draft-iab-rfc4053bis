@@ -141,7 +141,7 @@ do not initiate sending of liaison statements.
 This revision of RFC4053 removes all tooling details (multiple section completely,
 large parts of the intro, most of the security consideration and the whole appendix)
 and focuses on guidance and requirements.
-It sustains the practical requirements on the content of a liaison statement and its metadata,
+It retains the practical requirements on the content of a liaison statement and its metadata,
 however, it simplifies the contact information model and removes the "For Comment" purpose.
 Moreover, this revision presents a mayor editorial rework, adds new consideration on
 publicly recording liaison statements, integrates approval requirements that where previously
