@@ -138,7 +138,7 @@ do not initiate sending of liaison statements.
 
 ## Changes compared to RFC4053
 
-This revision of RFC4053 removes all tooling details (multiple section completely,
+This revision of RFC4053 removes all tooling details (multiple sections completely,
 large parts of the intro, most of the security consideration and the whole appendix)
 and focuses on guidance and requirements.
 It retains the practical requirements on the content of a liaison statement and its metadata,
