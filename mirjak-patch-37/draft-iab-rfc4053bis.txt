@@ -201,7 +201,7 @@ Table of Contents
    Moreover, this revision presents a mayor editorial rework, adds new
    considerations regarding publicly recording liaison statements,
    integrates approval requirements that where previously in RFC4052
-   instead, and adds consideration on the relation with the IRTF.
+   instead, and explains the relationship with the IRTF.
 
    Strong emphasis is taken, including overview text in the
    introduction, on the consensus level of statements and that there is
