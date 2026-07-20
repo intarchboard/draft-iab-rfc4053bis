@@ -6,7 +6,7 @@ Network Working Group                                 M. Kuehlewind, Ed.
 Internet-Draft                                               S. Krishnan
 Obsoletes: 4053 (if approved)                                      Q. Wu
 Intended status: Informational                                       IAB
-Expires: 19 January 2027                                    18 July 2026
+Expires: 21 January 2027                                    20 July 2026
 
 
     Procedures for Handling Liaison Statements to and from the IETF
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 January 2027.
+   This Internet-Draft will expire on 21 January 2027.
 
 Copyright Notice
 
@@ -319,7 +319,7 @@ Table of Contents
       To" address is provided, the expectation is that a statement sent
       in response uses this address as the To-Liaison Contact.  Any
       statement received by the IETF will record the email address that
-      the statements was originally received on in the From-Liaison-
+      the statement was originally received from in the From-Liaison-
       Contact.
 
    To:  The statement needs to indicate to which body it is sent.  A
@@ -773,9 +773,9 @@ Informative References
    [I-D.iab-rfc4052bis]
               Krishnan, S., Kühlewind, M., and Q. Wu, "IAB Processes for
               Management of IETF Liaison Relationships", Work in
-              Progress, Internet-Draft, draft-iab-rfc4052bis-04, 3 July
+              Progress, Internet-Draft, draft-iab-rfc4052bis-05, 20 July
               2026, <https://datatracker.ietf.org/doc/html/draft-iab-
-              rfc4052bis-04>.
+              rfc4052bis-05>.
 
    [RFC4052]  Daigle, L., Ed. and IAB, "IAB Processes for Management of
               IETF Liaison Relationships", BCP 102, RFC 4052,
