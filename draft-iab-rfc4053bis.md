@@ -138,39 +138,20 @@ do not initiate sending of liaison statements.
 
 ## Changes compared to RFC4053
 
-The text in this section is intended to be removed and replaced with a shorter, high-level summary before publication.
+This revision of RFC4053 removes all tooling details (multiple sections completely,
+large parts of the intro, most of the security considerations and the whole appendix)
+and focuses on guidance and requirements.
+It retains the practical requirements on the content of a liaison statement and its metadata,
+however, it simplifies the contact information model and removes the "For Comment" purpose.
+Moreover, this revision presents a mayor editorial rework, adds new considerations regarding
+publicly recording liaison statements, integrates approval requirements that where previously
+in RFC4052 instead, and explains the relationship with the IRTF.
 
-The major change in this revision of the document is that all tooling details have been removed.
-Particularly, some text in the introduction, Section 3.1.1. (Liaison Statement Submission),
-Section 3.1.2. (Mechanism for Displaying Liaison Statements), Section 3.2.2.4. (Generating Liaison Statements)
-and the appendix have been removed.
-
-Further, the following has been updated:
-
-1. The abstract and introduction as been shortened, and a clarification was added in the introduction about obligations to send replies.
-2. The definition section (2.1) has been removed as "assignee" is not used anymore, and the "addressee" is now simply called the receiver.
-3. The section on "Content of a Liaison Statement" has been revised to
-    - be less detailed about tooling, e.g. not talking about concrete fields anymore,
-    - introduce a new concept to handle contact information, replacing "Response Contact" and
-     "Technical Contact" as well as additional fields ("CC", "From Contact", "To Contact") that exists in the tooling
-     but are actually not specified in {{?RFC4053}} and therefore often caused confusion,
-    - add new address information ("Send Reply To"/"Send To") that can be used to support processes
-     where one central address is used to receive all liaison statements. This is also the process preferred now by the IETF
-     where the central address is either the liaison manager or the IAB coordination contact.
-4. The purpose "For Comment" was removed as either "For Information" or "For Action" can be used instead;
-  depending if a deadline is needed or not. In the current record of statements, "For Comment" has been rarely used
-  indicating that this purpose is not needed or at least its meaning was not clear.
-5. New section was added on "Recording Liaison Statements" that replaces Section 2.4. on "Lifetime of a Liaison Statement"
-  to underline how important the public record of a liaison statement is and clarify the responsibility of the receiver
-  to ensure that all incoming statements get appropriately recorded.
-6. Section 4 from {{?RFC4052}} on "Approval and Transmission of Liaison Statements" has been merged to this document
-7. New text was added in the intro regarding consensus and liaison statements having no special standing, as well as the role of the IRTF
-9. Section on "Sending Liaison Statements from the IETF" was re-worked and shortened, which noew includes the subsections on approval and consensus.
-2. Section 3 (Responsibilities when Receiving a Liaison Statement), Section 4 (Recording), and 6 (Responding) were merged and shorteded in one new section.
-3. The term "business letter" was removed throughout the document
-4. Additional text in intro to clarify scope and foucs on standards process was added
-5. Both sections on consensus have been merged
-6. Out-dated text in security consideration section was removed.
+Strong emphasis is placed, including overview text in the introduction, on the consensus
+level of statements and that there is no "special standing" in the IETF process for received statements,
+other then providing an easy-to-find, public recording. Further, the process and requirements for sending replies
+has been editorially reworked and clarified with a document structure that should make it easier to find and process
+the needed information for chairs, ADs, or other IETF participants.
 
 #  Content of Liaison Statements
 
@@ -608,14 +589,14 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-{{RFC4053}} was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
+RFC4053 was authored by Stephen Trowbridge, Scott Bradner, Fred Baker.
 The text in RFC4053 further has been prompted by discussions with numerous individuals
 within the IETF and other SDOs and fora, including Gary Fishman and Bert
-Wijnen.  It has been developed in cooperation with {{?RFC4052}}, which
+Wijnen.  It has been developed in cooperation with RFC4052, which
 is to say with the express cooperation of the chair of the IAB at that time,
 Leslie Daigle.
 
-This document contain parts of text from {{RFC4053}}, however, all tooling
+This document contain parts of text from RFC4053, however, all tooling
 details were removed and the remaining text will be reworked step by step with
 the goal to end up with a shorter and clear document that outlines requirements
 and gives high-level guidance to people sending and receiving liaison statements.
