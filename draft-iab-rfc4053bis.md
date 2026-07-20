@@ -237,7 +237,7 @@ To-Liaison-Contact ("Send to"):
    the "Send Reply To" address provided by the other organisation in the original statement.
    This supports processes where an organisation has a central contact address to receive statements
    and then distributes the statement using their own process to the appropriate groups and persons internally.
-   For statements send to the IETF this will liaison-coordination@iab.org or the liaison manager alias, if the
+   For statements sent to the IETF this will liaison-coordination@iab.org or the liaison manager alias, if the
    statement was received through these addresses.  Then, after recording, the statement
    must be distributed to the respective working groups, areas, leadership groups,
    or individuals as listed in the To-Contacts.
