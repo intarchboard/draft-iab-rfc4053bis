@@ -147,7 +147,7 @@ Moreover, this revision presents a mayor editorial rework, adds new consideratio
 publicly recording liaison statements, integrates approval requirements that where previously
 in RFC4052 instead, and explains the relationship with the IRTF.
 
-Strong emphasis is taken, including overview text in the introduction, on the consensus
+Strong emphasis is placed, including overview text in the introduction, on the consensus
 level of statements and that there is no "special standing" in the IETF process for received statements,
 other then providing an easy-to-find, public recording. Further, the process and requirements for sending replies
 has been editorially reworked and clarified with a document structure that should make it easier to find and process
