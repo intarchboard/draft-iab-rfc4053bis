@@ -208,7 +208,7 @@ Table of Contents
    no "special standing" in the IETF process for received statements,
    other then providing an easy-to-find, public recording.  Further, the
    process and requirements for sending replies has been editorially
-   rewored and clarified with a document structure that should make it
+   reworked and clarified with a document structure that should make it
    easier to find and process the needed information for chairs, ADs, or
    other IETF participants.
 
