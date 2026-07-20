@@ -150,7 +150,7 @@ in RFC4052 instead, and adds consideration on the relation with the IRTF.
 Strong emphasis is taken, including overview text in the introduction, on the consensus
 level of statements and that there is no "special standing" in the IETF process for received statements,
 other then providing an easy-to-find, public recording. Further, the process and requirements for sending replies
-has been editorially rewored and clarified with a document structure that should make it easier to find and process
+has been editorially reworked and clarified with a document structure that should make it easier to find and process
 the needed information for chairs, ADs, or other IETF participants.
 
 #  Content of Liaison Statements
