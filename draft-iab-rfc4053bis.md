@@ -216,8 +216,8 @@ From-Liaison-Contact ("Send Reply to"):
    are recorded, handled appropriately, and feedback is provided to the sender if desired.
    If a "Send Reply To" address is provided,
    the expectation is that a statement sent in response uses this address as the To-Liaison Contact.
-   Any statement received by the IETF will record the email address that the statements was originally received
-   on in the From-Liaison-Contact.
+   Any statement received by the IETF will record the email address that the statement was originally received
+   from in the From-Liaison-Contact.
 
 To:
 : The statement needs to indicate to which body it is sent. A statement may be sent to multiple bodies or
