@@ -145,7 +145,7 @@ It retains the practical requirements on the content of a liaison statement and 
 however, it simplifies the contact information model and removes the "For Comment" purpose.
 Moreover, this revision presents a mayor editorial rework, adds new considerations regarding
 publicly recording liaison statements, integrates approval requirements that where previously
-in RFC4052 instead, and adds consideration on the relation with the IRTF.
+in RFC4052 instead, and explains the relationship with the IRTF.
 
 Strong emphasis is taken, including overview text in the introduction, on the consensus
 level of statements and that there is no "special standing" in the IETF process for received statements,
