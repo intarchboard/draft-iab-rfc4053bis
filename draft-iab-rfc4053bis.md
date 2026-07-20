@@ -143,7 +143,7 @@ large parts of the intro, most of the security considerations and the whole appe
 and focuses on guidance and requirements.
 It retains the practical requirements on the content of a liaison statement and its metadata,
 however, it simplifies the contact information model and removes the "For Comment" purpose.
-Moreover, this revision presents a mayor editorial rework, adds new consideration on
+Moreover, this revision presents a mayor editorial rework, adds new considerations regarding
 publicly recording liaison statements, integrates approval requirements that where previously
 in RFC4052 instead, and adds consideration on the relation with the IRTF.
 
