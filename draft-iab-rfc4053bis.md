@@ -36,27 +36,26 @@ informative:
 
 --- abstract
 
-This document describes the procedures for generating and handling
-liaison statements between the IETF and other Standards Development Organizations (SDOs),
-so that the IETF can effectively collaborate with other organizations in the international
-standards community.
+This document describes the procedures for generating and handling liaison statements between the
+IETF and other organisations, including but not limited to Standards Development Organizations
+(SDOs), so that the IETF can effectively collaborate with them.
 
 
 --- middle
 
 # Introduction
 
-This document describes the procedure for generating and handling
-liaison statements within the IETF, covering both statements sent by
-the IETF as well as statement received from other Standards Development Organizations (SDOs).
+This document describes the procedure for generating and handling liaison statements within the
+IETF, covering both statements sent by the IETF as well as statement received from other entities,
+including but not limited to Standards Development Organizations (SDOs).
+
 Particularly, it provides guidance to and defines requirements for IETF working group chairs,
 area directors, or other IETF participants when generating and handling liaison statements regarding
 the required content, needed approvals, and indicating the consensus level of statements sent from the IETF.
 
-The process for handling liaison statements is managed by the IAB and designed such that the IETF can
-effectively collaborate with other organizations in the international
-standards community. The IAB also serves as contact point for any matters
-regarding liaison management beyond the scope of this document.
+The process for handling liaison statements is managed by the IAB and designed such that the IETF
+can effectively collaborate with other organizations. The IAB also serves as contact point for any
+matters regarding liaison management beyond the scope of this document.
 
 Most organizations have a process to send liaison statements that
 provides a more formal way of communication, beyond just sending an informal
@@ -67,7 +66,7 @@ communicating with a certain organization.
 
 The IETF process, described in this document,
 is intended to be as simple as possible while still accommodating the process
-or format requirements of various other SDOs. One key property of the IETF
+or format requirements of various other organizations. One key property of the IETF
 liaison statement handling process is the requirement to record all sent
 and received liaison statements in a publicly accessible central location,
 which makes it more formal than other direct communications. However,
@@ -87,6 +86,7 @@ While the existence of a formal liaison statement does not automatically
 imply any form of consensus within the IETF process, liaison statements still
 reflect an official position supported by leadership approval and particularly
 underline when the stated position is based on existing community consensus.
+
 When sending a liaison
 statement from the IETF, it is highly recommended to clearly
 indicate any level of consensus or non-consensus as part of the liaison
@@ -95,13 +95,13 @@ are provided in {{consensus}}.
 
 The exchange of liaison statements does not require a formal liaison
 relationship (see {{?I-D.iab-rfc4052bis}}).  The procedures described in this
-document encompass all liaisons statements received from or sent to other SDOs,
-whether or not a formal liaison arrangement is in place between the
-SDO and the IETF. The IAB is generally responsible for ensuring liaison statements
+document encompass all liaisons statements received from or sent to other organizations,
+whether or not a formal liaison arrangement is in place between them
+and the IETF. The IAB is generally responsible for ensuring liaison statements
 are handled appropriately and can assist with any liaison matter. If a
 formal liaison relationship with an IAB-appointed liaison manager is in place,
 the liaison manager assists the IAB in this responsibility and is the first contact
-point for liaison statements send to or received from the respective SDO,
+point for liaison statements send to or received from the respective organization,
 as also further explained in {{?I-D.iab-rfc4052bis}}. Especially,
 the liaison manager should be consulted before sending a liaison statement
 to ensure formal requirements or agreements of the liaison relation are followed.
@@ -128,7 +128,7 @@ RFC publications such as those by the IRTF, the Independent Stream, or
 the RFC editorial series. If reference to such non-consensus documents are needed,
 their status should be clearly indicated, as further discussed in {{transmit-docs}}.
 
-Sometimes liaison statements sent from other SDOs may cover topics
+Sometimes liaison statements sent from other organizations may cover topics
 that are relevant for research done in the IRTF. In this case the IAB
 consults with the IRTF chair who might choose to forward them
 to any relevant IRTF research group(s). The IRTF chair as a member of IAB
@@ -141,8 +141,10 @@ do not initiate sending of liaison statements.
 This revision of RFC4053 removes all tooling details (multiple sections completely,
 large parts of the intro, most of the security considerations and the whole appendix)
 and focuses on guidance and requirements.
+
 It retains the practical requirements on the content of a liaison statement and its metadata,
 however, it simplifies the contact information model and removes the "For Comment" purpose.
+
 Moreover, this revision presents a mayor editorial rework, adds new considerations regarding
 publicly recording liaison statements, integrates approval requirements that where previously
 in RFC4052 instead, and explains the relationship with the IRTF.
@@ -155,7 +157,7 @@ the needed information for chairs, ADs, or other IETF participants.
 
 #  Content of Liaison Statements
 
-A Liaison Statement is a formal letter sent by one SDO
+A Liaison Statement is a formal letter sent by one organization
 to another. These organizations may be at any level
 (WG, Area, etc.). A liaison statement may have any purpose, but
 generally the purpose is to solicit information or
@@ -248,7 +250,7 @@ In Response:
 
 Liaison statements that request action indicate a deadline when
 the action is required.  If the receiving body cannot
-accomplish the request within the stated period, a prelimary
+accomplish the request within the stated period, a preliminary
 response could be sent requesting a more doable deadline or
 offering an alternative course of action.
 
@@ -300,7 +302,7 @@ The value of sending a liaison statement for an organization compared to an info
 is that it will officially be recorded and the public record will attest
 that certain information has been communicated between the organizations.
 
-## Incoming Liaison Statements from Other SDOs
+## Incoming Liaison Statements from Other Organizations
 
 The IETF will record any received liaison statement and make it publicly available.
 
@@ -339,7 +341,7 @@ mailing list.
 
 IETF participants (usually WG chairs or ADs), of course adhering to the requirements
 on approval and consensus as outlined in the next section, can
-send liaison statements to other SDOs, and all sent liaison statements
+send liaison statements to other organizations, and all sent liaison statements
 must be publicly recorded. Therefore,
 it is recommended to use an IETF-provided tool to send liaison
 statements, rather than send them directly by email and record
@@ -353,7 +355,7 @@ to another organization, such as
 
 * A working group might request additional information from another organization,
   for example, to resolve an impasse (i.e., don't waste time arguing over what the real meaning or
-  intent of another SDOs document is, just ask the other SDO and base
+  intent of another organisation's document is, just ask them and base
   further work on the "official" answer).
 * A working group might request comments for a document under development
   in the IETF that would benefit from the input of experts in another relevant
@@ -592,7 +594,7 @@ the level of agreement for the relevant document.
 
 # Security Considerations
 
-The security of the Internet is enhanced by robust coordination between SDOs.
+The security of the Internet is enhanced by robust coordination between organizations.
 
 
 # IANA Considerations
