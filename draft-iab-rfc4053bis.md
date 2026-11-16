@@ -83,12 +83,7 @@ even if that statement reflects consensus in the other organisation, does
 not have a different standing in the IETF process than other
 (individually-provided) inputs.
 
-Beyond specifying the process of handling and, particularly, recording liaison statements,
-some general principles are outlined below and further elaborated in the body of this document.
-
-## General Principles on Content, Approval, and Consensus Requirements
-
-It's important to note, that liaison statements sent by the IETF usually do not go
+Further, that liaison statements sent by the IETF usually do not go
 though the normal IETF consensus process (e.g. an IETF-wide last call)
 and therefore do not automatically represent IETF consensus. Depending on the
 nature of the liaison statement, it might refer to existing IETF consensus
