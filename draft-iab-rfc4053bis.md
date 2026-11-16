@@ -49,7 +49,7 @@ standards community.
 This document describes the procedure for generating and handling
 liaison statements within the IETF, covering both statements sent by
 the IETF as well as statement received from other Standards Development Organizations (SDOs).
-Particularly, it provides guidance to and defines requirements for IETF working group chairs,
+Further, this documents provides guidance to and defines requirements for IETF working group chairs,
 area directors, or other IETF participants when generating and handling liaison statements regarding
 the required content, needed approvals, and indicating the consensus level of statements sent from the IETF.
 
@@ -58,14 +58,20 @@ effectively collaborate with other organizations in the international
 standards community. The IAB also serves as contact point for any matters
 regarding liaison management beyond the scope of this document.
 
-Most organizations have a process to send liaison statements that
+Most SDOs have a process to send liaison statements that
 provides a more formal way of communication, beyond just sending an informal
 email. However, every organization has slightly different procedures to
 handle the sending and receiving of liaison statements. In some cases
 sending formal liaison statements might be the only way of
 communicating with a certain organization.
 
-The IETF process, described in this document,
+The process, described in this document, enables organizations, that have a formal liaison process, to communicate with the IETF.
+The scope of the communication is focused on the standardization process on both side, with the goal of supporting transparency and accountability.
+Effectively, any organization can send the IETF a liaison statement and the IAB can decide to apply this process.
+The IAB may also utilize this process in communicating with any organization if the use of this process supports the goals on transparency
+and accountability, helping to solve a problem or answer a question in the standardization process.
+
+Further, the IETF process, described in this document,
 is intended to be as simple as possible while still accommodating the process
 or format requirements of various other SDOs. One key property of the IETF
 liaison statement handling process is the requirement to record all sent
@@ -77,7 +83,12 @@ even if that statement reflects consensus in the other organisation, does
 not have a different standing in the IETF process than other
 (individually-provided) inputs.
 
-Further, liaison statements sent by the IETF usually do not go
+Beyond specifying the process of handling and, particularly, recording liaison statements,
+some general principles are outlined below and further elaborated in the body of this document.
+
+## General Principles on Content, Approval, and Consensus Requirements
+
+It's important to note, that liaison statements sent by the IETF usually do not go
 though the normal IETF consensus process (e.g. an IETF-wide last call)
 and therefore do not automatically represent IETF consensus. Depending on the
 nature of the liaison statement, it might refer to existing IETF consensus
