@@ -66,9 +66,7 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-     1.1.  General Principles on Content, Approval, and Consensus
-           Requirements
-     1.2.  Changes compared to RFC4053
+     1.1.  Changes compared to RFC4053
    2.  Content of Liaison Statements
      2.1.  Contact Information
      2.2.  Purpose
@@ -138,29 +136,22 @@ Table of Contents
    standing in the IETF process than other (individually-provided)
    inputs.
 
-   Beyond specifying the process of handling and, particularly,
-   recording liaison statements, some general principles are outlined
-   below and further elaborated in the body of this document.
-
-1.1.  General Principles on Content, Approval, and Consensus
-      Requirements
-
-   It's important to note, that liaison statements sent by the IETF
-   usually do not go though the normal IETF consensus process (e.g. an
-   IETF-wide last call) and therefore do not automatically represent
-   IETF consensus.  Depending on the nature of the liaison statement, it
-   might refer to existing IETF consensus as documented in IETF-stream
-   RFCs or working group chairs might ask for working group consensus on
-   a technical matter not (yet) documented in an RFC.  While the
-   existence of a formal liaison statement does not automatically imply
-   any form of consensus within the IETF process, liaison statements
-   still reflect an official position supported by leadership approval
-   and particularly underline when the stated position is based on
-   existing community consensus.  When sending a liaison statement from
-   the IETF, it is highly recommended to clearly indicate any level of
-   consensus or non-consensus as part of the liaison statement content.
-   Further consideration on consensus in IETF liaison statements are
-   provided in Section 4.2.
+   Further, that liaison statements sent by the IETF usually do not go
+   though the normal IETF consensus process (e.g. an IETF-wide last
+   call) and therefore do not automatically represent IETF consensus.
+   Depending on the nature of the liaison statement, it might refer to
+   existing IETF consensus as documented in IETF-stream RFCs or working
+   group chairs might ask for working group consensus on a technical
+   matter not (yet) documented in an RFC.  While the existence of a
+   formal liaison statement does not automatically imply any form of
+   consensus within the IETF process, liaison statements still reflect
+   an official position supported by leadership approval and
+   particularly underline when the stated position is based on existing
+   community consensus.  When sending a liaison statement from the IETF,
+   it is highly recommended to clearly indicate any level of consensus
+   or non-consensus as part of the liaison statement content.  Further
+   consideration on consensus in IETF liaison statements are provided in
+   Section 4.2.
 
    The exchange of liaison statements does not require a formal liaison
    relationship (see [I-D.iab-rfc4052bis]).  The procedures described in
@@ -210,7 +201,7 @@ Table of Contents
    to decide whether a response to the liaison statement is needed.
    Research groups do not initiate sending of liaison statements.
 
-1.2.  Changes compared to RFC4053
+1.1.  Changes compared to RFC4053
 
    This revision of RFC4053 removes all tooling details (multiple
    sections completely, large parts of the intro, most of the security
